@@ -1,0 +1,4 @@
+settings:
+  platform: catalyst
+  internal:
+    pdf_enabled: false
