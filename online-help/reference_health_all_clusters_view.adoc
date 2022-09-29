@@ -1,0 +1,36 @@
+---
+permalink: online-help/reference_health_all_clusters_view.html
+sidebar: sidebar
+keywords: 
+summary: 'The Health: All Clusters view enables you to view health information about the clusters that you are monitoring.'
+---
+= Health: All Clusters view
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Health: All Clusters view enables you to view health information about the clusters that you are monitoring.
+
+By default, objects in the view pages are sorted based on event criticality. Objects with critical events are listed first, and objects with warning events are listed second. This provides an immediate visual indication of issues that must be addressed. Each cluster in the Clusters grid has links to ONTAP System Manager. This link redirects you to view the same protection relationship in ONTAP System Manager. The *View in System Manager* menu option is available as one of the link. The *View in System Manager* link is also available in the details page of cluster health, performance, and capacity.
+
+The controls along the top of the page enable you to select a particular view (for health, performance, capacity, and so on), perform searches to locate specific objects, create and apply filters to narrow the list of displayed data, add/remove/reorder columns on the page, and export the data on the page to a `.csv`, `.pdf`, or `.xlsx` file. After you have customized the page, you can save the results as a custom view and then schedule a report of this data to be generated and emailed on a regular basis.
+
+You can use the *Cluster Setup* button to modify the or add clusters to Active IQ Unified Manager. All the clusters available in Active IQ Unified Manager are listed and each cluster name link allows access to the ONTAP System Manager page for ease of navigation.
+
+You can associate a cluster to a predefined annotation by using the *Annotate* button.
+
+See xref:reference_cluster_health_fields.adoc[Cluster health fields] for descriptions of all the fields on this page.
+
+*Related information*
+
+xref:task_exporting_storage_data_as_reports.adoc[Exporting storage data as reports]
+
+xref:task_scheduling_a_report.adoc[Scheduling a report]
+
+xref:task_rediscovering_clusters.adoc[Rediscovering clusters]
+
+xref:task_adding_clusters.adoc[Adding clusters]
+
+xref:task_removing_clusters.adoc[Removing clusters]
+
+xref:task_generating_a_hardware_inventory_report_for_contract_renewal.adoc[Generating a hardware inventory report for contract renewal]

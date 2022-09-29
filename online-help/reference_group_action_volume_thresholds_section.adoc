@@ -1,0 +1,147 @@
+---
+permalink: online-help/reference_group_action_volume_thresholds_section.html
+sidebar: sidebar
+keywords: 
+summary: 'The group action-volume thresholds section enables you to configure group-level health thresholds for volumes. These thresholds are applied to all the volumes in a group. When the volume health thresholds are configured at the group level, the global health threshold values are not affected.'
+---
+= Group action-volume thresholds section
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The group action-volume thresholds section enables you to configure group-level health thresholds for volumes. These thresholds are applied to all the volumes in a group. When the volume health thresholds are configured at the group level, the global health threshold values are not affected.
+
+You can configure volume health thresholds for the following to configure a group action:
+
+* Capacity
+* Growth
+* Qtree quota
+* Snapshot copies
+* Inodes
+
+Global default values are used if volume health thresholds are not configured for any of these categories. You can set health thresholds for the following:
+
+* Capacity
+* Growth
+* Qtree quota
+* Snapshot copies
+* Inodes
+
+== Capacity section
+
+You can set conditions for the following volume capacity health thresholds:
+
+* *Space Nearly Full*
++
+Specifies the percentage at which a volume is considered to be nearly full:
+
+ ** Default value: 80 percent
++
+The value for this threshold must be lower than the value for the Volume Full threshold for the management server to generate an event.
+
+ ** Event generated: Volume Nearly Full
+ ** Event severity: Warning
+
+* *Space Full*
++
+Specifies the percentage at which a volume is considered full:
+
+ ** Default value: 90 percent
+ ** Event generated: Volume Full
+ ** Event severity: Error
+
+* *Overcommitted*
++
+Specifies the percentage at which a volume is considered to be overcommitted:
+
+ ** Default value: 100 percent
+ ** Event generated: Volume Overcommitted
+ ** Event severity: Error
+
+== Growth section
+
+You can set the following health threshold conditions for volume growth:
+
+* *Growth Rate*
++
+Specifies the percentage at which a volume's growth rate is considered to be normal before the system generates a Volume Growth Rate Abnormal event:
+
+ ** Default value: 1 percent
+ ** Event generated: Volume Growth Rate Abnormal
+ ** Event severity: Warning
+
+* *Growth Rate Sensitivity*
++
+Specifies the factor that is applied to the standard deviation of a volume's growth rate. If the growth rate exceeds the factored standard deviation, a Volume Growth Rate Abnormal event is generated.
++
+A lower value for growth rate sensitivity indicates that the aggregate is highly sensitive to changes in the growth rate. The range for the growth rate sensitivity is 1 through 5.
+
+ ** Default value: 2
+
+== Qtree Quota section
+
+You can set the following health threshold conditions for volume quotas:
+
+* *Nearly Overcommitted*
++
+Specifies the percentage at which a volume is considered to be nearly overcommitted by qtree quotas:
+
+ ** Default value: 95 percent
+ ** Event generated: Volume Qtree Quota Nearly Overcommitted
+ ** Event severity: Warning
+
+* *Overcommitted*
++
+Specifies the percentage at which a volume is considered to be overcommitted by qtree quotas:
+
+ ** Default value: 100 percent
+ ** Event generated: Volume Qtree Quota Overcommitted
+ ** Event severity: Error
+
+== Snapshot Copies section
+
+You can set the following health threshold conditions for the Snapshot copies in the volume:
+
+* *Snapshot Reserve Full*
++
+Specifies the percentage at which the space reserved for Snapshot copies is considered full:
+
+ ** Default value: 90 percent
+ ** Event generated: Volume Snapshot Reserve Full
+ ** Event severity: Error
+
+* *Days Until Full*
++
+Specifies the number of days remaining before the space reserved for Snapshot copies reaches full capacity:
+
+ ** Default value: 7
+ ** Event generated: Volume Snapshot Reserve Days Until Full
+ ** Event severity: Error
+
+* *Count*
++
+Specifies the number of Snapshot copies on a volume that are considered to be too many:
+
+ ** Default value: 250
+ ** Event generated: Too Many Snapshot Copies
+ ** Event severity: Error
+
+== Inodes section
+
+You can set the following health threshold conditions for inodes:
+
+* *Nearly Full*
++
+Specifies the percentage at which a volume is considered to have consumed most of its inodes:
+
+ ** Default value: 80 percent
+ ** Event generated: Inodes Nearly Full
+ ** Event severity: Warning
+
+* *Full*
++
+Specifies the percentage at which a volume is considered to have consumed all of its inodes:
+
+ ** Default value: 90 percent
+ ** Event generated: Inodes Full
+ ** Event severity: Error

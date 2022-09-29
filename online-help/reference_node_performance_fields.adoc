@@ -1,0 +1,73 @@
+---
+permalink: online-help/reference_node_performance_fields.html
+sidebar: sidebar
+keywords: 
+summary: 'The following fields are available in the Performance: All Nodes view and can be used in custom views and in reports.'
+---
+= Node performance fields
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The following fields are available in the Performance: All Nodes view and can be used in custom views and in reports.
+
+* *Status*
++
+A healthy object with no active events displays a green check mark icon (image:../media/sev_normal_um60.png[Icon for event severity – normal]). If the object has an active event, the event indicator icon identifies the event severity: critical events are red (image:../media/sev_critical_um60.png[Icon for event severity – critical]), error events are orange (image:../media/sev_error_um60.png[Icon for event severity – error]), and warning events are yellow (image:../media/sev_warning_um60.png[Icon for event severity – warning]).
+
+* *Node*
++
+The name of the node. You can click the node name to navigate to that node's performance details page.
+
+* *Latency*
++
+The average response time for all I/O requests on the node, expressed in milliseconds per operation.
+
+* *IOPS*
++
+The average input/output operations per second on the node.
+
+* *MB/s*
++
+The throughput on the node, measured in megabytes per second.
+
+* *Flash Cache Reads*
++
+The percentage of read operations on the node that are satisfied by cache, instead of being returned from the disk.
++
+[NOTE]
+====
+Flash Cache data is displayed only for nodes, and only when a Flash Cache module is installed in the node.
+====
+
+* *Performance Capacity Used*
++
+The percentage of performance capacity that is being consumed by the node.
+
+* *Utilization*
++
+Indicates whether the CPU or memory on the node is being overused.
+
+* *Available IOPS*
++
+The number of input/output operations per second that are currently available (free) on this node for additional workloads.
+
+* *Free Capacity*
++
+The unused storage capacity of the node, in gigabytes.
+
+* *Total Capacity*
++
+The total storage capacity of the node, in gigabytes.
+
+* *Cluster*
++
+The cluster to which the node belongs. You can click the cluster's name to navigate to that cluster's details page.
+
+* *Cluster FQDN*
++
+The fully qualified domain name (FQDN) of the cluster.
+
+* *Threshold Policy*
++
+The user-defined performance threshold policy, or policies, that are active on this storage object. You can position your cursor over policy names containing an ellipsis (...) to view the full policy name or the list of assigned policy names. The *Assign Performance Threshold Policy* and *Clear Performance Threshold Policy* buttons remain disabled until you select one or more objects by clicking the check boxes located at the far left.

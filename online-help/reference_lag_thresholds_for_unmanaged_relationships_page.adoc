@@ -1,0 +1,46 @@
+---
+permalink: online-help/reference_lag_thresholds_for_unmanaged_relationships_page.html
+sidebar: sidebar
+keywords: 
+summary: 'The Relationship Thresholds page enables you to configure global lag warning and error threshold values for unmanaged protection relationships so that you are notified and can take action when lag or threshold errors occur. Changes to these settings are applied during the next scheduled update.'
+---
+= Relationship Thresholds page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Relationship Thresholds page enables you to configure global lag warning and error threshold values for unmanaged protection relationships so that you are notified and can take action when lag or threshold errors occur. Changes to these settings are applied during the next scheduled update.
+
+You must have the Application Administrator or Storage Administrator role.
+
+Events are generated when a threshold is breached for either volumes or storage VMs. You can take corrective actions for such events. The events are now raised for storage VM relationships but blocked for constituent relationships inside the storage VM disaster recovery configuration. This helps to prevent too many events being raised for a relationship. Lag threshold settings for unmanaged relationships are enabled by default and are also provided for storage VMs.
+
+The lag threshold specifies a percentage that the lag time must not exceed. Using an example of one hour, if the lag threshold is defined as 150%, then you will receive an event when the lag time is more than 1.5 hours.
+
+== Lag Thresholds for Unmanaged Relationships area
+
+The Lag area enables you to set unmanaged relationship lag thresholds for the following conditions:
+
+* *Warning*
++
+Specifies the percentage at which the lag duration equals or exceeds the lag warning threshold:
+
+ ** Default value: 150 percent
+ ** Events generated: SnapMirror Relationship Lag Warning or SnapVault Relationship Lag Warning
+ ** Event severity: Warning
+
+* *Error*
++
+Specifies the percentage at which the lag duration equals or exceeds the lag error threshold:
+
+ ** Default value: 250 percent
+ ** Events generated: SnapMirror Relationship Lag Error or SnapVault Relationship Lag Error
+ ** Event severity: Error
+
+Additionally, you can disable a warning or error event from being triggered from any lag threshold amount by unchecking the box next to Enabled.
+
+*Related information*
+
+xref:task_configuring_lag_threshold_settings_for_unmanaged_protection_relationships.adoc[Configuring lag threshold settings for unmanaged protection relationships]
+
+xref:task_editing_individual_aggregate_health_threshold_settings.adoc[Editing individual aggregate health threshold settings]

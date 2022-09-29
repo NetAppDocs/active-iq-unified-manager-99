@@ -1,0 +1,26 @@
+---
+permalink: online-help/reference_health_all_nfs_shares_view.html
+sidebar: sidebar
+keywords: 
+summary: 'The Health: All NFS Shares view displays information about NFS shares such as its status, the path associated with the volume \(FlexGroup volumes or FlexVol volumes\), access levels of clients to the NFS shares, and the export policy defined for the volumes that are exported.'
+---
+= Health: All NFS Shares view
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Health: All NFS Shares view displays information about NFS shares such as its status, the path associated with the volume (FlexGroup volumes or FlexVol volumes), access levels of clients to the NFS shares, and the export policy defined for the volumes that are exported.
+
+By default, objects on this page are sorted based on status. Objects with Errors are listed first, and objects that have Normal status are listed next. This provides an immediate visual indication of issues that must be addressed.
+
+The controls along the top of the page enable you to select a particular view (for health, performance, capacity, and so on), perform searches to locate specific objects, create and apply filters to narrow the list of displayed data, add/remove/reorder columns on the page, and export the data on the page to a `.csv`, `.pdf`, or `.xlsx` file. After you have customized the page, you can save the results as a custom view and then schedule a report of this data to be generated and emailed on a regular basis.
+
+If you want to analyze the latency and throughput of a specific object, click the more icon image:../media/more_icon.gif[], then *Analyze Workload* and you can view performance and capacity charts on the Workload Analysis page.
+
+See xref:reference_nfs_shares_health_fields.adoc[NFS Shares health fields] for descriptions of all the fields on this page.
+
+*Related information*
+
+xref:task_exporting_storage_data_as_reports.adoc[Exporting storage data as reports]
+
+xref:task_scheduling_a_report.adoc[Scheduling a report]

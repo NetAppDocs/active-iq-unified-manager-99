@@ -1,0 +1,100 @@
+---
+permalink: online-help/reference_cluster_capacity_fields.html
+sidebar: sidebar
+keywords: 
+summary: 'The following fields are available in the Capacity: All Clusters view and can be used in custom views and in reports.'
+---
+= Cluster capacity fields
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The following fields are available in the Capacity: All Clusters view and can be used in custom views and in reports.
+
+* *Cluster*
++
+The cluster name. You can click the cluster name to navigate to that cluster's capacity details page.
+
+* *Cluster FQDN*
++
+The fully qualified domain name (FQDN) of the cluster.
+
+* *HA Pair*
++
+The HA pair value obtained by forming two nodes.
+
+* *Total Raw Capacity*
++
+Displays the total physical capacity of all disks in the array.
+
+* *Unconfigured Raw Capacity*
++
+The unconfigured capacity of disks whose container type is other than aggregate, broken, spare, or shared. This capacity is always higher than the physical capacity of the disk in ONTAP. For example, consider a 2 TB disk. The physical capacity of the disk is 1.6 TB in ONTAP whereas the unconfigured raw capacity in Unified Manager is 1.8 TB.
+
+* *Aggregate Total Capacity*
++
+The total size of the available aggregates for the user. This includes the Snapshot copy reserve.
+
+* *Aggregate Used Capacity*
++
+The capacity already in use on aggregates. This includes the capacity consumed by volumes, LUNs, and other storage efficiency technology overheads.
+
+* *Aggregate Unused Capacity*
++
+The capacity that might be available for storing additional data on the aggregate. This includes the Snapshot copy reserve.
+
+* *Logical Space Used*
++
+The real size of the data that is being stored on all aggregates on this cluster without applying the savings from using ONTAP storage efficiency technologies.
+
+* *Data Reduction*
++
+The data reduction ratio based on configured ONTAP storage efficiency settings.
+
+* *Allocated LUN Capacity*
++
+The capacity of LUNs that are mapped.
+
+* *Unallocated LUN Capacity*
++
+The capacity of all LUNs not mapped to the Host.
+
+* *Volume Total Capacity*
++
+The total capacity of the volumes (used plus unused).
+
+* *Volume Used Capacity*
++
+The used capacity of the volumes.
+
+* *Volume Unused Capacity*
++
+The unused capacity of the volumes.
+
+* *Volume Protection Capacity*
++
+The capacity of volumes that have SnapMirror and SnapVault enabled.
+
+* *Cloud Tier Used (Licensed)*
++
+The space used by data in the cloud tier for storage providers that require a FabricPool license.
+
+* *Cloud Tier Used (Others)*
++
+The space used by data in the cloud tier for StorageGRID systems and ONTAP S3 protocol stores that do not require a FabricPool license.
+
+* *Model/Family*
++
+The model or family name of the cluster.
+
+* *OS Version*
++
+The version of ONTAP installed on the system.
+
+* *Contact*
++
+The contact information of the cluster.
+
+* *Location*
++
+The location of the cluster.

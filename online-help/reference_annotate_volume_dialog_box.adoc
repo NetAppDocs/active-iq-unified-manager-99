@@ -1,0 +1,26 @@
+---
+permalink: online-help/reference_annotate_volume_dialog_box.html
+sidebar: sidebar
+keywords: 
+summary: 'The Annotate Volume dialog box enables you to manually annotate storage objects. You can select either a single volume or multiple volumes and annotate with a specific value pair from the existing list of annotations.'
+---
+= Annotate Volume dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Annotate Volume dialog box enables you to manually annotate storage objects. You can select either a single volume or multiple volumes and annotate with a specific value pair from the existing list of annotations.
+
+You must have the Application Administrator or Storage Administrator role.
+
+* *Annotation=Value Pairs*
++
+Enables you to select the required annotation for the selected volume.
+
+* *Apply*
++
+Applies the selected annotation to the volume.
+
+* *Cancel*
++
+Closes the Annotate Volume dialog box without saving your changes.

@@ -1,0 +1,65 @@
+---
+permalink: online-help/concept_volume_performance_explorer_page.html
+sidebar: sidebar
+keywords: 
+summary: 'This page provides detailed performance information for a volume in a cluster. The title of this page depends on whether you are viewing a FlexVol volume or a FlexGroup volume.'
+---
+= Volume/Performance Explorer page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This page provides detailed performance information for a volume in a cluster. The title of this page depends on whether you are viewing a FlexVol volume or a FlexGroup volume.
+
+The Volume/Performance Explorer page enables you to track and compare volume performance during a specific time period, which helps you to troubleshoot and fine-tune your volume performance.
+
+[NOTE]
+====
+Root volumes are not displayed on this page.
+====
+
+Using the View and Compare functionality:
+
+* For FlexVol volumes, you can compare the performance of this volume with:
+ ** other volumes on the same aggregate
+ ** other volumes that are in the same QoS policy group
+ ** the aggregate on which this volume resides
+ ** the storage VM on which this volume resides
+ ** the LUNs that are on this volume
+* For FlexGroup volumes, you can compare the performance of this FlexGroup with:
+ ** the aggregates on which the FlexGroup resides
+ ** the storage VM on which the FlexGroup resides
+ ** the constituent volumes of the FlexGroup
+
+The statistics in the charts are updated after each collection period; which by default is every 5 minutes. The View statistics in selector provides an option to show statistics averaged over the previous hour. This functionality enables you to view the latency chart in support of the NetApp"`Performance Guarantee`" program.
+
+The Volume/Performance Explorer page enables you to:
+
+* View threshold-related issues and their details
+* Track and compare volume performance data
+* Investigate and troubleshoot threshold-related issues
+* Investigate and troubleshoot performance issues
+* Launch System Manager to make a configuration change to the volume
++
+The *Configure Volume* button is available if you are logged in to Unified Manager with the Application Administrator or Storage Administrator role, and when using ONTAP 9.5 or greater.
+
+[NOTE]
+====
+For data protection (DP) volumes, only counter values for user-generated traffic are displayed.
+====
+
+*Related information*
+
+xref:concept_components_of_the_performance_explorer_page.adoc[Components of the Performance Explorer page]
+
+xref:reference_summary_page_opm.adoc[Summary page]
+
+xref:task_defining_the_list_of_correlated_objects_for_comparison_graphing.adoc[Defining the list of correlated objects for comparison graphing]
+
+xref:reference_types_of_performance_counter_charts.adoc[Types of performance counter charts]
+
+xref:task_selecting_performance_charts_to_display.adoc[Selecting performance charts to display]
+
+xref:concept_counter_charts_zoom_view.adoc[Counter Charts Zoom View]
+
+xref:concept_types_of_workloads_monitored_by_unified_manager.adoc[Types of workloads monitored by Unified Manager]

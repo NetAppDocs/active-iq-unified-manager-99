@@ -1,0 +1,71 @@
+---
+permalink: online-help/reference_cluster_performance_information_page.html
+sidebar: sidebar
+keywords: 
+summary: 'Use the Cluster/Performance Information page to view a list of the physical and logical attributes of the cluster. This information might help in answering performance-related questions.'
+---
+= Cluster/Performance Information page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Use the Cluster/Performance Information page to view a list of the physical and logical attributes of the cluster. This information might help in answering performance-related questions.
+
+== Cluster attributes
+
+* *Management Network Interface*
++
+The name of the cluster management LIF, and whether the LIF is currently available (Up), or not (Down).
+
+* *IP Address*
++
+The IPv4 or IPv6 address of the cluster management LIF.
+
+* *FQDN*
++
+The fully qualified domain name (FQDN) of the cluster management LIF.
+
+* *OS Version*
++
+The version of ONTAP software installed on the cluster.
++
+[NOTE]
+====
+If different versions of ONTAP software are installed on the nodes in the cluster, the listed version is the lowest version number. Check the Node/Performance Information page to view the version of ONTAP software installed on each node.
+====
+
+* *Serial Number*
++
+The unique identification number of the cluster.
+
+* *Model / Family*
++
+The platform model number and model family of all the nodes in the cluster.
+
+* *Capacity (free/total)*
++
+The total storage available to the cluster, in gigabytes, and the amount of storage currently available.
+
+* *Logical Space Used*
++
+The real size of the data that is being stored on this aggregates of this cluster without applying the savings from using ONTAP storage efficiency technologies.
+
+* *Allowed Protocols*
++
+The list of all protocols that can be serviced by this cluster. The available protocols are FC/FCoE, iSCSI, HTTP, NVMe, NDMP, NFS, and CIFS.
+
+* *Nodes*
++
+The number of nodes in this cluster. You can click the number to display the nodes in the Performance/Nodes Inventory page.
+
+* *Storage VM*
++
+The number of SVMs in this cluster. You can click the number to display the SVMs in the Performance/Storage VMs Inventory page.
+
+* *Network Interfaces*
++
+The number of LIFs in this cluster. You can click the number to display the LIFs in the Performance/LIFs Inventory page.
+
+* *Contact / Location*
++
+If available, the name of the storage administrator to contact regarding this cluster, and the location of the cluster.

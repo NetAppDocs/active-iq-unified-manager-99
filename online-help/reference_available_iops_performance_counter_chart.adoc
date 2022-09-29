@@ -1,0 +1,44 @@
+---
+permalink: online-help/reference_available_iops_performance_counter_chart.html
+sidebar: sidebar
+keywords: 
+summary: 'The Available IOPS counter chart displays the number of input/output operations per second that are currently available \(free\) on the selected storage object.'
+---
+= Available IOPS performance counter chart
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Available IOPS counter chart displays the number of input/output operations per second that are currently available (free) on the selected storage object.
+
+The popup window that is displayed when your cursor is in the chart area shows the specific counter values at specific times.
+
+This chart option applies only when the selected object is a node or aggregate.
+
+The bottom of the chart page displays information for the minimum, maximum, average, and 95th percentile performance capacity used for the selected time range.
+
+== Available IOPS - Total counter chart
+
+Displays the number of input/output operations per second that are currently available (free) on the selected storage object. This number is the result of subtracting the currently used IOPS from the total IOPS that Unified Manager calculates that the object can perform.
+
+== *Zoom View* button
+
+Displays a magnified view of the counter chart data.
+
+* Events
++
+The occurrence of critical, warning, and informational events are indicated on the time lines above the charts.
+
+* Counters
++
+The counters in the left pane show which counter values are being displayed. Deselecting or selecting the image:../media/eye_icon.gif[] that is associated with a counter hides and shows that counter information from the chart and can help when comparing objects.
+
+*Related information*
+
+xref:task_specifying_the_time_range_in_zoom_view.adoc[Specifying the time range in Zoom View]
+
+xref:task_selecting_performance_thresholds_in_zoom_view.adoc[Selecting performance thresholds in Counter Charts Zoom View]
+
+xref:concept_understanding_counter_charts.adoc[Understanding counter charts]
+
+xref:concept_managing_performance_using_perf_capacity_and_available_iops_information.adoc[Managing performance using performance capacity and available IOPS information]

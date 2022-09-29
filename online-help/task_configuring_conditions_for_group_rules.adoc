@@ -1,0 +1,39 @@
+---
+permalink: online-help/task_configuring_conditions_for_group_rules.html
+sidebar: sidebar
+keywords: Unified Manager
+summary: 'You can configure one or more conditions to create group rules in Unified Manager that are applied on the storage objects. The storage objects that satisfy the group rule are combined into a group.'
+---
+= Configuring conditions for group rules
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure one or more conditions to create group rules in Unified Manager that are applied on the storage objects. The storage objects that satisfy the group rule are combined into a group.
+
+== Before you begin
+
+You must have the Application Administrator or Storage Administrator role.
+
+== Steps
+
+. In the left navigation pane, click *Storage Management* > *Groups*.
+. Click *Add*.
+. In the *Add Group Rule* dialog box, select one operand from the list of operands.
+. Select an operator for the condition.
+. Enter a required value or select one from the available list.
+. Click *Add*.
+
+== Example of configuring a condition for a group rule
+
+Consider a condition for the object type SVM, where the object name contains "`svm_data`".
+
+Perform the following steps in the Add Group Rule dialog box to configure the condition:
+
+. Enter a name for the group rule.
+. Select the object type as SVM.
+. Select a group from the list of groups.
+. In the *Conditions* field, select *Object Name* as the operand.
+. Select *Contains* as the operator.
+. Enter the value as `svm_data`.
+. Click *Add*.

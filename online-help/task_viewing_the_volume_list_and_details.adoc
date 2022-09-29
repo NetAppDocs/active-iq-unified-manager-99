@@ -1,0 +1,47 @@
+---
+permalink: online-help/task_viewing_the_volume_list_and_details.html
+sidebar: sidebar
+keywords: 
+summary: 'From the Health: All Volumes view, you can monitor your inventory of volumes. The Capacity: All Volumes view enables you to view information about the capacity and utilization of volumes in a cluster.'
+---
+= Viewing the volume list and details
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+From the Health: All Volumes view, you can monitor your inventory of volumes. The Capacity: All Volumes view enables you to view information about the capacity and utilization of volumes in a cluster.
+
+== Before you begin
+
+You must have the Operator, Application Administrator, or Storage Administrator role.
+
+== About this task
+
+You can also use the Volume / Health details page to view detailed information about volumes that are monitored, including the capacity, efficiency, configuration, and protection of the volumes. You can also view information about the related devices and related alerts for a specific volume.
+
+== Steps
+
+. In the left navigation pane, click *Storage* > *Volumes*.
+. Choose one of the following ways to view the volume details:
+ ** To view detailed information about the health of volumes in a cluster, in the View menu, select Health: All Volumes view.
+ ** To view detailed information about the capacity and utilization of volumes in a cluster, in the View menu, select Capacity: All Volumes view.
+ ** To view the complete details, click the volume name.
++
+You can also view the complete details by clicking *View Details* in the minimal details dialog box.
+. View the objects related to the volume by clicking *View Related* from the minimal details dialog box.
+
+*Related information*
+
+xref:reference_capacity_all_volumes_view.adoc[Capacity: All Volumes view]
+
+xref:task_adding_users.adoc[Adding users]
+
+xref:task_exporting_storage_data_as_reports.adoc[Exporting storage data as reports]
+
+xref:task_adding_alerts.adoc[Adding alerts]
+
+xref:reference_health_all_volumes_view.adoc[Health: All Volumes view]
+
+xref:reference_health_volume_details_page.adoc[Volume / Health details page]
+
+xref:task_editing_individual_volume_health_threshold_settings.adoc[Editing individual volume health threshold settings]

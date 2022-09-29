@@ -1,0 +1,60 @@
+---
+permalink: online-help/reference_add_group_rule_dialog_box.html
+sidebar: sidebar
+keywords: 
+summary: 'The Add Group Rule dialog box enables you to create group rules in Unified Manager to dynamically group storage objects. You can later configure and apply group actions for the group.'
+---
+= Add Group Rule dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Add Group Rule dialog box enables you to create group rules in Unified Manager to dynamically group storage objects. You can later configure and apply group actions for the group.
+
+You must have the Application Administrator or Storage Administrator role.
+
+* *Name*
++
+Specifies the name of the group rule.
+
+* *Target Object Type*
++
+Specifies the type of storage objects to include in the group.
+
+* *Group*
++
+Specifies the name of the group for which the group rule is created.
+
+* *Conditions*
++
+Specifies conditions that determine which storage objects can be included in a group.
+
+* *Condition group*
++
+Specifies condition groups which have one or more conditions defined for including storage objects in a group.
+
+== Command buttons
+
+* *Save and Add*
++
+Adds the group rule and enables you to add another group rule without closing the dialog box.
+
+* *Add*
++
+Adds the group rule and closes the Add Group Rule dialog box.
+
+* *Cancel*
++
+Cancels the changes and closes the Add Group Rule dialog box.
+
+* *Add Condition*
++
+Adds a condition to define the group rule.
+
+* *Add Condition Group*
++
+Adds a condition group to define conditions for the group rule.
+
+*Related information*
+
+xref:concept_how_group_rules_work_for_groups.adoc[How group rules work for groups]

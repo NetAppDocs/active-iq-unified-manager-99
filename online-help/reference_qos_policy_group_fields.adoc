@@ -1,0 +1,89 @@
+---
+permalink: online-help/reference_qos_policy_group_fields.html
+sidebar: sidebar
+keywords: 
+summary: 'The following fields are available in the Performance: QoS Policy Groups page and can be used in custom views and in reports.'
+---
+= QoS Policy Group fields
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The following fields are available in the Performance: QoS Policy Groups page and can be used in custom views and in reports.
+
+* *QoS Policy Group*
++
+The name of the QoS policy group.
++
+For NetApp Service Level Manager (NSLM) 1.3 policies that have been imported into Unified Manager 9.7 or greater, the name displayed here includes the SVM name and other information that is not in the name when the Performance Service Levelwas defined in NSLM. For example, the name "`NSLM_vs6_Performance_2_0`" means this is the NSLM system-defined "`Performance`" PSL policy created on SVM "`vs6`" with an expected latency of "`2 ms/op`".
+
+* *Cluster*
++
+The cluster to which the QoS policy group belongs. You can click the cluster name to navigate to that cluster's details page.
+
+* *Cluster FQDN*
++
+The fully qualified domain name (FQDN) of the cluster.
+
+* *SVM*
++
+The storage virtual machine (SVM) to which the QoS policy group belongs. You can click the SVM name to navigate to that SVM's details page.
++
+[NOTE]
+====
+This field is blank if the QoS policy has been created on the Admin SVM as this SVM type represents the cluster.
+====
+
+* *Min Throughput*
++
+The minimum throughput, in IOPS, that the policy group will be guaranteed to provide.
++
+For adaptive policies this is the minimum expected IOPS per TB allocated to the volume or LUN, based on the storage object allocated size.
+
+* *Max Throughput*
++
+The throughput, in IOPS and/or MB/s, that the policy group must not exceed. When this field is blank it means the max throughout defined in ONTAP is infinite.
++
+For adaptive policies this is the maximum (peak) possible IOPS per TB allocated to the volume or LUN, based on either the storage object _allocated_ size or the storage object _used_ size.
+
+* *Absolute Minimum IOPS*
++
+For adaptive policies this is the absolute minimum IOPS value that is used as an override when the expected IOPS is less than this value.
+
+* *Block Size*
++
+The block size specified for the QoS adaptive policy.
+
+* *Min Allocation*
++
+Whether "`allocated space`" or "`used space`" is used to determine the maximum throughput (peak) IOPS.
+
+* *Expected Latency*
++
+The expected average latency for storage input/output operations.
+
+* *Shared*
++
+For traditional QoS policies, whether the throughput values defined in the policy group are shared among multiple objects.
+
+* *Associated Objects*
++
+The number of workloads that are assigned to the QoS policy group.
+
+You can click the expand button (image:../media/chevron_down.gif[]) next to the QoS Policy Group Name to view more details about the policy group.
+
+* *Allocated Capacity*
++
+The amount of space that the objects that are in the QoS policy group are currently using.
+
+* *Associated Objects*
++
+The number of workloads that are assigned to the QoS policy group, separated into volumes and LUNs.
++
+You can click the number to navigate to a page that provides more details about the selected volumes or LUNs.
+
+* *Events*
++
+If an object, or objects, that are assigned to the QoS policy group have caused a QoS policy breach, the event indicator icon identifies the event severity (critical, error, or warning) and displays an error message.
++
+You can click the message to navigate to the Events page that is filtered to show the objects involved in the event.

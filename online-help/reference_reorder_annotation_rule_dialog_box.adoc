@@ -1,0 +1,46 @@
+---
+permalink: online-help/reference_reorder_annotation_rule_dialog_box.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Reorder Annotation Rule dialog box to specify the order in which you want annotation rules to be applied to storage objects.'
+---
+= Reorder Annotation Rule dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Reorder Annotation Rule dialog box to specify the order in which you want annotation rules to be applied to storage objects.
+
+== Command buttons
+
+You must have the Application Administrator or Storage Administrator role.
+
+* *Save*
++
+Saves the changes you made to the annotation rules and closes the Reorder Annotation Rule dialog box.
+
+* *Cancel*
++
+Closes the Reorder Annotation Rule dialog box without saving the changes you made.
+
+== List View
+
+* *Rank*
++
+Displays the order in which the annotation rules will be applied to the storage objects.
+
+* *Name*
++
+Displays the name of the annotation rule.
+
+* *Target Object Type*
++
+Displays the type of storage object to which the annotation rule is applied.
+
+* *Associated Annotation*
++
+Displays the name of the annotation that is applied to the storage object.
+
+* *Associated Annotation Value*
++
+Displays the annotation value for the storage object.

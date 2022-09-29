@@ -1,0 +1,56 @@
+---
+permalink: online-help/reference_port_performance_fields.html
+sidebar: sidebar
+keywords: 
+summary: 'The following fields are available in the Performance: All Ports view and can be used in custom views and in reports.'
+---
+= Port performance fields
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The following fields are available in the Performance: All Ports view and can be used in custom views and in reports.
+
+* *Status*
++
+A healthy object with no active events displays a green check mark icon (image:../media/sev_normal_um60.png[Icon for event severity – normal]). If the object has an active event, the event indicator icon identifies the event severity: critical events are red (image:../media/sev_critical_um60.png[Icon for event severity – critical]), error events are orange (image:../media/sev_error_um60.png[Icon for event severity – error]), and warning events are yellow (image:../media/sev_warning_um60.png[Icon for event severity – warning]).
+
+* *Port*
++
+You can click the port name to navigate to that port's performance details page.
+
+* *Type*
++
+The port type is either Network or Fibre Channel Protocol (FCP).
+
+* *MB/s*
++
+The throughput on the port, measured in megabytes per second.
+
+* *Utilization*
++
+The percentage of the port's available bandwidth that is currently being used.
+
+* *Cluster*
++
+The cluster to which the port belongs. You can click the cluster name to navigate to that cluster's details page.
+
+* *Cluster FQDN*
++
+The fully qualified domain name (FQDN) of the cluster.
+
+* *Node*
++
+The node to which the port belongs. You can click the node name to navigate to that node's details page.
+
+* *Speed*
++
+The maximum data transfer rate for the port.
+
+* *Role*
++
+The network port function: either Data or Cluster. FCP ports cannot have a role, and the role is displayed as N/A.
+
+* *Threshold Policy*
++
+The user-defined performance threshold policy, or policies, that are active on this storage object. You can position your cursor over policy names containing an ellipsis (...) to view the full policy name or the list of assigned policy names. The *Assign Performance Threshold Policy* and *Clear Performance Threshold Policy* buttons remain disabled until you select one or more objects by clicking the check boxes located at the far left.

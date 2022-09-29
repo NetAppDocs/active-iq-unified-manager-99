@@ -1,0 +1,42 @@
+---
+permalink: online-help/reference_cache_miss_ratio_performance_counter_chart.html
+sidebar: sidebar
+keywords: 
+summary: 'The Cache Miss Ratio counter chart displays the percentage of read requests from client applications that are returned from the disk instead of being returned from the cache.'
+---
+= Cache Miss Ratio performance counter chart
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Cache Miss Ratio counter chart displays the percentage of read requests from client applications that are returned from the disk instead of being returned from the cache.
+
+The popup window that is displayed when your cursor is in the chart area shows the specific counter values at specific times.
+
+The bottom of the chart page displays information for the minimum, maximum, average, and 95th percentile cache miss ratio for the selected time range.
+
+== Cache Miss Ratio - Total counter chart
+
+Displays the percentage of read requests from client applications that are returned from the disk instead of being returned from the cache.
+
+This chart option applies only when the selected object is a volume.
+
+== *Zoom View* button
+
+Displays a magnified view of the counter chart data.
+
+* Events
++
+The occurrence of critical, warning, and informational events are indicated on the time lines above the charts.
+
+* Counters
++
+The counters in the left pane show which counter values are being displayed. Deselecting or selecting the image:../media/eye_icon.gif[] that is associated with a counter hides and shows that counter information from the chart and can help when comparing objects.
+
+*Related information*
+
+xref:task_specifying_the_time_range_in_zoom_view.adoc[Specifying the time range in Zoom View]
+
+xref:task_selecting_performance_thresholds_in_zoom_view.adoc[Selecting performance thresholds in Counter Charts Zoom View]
+
+xref:concept_understanding_counter_charts.adoc[Understanding counter charts]

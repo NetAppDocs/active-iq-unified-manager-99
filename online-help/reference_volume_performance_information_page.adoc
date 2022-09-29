@@ -1,0 +1,69 @@
+---
+permalink: online-help/reference_volume_performance_information_page.html
+sidebar: sidebar
+keywords: 
+summary: 'Use this page to view a list of the physical and logical attributes of the volume. This information might help in answering performance-related questions. The title of this page depends on whether you are viewing a FlexVol volume or a FlexGroup volume.'
+---
+= Volume/Performance Information page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Use this page to view a list of the physical and logical attributes of the volume. This information might help in answering performance-related questions. The title of this page depends on whether you are viewing a FlexVol volume or a FlexGroup volume.
+
+== Volume attributes
+
+* *Type*
++
+The volume's type; either read-write (RW) or data-protection (DP).
+
+* *Style*
++
+The style of volume; either FlexVol or FlexGroup.
+
+* *Cluster*
++
+The name of the cluster to which this FlexVol volume or FlexGroup volume belongs. You can click the name to display cluster details in the Cluster/Performance Explorer page.
+
+* *Aggregates*
++
+The name of the aggregate on which this FlexVol volume resides, or the number of aggregates on which this FlexGroup volume resides.
++
+For FlexVol volumes, you can click the name to display aggregate details in the Aggregate/Performance Explorer page. For FlexGroup volumes, you can click the number to display the aggregates that are used in this FlexGroup volume in the Performance/Aggregates Inventory page.
+
+* *Storage VM*
++
+The name of the SVM to which this FlexVol volume or FlexGroup volume belongs. You can click the name to display SVM details in the Storage VM/Performance Explorer page.
+
+* *Tiering Policy*
++
+The tiering policy set on the volume. The policy takes affect only when the volume is deployed on a FabricPool aggregate. The available policies are:
+
+ ** None. The data for this volume always remains on the performance tier.
+ ** Snapshot Only. Only Snapshot data is moved automatically to the cloud tier. All other data remains on the performance tier.
+ ** Backup. On data protection volumes, all transferred user data starts in the cloud tier, but later client reads can cause hot data to move to the performance tier.
+ ** Auto. Data on this volume is moved between the performance tier and the cloud tier automatically when ONTAP determines that the data is "`hot`" or "`cold`".
+ ** All. The data for this volume always remains on the cloud tier.
+
+* *RAID Type*
++
+The redundancy type that is being used on the performance tier of the aggregate where this volume resides. Possible types:
+
+ ** RAID0
+ ** RAID4
+ ** RAID-DP
+ ** RAID-TEC
+
++
+[NOTE]
+====
+The value "`Not Applicable`" is displayed for FlexGroup volumes because the constituent volumes can be on aggregates of different RAID types.
+====
+
+* *Capacity (free/total)*
++
+The total storage available on the volume, in gigabytes, and the amount of storage currently available.
+
+* *Logical Space Used*
++
+The real size of the data that is being stored on this volume without applying the savings from using ONTAP storage efficiency technologies.

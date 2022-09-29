@@ -1,0 +1,34 @@
+---
+permalink: online-help/reference_add_group_dialog_box.html
+sidebar: sidebar
+keywords: 
+summary: 'The Add Group dialog box enables you to create groups to include clusters, volumes, and SVMs based on the group rules.'
+---
+= Add Group dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Add Group dialog box enables you to create groups to include clusters, volumes, and SVMs based on the group rules.
+
+You must have the Application Administrator or Storage Administrator role.
+
+* *Name*
++
+Specifies the name of the group. You must enter a unique name for the group.
+
+* *Description*
++
+Specifies a meaningful description of the group.
+
+== Command buttons
+
+The command buttons enable you to add or cancel the creation of a new group.
+
+* *Add*
++
+Creates the new group.
+
+* *Cancel*
++
+Closes the Add Group dialog box without saving your changes.

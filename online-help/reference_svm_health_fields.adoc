@@ -1,0 +1,88 @@
+---
+permalink: online-help/reference_svm_health_fields.html
+sidebar: sidebar
+keywords: 
+summary: 'The following fields are available in the Health: All Storage VMs view and can be used in custom views and in reports.'
+---
+= SVM health fields
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The following fields are available in the Health: All Storage VMs view and can be used in custom views and in reports.
+
+* *Status*
++
+The current status of the SVM. The status can be Critical (image:../media/sev_critical_um60.png[Icon for event severity – critical]), Error (image:../media/sev_error_um60.png[Icon for event severity – error]), Warning (image:../media/sev_warning_um60.png[Icon for event severity – warning]), or Normal (image:../media/sev_normal_um60.png[Icon for event severity – normal]).
+
+* *Storage VM*
++
+The name of the SVM.
+
+* *State*
++
+The current administrative state of the SVM. The state can be Running, Stopped, Starting, or Stopping.
+
+* *Allowed Volume Type*
++
+The type of volume that can be created in the SVM. The type can be FlexVol or FlexVol/FlexGroup.
+
+* *Allowed Protocols*
++
+The type of protocols that can be configured on the SVM. The available protocols are FC/FCoE, iSCSI, HTTP, NDMP, NVMe, NFS, and CIFS.
+
+* *Available Data Capacity*
++
+The available data capacity of all the volumes in the SVM.
+
+* *Total Data Capacity*
++
+The total data capacity of all the volumes in the SVM.
+
+* *Root Volume*
++
+The name of the root volume of the SVM.
+
+* *NIS State*
++
+The state of the Network Information Service (NIS). The state can be Enabled, Disabled, or Not Configured.
+
+* *NIS Domain*
++
+The NIS domain name. This column is blank when the NIS server is disabled or is not configured.
+
+* *DNS State*
++
+The state of the Domain Name System (DNS). The state can be Enabled, Disabled, or Not Configured.
+
+* *DNS Domain*
++
+The DNS domain name.
+
+* *Protection Role*
++
+The protection status of the storage VMs. The role can be either protected, unprotected, or destination.
+
+* *Name Service Switch*
++
+The information type gathered from hosts. Possible values are file, LDAP, or NIS.
+
+* *LDAP Enabled*
++
+Whether the LDAP protocol is enabled or not.
+
+* *Maximum Allowed Volumes*
++
+The maximum allowed volumes that can be configured on the SVM.
+
+* *Volume Count*
++
+The number of volumes contained by the SVM.
+
+* *Cluster*
++
+The name of the cluster to which the SVM belongs.
+
+* *Cluster FQDN*
++
+The fully qualified domain name (FQDN) of the cluster.

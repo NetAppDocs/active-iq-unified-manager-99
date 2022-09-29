@@ -1,0 +1,12 @@
+---
+permalink: online-help/reference_description_of_annotations_windows_and_dialog_boxes.html
+sidebar: sidebar
+keywords: 
+summary: 'You can view and manage all your annotations from the Management/Annotations page. You can also configure annotation rules for your storage objects from the Annotation Rules tab.'
+---
+= Description of Annotations windows and dialog boxes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view and manage all your annotations from the Management/Annotations page. You can also configure annotation rules for your storage objects from the Annotation Rules tab.

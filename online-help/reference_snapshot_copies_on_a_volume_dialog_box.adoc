@@ -1,0 +1,64 @@
+---
+permalink: online-help/reference_snapshot_copies_on_a_volume_dialog_box.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Snapshot Copies on a Volume dialog box to view the list of Snapshot copies. You can delete a Snapshot copy to conserve or free disk space, or if the copy is no longer required. You can also calculate the amount of disk space that can be reclaimed if one or more Snapshot copies are deleted.'
+---
+= Snapshot Copies on a Volume dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Snapshot Copies on a Volume dialog box to view the list of Snapshot copies. You can delete a Snapshot copy to conserve or free disk space, or if the copy is no longer required. You can also calculate the amount of disk space that can be reclaimed if one or more Snapshot copies are deleted.
+
+== List view
+
+The list view displays, in tabular format, information about the Snapshot copies on the volume. You can use the column filters to customize the data that is displayed.
+
+* *Snapshot Copy*
++
+Displays the name of the Snapshot copy.
+
+* *Used Space %*
++
+Displays, in percentage, the total space used by the Snapshot copy in the volume.
+
+* *Total Size*
++
+Displays the total size of the Snapshot copy.
+
+* *Created Time*
++
+Displays the timestamp when the Snapshot copy was created.
+
+* *Dependency*
++
+Displays the applications that are dependent on the Snapshot copy. The possible values are SnapMirror, SnapVault, SnapLock, Dump, LUNs, Vclone, and Busy.
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks:
+
+* *Calculate*
++
+Enables you to calculate the space that can be reclaimed by deleting one or more Snapshot copies.
+
+* *Delete Selected*
++
+Deletes one or more Snapshot copies.
+
+* *Close*
++
+Closes the Snapshot Copies on a Volume dialog box.
+
+* *Recalculate*
++
+Enables you to calculate the space that can be reclaimed by deleting the selected Snapshot copies for FlexVol volumes. This button is not available for FlexGroup volumes.
++
+The *Recalculate* button is enabled when you make any changes in the selection of the Snapshot copies.
+
+*Related information*
+
+xref:task_deleting_snapshot_copies.adoc[Deleting Snapshot copies]
+
+xref:task_calculating_reclaimable_space_for_snapshot_copies.adoc[Calculating reclaimable space for Snapshot copies]

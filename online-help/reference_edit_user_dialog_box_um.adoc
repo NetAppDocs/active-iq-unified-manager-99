@@ -1,0 +1,56 @@
+---
+permalink: online-help/reference_edit_user_dialog_box_um.html
+sidebar: sidebar
+keywords: 
+summary: 'The Edit User dialog box enables you to edit only certain settings, depending on the selected user.'
+---
+= Edit User dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Edit User dialog box enables you to edit only certain settings, depending on the selected user.
+
+== Details
+
+The Details area enables you to edit the following information about a selected user:
+
+* *Type*
++
+This field cannot be edited.
+
+* *Name*
++
+This field cannot be edited.
+
+* *Password*
++
+Enables you to edit the password when the selected user is a database user.
+
+* *Confirm Password*
++
+Enables you to edit the confirmed password when the selected user is a database user.
+
+* *Email*
++
+Enables you to edit the email address of the selected user. This field can be edited when the selected user is a local user, LDAP user, or maintenance user.
+
+* *Role*
++
+Enables you to edit the role that is assigned to the user. This field can be edited when the selected user is a local user, remote user, or remote group.
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks:
+
+* *Save*
++
+Saves the changes and closes the Edit User dialog box.
+
+* *Cancel*
++
+Cancels the changes and closes the Edit User dialog box.
+
+*Related information*
+
+xref:task_editing_user_settings.adoc[Editing the user settings]

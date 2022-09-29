@@ -1,0 +1,46 @@
+---
+permalink: online-help/reference_nvme_namespace_performance_information_page.html
+sidebar: sidebar
+keywords: 
+summary: 'Use the NVMe Namespace/Performance Information page to view a list of the physical and logical attributes of the Namespace. This information might help in answering performance-related questions.'
+---
+= NVMe Namespace/Performance Information page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Use the NVMe Namespace/Performance Information page to view a list of the physical and logical attributes of the Namespace. This information might help in answering performance-related questions.
+
+== NVMe Namespace attributes
+
+* *Cluster*
++
+The name of the cluster to which the Namespace belongs. You can click the name to display cluster details in the Cluster/Performance Explorer page.
+
+* *Capacity (free/total)*
++
+The total storage capacity of the Namespace and the amount of storage currently available.
+
+* *Node*
++
+The name of the node on which the Namespace resides. You can click the name to display node details in the Node/Performance Explorer page.
+
+* *Path*
++
+The full path of the NVMe Namespace, for example, `/vol/vol1/namespace1`.
+
+* *State*
++
+The state of the Namespace. Valid states can be online, offline, nvfail, and space-error.
+
+* *Subsystem*
++
+The subsystem of the Namespace.
+
+* *Storage VM*
++
+The name of the SVM to which the Namespace belongs. You can click the name to display SVM details in the Storage VM/Performance Explorer page.
+
+* *Volume*
++
+The name of the volume to which the Namespace belongs. You can click the name to display volume details in the Volume/Performance Explorer page.

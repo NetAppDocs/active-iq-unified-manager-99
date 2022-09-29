@@ -1,0 +1,12 @@
+---
+permalink: online-help/reference_description_of_health_thresholds_pages.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the appropriate Health Thresholds page to configure global health threshold values for aggregates and volumes, and configure global lag warning and error threshold values for unmanaged protection relationships.'
+---
+= Description of health thresholds pages
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the appropriate Health Thresholds page to configure global health threshold values for aggregates and volumes, and configure global lag warning and error threshold values for unmanaged protection relationships.

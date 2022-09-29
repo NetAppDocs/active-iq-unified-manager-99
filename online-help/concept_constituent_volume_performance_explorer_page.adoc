@@ -1,0 +1,49 @@
+---
+permalink: online-help/concept_constituent_volume_performance_explorer_page.html
+sidebar: sidebar
+keywords: 
+summary: 'The Constituent Volume/Performance Explorer page provides detailed performance information for the selected FlexGroup constituent.'
+---
+= Constituent Volume/Performance Explorer page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Constituent Volume/Performance Explorer page provides detailed performance information for the selected FlexGroup constituent.
+
+The Constituent Volume/Performance Explorer page enables you to track and compare constituent performance during a specific time period, which helps in troubleshooting and fine-tuning the performance of a FlexGroup volume and its constituent volumes.
+
+Using the View and Compare functionality you can compare the performance of this constituent volume with:
+
+* the aggregate on which this constituent volume resides
+* the storage VM on which this constituent volume resides
+* the FlexGroup volume to which the constituent volume belongs
+* other volumes that are on the same aggregate
+
+The Constituent Volume/Performance Explorer page enables you to:
+
+* View threshold-related issues and their details
+* Track and compare constituent performance data
+* Investigate and troubleshoot threshold-related issues
+* Investigate and troubleshoot performance issues
+
+[NOTE]
+====
+For data protection (DP) volumes, only counter values for user-generated traffic are displayed.
+====
+
+*Related information*
+
+xref:concept_components_of_the_performance_explorer_page.adoc[Components of the Performance Explorer page]
+
+xref:reference_summary_page_opm.adoc[Summary page]
+
+xref:task_defining_the_list_of_correlated_objects_for_comparison_graphing.adoc[Defining the list of correlated objects for comparison graphing]
+
+xref:reference_types_of_performance_counter_charts.adoc[Types of performance counter charts]
+
+xref:task_selecting_performance_charts_to_display.adoc[Selecting performance charts to display]
+
+xref:concept_counter_charts_zoom_view.adoc[Counter Charts Zoom View]
+
+xref:concept_types_of_workloads_monitored_by_unified_manager.adoc[Types of workloads monitored by Unified Manager]

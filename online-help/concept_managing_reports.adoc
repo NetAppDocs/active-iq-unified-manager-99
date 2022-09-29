@@ -1,0 +1,34 @@
+---
+permalink: online-help/concept_managing_reports.html
+sidebar: sidebar
+keywords: 
+summary: 'Active IQ Unified Manager enables you to create and manage reports directly from the Unified Manager user interface so that you can view information about the health, capacity, performance, and protection relationships of storage objects in your clusters. Reviewing this information can help you to identify potential problems before they occur.'
+---
+= Managing reports
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Active IQ Unified Manager enables you to create and manage reports directly from the Unified Manager user interface so that you can view information about the health, capacity, performance, and protection relationships of storage objects in your clusters. Reviewing this information can help you to identify potential problems before they occur.
+
+You can download reports as comma-separated values (.csv), Microsoft Excel (.xlsx), or PDF files. You can also schedule a report to be sent using email to a group of recipients. The reports are sent as email attachments.
+
+In addition to generating reports from the user interface, you can extract health and performance data from Unified Manager using these additional methods:
+
+* Using Open Database Connectivity (ODBC) and ODBC tools to directly access the database for cluster information
+* Executing Unified Manager REST APIs to return the information you are interested in reviewing
+
+From this release of Active IQ Unified manager, following enhancements are made to the reports :
+
+* Email is sent for a report as per the configured schedule. Even when you generate an on-demand report, you will receive an email.
+* The file name of the report and metadata of the report includes the hostname from where the report was generated.
++
+Even if any one changes the filename, still you can identify the hostname from where the report was generated due to this enhancement.
+
+*Related information*
+
+xref:task_exporting_storage_data_as_reports.adoc[Exporting storage data as reports]
+
+xref:concept_unified_manager_databases_accessible_for_reporting.adoc[Unified Manager databases accessible for custom reporting]
+
+xref:concept_using_unified_manager_rest_apis_ocum.adoc[Using Unified Manager REST APIs]

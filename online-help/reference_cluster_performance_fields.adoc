@@ -1,0 +1,65 @@
+---
+permalink: online-help/reference_cluster_performance_fields.html
+sidebar: sidebar
+keywords: 
+summary: 'The following fields are available in the Performance: All Clusters view and can be used in custom views and in reports.'
+---
+= Cluster performance fields
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The following fields are available in the Performance: All Clusters view and can be used in custom views and in reports.
+
+* *Status*
++
+A healthy object with no active events displays a green check mark icon (image:../media/sev_normal_um60.png[Icon for event severity – normal]). If the object has an active event, the event indicator icon identifies the event severity: critical events are red (image:../media/sev_critical_um60.png[Icon for event severity – critical]), error events are orange (image:../media/sev_error_um60.png[Icon for event severity – error]), and warning events are yellow (image:../media/sev_warning_um60.png[Icon for event severity – warning]).
+
+* *Cluster*
++
+The name of the cluster. You can click the cluster name to navigate to that cluster's performance details page.
+
+* *Cluster FQDN*
++
+The fully qualified domain name (FQDN) of the cluster.
+
+* *IOPS*
++
+The input/output operations per second on the cluster.
+
+* *MB/s*
++
+The throughput on the cluster, measured in megabytes per second.
+
+* *Free Capacity*
++
+The unused storage capacity for this cluster, in gigabytes.
+
+* *Total Capacity*
++
+The total storage capacity for this cluster, in gigabytes.
+
+* *Node Count*
++
+The number of nodes in the cluster. You can click the number to navigate to the Performance: All Nodes view.
+
+* *Host Name or IP Address*
++
+The host name or IP address (IPv4 or IPv6) of the cluster management LIF.
+
+* *Serial #*
++
+The unique identification number of the cluster.
+
+* *OS Version*
++
+The version of ONTAP software that is installed on the cluster.
++
+[NOTE]
+====
+If different versions of ONTAP software are installed on the nodes in the cluster, the lowest version number is listed. You can view the ONTAP version that is installed on each node from the Performance: All Nodes view.
+====
+
+* *Threshold Policy*
++
+The user-defined performance threshold policy, or policies, that are active on this storage object. You can position your cursor over policy names containing an ellipsis (...) to view the full policy name or the list of assigned policy names. The *Assign Performance Threshold Policy* and *Clear Performance Threshold Policy* buttons remain disabled until you select one or more objects by clicking the check boxes located at the far left.

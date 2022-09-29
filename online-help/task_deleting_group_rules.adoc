@@ -1,0 +1,34 @@
+---
+permalink: online-help/task_deleting_group_rules.html
+sidebar: sidebar
+keywords: 
+summary: 'You can delete a group rule from Active IQ Unified Manager when the group rule is no longer required.'
+---
+= Deleting group rules
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can delete a group rule from Active IQ Unified Manager when the group rule is no longer required.
+
+== Before you begin
+
+You must have the Application Administrator or Storage Administrator role.
+
+== About this task
+
+When a group rule is deleted, the associated storage objects will be removed from the group.
+
+== Steps
+
+. In the left navigation pane, click *Storage Management* > *Groups*.
+. In the *Group Rules* tab, select the group rule that you want to delete, and then click *Delete*.
+. In the *Warning* dialog box, confirm the deletion by clicking *Yes*.
+
+*Related information*
+
+xref:concept_how_group_rules_work_for_groups.adoc[How group rules work for groups]
+
+xref:task_adding_group_rules.adoc[Adding group rules]
+
+xref:task_editing_group_rules.adoc[Editing group rules]

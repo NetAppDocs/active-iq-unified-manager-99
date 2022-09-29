@@ -1,0 +1,12 @@
+---
+permalink: online-help/reference_descriptions_of_the_object_inventory_performance_pages.html
+sidebar: sidebar
+keywords: 
+summary: 'You use the Performance inventory pages to see a summary of performance information about each of the available storage objects, such as clusters, aggregates, volumes, and so on. You can link to the Performance object detail pages to view detailed information for a particular object.'
+---
+= Descriptions of the Performance inventory pages
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You use the Performance inventory pages to see a summary of performance information about each of the available storage objects, such as clusters, aggregates, volumes, and so on. You can link to the Performance object detail pages to view detailed information for a particular object.

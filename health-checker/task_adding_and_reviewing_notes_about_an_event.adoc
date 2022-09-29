@@ -1,0 +1,23 @@
+---
+permalink: health-checker/task_adding_and_reviewing_notes_about_an_event.html
+sidebar: sidebar
+keywords: 
+summary: 'While addressing events, you can add information about how the issue is being addressed by using the Notes and Updates area in the Event details page. This information can enable another user who is assigned to address the event. You can also view information that was added by the user who last addressed an event, based on the recent timestamp.'
+---
+= Adding and reviewing notes about an event
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+While addressing events, you can add information about how the issue is being addressed by using the Notes and Updates area in the Event details page. This information can enable another user who is assigned to address the event. You can also view information that was added by the user who last addressed an event, based on the recent timestamp.
+
+== Before you begin
+
+You must have the Operator, Application Administrator, or Storage Administrator role.
+
+== Steps
+
+. In the left navigation pane, click *Events*.
+. From the *Event Management* inventory page, click the event for which you want to add the event-related information.
+. In the *Event* details page, add the required information in the *Notes and Updates* area.
+. Click *Post*.

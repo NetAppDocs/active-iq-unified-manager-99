@@ -1,0 +1,44 @@
+---
+permalink: online-help/reference_edit_group_rule_dialog_box.html
+sidebar: sidebar
+keywords: 
+summary: 'You can edit the group rules you created to include the maximum number of storage objects in a group.'
+---
+= Edit Group Rule dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can edit the group rules you created to include the maximum number of storage objects in a group.
+
+You must have the Application Administrator or Storage Administrator role.
+
+* *Rule Name*
++
+Displays the name of the rule.
+
+* *Target Object Type*
++
+Displays the storage object to be added to a selected group. You cannot change the object type.
+
+* *Associated Group*
++
+Displays the associated group. You can select a different group for the group rule.
+
+* *Condition*
++
+Displays the list of conditions for a selected group. You can edit the conditions. The storage objects are either removed or added to a selected group based on the changes.
+
+== Command buttons
+
+* *Save*
++
+Saves the changes you made and closes the dialog box.
+
+* *Cancel*
++
+Closes the Edit Group Rule dialog box without saving your changes.
+
+*Related information*
+
+xref:concept_how_group_rules_work_for_groups.adoc[How group rules work for groups]

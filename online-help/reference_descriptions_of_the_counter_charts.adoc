@@ -1,0 +1,12 @@
+---
+permalink: online-help/reference_descriptions_of_the_counter_charts.html
+sidebar: sidebar
+keywords: 
+summary: 'You use the Performance Explorer counter charts to view and compare performance data for selected storage objects. These charts can help you to understand performance trends and isolate and resolve performance issues.'
+---
+= Descriptions of the counter charts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You use the Performance Explorer counter charts to view and compare performance data for selected storage objects. These charts can help you to understand performance trends and isolate and resolve performance issues.

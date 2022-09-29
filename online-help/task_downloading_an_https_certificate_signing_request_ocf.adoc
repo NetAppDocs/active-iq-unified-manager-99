@@ -1,0 +1,34 @@
+---
+permalink: online-help/task_downloading_an_https_certificate_signing_request_ocf.html
+sidebar: sidebar
+keywords: 
+summary: 'You can download a certification signing request for the current HTTPS security certificate so that you can provide the file to a Certificate Authority to sign. A CA-signed certificate helps prevent man-in-the-middle attacks and provides better security protection than a self-signed certificate.'
+---
+= Downloading an HTTPS certificate signing request
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can download a certification signing request for the current HTTPS security certificate so that you can provide the file to a Certificate Authority to sign. A CA-signed certificate helps prevent man-in-the-middle attacks and provides better security protection than a self-signed certificate.
+
+== Before you begin
+
+You must have the Application Administrator role.
+
+== Steps
+
+. In the left navigation pane, click *General* > *HTTPS Certificate*.
+. Click *Download HTTPS Certificate Signing Request*.
+. Save the `<hostname>.csr` file.
+
+== After you finish
+
+You can provide the file to a Certificate Authority to sign, and then install the signed certificate.
+
+*Related information*
+
+xref:task_viewing_the_https_security_certificate_ocf.adoc[Viewing the HTTPS security certificate]
+
+xref:task_generating_an_https_security_certificate_ocf.adoc[Generating an HTTPS security certificate]
+
+xref:task_installing_a_ca_signed_and_returned_https_certificate.adoc[Installing a CA signed and returned HTTPS certificate]

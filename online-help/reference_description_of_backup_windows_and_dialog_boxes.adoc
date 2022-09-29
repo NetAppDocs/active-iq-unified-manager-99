@@ -1,0 +1,12 @@
+---
+permalink: online-help/reference_description_of_backup_windows_and_dialog_boxes.html
+sidebar: sidebar
+keywords: 
+summary: 'You can view the list of backups from the backup page in Unified Manager. You can view the backup name, size, and creation time for the backups listed in this page. You can modify the database backup settings from the Database Backup Settings page.'
+---
+= Description of backup windows and dialog boxes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view the list of backups from the backup page in Unified Manager. You can view the backup name, size, and creation time for the backups listed in this page. You can modify the database backup settings from the Database Backup Settings page.

@@ -1,0 +1,12 @@
+---
+permalink: online-help/reference_page_descriptions_for_object_landing_pages.html
+sidebar: sidebar
+keywords: 
+summary: 'You use the Performance Explorer pages to view detailed performance information about each of the available storage object; such as clusters, aggregates, volumes, and so on. These pages enable you to assess the overall performance of all objects and compare object performance data in a side-by-side format.'
+---
+= Descriptions of the Performance Explorer pages
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You use the Performance Explorer pages to view detailed performance information about each of the available storage object; such as clusters, aggregates, volumes, and so on. These pages enable you to assess the overall performance of all objects and compare object performance data in a side-by-side format.

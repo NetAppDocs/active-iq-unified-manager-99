@@ -1,0 +1,43 @@
+---
+permalink: online-help/concept_lun_performance_explorer_page.html
+sidebar: sidebar
+keywords: 
+summary: 'The LUN/Performance Explorer page provides a detailed overview of the performance of all the LUNs within a cluster.'
+---
+= LUN/Performance Explorer page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The LUN/Performance Explorer page provides a detailed overview of the performance of all the LUNs within a cluster.
+
+The LUN/Performance Explorer page enables you to track and compare LUN performance during a specific time period, which helps you to troubleshoot and fine-tune the performance of your LUNs.
+
+Using the View and Compare functionality you can compare the performance of this LUN with:
+
+* other LUNs that are on the same volume
+* other LUNs that are in the same QoS policy group
+* the volume on which the LUN resides
+
+The statistics in the charts are updated after each collection period; which by default is every 5 minutes. The View statistics in selector provides an option to show statistics averaged over the previous hour. This functionality enables you to view the latency chart in support of the NetApp "`Performance Guarantee`" program.
+
+The LUN/Performance Explorer page enables you to:
+
+* View threshold-related issues and their details
+* Track and compare LUN performance data
+* Investigate and troubleshoot threshold-related issues
+* Investigate and troubleshoot performance issues
+
+*Related information*
+
+xref:concept_components_of_the_performance_explorer_page.adoc[Components of the Performance Explorer page]
+
+xref:reference_summary_page_opm.adoc[Summary page]
+
+xref:task_defining_the_list_of_correlated_objects_for_comparison_graphing.adoc[Defining the list of correlated objects for comparison graphing]
+
+xref:reference_types_of_performance_counter_charts.adoc[Types of performance counter charts]
+
+xref:task_selecting_performance_charts_to_display.adoc[Selecting performance charts to display]
+
+xref:concept_counter_charts_zoom_view.adoc[Counter Charts Zoom View]

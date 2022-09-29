@@ -1,0 +1,12 @@
+---
+permalink: online-help/concept_managing_groups_of_storage_objects.html
+sidebar: sidebar
+keywords: 
+summary: 'You can manage storage objects in your environment by creating groups of storage objects. These storage objects must satisfy the group rules associated with the group.'
+---
+= Managing groups of storage objects
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can manage storage objects in your environment by creating groups of storage objects. These storage objects must satisfy the group rules associated with the group.

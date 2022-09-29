@@ -1,0 +1,42 @@
+---
+permalink: online-help/reference_database_backup_page.html
+sidebar: sidebar
+keywords: 
+summary: 'The Database Backup page displays a list of backups created by Unified Manager and provides information about the backup name, size, and creation time.'
+---
+= Database Backup page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Database Backup page displays a list of backups created by Unified Manager and provides information about the backup name, size, and creation time.
+
+You must have the Application Administrator or Storage Administrator role.
+
+== List View
+
+The list view displays information about the available backup files.
+
+* *Name*
++
+Name of the backup.
+
+* *Size*
++
+Size of the backup.
+
+* *Creation Time*
++
+Creation date and time of the backup.
+
+== Command buttons
+
+* *Backup Settings*
++
+Displays the Backup Settings dialog box, which enables you to specify a backup path, retention count, and backup schedule.
+
+*Related information*
+
+xref:concept_configuring_the_destination_and_schedule_for_database_dump_backups.adoc[Configuring the destination and schedule for database dump backups]
+
+xref:concept_backup_and_restore_using_a_mysql_database_dump.adoc[Backup and restore using a MySQL database dump]

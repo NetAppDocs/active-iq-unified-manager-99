@@ -1,0 +1,34 @@
+---
+permalink: online-help/reference_reorder_group_action_dialog_box.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Reorder Group Actions dialog box to change the ranks of one or more group actions. The position of a group action in the grid determines the rank for the group action.'
+---
+= Reorder Group Actions dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Reorder Group Actions dialog box to change the ranks of one or more group actions. The position of a group action in the grid determines the rank for the group action.
+
+You must have the Application Administrator or Storage Administrator role.
+
+* *Rank*
++
+Specifies the order of the group action to be applied on storage objects in a group.
+
+* *Name*
++
+Specifies the name of the group action.
+
+* *Action Type*
++
+Specifies the type of action that you can perform on the storage objects in a group.
+
+* *Associated Group*
++
+Specifies the name of the group for which the group actions are defined.
+
+*Related information*
+
+xref:task_reordering_group_actions.adoc[Reordering group actions]
