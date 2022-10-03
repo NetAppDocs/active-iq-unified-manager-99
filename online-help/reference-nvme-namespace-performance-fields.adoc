@@ -1,0 +1,73 @@
+---
+permalink: online-help/reference-nvme-namespace-performance-fields.html
+sidebar: sidebar
+keywords: 
+summary: 'The following fields are available in the Performance: All NVMe Namespaces view and can be used in custom views and in reports.'
+---
+= NVMe Namespace performance fields
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The following fields are available in the Performance: All NVMe Namespaces view and can be used in custom views and in reports.
+
+* *Subsystem*
++
+The subsystem of the Namespace.
+
+* *Status*
++
+A healthy object with no active events displays a green check mark icon (image:../media/sev-normal-um60.png[Icon for event severity – normal]). If the object has an active event, the event indicator icon identifies the event severity: critical events are red (image:../media/sev-critical-um60.png[Icon for event severity – critical]), error events are orange (image:../media/sev-error-um60.png[Icon for event severity – error]), and warning events are yellow (image:../media/sev-warning-um60.png[Icon for event severity – warning]).
+
+* *Namespace*
++
+You can click the Namespace name to navigate to that Namespace's performance details page.
+
+* *State*
++
+The current state of the Namespace.
+
+ ** Offline - Read or write access to the Namespace is not allowed.
+ ** Online - Read and write access to the Namespace is allowed.
+ ** NVFail - The Namespace was automatically taken offline due to an NVRAM failure.
+ ** Space Error - The Namespace has run out of space.
+
+* *Storage VM*
++
+The storage virtual machine (SVM) to which the Namespace belongs. You can click the SVM name to navigate to that SVM's details page.
+
+* *Cluster*
++
+The cluster to which the Namespace belongs. You can click the cluster name to navigate to that cluster's details page.
+
+* *Cluster FQDN*
++
+The fully qualified domain name (FQDN) of the cluster.
+
+* *Volume*
++
+The volume to which the Namespace belongs. You can click the volume name to navigate to that volume's details page.
+
+* *Total Capacity*
++
+The total storage capacity of the Namespace, in gigabytes.
+
+* *Free Capacity*
++
+The unused storage capacity of the Namespace, in gigabytes.
+
+* *IOPS*
++
+The input/output operations per second for the Namespace.
+
+* *Latency*
++
+The average response time for all I/O requests on the Namespace, expressed in milliseconds per operation.
+
+* *MB/s*
++
+The throughput on the Namespace, measured in megabytes per second.
+
+* *Threshold Policy*
++
+The user-defined performance threshold policy, or policies, that are active on this storage object. You can position your cursor over policy names containing an ellipsis (...) to view the full policy name or the list of assigned policy names. The *Assign Performance Threshold Policy* and *Clear Performance Threshold Policy* buttons remain disabled until you select one or more objects by clicking the check boxes located at the far left.

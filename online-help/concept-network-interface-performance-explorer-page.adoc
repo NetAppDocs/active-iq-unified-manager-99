@@ -1,0 +1,42 @@
+---
+permalink: online-help/concept-network-interface-performance-explorer-page.html
+sidebar: sidebar
+keywords: 
+summary: 'The Network Interface/Performance Explorer page provides a detailed performance overview for all of the network interfaces \(LIFs\) within a cluster.'
+---
+= Network Interface/Performance Explorer page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Network Interface/Performance Explorer page provides a detailed performance overview for all of the network interfaces (LIFs) within a cluster.
+
+The Network Interface/Performance Explorer page enables you to track and compare network interface performance during a specific time period, which helps you to troubleshoot and fine-tune your network interface performance.
+
+Using the View and Compare functionality you can compare the performance of this network interface with:
+
+* other network interfaces that are on the same port
+* other network interfaces that are on the same storage VM
+* the port on which the network interface resides
+* the storage VM on which the network interface resides
+
+The Network Interface/Performance Explorer page enables you to:
+
+* View threshold-related issues and their details
+* Track and compare network interface performance data
+* Investigate and troubleshoot threshold-related issues
+* Investigate and troubleshoot performance issues
+
+*Related information*
+
+xref:concept-components-of-the-performance-explorer-page.adoc[Components of the Performance Explorer page]
+
+xref:reference-summary-page-opm.adoc[Summary page]
+
+xref:task-defining-the-list-of-correlated-objects-for-comparison-graphing.adoc[Defining the list of correlated objects for comparison graphing]
+
+xref:reference-types-of-performance-counter-charts.adoc[Types of performance counter charts]
+
+xref:task-selecting-performance-charts-to-display.adoc[Selecting performance charts to display]
+
+xref:concept-counter-charts-zoom-view.adoc[Counter Charts Zoom View]

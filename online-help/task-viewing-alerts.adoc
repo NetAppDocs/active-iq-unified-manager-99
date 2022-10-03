@@ -1,0 +1,32 @@
+---
+permalink: online-help/task-viewing-alerts.html
+sidebar: sidebar
+keywords: 
+summary: 'You can view the list of alerts that is created for various events from the Alert Setup page. You can also view alert properties such as the alert description, notification method and frequency, events that trigger the alert, email recipients of the alerts, and affected resources such as clusters, aggregates, and volumes.'
+---
+= Viewing alerts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view the list of alerts that is created for various events from the Alert Setup page. You can also view alert properties such as the alert description, notification method and frequency, events that trigger the alert, email recipients of the alerts, and affected resources such as clusters, aggregates, and volumes.
+
+== Before you begin
+
+You must have the Operator, Application Administrator, or Storage Administrator role.
+
+== Steps
+
+. In the left navigation pane, click *Storage Management* > *Alert Setup*.
++
+The list of alerts is displayed in the Alert Setup page.
+
+*Related information*
+
+xref:task-adding-alerts.adoc[Adding alerts]
+
+xref:task-deleting-alerts.adoc[Deleting alerts]
+
+xref:task-adding-users.adoc[Adding users]
+
+xref:task-disabling-alerts-for-resolved-and-obsolete-events.adoc[Enabling and Disabling alerts for Resolved and Obsolete events]

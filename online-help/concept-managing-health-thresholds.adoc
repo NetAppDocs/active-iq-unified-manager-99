@@ -1,0 +1,12 @@
+---
+permalink: online-help/concept-managing-health-thresholds.html
+sidebar: sidebar
+keywords: 
+summary: 'You can configure global health threshold values for all the aggregates, volumes, and qtrees to track any health threshold breaches.'
+---
+= Managing health thresholds
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure global health threshold values for all the aggregates, volumes, and qtrees to track any health threshold breaches.

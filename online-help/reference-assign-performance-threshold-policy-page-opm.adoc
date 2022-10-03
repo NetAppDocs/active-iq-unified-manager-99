@@ -1,0 +1,30 @@
+---
+permalink: online-help/reference-assign-performance-threshold-policy-page-opm.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Assign Performance Threshold Policy page to assign a performance threshold policy to one or more storage objects.'
+---
+= Assign Performance Threshold Policy page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Assign Performance Threshold Policy page to assign a performance threshold policy to one or more storage objects.
+
+The list of policies is populated with only those policies that are valid for the storage object type you selected.
+
+You select the policy you want to apply to the object or objects, and then you click *Apply Policy*.
+
+There are a few cases where an error message may be returned when you attempt to apply a policy, for example, when applying a combination policy to a FlexGroup volume, where the second counter includes either a node or aggregate object. Because FlexGroup volumes can be spread across multiple nodes and aggregates, this operation is not allowed.
+
+*Related information*
+
+xref:task-assigning-performance-threshold-policies-to-storage-objects.adoc[Assigning performance threshold policies to storage objects]
+
+xref:task-creating-user-defined-performance-threshold-policies.adoc[Creating user-defined performance threshold policies]
+
+xref:concept-what-happens-when-a-performance-threshold-policy-is-breached-opm.adoc[What happens when a performance threshold policy is breached]
+
+xref:reference-what-performance-metrics-can-be-monitored-using-thresholds.adoc[What performance counters can be tracked using thresholds]
+
+xref:reference-what-objects-and-metrics-can-be-used-in-combination-threshold-policies.adoc[What objects and counters can be used in combination threshold policies]

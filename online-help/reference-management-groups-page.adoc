@@ -1,0 +1,160 @@
+---
+permalink: online-help/reference-management-groups-page.html
+sidebar: sidebar
+keywords: 
+summary: 'The Groups page enables you to create groups in Unified Manager to easily manage storage objects. A group is a dynamic collection of storage objects \(clusters, volumes, and SVMs\), which is defined by the group rules you create for the group.'
+---
+= Groups page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Groups page enables you to create groups in Unified Manager to easily manage storage objects. A group is a dynamic collection of storage objects (clusters, volumes, and SVMs), which is defined by the group rules you create for the group.
+
+The Groups page includes tabs that enable you to add, delete, or edit a group, group rules, and group actions. When you log in as an operator, you will have only read access to the page. You can access the add, edit, or delete buttons in each tab when you log in as a Storage Administrator or Application Administrator.
+
+* <<GUID-AC73E70A-E4AD-4E97-9028-4A3A2D5513AA,Groups tab>>
+* <<SECTION_396032CA982142ACBDCAC2BF57E8FE3C,Group Rules tab>>
+* <<GUID-9B1BD1D3-B2B1-433B-B880-7F56B9426D53,Group Actions tab>>
+
+== Groups tab
+
+The Groups tab displays the name and description of the groups you created. You can perform tasks such as adding, editing, or deleting a group. The tab also displays the number of group rules and group actions associated with a group, the number of clusters, SVMs, and volumes in the group.
+
+== Command buttons
+
+* *Add*
++
+Displays the Add Group dialog box, which enables you to add a group and provide a name and description for the group.
++
+You can also apply group rules later to the group to include storage objects.
+
+* *Edit*
++
+Displays the Edit Group dialog box, which enables you to edit the name and description for the selected group.
+
+* *Delete*
++
+Deletes the selected group.
+
+== List view
+
+The list view displays, in tabular format, the groups you created in Unified Manager. You can use the column filters to customize the data that is displayed. By default, the list is sorted by group name.
+
+* *Name*
++
+Displays the name of the group.
+
+* *Description*
++
+Displays the description of the group.
+
+* *Associated Rules*
++
+Displays the number of rules added to the group.
+
+* *Associated Actions*
++
+Displays the number of group actions added to the group.
+
+* *Applicable Clusters*
++
+Displays the number of clusters included in the group.
+
+* *Applicable SVMs*
++
+Displays the number of SVMs included in the group.
+
+* *Applicable Volumes*
++
+Displays the number of volumes included in the group.
+
+== Group Rules tab
+
+The Group Rules tab displays the group rules you created for groups to contain storage objects. You can perform tasks such as adding, editing, or deleting a group rule. The tab also displays the group name for which the group rule is created and the storage object for which the rule is applied. You can also view the number of storage objects that satisfy the group rule.
+
+== Command buttons
+
+* *Add*
++
+Displays the Add Group Rule dialog box, which enables you to create group rules for storage objects.
+
+* *Edit*
++
+Displays the Edit Group Rule dialog box, which enables you to reconfigure previously configured group rules.
+
+* *Delete*
++
+Deletes the selected group rule.
+
+== List view
+
+The list view displays, in tabular format, the group rules you created for a specific storage object (clusters, volumes, or SVMs) and the count of storage objects that satisfy the defined group rule.
+
+* *Name*
++
+Displays the name of the rule.
+
+* *Associated Group*
++
+Displays the name of the group for which the group rule is defined.
+
+* *Target Object Type*
++
+Displays the type of storage object to which the group rule is applied.
+
+* *Applicable Objects*
++
+Displays the count of the storage objects included in the group based on the group rule.
+
+== Group Actions tab
+
+The Group Actions tab displays the name and type of group actions you define for groups. You can perform tasks such as adding, editing, deleting, or reordering the group actions. The tab also displays the name of the group on which the group action is applied.
+
+== Command buttons
+
+* *Add*
++
+Displays the Add Action dialog box, which enables you to create group actions for a group of storage objects. For example, you can set the threshold levels of storage objects in a group.
+
+* *Edit*
++
+Displays the Edit Action dialog box, which enables you to reconfigure previously configured group actions.
+
+* *Delete*
++
+Deletes the selected group action.
+
+* *Reorder*
++
+Displays the Reorder Group Actions dialog box to rearrange the order of the group actions.
+
+== List view
+
+The list view displays, in tabular format, the group actions you created for the groups in the Unified Manager server. You can use the column filters to customize the data that is displayed.
+
+* *Rank*
++
+Displays the order of the group actions to be applied on the storage objects in a group.
+
+* *Name*
++
+Displays the name of the group action.
+
+* *Associated Group*
++
+Displays the name of the group for which the group action is defined.
+
+* *Action Type*
++
+Displays the type of group action that you can perform on the storage objects in a group.
++
+You cannot create multiple group actions of the same action type for a group. For example, you can create a group action of setting volume thresholds for a group. However, you cannot create another group action for the same group to change volume thresholds.
+
+* *Description*
++
+Displays the description of the group action.
+
+*Related information*
+
+xref:concept-how-group-rules-work-for-groups.adoc[How group rules work for groups]

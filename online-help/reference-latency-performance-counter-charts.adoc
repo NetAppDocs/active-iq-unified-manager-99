@@ -1,0 +1,64 @@
+---
+permalink: online-help/reference-latency-performance-counter-charts.html
+sidebar: sidebar
+keywords: 
+summary: 'The Latency counter charts display the number of milliseconds that are required for the selected storage object to respond to application requests.'
+---
+= Latency performance counter charts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Latency counter charts display the number of milliseconds that are required for the selected storage object to respond to application requests.
+
+The popup window that is displayed when your cursor is in the chart area shows the specific counter values at specific times.
+
+The bottom of the chart page displays information for the minimum, maximum, average, and 95th percentile latency for the selected time range.
+
+There are three types of Latency charts available:
+
+== Latency - Total counter chart
+
+Displays the number of milliseconds required to respond to application requests. The average latency values are I/O weighted.
+
+== Latency - Breakdown counter chart
+
+Displays the same latency data separated into read, write, and other latency.
+
+This chart option applies when the selected object is an SVM, node, aggregate, volume, or LUN.
+
+== Latency - Cluster Components counter chart
+
+Displays the latency data by cluster component. This enables you to identify the cluster component that is responsible for the latency. By hovering your cursor in the chart you can view the exact latency contribution for each component.
+
+This chart option applies when the selected object is an SVM, node, aggregate, volume, or LUN.
+
+== *Zoom View* button
+
+Displays a magnified view of the counter chart data.
+
+* Events
++
+The occurrence of critical, warning, and informational events are indicated on the time lines above the charts.
+
+* Thresholds
++
+The dashed, horizontal line indicates the utilization warning threshold value set in Unified Manager.
++
+The solid red line indicates the utilization critical threshold value set in Unified Manager.
+
+* Counters
++
+The counters in the left pane show which counter values are being displayed. Deselecting or selecting the image:../media/eye-icon.gif[] that is associated with a counter hides and shows that counter information from the chart and can help when comparing object latency.
+
+*Related information*
+
+xref:reference-what-data-does-the-workload-analyzer-display.adoc[What data does the workload analyzer display]
+
+xref:task-specifying-the-time-range-in-zoom-view.adoc[Specifying the time range in Zoom View]
+
+xref:task-selecting-performance-thresholds-in-zoom-view.adoc[Selecting performance thresholds in Counter Charts Zoom View]
+
+xref:task-viewing-volume-latency-by-cluster-component.adoc[Viewing volume latency by cluster component]
+
+xref:concept-understanding-counter-charts.adoc[Understanding counter charts]

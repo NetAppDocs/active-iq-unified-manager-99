@@ -1,0 +1,103 @@
+---
+permalink: online-help/reference-node-performance-information-page.html
+sidebar: sidebar
+keywords: 
+summary: 'Use the Node/Performance Information page to view a list of the physical and logical attributes of the node. This information might help in answering performance-related questions.'
+---
+= Node/Performance Information page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Use the Node/Performance Information page to view a list of the physical and logical attributes of the node. This information might help in answering performance-related questions.
+
+== Node attributes
+
+* *IP Address*
++
+The IPv4 or IPv6 address of the node management LIF.
+
+* *FQDN*
++
+The fully qualified domain name (FQDN) of the node management LIF.
+
+* *OS Version*
++
+The version of ONTAP software installed on the node.
+
+* *Model / Family*
++
+The platform model number of the node.
+
+* *Capacity (free/total)*
++
+The total storage available to the node, in gigabytes, and the amount of storage currently available.
+
+* *Cluster*
++
+The name of the cluster to which this node belongs. You can click the name to display cluster details the Cluster/Performance Explorer page.
+
+* *HA Partner*
++
+The name of the HA partner node, if applicable. You can click the name to display partner node details in the Node/Performance Explorer page.
+
+* *Aggregates*
++
+The number of aggregates on this node. You can click the number to display the aggregates in the Performance/Aggregates Inventory page.
++
+[NOTE]
+====
+The number listed here may not match the number in the Performance/Aggregates Inventory page because the inventory page does not include root aggregates.
+====
+
+* *Ports*
++
+The number of ports on this node. You can click the number to display the ports in the Performance/Ports Inventory page.
++
+[NOTE]
+====
+The number listed here may not match the number in the Performance/Ports Inventory page because the inventory page does not include node management ports.
+====
+
+* *Contact / Location*
++
+If available, the name of the administrator to contact regarding this node, and the location of the node.
+
+* *# of Cores / Speed*
++
+If available, the number of CPU cores on the controller, and the speed of the CPU cores.
+
+* *RAM*
++
+If available, the total memory available on the controller.
+
+== Flash Devices
+
+[NOTE]
+====
+Flash Cache data is displayed only for nodes, and only when a Flash Cache module is installed in the node.
+====
+
+* *Slot Number*
++
+The slot number in which the Flash Cache module is installed.
+
+* *Status*
++
+The operational status of the module. Valid values:
+
+ ** Online
+ ** Offline_failed
+ ** Offline_threshold
+
+* *Model / Family*
++
+The model number of the module.
+
+* *Firmware Rev*
++
+The version of firmware installed on the module.
+
+* *Capacity*
++
+The size of the installed Flash Cache module.

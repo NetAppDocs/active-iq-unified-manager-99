@@ -1,0 +1,12 @@
+---
+permalink: online-help/reference-description-of-authentication-windows-and-dialog-boxes.html
+sidebar: sidebar
+keywords: 
+summary: 'You can enable LDAP authentication from the Setup/Authentication page.'
+---
+= Description of authentication windows and dialog boxes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can enable LDAP authentication from the Setup/Authentication page.

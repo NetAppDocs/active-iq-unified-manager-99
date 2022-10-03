@@ -1,0 +1,173 @@
+---
+permalink: online-help/reference-management-annotations-page.html
+sidebar: sidebar
+keywords: 
+summary: 'The Annotations page enables you to create annotations in Unified Manager that can be used to annotate storage objects, or you can edit or delete annotations. You can either manually annotate storage objects with an annotation=value pair or configure annotation rules. Storage objects are annotated dynamically based on the annotation you apply.'
+---
+= Annotations page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Annotations page enables you to create annotations in Unified Manager that can be used to annotate storage objects, or you can edit or delete annotations. You can either manually annotate storage objects with an annotation=value pair or configure annotation rules. Storage objects are annotated dynamically based on the annotation you apply.
+
+When you log in as an operator, you will have only read access to the page. You can access the add, edit, or delete buttons in each tab when you log in as a Storage Administrator or Application Administrator.
+
+* <<SECTION_8F5801BC989E4CF7846DB818A8F6DED1,Annotations tab>>
+* <<SECTION_3F4AD78CB19D43189A4D936CF979F479,Annotation Rules tab>>
+
+== Annotations tab
+
+The Annotations tab enables you to view, create, edit, or delete annotations in Unified Manager.
+
+* *Annotations list*
++
+Displays the names of the predefined and custom annotations. The count of the annotation values associated with each annotation is also displayed. You can click the annotation name to view the details of the annotation.
+
+== Summary area
+
+You can view the following details of the selected annotation:
+
+* *Description*
++
+Displays the description provided for the annotation.
+
+* *Created by*
++
+Displays the name of the user who created the annotation.
+
+* *Creation date*
++
+Displays the date when the annotation was created.
+
+== Annotation=Values Pairs
+
+Displays the list of annotation-value pairs and associated storage objects that are available for the selected annotation.
+
+* *Value*
++
+Displays the name of the annotation=value pair.
+
+* *Applicable Clusters*
++
+Displays the number of clusters that are annotated with a particular annotation=value pair. You can click the number to view the clusters page, which displays a filtered list of the clusters associated with a specific value.
+
+* *Applicable storage virtual machines (SVMs)*
++
+Displays the number of SVMs that are annotated with a particular annotation=value pair. You can click the number to view the SVMs page, which displays a filtered list of SVMs associated with a specific value.
+
+* *Applicable Volumes*
++
+Displays the number of volumes that are annotated with a particular annotation=value pair. You can click the number to view the volumes page, which displays a filtered list of the volumes associated with a specific value.
+
+== Object Associations via Rules
+
+Displays the list of annotation rules and the associated storage objects for the selected annotation.
+
+* *Rank*
++
+Displays the order of the annotation rules to be applied on the storage objects.
+
+* *Rules*
++
+Displays the name of the annotation rule.
+
+* *Target Object Type*
++
+Displays the type of storage object to which the annotation rule is applied.
+
+* *Associated Annotation Value*
++
+Displays the annotation=value pair applied to the storage object.
+
+* *Applicable Objects*
++
+Displays the count of the storage objects that are annotated based on the annotation rule.
+
+== Manual Object Associations
+
+Displays the list of annotations that you have manually configured and associated with storage objects.
+
+* *Annotation=Value Pair*
++
+Displays the name of the manual annotation and the value.
+
+* *Applicable Clusters*
++
+Displays the number of clusters that are annotated with a particular manual annotation value. You can click the number to view the clusters page, which displays a filtered list of the clusters associated with a specific value.
+
+* *Applicable storage virtual machines (SVMs)*
++
+Displays the number of SVMs that are annotated with a particular manual annotation value. You can click the number to view the SVMs page, which displays a filtered list of SVMs associated with a specific value.
+
+* *Applicable Volumes*
++
+Displays the number of volumes that are annotated with a particular manual annotation value. You can click the number to view the volumes page, which displays a filtered list of the volumes associated with a specific value.
+
+== Command buttons
+
+You must have the Application Administrator or Storage Administrator role. For predefined annotations, you cannot add or delete values.
+
+* *Add Annotation*
++
+Opens the Add Annotation dialog box, which enables you to create new custom annotations and assign values to the annotation.
+
+* *Actions*
++
+Enables you to edit or delete the selected annotation description.
+
+* *Edit*
++
+Opens the Edit Annotation dialog box, which enables you to modify the annotation name and description.
+
+* *Delete*
++
+Enables you to delete the annotation value. You can delete the value only when it is not associated with any annotation rules or group rules.
+
+== Annotation Rules tab
+
+The Annotations Rules tab displays the annotation rules you created to annotate storage objects. You can perform tasks such as adding, editing, deleting, or reordering an annotation rule. You can also view the number of storage objects that satisfy the annotation rule.
+
+== Command buttons
+
+You must have the Application Administrator or Storage Administrator role.
+
+* *Add*
++
+Displays the Add Annotation Rule dialog box, which enables you to create annotation rules for storage objects.
+
+* *Edit*
++
+Displays the Edit Annotation Rule dialog box, which enables you to reconfigure previously configured annotation rules.
+
+* *Delete*
++
+Deletes the selected annotation rules.
+
+* *Reorder*
++
+Displays the Reorder Annotation Rule dialog box, which enables you to rearrange the order of the annotation rules.
+
+== List View
+
+The list view displays, in tabular format, the annotation rules you created in the Unified Manager server. You can use the column filters to customize the data that is displayed. The list view of the Annotation Rules tab and the list view of the Associated Rules section in the Annotation tab contains the following columns:
+
+* Rank
+* Name
+* Target Object type
+* Associated Annotation Value
+* Applicable Objects
+
+An additional column is displayed for the Annotation Rules tab, Associated Annotation, which displays the name of the annotation applied to the storage object.
+
+*Related information*
+
+xref:task-adding-annotations-dynamically.adoc[Adding annotations dynamically]
+
+xref:task-deleting-annotations.adoc[Deleting annotations]
+
+xref:task-adding-values-to-annotations.adoc[Adding values to annotations]
+
+xref:task-deleting-values-from-annotations.adoc[Deleting values from annotations]
+
+xref:reference-description-of-predefined-annotation-values.adoc[Description of predefined annotation values]

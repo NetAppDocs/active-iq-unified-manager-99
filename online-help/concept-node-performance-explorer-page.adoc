@@ -1,0 +1,43 @@
+---
+permalink: online-help/concept-node-performance-explorer-page.html
+sidebar: sidebar
+keywords: 
+summary: 'The Node/Performance Explorer page provides a detailed performance overview of all nodes within a cluster.'
+---
+= Node/Performance Explorer page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Node/Performance Explorer page provides a detailed performance overview of all nodes within a cluster.
+
+The Node/Performance Explorer page enables you to track and compare node performance during a specific time period, which helps you to troubleshoot and fine-tune the performance of your nodes.
+
+Using the View and Compare functionality you can compare the performance of this node with:
+
+* other nodes on the same cluster
+* the aggregates on the node
+* the ports on the node
+
+The Node/Performance Explorer page enables you to:
+
+* View threshold-related issues and their details
+* Track and compare node performance data
+* Investigate and troubleshoot threshold-related issues
+* Investigate and troubleshoot performance issues
+
+*Related information*
+
+xref:concept-components-of-the-performance-explorer-page.adoc[Components of the Performance Explorer page]
+
+xref:reference-summary-page-opm.adoc[Summary page]
+
+xref:task-defining-the-list-of-correlated-objects-for-comparison-graphing.adoc[Defining the list of correlated objects for comparison graphing]
+
+xref:reference-understanding-and-using-the-node-failover-planning-page.adoc[Understanding and using the Node Failover Planning page]
+
+xref:reference-types-of-performance-counter-charts.adoc[Types of performance counter charts]
+
+xref:task-selecting-performance-charts-to-display.adoc[Selecting performance charts to display]
+
+xref:concept-counter-charts-zoom-view.adoc[Counter Charts Zoom View]

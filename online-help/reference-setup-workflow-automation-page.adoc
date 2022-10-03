@@ -1,0 +1,64 @@
+---
+permalink: online-help/reference-setup-workflow-automation-page.html
+sidebar: sidebar
+keywords: 
+summary: 'The Workflow Automation page enables you to configure the settings to integrate OnCommand Workflow Automation with Unified Manager. You can also add, modify, or delete the settings.'
+---
+= Workflow Automation page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Workflow Automation page enables you to configure the settings to integrate OnCommand Workflow Automation with Unified Manager. You can also add, modify, or delete the settings.
+
+You must have the Application Administrator or Storage Administrator role.
+
+== Unified Manager Database User
+
+This area enables you to enter the credentials of a database user that is required for pairing Unified Manager with Workflow Automation:
+
+* *Name*
++
+Enables you to specify the user name of a database user that can be used to access data in the Unified Manager database. By default, no database user is selected. You can select a database user from the drop-down list.
+
+* *Password*
++
+Enables you to specify a password for the specified user name.
+
+== OnCommand Workflow Automation Credentials
+
+This area enables you to enter the credentials of a Workflow Automation account that is required for pairing with Unified Manager:
+
+* *Hostname or IP Address*
++
+Specifies the name or IP address of the Workflow Automation host server, which is used to pair with Unified Manager.
+
+* *Port*
++
+Displays the required the port number of the Workflow Automation host server, which is 443.
+
+* *Username*
++
+Enables you to specify a user name that can be used to log in to Workflow Automation.
+
+* *Password*
++
+Enables you to specify a password for the specified user name.
+
+== Command buttons
+
+The command buttons enable you to remove, save, or cancel the setup options:
+
+* *Remove Setup*
++
+Removes the Workflow Automation setup from Unified Manager.
+
+* *Save*
++
+Saves the configuration settings for the selected option.
+
+*Related information*
+
+xref:task-configuring-a-connection-between-workflow-automation-and-unified-manager.adoc[Configuring a connection between Workflow Automation and Unified Manager]
+
+xref:task-removing-workflow-automation.adoc[Removing OnCommand Workflow Automation setup from Unified Manager]

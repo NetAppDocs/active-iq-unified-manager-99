@@ -1,0 +1,120 @@
+---
+permalink: online-help/reference-node-health-fields.html
+sidebar: sidebar
+keywords: 
+summary: 'The following fields are available in the Health: All Nodes view and can be used in custom views and in reports.'
+---
+= Node health fields
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The following fields are available in the Health: All Nodes view and can be used in custom views and in reports.
+
+* *Status*
++
+An icon that identifies the current status of the node. The status can be Critical (image:../media/sev-critical-um60.png[Icon for event severity – critical]), Error (image:../media/sev-error-um60.png[Icon for event severity – error]), Warning (image:../media/sev-warning-um60.png[Icon for event severity – warning]), or Normal (image:../media/sev-normal-um60.png[Icon for event severity – normal]).
+
+* *Node*
++
+The name of the node. You can click the node name to navigate to that cluster's node details page.
+
+* *State*
++
+The state of the node. The state can be Up or Down.
+
+* *HA State*
++
+The state of the HA pair. The state can be Error, Warning, Normal, or Not applicable.
+
+* *Down Time*
++
+The time that has elapsed or the timestamp since the node is offline. If the time elapsed exceeds a week, the timestamp when the node went offline is displayed.
+
+* *All Flash Optimized*
++
+Whether the node is optimized to support only solid-state drives (SSDs).
+
+* *Model/Family*
++
+The model of the node.
+
+* *OS version*
++
+The ONTAP software version that the node is running.
+
+* *Serial Number*
++
+The serial number of the node.
+
+* *Firmware Version*
++
+The firmware version number of the node.
+
+* *Aggregate Used Capacity*
++
+The amount of space used for data in the node's aggregates.
+
+* *Aggregate Total Capacity*
++
+The total space available for data in the node's aggregates.
+
+* *Usable Spare Capacity*
++
+The amount of available space in the node that can be used to enhance the aggregate capacity.
+
+* *Usable Raw Capacity*
++
+The amount of space that is usable in the node.
+
+* *Total Raw Capacity*
++
+The capacity of every unformatted disk in the node before right-sizing and RAID configuration.
+
+* *Storage VM Count*
++
+The number of SVMs contained by the cluster.
+
+* *FC Port Count*
++
+The number of FC ports contained by the node.
+
+* *FCoE Port Count*
++
+The number of FCoE ports contained by the node.
+
+* *Ethernet Port Count*
++
+The number of ethernet ports contained by the node.
+
+* *Flash Card Size*
++
+The size of the flash cards installed on the node.
+
+* *Flash Card Count*
++
+The number of flash cards installed on the node.
+
+* *Disk Shelves Count*
++
+The number of disk shelves contained by the node.
+
+* *Disk Count*
++
+The number of disks in the node.
+
+* *Cluster*
++
+The name of the cluster to which the node belongs. You can click the cluster name to navigate to that cluster's health details page.
+
+* *Cluster FQDN*
++
+The fully qualified domain name (FQDN) of the cluster.
+
+* *Contact*
++
+The contact information of the node.
+
+* *Location*
++
+The location of the node.

@@ -1,0 +1,48 @@
+---
+permalink: online-help/reference-add-annotation-dialog-box.html
+sidebar: sidebar
+keywords: 
+summary: 'The Add Annotation dialog box enables you to create custom annotations that you can associate with clusters, volumes, and storage virtual machines \(SVMs\) through annotation rules.'
+---
+= Add Annotation dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Add Annotation dialog box enables you to create custom annotations that you can associate with clusters, volumes, and storage virtual machines (SVMs) through annotation rules.
+
+You must have the Application Administrator or Storage Administrator role.
+
+* *Annotation Name*
++
+Specifies the name of the annotation. You must enter a unique name for the annotation.
+
+* *Description*
++
+Specifies a meaningful description of the annotation.
+
+== Annotation Values
+
+* *Add*
++
+Adds a new value to the selected annotation.
+
+* *Delete*
++
+Deletes the selected value for an annotation.
+
+== Command buttons
+
+* *Save and Close*
++
+Saves the new annotation and closes the Add Annotation dialog box dialog box.
+
+* *Cancel*
++
+Closes the Add Annotation dialog box without saving your changes.
+
+*Related information*
+
+xref:reference-management-annotations-page.adoc[Annotations page]
+
+xref:task-adding-annotations-dynamically.adoc[Adding annotations dynamically]

@@ -1,0 +1,119 @@
+---
+permalink: online-help/reference-cluster-setup-page.html
+sidebar: sidebar
+keywords: 
+summary: 'The Cluster Setup page displays information about the clusters that Unified Manager is currently monitoring. This page enables you to add additional clusters, edit cluster settings, and remove clusters.'
+---
+= Cluster Setup page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Cluster Setup page displays information about the clusters that Unified Manager is currently monitoring. This page enables you to add additional clusters, edit cluster settings, and remove clusters.
+
+A message at the bottom of the page indicates how frequently Unified Manager collects performance data from clusters. The default collection interval is five minutes, but you can modify this interval through the maintenance console if you find that collections from large clusters are not completing on time.
+
+== Command buttons
+
+* *Add*
++
+Opens the Add Cluster dialog box, which enables you to add clusters.
+
+* *Edit*
++
+Opens the Edit Cluster dialog box, which enables you to edit the settings of the selected cluster.
+
+* *Remove*
++
+Removes the selected cluster and all the associated events and storage objects. After the cluster is removed, it is no longer monitored.
++
+[NOTE]
+====
+The cluster, its storage objects, and all associated events are removed, and the cluster is no longer monitored by Unified Manager. The instance of Unified Manager registered with the removed clustered is also unregistered from the cluster.
+====
+
+* *Rediscover*
++
+Forces a rediscover operation of the cluster so you can update the collection of health and performance data.
+
+== Clusters list
+
+The Clusters list displays the properties of all the discovered clusters. You can click a column header to sort the clusters by that column.
+
+* *Status*
++
+Displays the current discovery status of the data source. The status can be Failed (image:../media/sev-error-um60.png[Icon for event severity – error]), Completed (image:../media/sev-normal-um60.png[Icon for event severity – normal]), or In Progress (image:../media/in-progress.gif[]).
+
+* *Name*
++
+Displays the cluster name.
++
+Note that the name might take fifteen minutes or more to appear after the cluster is first added.
+
+* *Maintenance Mode*
++
+Enables you to specify the timeframe, or "`maintenance window`", when a cluster will be down for maintenance so that you do not receive a storm of alerts from the cluster while it is being maintained.
++
+When maintenance mode is scheduled for the future this field displays "`Scheduled`", and you can hover your cursor over the field to display the scheduled time. When the cluster is in the maintenance window this field shows "`Active`".
+
+* *Host Name or IP Address*
++
+Displays the host name, fully qualified domain name (FQDN), short name, or the IP address of the cluster-management LIF that is used to connect to the cluster.
+
+* *Raw capacity*
++
+Displays the total physical capacity of all disks in the array.
+
+* *Workloads managed by Performance Service Level*
++
+Displays the percentage of workloads that are managed by a Performance Service Level within the cluster.
+
+* *User Name*
++
+Displays the user name that can be used to log in to the cluster.
+
+* *Operation*
++
+Displays the current operation that is supported by the cluster data source.
++
+The following operations are supported by the data source:
+
+ ** Discovery
++
+Specifies the operation when the data source is being discovered.
+
+ ** Health Poll
++
+Specifies the operation when the data source is successfully discovered and has started sampling data.
+
+ ** Deletion
++
+Specifies the operation when the data source (cluster) is deleted from the respective storage objects list.
+
+* *Operation State*
++
+Displays the state of the current operation. The state can be Failed, Completed, or In Progress.
+
+* *Operation Start Time*
++
+The date and time the operation started.
+
+* *Operation End Time*
++
+The date and time the operation ended.
+
+* *Description*
++
+Any message related to the operation.
+
+*Related information*
+
+xref:task-rediscovering-clusters.adoc[Rediscovering clusters]
+
+xref:task-removing-clusters.adoc[Removing clusters]
+
+xref:task-scheduling-a-maintenance-window-to-disable-cluster-event-notifications.adoc[Scheduling a maintenance window to disable cluster event notifications]
+
+xref:task-adding-clusters.adoc[Adding clusters]
+
+xref:task-editing-clusters.adoc[Editing clusters]
