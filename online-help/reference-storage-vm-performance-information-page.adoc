@@ -1,0 +1,66 @@
+---
+permalink: online-help/reference-storage-vm-performance-information-page.html
+sidebar: sidebar
+keywords: 
+summary: 'Use the Storage VM/Performance Information page to view a list of the configured attributes of the SVM. This information might help in answering performance-related questions.'
+---
+= Storage VM/Performance Information page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Use the Storage VM/Performance Information page to view a list of the configured attributes of the SVM. This information might help in answering performance-related questions.
+
+== Storage VM attributes
+
+* *IP Address*
++
+The IPv4 or IPv6 addresses of all interfaces connected to this SVM.
+
+* *IPspace*
++
+The IPspace in which this SVM resides.
+
+* *Domain Name*
++
+The fully qualified domain names (FQDNs) of the interfaces connected to this SVM.
+
+* *Service Type*
++
+The type of SVM.
++
+Possible values include: "`Admin`" for the cluster-wide management SVM, "`System`" for cluster-level communications in an IPspace, "`Data`" for data serving SVM, and "`Node`" for node management SVM.
+
+* *Capacity (free/total)*
++
+The total storage available to the SVM, in gigabytes, and the amount of storage currently available.
+
+* *Cluster*
++
+The name of the cluster to which the SVM belongs. You can click the name to display cluster details in the Cluster/Performance Explorer page.
+
+* *Volumes*
++
+The number of volumes in the SVM. You can click the number to display the volumes in the Performance/Volumes Inventory page.
+
+* *Network Interfaces*
++
+The number of network interfaces available to the SVM.
+
+* *Data Network Interfaces*
++
+The number and type of Data network interfaces available to the SVM.
+
+* *Allowed Volume Type*
++
+The type of volume that can be created on the SVM.
++
+SVMs can contain one or more FlexVol volumes or FlexGroup volumes.
+
+* *Allowed Protocols*
++
+The list of all protocols that can be serviced by this SVM. The available protocols are FC/FCoE, iSCSI, HTTP, NDMP, NVMe, NFS, and CIFS.
+
+* *Port Set*
++
+If defined for FCP or iSCSI protocols, the port set that is assigned to this SVM.

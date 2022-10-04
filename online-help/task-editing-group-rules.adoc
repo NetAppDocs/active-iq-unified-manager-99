@@ -1,0 +1,37 @@
+---
+permalink: online-help/task-editing-group-rules.html
+sidebar: sidebar
+keywords: 
+summary: 'You can edit group rules to modify the condition groups and the conditions within a condition group to add or remove storage objects to or from a specific group.'
+---
+= Editing group rules
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can edit group rules to modify the condition groups and the conditions within a condition group to add or remove storage objects to or from a specific group.
+
+== Before you begin
+
+You must have the Application Administrator or Storage Administrator role.
+
+== Steps
+
+. In the left navigation pane, click *Storage Management* > *Groups*.
+. In the *Group Rules* tab, select the group rule that you want to edit, and then click *Edit*.
+. In the *Edit Group Rule* dialog box, change the group rule name, associated group name, condition groups, and conditions as required.
++
+[NOTE]
+====
+You cannot change the target object type for a group rule.
+====
+
+. Click *Save*.
+
+*Related information*
+
+xref:concept-how-group-rules-work-for-groups.adoc[How group rules work for groups]
+
+xref:task-adding-group-rules.adoc[Adding group rules]
+
+xref:task-deleting-group-rules.adoc[Deleting group rules]

@@ -1,0 +1,28 @@
+---
+permalink: online-help/concept-analyzing-performance-events.html
+sidebar: sidebar
+keywords: 
+summary: 'You can analyze performance events to identify when they were detected, whether they are active \(new or acknowledged\) or obsolete, the workloads and cluster components involved, and the options for resolving the events on your own.'
+---
+= Analyzing performance events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can analyze performance events to identify when they were detected, whether they are active (new or acknowledged) or obsolete, the workloads and cluster components involved, and the options for resolving the events on your own.
+
+*Related information*
+
+xref:reference-performance-event-analysis-and-notification.adoc[Performance event analysis and notification]
+
+xref:concept-cluster-components-and-why-they-can-be-in-contention.adoc[Cluster components and why they can be in contention]
+
+xref:concept-how-unified-manager-determines-the-performance-impact-for-an-incident.adoc[How Unified Manager determines the performance impact for an event]
+
+xref:task-displaying-information-about-a-performance-event.adoc[Displaying information about performance events]
+
+xref:task-identifying-victim-workloads-involved-in-a-performance-event.adoc[Identifying victim workloads involved in a dynamic performance event]
+
+xref:task-identifying-bully-workloads-involved-in-a-performance-event.adoc[Identifying bully workloads involved in a dynamic performance event]
+
+xref:task-identifying-shark-workloads-involved-in-a-performance-event.adoc[Identifying shark workloads involved in a dynamic performance event]

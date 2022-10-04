@@ -1,0 +1,64 @@
+---
+permalink: online-help/reference-lif-performance-fields.html
+sidebar: sidebar
+keywords: 
+summary: 'The following fields are available in the Performance: All Network Interfaces view and can be used in custom views and in reports.'
+---
+= Network Interface performance fields
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The following fields are available in the Performance: All Network Interfaces view and can be used in custom views and in reports.
+
+* *Status*
++
+A healthy object with no active events displays a green check mark icon (image:../media/sev-normal-um60.png[Icon for event severity – normal]). If the object has an active event, the event indicator icon identifies the event severity: critical events are red (image:../media/sev-critical-um60.png[Icon for event severity – critical]), error events are orange (image:../media/sev-error-um60.png[Icon for event severity – error]), and warning events are yellow (image:../media/sev-warning-um60.png[Icon for event severity – warning]).
+
+* *Network Interface*
++
+You can click the network interface (LIF) name to navigate to the performance details page of that LIF.
+
+* *Type*
++
+The interface type: Network (iSCSI, NFS, CIFS), FCP, or NVMf FC.
+
+* *Latency*
++
+The average response time for all I/O requests, expressed in milliseconds per operation. Latency is not applicable to NFS LIFs and CIFS LIFs, and is displayed as N/A for these types.
+
+* *IOPS*
++
+The input/output operations per second. IOPS is not applicable to NFS LIFs and CIFS LIFs, and is displayed as N/A for these types.
+
+* *MB/s*
++
+The throughput on the interface, measured in megabytes per second.
+
+* *Cluster*
++
+The cluster to which the interface belongs. You can click the cluster's name to navigate to that cluster's details page.
+
+* *Cluster FQDN*
++
+The fully qualified domain name (FQDN) of the cluster.
+
+* *SVM*
++
+The storage virtual machine to which the interface belongs. You can click the SVM name to navigate to that SVM's details page.
+
+* *Home Location*
++
+The home location for the interface, displayed as node name and port name, separated by a colon (:). If the location is displayed with an ellipsis (...), you can position your cursor over the location name to view the full location.
+
+* *Current Location*
++
+The current location for the interface, displayed as node name and port name, separated by a colon (:). If the location is displayed with an ellipsis (...), you can position your cursor over the location name to view the full location.
+
+* *Role*
++
+The interface role: Data, Cluster, Node Management, or Intercluster.
+
+* *Threshold Policy*
++
+The user-defined performance threshold policy, or policies, that are active on this storage object. You can position your cursor over policy names containing an ellipsis (...) to view the full policy name or the list of assigned policy names. The *Assign Performance Threshold Policy* and *Clear Performance Threshold Policy* buttons remain disabled until you select one or more objects by clicking the check boxes located at the far left.

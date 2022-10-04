@@ -1,0 +1,18 @@
+---
+permalink: online-help/concept-how-object-status-is-computed.html
+sidebar: sidebar
+keywords: 
+summary: 'Object status is determined by the most severe event that currently holds a New or Acknowledged state. For example, if an object status is Error, then one of the object’s events has a severity type of Error. When corrective action has been taken, the event state moves to Resolved.'
+---
+= How object status is computed
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Object status is determined by the most severe event that currently holds a New or Acknowledged state. For example, if an object status is Error, then one of the object's events has a severity type of Error. When corrective action has been taken, the event state moves to Resolved.
+
+*Related information*
+
+xref:concept-event-state-definitions.adoc[Event state definitions]
+
+xref:task-acknowledging-and-resolving-events.adoc[Acknowledging and resolving events]

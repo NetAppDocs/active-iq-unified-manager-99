@@ -1,0 +1,120 @@
+---
+permalink: online-help/reference-aggregate-thresholds-page.html
+sidebar: sidebar
+keywords: 
+summary: 'The Aggregate Thresholds page enables you to configure global health threshold values for monitored aggregates. When you configure the options globally, the default values of all objects are modified. However, if the default values have been changed at the object level, the global values are not modified.'
+---
+= Aggregate Thresholds page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Aggregate Thresholds page enables you to configure global health threshold values for monitored aggregates. When you configure the options globally, the default values of all objects are modified. However, if the default values have been changed at the object level, the global values are not modified.
+
+You must have the Application Administrator or Storage Administrator role.
+
+Events are generated when a threshold is breached. You can take corrective actions for such events.
+
+The threshold values are not applicable to the root aggregate of the node.
+
+You can set aggregate health thresholds for the following: capacity, aggregate growth, and aggregate Snapshot copies.
+
+* <<GUID-96C236D7-F409-4C16-B190-C253C59D9F92,Capacity>>
+* <<GUID-65203341-441D-49C2-B955-A9FA2657F4DC,Growth>>
+* <<GUID-86487AB9-CDD9-4ADA-AEB9-6FB867082A8A,Snapshot Copies>>
+
+== Capacity area
+
+The Capacity area enables you to set the following aggregate capacity threshold conditions. Note that when Autogrow is enabled on volumes that reside on the aggregate, the aggregate capacity thresholds are considered breached based on the maximum volume size set by autogrow, not based on the original volume size.
+
+* *Space Nearly Full*
++
+Specifies the percentage at which an aggregate is considered to be nearly full:
+
+ ** Default value: 80 percent
++
+The value for this threshold must be lower than the value for the Aggregate Full threshold for the management server to generate an event.
+
+ ** Event generated: Aggregate Nearly Full
+ ** Event severity: Warning
+
+* *Space Full*
++
+Specifies the percentage at which an aggregate is considered full:
+
+ ** Default value: 90 percent
+ ** Event generated: Aggregate Full
+ ** Event severity: Error
+
+* *Nearly Overcommitted*
++
+Specifies the percentage at which an aggregate is considered to be nearly overcommitted:
+
+ ** Default value: 95 percent
++
+The value for this threshold must be lower than the value for the Aggregate Overcommitted Full threshold for the management server to generate an event.
+
+ ** Event generated: Aggregate Nearly Overcommitted
+ ** Event severity: Warning
+
+* *Overcommitted*
++
+Specifies the percentage at which an aggregate is considered to be overcommitted:
+
+ ** Default value: 100 percent
+ ** Event generated: Aggregate Overcommitted
+ ** Event severity: Error
+
+* *Days Until Full*
++
+Specifies the number of days remaining before the aggregate reaches full capacity:
+
+ ** Default value: 15 (this is also the minimum value)
+ ** Event generated: Aggregate Days Until Full
+ ** Event severity: Error
+
+== Growth area
+
+The Growth area enables you to set the following threshold conditions for aggregate growth:
+
+* *Growth Rate*
++
+Specifies the percentage at which an aggregate's growth rate is considered to be normal before the system generates an Aggregate Growth Rate Abnormal event:
+
+ ** Default value: 1 percent
+ ** Event generated: Aggregate Growth Rate Abnormal
+ ** Event severity: Warning
+
+* *Growth Rate Sensitivity*
++
+Specifies the factor that is applied to the standard deviation of an aggregate's growth rate. If the growth rate exceeds the factored standard deviation, an Aggregate Growth Rate Abnormal event is generated.
++
+A lower value for growth rate sensitivity indicates that the aggregate is highly sensitive to changes in the growth rate. The range for the growth rate sensitivity is 1 through 5.
+
+ ** Default value: 2
+
++
+[NOTE]
+====
+If you modify the growth rate sensitivity for aggregates at the global threshold level, the change is also applied to the growth rate sensitivity for volumes at the global threshold level.
+====
+
+== Snapshot copies area
+
+The Snapshot copies area enables you to set the following Snapshot reserve threshold conditions:
+
+* *Snapshot Reserve Full*
++
+Specifies the percentage at which an aggregate has consumed all the space reserved for Snapshot copies:
+
+ ** Default value: 90 percent
+ ** Event generated: Aggregate Snapshot Reserve Full
+ ** Event severity: Warning
+
+*Related information*
+
+xref:task-configuring-global-aggregate-health-threshold-values.adoc[Configuring global aggregate health threshold values]
+
+xref:task-editing-individual-aggregate-health-threshold-settings.adoc[Editing individual aggregate health threshold settings]
+
+xref:concept-understanding-capacity-events-and-thresholds-for-node-root-aggregates.adoc[Understanding events and thresholds for node root aggregates]

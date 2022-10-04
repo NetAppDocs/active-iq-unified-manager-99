@@ -1,0 +1,61 @@
+---
+permalink: online-help/reference-constituent-volume-performance-information-page.html
+sidebar: sidebar
+keywords: 
+summary: 'Use the Constituent Volume/Performance Information page to view a list of the physical and logical attributes of the FlexGroup constituent volume. This information might help in answering performance-related questions.'
+---
+= Constituent Volume/Performance Information page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Use the Constituent Volume/Performance Information page to view a list of the physical and logical attributes of the FlexGroup constituent volume. This information might help in answering performance-related questions.
+
+== Constituent Volume attributes
+
+* *Type*
++
+The constituent's type; either read-write (RW) or data-protection (DP).
+
+* *Style*
++
+The style of volume; this is a constituent volume of a FlexGroup volume.
+
+* *Cluster*
++
+The name of the cluster to which this FlexGroup constituent volume belongs. You can click the name to display cluster details in the Cluster/Performance Explorer page.
+
+* *Aggregate*
++
+The name of the aggregate on which this FlexGroup constituent volume resides. You can click the name to display aggregate details in the Aggregate/Performance Explorer page.
+
+* *FlexGroup*
++
+The name of the FlexGroup volume to which this constituent belongs. You can click the name to display FlexGroup volume details in the Constituent Volume/Performance Explorer page.
+
+* *Storage VM*
++
+The name of the SVM to which this FlexGroup constituent volume belongs. You can click the name to display SVM details in the Performance/SVM Explorer page.
+
+* *Tiering Policy*
++
+The tiering policy set on the volume. The policy takes affect only when the volume is deployed on a FabricPool aggregate. The available policies are:
+
+ ** None. The data for this volume always remains on the performance tier.
+ ** Snapshot Only. Only Snapshot data is moved automatically to the cloud tier. All other data remains on the performance tier.
+ ** Backup. On data protection volumes, all transferred user data starts in the cloud tier, but later client reads can cause hot data to move to the performance tier.
+ ** Auto. Data on this volume is moved between the performance tier and the cloud tier automatically when ONTAP determines that the data is "`hot`" or "`cold`".
+ ** All. The data for this volume always remains on the cloud tier.
+
+* *RAID Type*
++
+The redundancy type that is being used on the aggregate where this constituent resides. Possible types:
+
+ ** RAID0
+ ** RAID4
+ ** RAID-DP
+ ** RAID-TEC
+
+* *Capacity (free/total)*
++
+The total storage available on the constituent, in gigabytes, and the amount of storage currently available.

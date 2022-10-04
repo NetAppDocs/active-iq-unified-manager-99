@@ -1,0 +1,40 @@
+---
+permalink: online-help/reference-edit-group-action-dialog-box.html
+sidebar: sidebar
+keywords: 
+summary: 'You can edit the group action that you created for groups by using the Edit Group Action dialog box.'
+---
+= Edit Group Action dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can edit the group action that you created for groups by using the Edit Group Action dialog box.
+
+You must have the Application Administrator or Storage Administrator role.
+
+* *Action Name*
++
+Displays the name of the group action.
+
+* *Description*
++
+Displays the description of the group action.
+
+* *Group*
++
+Displays the name of the group selected.
+
+* *Action type*
++
+Displays the type of group action. You cannot change the action type. However, you can modify the parameters that you used to configure the group action.
+
+== Command buttons
+
+* *Save*
++
+Saves the changes you made to the group action.
+
+* *Cancel*
++
+Closes the Edit Group Action dialog box without saving your changes.

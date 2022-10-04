@@ -1,0 +1,75 @@
+---
+permalink: online-help/reference-user-defined-threshold-policies-page-opm.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Performance Thresholds page to view all the currently defined performance threshold policies. This page also provides the functionality to create, clone, edit, and delete threshold policies.'
+---
+= Performance Thresholds page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Performance Thresholds page to view all the currently defined performance threshold policies. This page also provides the functionality to create, clone, edit, and delete threshold policies.
+
+The list of performance threshold policies is sorted alphabetically by policy name. You can click a column header to sort the policies by that column. If you are looking for a specific policy, you can use the filter and search mechanisms to refine the list of threshold policies that appear in the inventory list.
+
+== Filter and Search bar
+
+The *Filtering* button enables you to refine the list of threshold policies by displaying only the policies that match certain criteria.
+
+The *Search* button enables you to search for certain policies by entering full or partial policy names to refine the list of threshold policies that appear in the inventory list.
+
+== Command buttons
+
+* *Create*
++
+Creates a new performance threshold policy.
+
+* *Clone*
++
+Creates a new performance threshold policy based on a copy of the policy that you have selected.
+
+* *Edit*
++
+Modifies the performance threshold policy that you have selected. All storage objects that are using the policy are updated to use the revised policy.
+
+* *Delete*
++
+Deletes the performance threshold policy that you have selected. The policy is removed from all storage objects that are using the policy. You can click the item in the Associated Objects column to view the objects that are currently using this policy.
+
+== Threshold Policies list
+
+* *Policy Name*
++
+Displays the name of the threshold policy. You can position your cursor over the policy name to view the details of the policy.
+
+* *Description*
++
+Displays a brief description of the threshold policy.
+
+* *First Condition*
++
+Displays the primary condition for the threshold policy, including the defined performance counter and the warning trigger values and critical trigger values. You can position your cursor over the condition name to view the details of the condition.
+
+* *Second Condition*
++
+Displays the secondary threshold policy condition, if defined. You can position your cursor over the condition name to view the details of the condition. If a second condition is not defined, this column is blank.
++
+[NOTE]
+====
+When a second condition is defined, an event is generated only when both conditions are breached.
+====
+
+* *Associated Objects*
++
+Displays the type of storage object to which the threshold policy can be applied, and the number of objects that are using the policy. This field is blank until you assign the policy to at least one object.
++
+You can click the column heading to sort the policies by object type: volume, LUN, aggregate, and so on. You can click the policy name to display the inventory page populated with the objects that are currently using the threshold policy.
+
+*Related information*
+
+xref:task-creating-user-defined-performance-threshold-policies.adoc[Creating user-defined performance threshold policies]
+
+xref:task-assigning-performance-threshold-policies-to-storage-objects.adoc[Assigning performance threshold policies to storage objects]
+
+xref:task-filtering-inventory-page-content.adoc[Filtering inventory page content]

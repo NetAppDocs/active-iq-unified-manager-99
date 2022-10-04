@@ -1,0 +1,26 @@
+---
+permalink: online-help/concept-confirm-that-the-response-time-is-within-the-expected-range.html
+sidebar: sidebar
+keywords: 
+summary: 'When a cluster component is in contention, volume workloads that use it might have decreased response time \(latency\). You can review the latency of each victim workload on the component in contention to confirm that its actual latency is within its expected range. You can also click a volume name to view the historical data for the volume.'
+---
+= Confirming that the latency is within the expected range
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When a cluster component is in contention, volume workloads that use it might have decreased response time (latency). You can review the latency of each victim workload on the component in contention to confirm that its actual latency is within its expected range. You can also click a volume name to view the historical data for the volume.
+
+If the performance event is in the obsolete state, the latency of each victim involved in the event might have returned within its expected range.
+
+*Related information*
+
+xref:task-identifying-victim-workloads-involved-in-a-performance-event.adoc[Identifying victim workloads involved in a dynamic performance event]
+
+xref:task-identifying-bully-workloads-involved-in-a-performance-event.adoc[Identifying bully workloads involved in a dynamic performance event]
+
+xref:task-identifying-shark-workloads-involved-in-a-performance-event.adoc[Identifying shark workloads involved in a dynamic performance event]
+
+xref:concept-roles-of-workloads-involved-in-a-performance-incident.adoc[Roles of workloads involved in a performance event]
+
+xref:concept-how-unified-manager-determines-the-performance-impact-for-an-incident.adoc[How Unified Manager determines the performance impact for an event]

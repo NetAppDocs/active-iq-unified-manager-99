@@ -1,0 +1,60 @@
+---
+permalink: online-help/reference-lun-performance-information-page.html
+sidebar: sidebar
+keywords: 
+summary: 'Use the LUN/Performance Information page to view a list of the physical and logical attributes of the LUN. This information might help in answering performance-related questions.'
+---
+= LUN/Performance Information page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Use the LUN/Performance Information page to view a list of the physical and logical attributes of the LUN. This information might help in answering performance-related questions.
+
+== LUN attributes
+
+* *WWN*
++
+The WWN (World Wide Name) of the LUN.
+
+* *Path*
++
+The full path of the LUN, for example, `/vol/vol1/lun1`.
+
+* *Alignment*
++
+Indicates the alignment state of the LUN. Possible values:
+
+ ** Not mapped
+ ** Aligned
+ ** Misaligned
+ ** Possibly misaligned
+ ** Indeterminate
+
+* *Capacity (free/total)*
++
+The total storage available on the LUN, in gigabytes, and the amount of storage currently available.
+
+* *Volume*
++
+The name of the volume to which the LUN belongs. You can click the name to display volume details in the Volume/Performance Explorer page.
+
+* *Storage VM*
++
+The name of the SVM to which the LUN belongs. You can click the name to display SVM details in the Storage VM/Performance Explorer page.
+
+* *Node*
++
+The name of the node on which the LUN resides. You can click the name to display node details in the Node/Performance Explorer page.
+
+* *Cluster*
++
+The name of the cluster to which the LUN belongs. You can click the name to display cluster details in the Cluster/Performance Explorer page.
+
+* *State*
++
+The state of the LUN. Valid states can be online, offline, nvfail, space-error, and foreign-lun-error.
+
+* *Mapped*
++
+Whether the LUN is mapped to an initiator group (true), or not (false).

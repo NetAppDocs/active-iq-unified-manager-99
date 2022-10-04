@@ -1,0 +1,57 @@
+---
+permalink: online-help/reference-groups-detail-page.html
+sidebar: sidebar
+keywords: 
+summary: 'From the Groups details page, you can view the details of a selected group. You can also view additional information such as the group rules and group actions associated with the selected group.'
+---
+= Groups details page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+From the Groups details page, you can view the details of a selected group. You can also view additional information such as the group rules and group actions associated with the selected group.
+
+* <<GUID-EED26018-0283-4536-BBE3-ABD716E5A103,Command buttons>>
+* <<SECTION_704A5722CEFF4DC18EA01DDDDBA06FB6,Summary area>>
+
+== Command buttons
+
+* *View Groups*
++
+Enables you to navigate to the Groups page.
+
+* *Actions*
++
+Enables you to edit or delete the group, based on your role. You must have the Application Administrator or Storage Administrator role.
+
+* *Manage Group Rules*
++
+Enables you to navigate to the Group Rules page, which displays rules for this group.
+
+* *Manage Group Actions*
++
+Enables you to navigate to the Group Actions page, which displays actions for this group.
+
+== Summary area
+
+You can view the following group details:
+
+* *Description*
++
+Displays the description provided for the group.
+
+* *Created by*
++
+Displays the name of the user who created the group.
+
+* *Creation Date*
++
+Displays the date when the group was created.
+
+* *Associated Rules*
++
+Displays all the group rules created for a group, in tabular format. You can view the details of each group rule, such as the rule name, associated object type, and the count of storage objects of the associated object type.
+
+* *Associated Actions*
++
+Displays all the group actions, configured for a group, in tabular format. You can view the details of each group action, such as the rank, name, action type, and description.

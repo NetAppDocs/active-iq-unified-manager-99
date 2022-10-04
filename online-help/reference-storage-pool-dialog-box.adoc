@@ -1,0 +1,39 @@
+---
+permalink: online-help/reference-storage-pool-dialog-box.html
+sidebar: sidebar
+keywords: 
+summary: 'The Storage Pool dialog box enables you to view the details of the dedicated cache of SSDs, also known as storage pools. You can monitor the storage pools and view details such as the storage pool health, total and available cache, and used and available allocations in the storage pool.'
+---
+= Storage Pool dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Storage Pool dialog box enables you to view the details of the dedicated cache of SSDs, also known as _storage pools_. You can monitor the storage pools and view details such as the storage pool health, total and available cache, and used and available allocations in the storage pool.
+
+You can view the following storage pool details:
+
+* *Status*
++
+Displays the status of the storage pool, which can be healthy or unhealthy.
+
+* *Total Allocations*
++
+Displays the total allocation units and the size in the storage pool.
+
+* *Allocation Unit Size*
++
+Displays the minimum amount of space in the storage pool that can be allocated to an aggregate.
+
+* *Disks*
++
+Displays the number of disks used to create the storage pool. If the disk count in the storage pool column and the number of disks displayed in the Disk Information tab for that storage pool do not match, then it indicates that one or more disks are broken and the storage pool is unhealthy.
+
+* *Cache Allocations*
+ ** Used Allocations
++
+Displays the number and size of the allocation units used by the aggregates. You can click the aggregate name to view the aggregate details.
+
+ ** Available Allocations
++
+Displays the number and size of the allocation units available for the nodes. You can click the node name to view the aggregate details.

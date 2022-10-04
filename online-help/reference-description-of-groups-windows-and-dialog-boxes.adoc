@@ -1,0 +1,12 @@
+---
+permalink: online-help/reference-description-of-groups-windows-and-dialog-boxes.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Groups page to view and manage all your groups. You can also configure group rules and actions for your storage objects from the Group Rules tab and Group Actions tab.'
+---
+= Description of groups windows and dialog boxes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Groups page to view and manage all your groups. You can also configure group rules and actions for your storage objects from the Group Rules tab and Group Actions tab.
