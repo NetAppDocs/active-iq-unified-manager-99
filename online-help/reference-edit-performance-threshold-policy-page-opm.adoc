@@ -1,0 +1,54 @@
+---
+permalink: online-help/reference-edit-performance-threshold-policy-page-opm.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Edit Performance Threshold Policy page to modify an existing performance threshold policy.'
+---
+= Edit Performance Threshold Policy page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Edit Performance Threshold Policy page to modify an existing performance threshold policy.
+
+You can modify the fields on this page and click *Save* to change a performance threshold policy. All cluster objects that are currently using the threshold policy are automatically updated to use the new policy definition.
+
+* *For Object Type*
++
+Object type cannot be changed.
+
+* *Policy Name*
++
+Change the name of the threshold policy.
+
+* *Description*
++
+Change the detailed description of the threshold policy.
+
+* *Threshold Values*
++
+Change the primary, and optionally the secondary, threshold counter condition.
+
+ ** *Select a counter*
++
+Change the counter on which you want to set a performance threshold.
+
+ ** *Warning*
++
+Enter the limit value for the counter that is considered a warning.
+
+ ** *Critical*
++
+Enter the limit value for the counter that is considered critical.
+
+* *Duration*
++
+Change the number of minutes that the counter value must be greater than the warning or critical limit value.
+
+*Related information*
+
+xref:task-editing-user-defined-performance-threshold-policies.adoc[Editing user-defined performance threshold policies]
+
+xref:reference-what-performance-metrics-can-be-monitored-using-thresholds.adoc[What performance counters can be tracked using thresholds]
+
+xref:reference-what-objects-and-metrics-can-be-used-in-combination-threshold-policies.adoc[What objects and counters can be used in combination threshold policies]

@@ -1,0 +1,49 @@
+---
+permalink: online-help/reference-network-interface-performance-information-page.html
+sidebar: sidebar
+keywords: 
+summary: 'Use the Network Interface/Performance Information page to view a list of the configured attributes of the network interface \(LIF\). This information might help in answering performance-related questions.'
+---
+= Network Interface/Performance Information page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Use the Network Interface/Performance Information page to view a list of the configured attributes of the network interface (LIF). This information might help in answering performance-related questions.
+
+== Network Interface attributes
+
+* *IP Address*
++
+The IPv4 or IPv6 address assigned to the LIF. There can be multiple IP addresses assigned to a LIF.
+
+* *Role*
++
+The role determines the kind of traffic that is supported over the LIF.
++
+LIFs can have one of the following roles:
+
+ ** Data
+ ** Cluster
+ ** Node Management
+ ** Intercluster
+
+* *Failover Group*
++
+The name of the failover group that is assigned to the network interface.
++
+This field applies only to network LIFs, not to SAN (FC/ISCSI) and NVMe LIFs.
+
+* *Failover Policy*
++
+The name of the failover policy that is assigned to the LIF.
++
+This field applies only to network LIFs, not to SAN (FC/ISCSI) and NVMe LIFs.
+
+* *Home Port*
++
+The name of the node and port that has been defined as the home port for this interface. You can click the name to display port details in the Port/Performance Explorer page.
+
+* *Current Port*
++
+The name of the node and port on which the interface is currently hosted. You can click the name to display port details in the Port/Performance Explorer page.

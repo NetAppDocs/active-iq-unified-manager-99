@@ -1,0 +1,40 @@
+---
+permalink: online-help/reference-performance-volumes-in-qos-policy-group-view.html
+sidebar: sidebar
+keywords: 
+summary: 'The Performance: Volumes in QoS Policy Group view displays an overview of the performance events, data, and configuration information for each volume that has a QoS policy assigned to it. This includes traditional QoS policies, adaptive QoS policies, and QoS policies assigned using performance service levels \(PSLs\).'
+---
+= Performance: Volumes in QoS Policy Group view
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Performance: Volumes in QoS Policy Group view displays an overview of the performance events, data, and configuration information for each volume that has a QoS policy assigned to it. This includes traditional QoS policies, adaptive QoS policies, and QoS policies assigned using performance service levels (PSLs).
+
+By default, objects in the view pages are sorted based on event criticality. Objects with critical events are listed first, and objects with warning events are listed second. This provides an immediate visual indication of issues that must be addressed.
+
+The controls along the top of the page enable you to select a particular view (for health, performance, capacity, and so on), perform searches to locate specific objects, create and apply filters to narrow the list of displayed data, add/remove/reorder columns on the page, and export the data on the page to a `.csv`, `.pdf`, or `.xlsx` file. After you have customized the page, you can save the results as a custom view and then schedule a report of this data to be generated and emailed on a regular basis.
+
+You can assign performance threshold policies to, or clear threshold policies from, any object on the object inventory pages using the *Assign Performance Threshold Policy* and *Clear Performance Threshold Policy* buttons.
+
+If you want to analyze the latency and throughput of a specific object, click the more icon image:../media/more-icon.gif[], then *Analyze Workload* and you can view performance and capacity charts on the Workload Analysis page.
+
+See xref:reference-volume-performance-fields.adoc[Volume performance fields] for descriptions of all the fields on this page.
+
+*Related information*
+
+xref:concept-refining-object-inventory-performance-page-content.adoc[Refining Performance inventory page contents]
+
+xref:concept-understanding-the-um-recommendations-to-tier-data-to-the-cloud.adoc[Understanding the Unified Manager recommendations to tier data to the cloud]
+
+xref:task-assigning-performance-threshold-policies-to-storage-objects.adoc[Assigning performance threshold policies to storage objects]
+
+xref:task-removing-performance-threshold-policies-from-storage-objects.adoc[Removing performance threshold policies from storage objects]
+
+xref:task-filtering-on-the-object-inventory-performance-pages.adoc[Filtering data in the Object Inventory Performance pages]
+
+xref:concept-types-of-workloads-monitored-by-unified-manager.adoc[Types of workloads monitored by Unified Manager]
+
+xref:task-exporting-storage-data-as-reports.adoc[Exporting storage data as reports]
+
+xref:task-scheduling-a-report.adoc[Scheduling a report]

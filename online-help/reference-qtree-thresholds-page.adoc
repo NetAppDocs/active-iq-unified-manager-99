@@ -1,0 +1,45 @@
+---
+permalink: online-help/reference-qtree-thresholds-page.html
+sidebar: sidebar
+keywords: 
+summary: 'The Qtree Thresholds page enables you to configure global capacity threshold values for monitored qtrees. Events are generated for a qtree only when a Qtree quota or a Default quota has been set on the qtree. Events are not generated if the space defined in a User quota or Group quota has exceeded the threshold.'
+---
+= Qtree Thresholds page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Qtree Thresholds page enables you to configure global capacity threshold values for monitored qtrees. Events are generated for a qtree only when a Qtree quota or a Default quota has been set on the qtree. Events are not generated if the space defined in a User quota or Group quota has exceeded the threshold.
+
+You must have the Application Administrator or Storage Administrator role.
+
+Events are generated when a threshold is breached. You can take corrective actions for such events.
+
+== Capacity area
+
+The Capacity area enables you to set the following qtree capacity threshold conditions.
+
+* *Space Nearly Full*
++
+Specifies the percentage at which a qtree is considered to be nearly full:
+
+ ** Default value: 80 percent
++
+The value for this threshold must be lower than the value for the Qtree Full threshold.
+
+ ** Event generated: Qtree Nearly Full
+ ** Event severity: Warning
+
+* *Space Full*
++
+Specifies the percentage at which a qtree is considered full:
+
+ ** Default value: 90 percent
+ ** Event generated: Qtree Full
+ ** Event severity: Error
+
+*Related information*
+
+xref:task-configuring-global-qtree-health-threshold-values.adoc[Configuring global qtree health threshold values]
+
+xref:task-editing-individual-qtree-health-threshold-settings.adoc[Editing individual qtree health threshold settings]

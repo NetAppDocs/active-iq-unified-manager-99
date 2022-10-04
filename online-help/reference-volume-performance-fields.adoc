@@ -1,0 +1,117 @@
+---
+permalink: online-help/reference-volume-performance-fields.html
+sidebar: sidebar
+keywords: 
+summary: 'The following fields are available in the Performance: All Volumes view and can be used in custom views and in reports.'
+---
+= Volume performance fields
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The following fields are available in the Performance: All Volumes view and can be used in custom views and in reports.
+
+* *Status*
++
+A healthy object with no active events displays a green check mark icon (image:../media/sev-normal-um60.png[Icon for event severity – normal]). If the object has an active event, the event indicator icon identifies the event severity: critical events are red (image:../media/sev-critical-um60.png[Icon for event severity – critical]), error events are orange (image:../media/sev-error-um60.png[Icon for event severity – error]), and warning events are yellow (image:../media/sev-warning-um60.png[Icon for event severity – warning]).
+
+* *Volume*
++
+The volume name. You can click the volume name to navigate to the volume's performance details page.
+
+* *Style*
++
+The style of volume; either FlexVol or FlexGroup.
+
+* *Latency*
++
+For FlexVol volumes, this is the average response time of the volume for all I/O requests, expressed in milliseconds per operation. For FlexGroup volumes, this is the average latency of all constituent volumes.
+
+* *IOPS*
++
+For FlexVol volumes, this is the number of input/output operations per second for the volume. For FlexGroup volumes, this is the sum of IOPS for all constituent volumes.
+
+* *MB/s*
++
+For FlexVol volumes, this is the throughput on the volume, measured in megabytes per second. For FlexGroup volumes, this is the sum of MB/s for all constituent volumes.
+
+* *IOPS/TB*
++
+The number of input/output operations processed per second based on the total space that is being consumed by the workload, in terabytes. This counter measures how much performance can be delivered by a given amount of storage capacity.
+
+* *Free Capacity*
++
+The unused storage capacity of the volume, expressed in gigabytes.
+
+* *Total Capacity*
++
+The total storage capacity of the volume, expressed in gigabytes.
+
+* *QoS Policy Group*
++
+The name of the QoS Policy Group that is assigned to the volume. You can click the policy group name to navigate to the QoS details page to learn more about the policy group settings.
+
+* *Tiering Policy*
++
+The tiering policy set on the volume. The policy takes affect only when the volume is deployed on a FabricPool aggregate. The available policies are:
+
+ ** None. The data for this volume always remains on the performance tier.
+ ** Snapshot Only. Only Snapshot data is moved automatically to the cloud tier. All other data remains on the performance tier.
+ ** Backup. On data protection volumes, all transferred user data starts in the cloud tier, but later client reads can cause hot data to move back to the performance tier.
+ ** Auto. Data on this volume is moved between the performance tier and the cloud tier automatically when ONTAP determines that the data is "`hot`" or "`cold`".
+ ** All. The data for this volume always remains on the cloud tier.
+
+* *Cold Data*
++
+The size of the user data stored on the volume that is inactive (cold).
++
+The value is listed as "`N/A`" in the following situations:
+
+ ** When "`inactive data reporting`" is disabled on the aggregate on which the volume resides.
+ ** When "`inactive data reporting`" is enabled, but the minimum number of days for collecting data has not been reached.
+ ** When using the "`backup`" tiering policy, or when using a version of ONTAP prior to 9.4 (when inactive data reporting is not available).
+
+* *Cloud Recommendation*
++
+Unified Manager runs capacity analysis on each volume to determine if you can improve your storage system's disk utilization and save space on the performance tier by moving inactive (cold) data to the cloud tier. When the recommendation is "`Tier`", hover your cursor over the word *Tier* to view the recommendation. Possible recommendations are:
+
+ ** Learning. Not enough data has been collected to make a recommendation.
+ ** Tier. Analysis has determined that the volume contains inactive (cold) data and that you should configure the volume to move that data to the cloud tier.
+ ** No Action. Either the volume has very little inactive data, or the volume is already set to the "`auto`" or "`all`" tiering policy, or the version of ONTAP does not support FabricPool.
+If you are logged in to Unified Manager with the Application Administrator or Storage Administrator role, when you hover your cursor over the word *Tier* the *Configure Volume* link is available to launch System Manager so you can make the recommended change.
+
+* *Cluster*
++
+The cluster to which the volume belongs. You can click the cluster name to navigate to that cluster's details page.
+
+* *Cluster FQDN*
++
+The fully qualified domain name (FQDN) of the cluster.
+
+* *Node*
++
+The name of the node on which the FlexVol volume resides, or the number of nodes on which the FlexGroup volume resides.
++
+For FlexVol volumes, you can click the name to display node details in the Node details page. For FlexGroup volumes, you can click the number to display the nodes that are used in the FlexGroup in the Nodes inventory page.
+
+* *Storage VM*
++
+The storage virtual machine (SVM) to which the volume belongs. You can click the SVM name to navigate to that SVM's details page.
+
+* *Aggregate*
++
+The name of the aggregate on which the FlexVol volume resides, or the number of aggregates on which the FlexGroup volume resides.
++
+For FlexVol volumes, you can click the name to display aggregate details in the Aggregate details page. For FlexGroup volumes, you can click the number to display the aggregates that are used in the FlexGroup in the Aggregates inventory page.
+
+* *Disk Types*
++
+Displays the type of disk on which the volume resides.
+
+* *Threshold Policy*
++
+The user-defined performance threshold policy, or policies, that are active on this storage object. You can position your cursor over policy names containing an ellipsis (...) to view the full policy name or the list of assigned policy names. The *Assign Performance Threshold Policy* and *Clear Performance Threshold Policy* buttons remain disabled until you select one or more objects by clicking the check boxes located at the far left.
+
+* *QoS Policy Group*
++
+The name of the QoS Policy Group that is assigned to the volume. You can click the policy group name to navigate to the QoS details page to learn more about the policy group settings.

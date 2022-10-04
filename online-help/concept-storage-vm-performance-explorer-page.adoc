@@ -1,0 +1,41 @@
+---
+permalink: online-help/concept-storage-vm-performance-explorer-page.html
+sidebar: sidebar
+keywords: 
+summary: 'The Storage VM/Performance Explorer page provides a detailed performance overview of all the storage virtual machines \(SVMs\) in a cluster.'
+---
+= Storage VM/Performance Explorer page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Storage VM/Performance Explorer page provides a detailed performance overview of all the storage virtual machines (SVMs) in a cluster.
+
+This page enables you to track and compare storage VM performance during a specific time period, which helps you to troubleshoot and fine-tune your SVM performance.
+
+Using the View and Compare functionality you can compare the performance of this storage VM with:
+
+* other SVMs on the same cluster
+* the volumes on this SVM
+* the network interfaces on this SVM
+
+The Storage VM/Performance page enables you to:
+
+* View threshold-related issues and their details
+* Track and compare SVM performance data
+* Investigate and troubleshoot threshold-related issues
+* Investigate and troubleshoot performance issues
+
+*Related information*
+
+xref:concept-components-of-the-performance-explorer-page.adoc[Components of the Performance Explorer page]
+
+xref:reference-summary-page-opm.adoc[Summary page]
+
+xref:task-defining-the-list-of-correlated-objects-for-comparison-graphing.adoc[Defining the list of correlated objects for comparison graphing]
+
+xref:reference-types-of-performance-counter-charts.adoc[Types of performance counter charts]
+
+xref:task-selecting-performance-charts-to-display.adoc[Selecting performance charts to display]
+
+xref:concept-counter-charts-zoom-view.adoc[Counter Charts Zoom View]

@@ -1,0 +1,70 @@
+---
+permalink: online-help/reference-qtree-capacity-fields.html
+sidebar: sidebar
+keywords: 
+summary: 'The following fields are available in the Capacity: All Qtrees view and can be used in custom views and in reports.'
+---
+= Qtree capacity fields
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The following fields are available in the Capacity: All Qtrees view and can be used in custom views and in reports.
+
+* *Status*
++
+Displays the current status of the qtree. The status can be Critical (image:../media/sev-critical-um60.png[Icon for event severity – critical]), Error (image:../media/sev-error-um60.png[Icon for event severity – error]), Warning (image:../media/sev-warning-um60.png[Icon for event severity – warning]), or Normal (image:../media/sev-normal-um60.png[Icon for event severity – normal]).
+
+* *Qtree*
++
+Displays the name of the qtree.
+
+* *Volume*
++
+Displays the name of the volume that contains the qtree.
++
+You can click the volume name to view more information about the volume.
+
+* *Quota Type*
++
+If a quota is set for the qtree, specifies if the quota is for a User, User Group, or a Tree.
+
+* *User or Group*
++
+Displays the name of the user or user group. There will be multiple rows for each user and user group. When the quota type is qtree or if the quota is not set, then the column is empty.
+
+* *Disk Used %*
++
+Displays the percentage of disk space used. If a disk hard limit is set, this value is based on the disk hard limit. If the quota is set without a disk hard limit, the value is based on the volume data space. If the quota is not set or if quotas are off on the volume to which the qtree belongs, then "`Not applicable`" is displayed in the grid page and the field is blank in the CSV export data.
+
+* *Disk Hard Limit*
++
+Displays the maximum amount of disk space allocated for the qtree. Unified Manager generates a critical event when this limit is reached and no further disk writes are allowed. The value is displayed as "`Unlimited`" for the following conditions: if the quota is set without a disk hard limit, if the quota is not set, or if quotas are off on the volume to which the qtree belongs.
+
+* *Disk Soft Limit*
++
+Displays the amount of disk space allocated for the qtree before a warning event is generated. The value is displayed as "`Unlimited`" for the following conditions: if the quota is set without a disk soft limit, if the quota is not set, or if quotas are off on the volume to which the qtree belongs.
+
+* *Files Used %*
++
+Displays the percentage of files used in the qtree. If the file hard limit is set, this value is based on the file hard limit. No value is displayed if the quota is set without a file hard limit. If the quota is not set or if quotas are off on the volume to which the qtree belongs, then "`Not applicable`" is displayed in the grid page and the field is blank in the CSV export data.
+
+* *File Hard Limit*
++
+Displays the hard limit for the number of files permitted on the qtrees. The value is displayed as "`Unlimited`" for the following conditions: if the quota is set without a file hard limit, if the quota is not set, or if quotas are off on the volume to which the qtree belongs.
+
+* *File Soft Limit*
++
+Displays the soft limit for the number of files permitted on the qtrees. The value is displayed as "`Unlimited`" for the following conditions: if the quota is set without a file soft limit, if the quota is not set, or if quotas are off on the volume to which the qtree belongs.
+
+* *SVM*
++
+Displays the storage virtual machine (SVM) name containing the qtree.
+
+* *Cluster*
++
+Displays the name of the cluster containing the qtree.
+
+* *Cluster FQDN*
++
+Displays the fully qualified domain name (FQDN) of the cluster.

@@ -1,0 +1,36 @@
+---
+permalink: online-help/reference-edit-annotation-dialog-box.html
+sidebar: sidebar
+keywords: 
+summary: 'The Edit Annotation dialog box enables you to change the description of an existing annotation.'
+---
+= Edit Annotation dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Edit Annotation dialog box enables you to change the description of an existing annotation.
+
+You must have the Application Administrator or Storage Administrator role.
+
+* *Annotation Name*
++
+Displays the name of the annotation. This field cannot be edited.
+
+* *Description*
++
+Provides a meaningful description of the annotation. You can edit this field when you want to change the current description of the annotation.
+
+== Command buttons
+
+* *Save and Close*
++
+Saves the annotation description changes and closes the dialog box.
+
+* *Cancel*
++
+Closes the Edit Annotation dialog box without saving your changes.
+
+*Related information*
+
+xref:reference-management-annotations-page.adoc[Annotations page]

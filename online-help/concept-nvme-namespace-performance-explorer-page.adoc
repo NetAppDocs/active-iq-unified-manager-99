@@ -1,0 +1,44 @@
+---
+permalink: online-help/concept-nvme-namespace-performance-explorer-page.html
+sidebar: sidebar
+keywords: 
+summary: 'The NVMe Namespace/Performance Explorer page provides a detailed overview of the performance of all the NVMe Namespaces within a cluster.'
+---
+= NVMe Namespace/Performance Explorer page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The NVMe Namespace/Performance Explorer page provides a detailed overview of the performance of all the NVMe Namespaces within a cluster.
+
+The NVMe Namespace/Performance Explorer page enables you to track and compare NVMe Namespace performance during a specific time period, which helps you to troubleshoot and fine-tune the performance of your Namespaces.
+
+Using the View and Compare functionality you can compare the performance of this NVMe Namespace with:
+
+* the volume on which the Namespace resides
+* other Namespaces that are on the same volume
+* other Namespaces that are on the same storage VM
+
+The NVMe Namespace/Performance Explorer page enables you to:
+
+* View threshold-related issues and their details
+* Track and compare Namespace performance data
+* Investigate and troubleshoot threshold-related issues
+* Investigate and troubleshoot performance issues
+* Launch System Manager to make a configuration change to the Namespace
++
+The *Configure NVMe Namespace* button is available if you are logged in to Unified Manager with the Application Administrator or Storage Administrator role, and when using ONTAP 9.5 or greater.
+
+*Related information*
+
+xref:concept-components-of-the-performance-explorer-page.adoc[Components of the Performance Explorer page]
+
+xref:reference-summary-page-opm.adoc[Summary page]
+
+xref:task-defining-the-list-of-correlated-objects-for-comparison-graphing.adoc[Defining the list of correlated objects for comparison graphing]
+
+xref:reference-types-of-performance-counter-charts.adoc[Types of performance counter charts]
+
+xref:task-selecting-performance-charts-to-display.adoc[Selecting performance charts to display]
+
+xref:concept-counter-charts-zoom-view.adoc[Counter Charts Zoom View]

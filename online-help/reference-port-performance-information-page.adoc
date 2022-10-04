@@ -1,0 +1,49 @@
+---
+permalink: online-help/reference-port-performance-information-page.html
+sidebar: sidebar
+keywords: 
+summary: 'Use the Port/Performance Information page to view a list of the physical and logical attributes of the port. This information might help in answering performance-related questions.'
+---
+= Port/Performance Information page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Use the Port/Performance Information page to view a list of the physical and logical attributes of the port. This information might help in answering performance-related questions.
+
+== Port attributes
+
+* *WWN*
++
+The WWN (World Wide Name) of the port.
+
+* *Node*
++
+The name of the node on which the physical port resides. You can click the name to display node details in the Node/Performance Explorer page.
+
+* *Cluster*
++
+The name of the cluster to which the port belongs. You can click the name to display cluster details the Cluster/Performance Explorer page.
+
+* *Operational Speed*
++
+The actual speed at which the port is configured to run.
++
+FCP ports are auto-sensing and display as "`Auto`".
+
+* *Role*
++
+The network port function: either Data or Cluster.
++
+FCP ports cannot have a role, and this field is not displayed.
+
+* *Type*
++
+The port type: either Network or FCP (Fibre Channel Protocol).
+
+* *State*
++
+The link status of the port.
+
+ ** For network ports, an active port is listed as "`Up`" and an inactive port is listed as "`Down`".
+ ** For FCP ports, an active port is listed as "`Online`" and an inactive port is listed as "`Link not connected`".

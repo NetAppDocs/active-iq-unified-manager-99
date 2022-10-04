@@ -1,0 +1,24 @@
+---
+permalink: online-help/reference-capacity-all-clusters-view.html
+sidebar: sidebar
+keywords: 
+summary: 'The Capacity: All Clusters view enables you to view summarized information about storage capacity and utilization in all clusters. This information helps you to understand possible capacity risks and to take appropriate action to rebalance workloads.'
+---
+= Capacity: All Clusters view
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Capacity: All Clusters view enables you to view summarized information about storage capacity and utilization in all clusters. This information helps you to understand possible capacity risks and to take appropriate action to rebalance workloads.
+
+The controls along the top of the page enable you to select a particular view (for health, performance, capacity, and so on), perform searches to locate specific objects, create and apply filters to narrow the list of displayed data, add/remove/reorder columns on the page, and export the data on the page to a `.csv`, `.pdf`, or `.xlsx` file. After you have customized the page, you can save the results as a custom view and then schedule a report of this data to be generated and emailed on a regular basis.
+
+See xref:reference-cluster-capacity-fields.adoc[Cluster capacity fields] for descriptions of all the fields on this page.
+
+*Related information*
+
+xref:task-viewing-the-cluster-list-and-details.adoc[Viewing the cluster list and details]
+
+xref:task-exporting-storage-data-as-reports.adoc[Exporting storage data as reports]
+
+xref:task-scheduling-a-report.adoc[Scheduling a report]

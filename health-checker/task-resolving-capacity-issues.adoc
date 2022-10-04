@@ -1,0 +1,39 @@
+---
+permalink: health-checker/task-resolving-capacity-issues.html
+sidebar: sidebar
+keywords: 
+summary: 'This workflow provides an example of how you can resolve a capacity issue. In this scenario, you are an administrator or operator and you access the Unified Manager Dashboard page to see if any of the monitored storage objects have capacity issues. You want to determine the possible cause of and resolution to the problem.'
+---
+= Resolving capacity issues
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This workflow provides an example of how you can resolve a capacity issue. In this scenario, you are an administrator or operator and you access the Unified ManagerDashboard page to see if any of the monitored storage objects have capacity issues. You want to determine the possible cause of and resolution to the problem.
+
+== Before you begin
+
+You must have the Operator, Application Administrator, or Storage Administrator role.
+
+== About this task
+
+On the Dashboard page, you look for a "`Volume Space Full`" error event in the Capacity panel under the events drop-down list.
+
+== Steps
+
+. In the *Capacity* panel of the *Dashboard* page, click the name of the Volume Space Full error event.
++
+The Event details page for the error is displayed.
+
+. From the *Event* details page, you can perform one or more of the following tasks:
+ ** Review the error message in the Cause field and click the suggestions under Suggested Remedial Actions to review descriptions of possible remediations. link:task-performing-suggested-remedial-actions-for-a-full-volume.md#[Performing suggested remedial actions for a full volume]
+ ** Click the object name, in this case a volume, in the Source field to get details about the object. xref:reference-health-volume-details-page.adoc[Volume details page]
+ ** Look for notes that might have been added about this event. xref:task-adding-and-reviewing-notes-about-an-event.adoc[Adding and reviewing notes associated with an event]
+ ** Add a note to the event. xref:task-adding-and-reviewing-notes-about-an-event.adoc[Adding and reviewing notes associated with an event]
+ ** Assign the event to another user. xref:task-assigning-events-to-specific-users.adoc[Assigning events]
+ ** Acknowledge the event. xref:task-acknowledging-and-resolving-events.adoc[Acknowledging and resolving events]
+ ** Mark the event as resolved. xref:task-acknowledging-and-resolving-events.adoc[Acknowledging and resolving events]
+
+*Related information*
+
+xref:reference-event-details-page.adoc[Event details page]

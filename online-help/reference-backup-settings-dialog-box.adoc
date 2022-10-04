@@ -1,0 +1,68 @@
+---
+permalink: online-help/reference-backup-settings-dialog-box.html
+sidebar: sidebar
+keywords: 
+summary: 'The Backup Settings dialog box is used to configure settings for both MySQL and NetApp Snapshot backup. Depending on the backup configured, related fields appear in the Backup Settings dialog box. For a MySQL database backup, you can define the backup schedule, the retention count, and the backup path for a selected Active IQ Unified Manager instance.'
+---
+= Backup Settings dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Backup Settings dialog box is used to configure settings for both MySQL and NetApp Snapshot backup. Depending on the backup configured, related fields appear in the Backup Settings dialog box. For a MySQL database backup, you can define the backup schedule, the retention count, and the backup path for a selected Active IQ Unified Manager instance.
+
+You can change the following database backup settings:
+
+* *CLUSTER*
++
+You should provide the Cluster Management IP of storage system where Unified Manager data is going to be hosted.
+
+* *VOLUME*
++
+You should provide the name of volume that contains the dedicated LUN to host Unified Manager data.
+
+* *STORAGE VM*
++
+You should provide the name of storage VM where the volume is located, containing the dedicated LUN to host Unified Manager data.
+
+* *LUN*
++
+You should provide the name of the LUN where the Unified Manager data is hosted when backup is of the type NetApp Snapshot.
+
+* *MOUNT PATH*
++
+When you are using the MySQL database dump backup method, this field specifies the path to the location where you store the backup files. When using the Snapshot backup method, this location shows the cluster, storage VM, and volume on which the backup will be stored.
++
+The following table specifies the backup path format, and default locations, for different operating systems:
++
+|===
+| Host operating system| Backup path format
+a|
+Virtual appliance
+a|
+`/opt/netapp/data/ocum-backup`
+a|
+Red Hat Enterprise Linux or CentOS Linux
+a|
+`/data/ocum-backup`
+a|
+Microsoft Windows
+a|
+In case of Windows, you will need to provide the mount path. For example, if the mount path is "`D`" drive, then you should provide the mount path as `D:`
+|===
+
+* *RETENTION COUNT*
++
+Specifies the maximum number of backups to be retained by Unified Manager. The default value is 10.
+
+* *Scheduled Daily*
++
+Specifies the daily backup schedule with the time.
+
+* *Scheduled Weekly*
++
+Specifies the weekly backup schedule with the day and time.
+
+* *None*
++
+Specifies that no backups will be created.

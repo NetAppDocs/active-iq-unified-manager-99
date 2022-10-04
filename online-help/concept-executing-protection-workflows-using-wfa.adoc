@@ -1,0 +1,12 @@
+---
+permalink: online-help/concept-executing-protection-workflows-using-wfa.html
+sidebar: sidebar
+keywords: 
+summary: 'You can integrate OnCommand Workflow Automation with Unified Manager to execute workflows for monitoring and managing protection relationships.'
+---
+= Executing protection workflows using OnCommand Workflow Automation
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can integrate OnCommand Workflow Automation with Unified Manager to execute workflows for monitoring and managing protection relationships.

@@ -1,0 +1,48 @@
+---
+permalink: online-help/reference-scheduled-reports-page.html
+sidebar: sidebar
+keywords: 
+summary: 'The Report Schedules page enables you to view detailed information about the reports that you have created and the schedule at which they are generated. You can search for a specific report, modify certain attributes of a report schedule, and delete a report schedule.'
+---
+= Report Schedules page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Report Schedules page enables you to view detailed information about the reports that you have created and the schedule at which they are generated. You can search for a specific report, modify certain attributes of a report schedule, and delete a report schedule.
+
+The Report Schedules page displays the list of reports that have been created on the system.
+
+* *Schedule Name*
++
+The name of the scheduled report. Initially this name includes the View name and the frequency. You can change this name to better reflect the report contents.
+
+* *View*
++
+The View that was used to create the report.
+
+* *Recipients*
++
+The email addresses of users who will receive the generated report. Each email address must be separated by a comma.
+
+* *Frequency*
++
+How frequently the report is generated and sent to the recipients.
+
+* *Format*
++
+Whether the report is generated as a PDF file or in XLSX or CSV format.
+
+* *Action button*
++
+Options available to edit or delete the report schedule.
+
+*Related information*
+
+xref:task-exporting-storage-data-as-reports.adoc[Exporting storage data as reports]
+
+xref:task-scheduling-a-report.adoc[Scheduling a report]
+
+xref:concept-unified-manager-databases-accessible-for-reporting.adoc[Unified Manager databases accessible for custom reporting]
+
+xref:concept-using-unified-manager-rest-apis-ocum.adoc[Using Unified Manager REST APIs]

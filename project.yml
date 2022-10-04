@@ -1,4 +1,30 @@
+---
 settings:
-  platform: catalyst
+  name: Catalyst migration
   internal:
+    pdf_enabled: true
+  prod:
     pdf_enabled: false
+sidebar:
+  entries:
+    - title: Home
+      url: "/index.html"
+    - section: install-vapp
+    - section: install-linux
+    - section: install-windows
+    - section: config
+    - section: online-help
+    - section: performance-checker
+    - section: health-checker
+    - section: data-protection
+    - section: reporting
+    - section: api-automation
+    - title: Legal
+      url: "/legal-notices.html"
+homepage:
+  tiles:
+    - title: Get started
+      links:
+        - title: Manage storage using REST APIs
+          summary: This is the description of the link target
+          url: api-automation/index.html

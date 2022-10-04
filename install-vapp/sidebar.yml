@@ -1,0 +1,48 @@
+section: install-vapp
+title: Install Unified Manager on VMware vSphere systems
+entries:
+  - title: Introduction to Active IQ Unified Manager
+    url: "/install-vapp/concept-introduction-to-unified-manager.html"
+    entries:
+    - title: What the Unified Manager server does
+      url: "/install-vapp/concept-what-the-unified-manager-server-does.html"
+    - title: Active IQ Unified Manager product documentation
+      url: "/install-vapp/reference-oncommand-unified-manager-product-documentation.html"
+    - title: Overview of the installation sequence
+      url: "/install-vapp/concept-overview-of-the-installation-sequence-um.html"
+  - title: Requirements for installing Unified Manager
+    url: "/install-vapp/concept-requirements-for-installing-unified-manager.html"
+    entries:
+    - title: Virtual infrastructure and hardware system requirements
+      url: "/install-vapp/concept-virtual-infrastructure-or-hardware-system-requirements.html"
+    - title: VMware software and installation requirements
+      url: "/install-vapp/reference-vmware-software-and-installation-requirements.html"
+    - title: Supported browsers
+      url: "/install-vapp/concept-browser-and-platform-requirements.html"
+    - title: Protocol and port requirements
+      url: "/install-vapp/reference-protocol-and-port-requirements.html"
+    - title: Completing the worksheet
+      url: "/install-vapp/reference-completing-the-worksheet-um.html"
+  - title: Installing, upgrading, and removing Unified Manager software
+    url: "/install-vapp/concept-installing-upgrading-and-removing-unified-manager-software-on-vmware-vsphere.html"
+    entries:
+    - title: Overview of the deployment process
+      url: "/install-vapp/concept-overview-of-the-deployment-process.html"
+    - title: Deploying Unified Manager
+      url: "/install-vapp/task-deploying-unified-manager-vapp.html"
+      entries:
+      - title: Downloading the Unified Manager installation file
+        url: "/install-vapp/task-downloading-the-unified-manager-ova-file.html"
+      - title: Deploying the Unified Manager virtual appliance
+        url: "/install-vapp/task-deploying-the-unified-manager-virtual-appliance-vapp.html"
+    - title: Upgrading Unified Manager
+      url: "/install-vapp/task-upgrading-unified-manager-vapp.html"
+      entries:
+      - title: Downloading the Unified Manager upgrade file
+        url: "/install-vapp/task-downloading-the-unified-manager-iso-image-vapp.html"
+      - title: Upgrading the Unified Manager virtual appliance
+        url: "/install-vapp/task-upgrading-the-unified-manager-virtual-appliance-vapp.html"
+    - title: Restarting the Unified Manager virtual machine
+      url: "/install-vapp/task-restarting-the-unified-manager-virtual-machine.html"
+    - title: Removing Unified Manager
+      url: "/install-vapp/task-removing-unified-manager-vapp.html"

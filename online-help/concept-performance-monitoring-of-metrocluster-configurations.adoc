@@ -1,0 +1,32 @@
+---
+permalink: online-help/concept-performance-monitoring-of-metrocluster-configurations.html
+sidebar: sidebar
+keywords: 
+summary: 'Unified Manager enables you to monitor the write throughput between clusters in a MetroCluster configuration to identify workloads with a high amount of write throughput. If these high-performing workloads are causing other volumes on the local cluster to have high I/O response times, Unified Manager triggers performance events to notify you.'
+---
+= Performance monitoring of MetroCluster configurations
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Unified Manager enables you to monitor the write throughput between clusters in a MetroCluster configuration to identify workloads with a high amount of write throughput. If these high-performing workloads are causing other volumes on the local cluster to have high I/O response times, Unified Manager triggers performance events to notify you.
+
+When a local cluster in a MetroCluster configuration mirrors its data to its partner cluster, the data is written to NVRAM and then transferred over the interswitch links (ISLs) to the remote aggregates. Unified Manager analyzes the NVRAM to identify the workloads whose high write throughput is overutilizing the NVRAM, placing the NVRAM in contention.
+
+Workloads whose deviation in response time has exceeded the performance threshold are called _victims_ and workloads whose deviation in write throughput to the NVRAM is higher than usual, causing the contention, are called _bullies_. Because only the write requests are mirrored to the partner cluster, Unified Manager does not analyze read throughput.
+
+Unified Manager treats the clusters in a MetroCluster configuration as individual clusters. It does not distinguish between clusters that are partners or correlate the write throughput from each cluster.
+
+*Related information*
+
+xref:reference-performance-event-analysis-and-notification.adoc[Performance event analysis and notification]
+
+xref:concept-performance-incident-analysis-for-a-metrocluster-configuration.adoc[Performance event analysis for a MetroCluster configuration]
+
+xref:concept-roles-of-workloads-involved-in-a-performance-incident.adoc[Roles of workloads involved in a performance event]
+
+xref:task-identifying-victim-workloads-involved-in-a-performance-event.adoc[Identifying victim workloads involved in a dynamic performance event]
+
+xref:task-identifying-bully-workloads-involved-in-a-performance-event.adoc[Identifying bully workloads involved in a dynamic performance event]
+
+xref:task-identifying-shark-workloads-involved-in-a-performance-event.adoc[Identifying shark workloads involved in a dynamic performance event]

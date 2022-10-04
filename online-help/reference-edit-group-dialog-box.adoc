@@ -1,0 +1,34 @@
+---
+permalink: online-help/reference-edit-group-dialog-box.html
+sidebar: sidebar
+keywords: 
+summary: 'The Edit Group dialog box enables you to change the name and description of a group.'
+---
+= Edit Group dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Edit Group dialog box enables you to change the name and description of a group.
+
+You must have the Application Administrator or Storage Administrator role.
+
+* *Group Name*
++
+Displays the name of the group. When changing the group name, you must not use an existing group name.
+
+* *Description*
++
+Provides a meaningful description of the group. You can edit this field when you want to change the current description of the group.
+
+== Command buttons
+
+The command buttons enable you to save or cancel changes you make to the group.
+
+* *Save*
++
+Saves the changes you made and closes the dialog box.
+
+* *Cancel*
++
+Closes the Edit Group dialog box without saving your changes.
