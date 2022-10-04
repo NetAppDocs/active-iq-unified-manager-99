@@ -19,3 +19,12 @@ sidebar:
     - section: data-protection
     - section: reporting
     - section: api-automation
+    - title: Legal
+      url: "/legal-notices.html"
+homepage:
+  tiles:
+    - title: Get started
+      links:
+        - title: Manage storage using REST APIs
+          summary: This is the description of the link target
+          url: api-automation/index.html
