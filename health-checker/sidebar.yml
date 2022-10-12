@@ -224,15 +224,6 @@ entries:
         url: "/health-checker/task-deleting-annotation-rules.html"
       - title: Reordering annotation rules
         url: "/health-checker/task-reordering-annotation-rules.html"
-    - title: What a Unified Manager maintenance window is
-      url: "/health-checker/concept-what-a-um-maintenance-window-is.html"
-      entries:
-      - title: Scheduling a maintenance window to disable cluster event notifications
-        url: "/health-checker/task-scheduling-a-maintenance-window-to-disable-cluster-event-notifications.html"
-      - title: Changing or canceling a scheduled maintenance window
-        url: "/health-checker/task-changing-or-canceling-a-scheduled-maintenance-window.html"
-      - title: Viewing events that occurred during a maintenance window
-        url: "/health-checker/task-viewing-events-that-occurred-during-a-maintenance-window.html"
     - title: Managing SAML authentication settings
       url: "/health-checker/concept-managing-saml-authentication-settings-um.html"
       entries:
@@ -330,8 +321,6 @@ entries:
       url: "/health-checker/reference-identity-provider-requirements-um.html"
     - title: Enabling SAML authentication
       url: "/health-checker/task-enabling-saml-authentication-um.html"
-    - title: Changing the identity provider used for SAML authentication
-      url: "/health-checker/task-changing-the-identity-provider-idp-used-for-saml-authentication-um.html"
     - title: Updating SAML authentication settings after Unified Manager security
         certificate change
       url: "/health-checker/task-updating-saml-authentication-settings-after-unified-manager-certificate-change.html"
