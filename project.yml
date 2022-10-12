@@ -1,21 +1,21 @@
 ---
 settings:
-  name: Catalyst migration
+  name: Active IQ Unified Manager 9.9
   internal:
     pdf_enabled: true
   prod:
-    pdf_enabled: false
+    pdf_enabled: true
   versions:
-    - name: Unified Manager 9.9
+    - name: Unified Manager
       url: /active-iq-unified-manager-99
       version-number: "9.9"
-    - name: Unified Manager 9.8
+    - name: Unified Manager
       url: /active-iq-unified-manager-98
       version-number: "9.8"
-    - name: Unified Manager 9.7
+    - name: Unified Manager
       url: /active-iq-unified-manager-97
       version-number: "9.7"
-    - name: Unified Manager 9.5
+    - name: Unified Manager
       url: /oncommand-unified-manager-95
       version-number: "9.5"
 sidebar:
@@ -34,16 +34,13 @@ sidebar:
     - section: api-automation
     - title: Legal
       url: "/legal-notices.html"
-
 homepage:
   tiles:
     - title: Get started
       links:
         - title: Manage storage using REST APIs
           summary: This is the description of the link target
-          url: api-automation/index.html        
-homepage:
-  tiles:
+          url: api-automation/index.html         
     - title: More resources
       links:
         - title: Documentation for the latest version of Active IQ Unified Manager
