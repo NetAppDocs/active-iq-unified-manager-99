@@ -17,7 +17,7 @@ settings:
       version-number: "9.7"
     - name: Unified Manager 9.5
       url: /oncommand-unified-manager-95
-      version-number: "9.5"  
+      version-number: "9.5"
 sidebar:
   entries:
     - title: Home
@@ -34,14 +34,14 @@ sidebar:
     - section: api-automation
     - title: Legal
       url: "/legal-notices.html"
+
 homepage:
   tiles:
     - title: Get started
       links:
         - title: Manage storage using REST APIs
           summary: This is the description of the link target
-          url: api-automation/index.html
-          
+          url: api-automation/index.html        
 homepage:
   tiles:
     - title: More resources
