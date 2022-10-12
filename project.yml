@@ -28,3 +28,10 @@ homepage:
         - title: Manage storage using REST APIs
           summary: This is the description of the link target
           url: api-automation/index.html
+homepage:
+  tiles:
+    - title: More resources
+      links:
+        - title: Documentation for the latest version of Active IQ Unified Manager
+          summary: This is the description of the link target
+          url: https://docs.netapp.com/us-en/active-iq-unified-manager/index.html
