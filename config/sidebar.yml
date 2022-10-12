@@ -101,14 +101,4 @@ entries:
         url: "/config/task-adding-space-to-the-data-disk-of-the-vmware-virtual-machine.html"
       - title: Adding space to the logical drive of the Microsoft Windows server
         url: "/config/task-adding-space-to-the-data-disk-of-the-microsoft-windows-server.html"
-  - title: Maintenance console menus
-    url: "/config/concept-maintenance-console-menu.html"
-    entries:
-    - title: Network Configuration menu
-      url: "/config/reference-network-configuration-menu.html"
-    - title: System Configuration menu
-      url: "/config/reference-system-configuration-menu.html"
-    - title: Support and Diagnostics menu
-      url: "/config/reference-support-and-diagnostics-menu.html"
-    - title: Additional menu options
-      url: "/config/reference-additional-menu-options.html"
+

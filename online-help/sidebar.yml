@@ -1279,9 +1279,6 @@ entries:
       entries:
       - title: Volume behavior during switchover and switchback
         url: "/online-help/concept-volume-behavior-during-switchover-and-switchback.html"
-    - title: What performance events are
-      url: "/online-help/concept-what-performance-events-are.html"
-      entries:
       - title: Performance event analysis and notification
         url: "/online-help/reference-performance-event-analysis-and-notification.html"
       - title: How Unified Manager determines the performance impact for an event
