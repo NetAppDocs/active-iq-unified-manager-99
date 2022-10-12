@@ -5,6 +5,19 @@ settings:
     pdf_enabled: true
   prod:
     pdf_enabled: false
+  versions:
+    - name: Unified Manager 9.9
+      url: /active-iq-unified-manager-99
+      version-number: "9.9"
+    - name: Unified Manager 9.8
+      url: /active-iq-unified-manager-98
+      version-number: "9.8"
+    - name: Unified Manager 9.7
+      url: /active-iq-unified-manager-97
+      version-number: "9.7"
+    - name: Unified Manager 9.5
+      url: /oncommand-unified-manager-95
+      version-number: "9.5"  
 sidebar:
   entries:
     - title: Home
@@ -28,6 +41,7 @@ homepage:
         - title: Manage storage using REST APIs
           summary: This is the description of the link target
           url: api-automation/index.html
+          
 homepage:
   tiles:
     - title: More resources
