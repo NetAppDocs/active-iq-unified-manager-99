@@ -310,8 +310,3 @@ entries:
       url: "/health-checker/task-changing-or-canceling-a-scheduled-maintenance-window.html"
     - title: Viewing events that occurred during a maintenance window
       url: "/health-checker/task-viewing-events-that-occurred-during-a-maintenance-window.html"
-  - title: Sending a support bundle through web UI and maintenance console
-    url: "/health-checker/task-send-a-support-bundle-to-technical-support.html"
-    entries:
-    - title: Accessing the maintenance console
-      url: "/health-checker/task-accessing-the-maintenance-console.html"

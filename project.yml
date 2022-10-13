@@ -40,9 +40,9 @@ homepage:
   tiles:
     - title: Get started
       links:
-        - title: Manage storage using REST APIs
+        - title: Release Notes
           summary: This is the description of the link target
-          url: api-automation/index.html         
+          url: /release-notes.html         
     - title: More resources
       links:
         - title: Documentation for the latest version of Active IQ Unified Manager
