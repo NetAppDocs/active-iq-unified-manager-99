@@ -281,8 +281,6 @@ entries:
         url: "/health-checker/reference-description-of-event-impact-areas.html"
       - title: Cluster components and why they can be in contention
         url: "/health-checker/concept-cluster-components-and-why-they-can-be-in-contention.html"
-      - title: Adding alerts
-        url: "/health-checker/task-adding-alerts.html"
       - title: Volume / Health details page
         url: "/health-checker/reference-health-volume-details-page.html"
       - title: Storage VM / Health details page
@@ -295,8 +293,6 @@ entries:
         url: "/health-checker/task-adding-users.html"
       - title: Creating a database user
         url: "/health-checker/task-creating-a-database-user.html"
-      - title: Definitions of user roles
-        url: "/health-checker/reference-definitions-of-user-roles.html"
       - title: Definitions of user types
         url: "/health-checker/reference-definitions-of-user-types.html"
       - title: Unified Manager user roles and capabilities
@@ -314,82 +310,8 @@ entries:
       url: "/health-checker/task-changing-or-canceling-a-scheduled-maintenance-window.html"
     - title: Viewing events that occurred during a maintenance window
       url: "/health-checker/task-viewing-events-that-occurred-during-a-maintenance-window.html"
-  - title: Managing SAML authentication settings
-    url: "/health-checker/concept-managing-saml-authentication-settings-um.html"
-    entries:
-    - title: Identity provider requirements
-      url: "/health-checker/reference-identity-provider-requirements-um.html"
-    - title: Enabling SAML authentication
-      url: "/health-checker/task-enabling-saml-authentication-um.html"
-    - title: Updating SAML authentication settings after Unified Manager security
-        certificate change
-      url: "/health-checker/task-updating-saml-authentication-settings-after-unified-manager-certificate-change.html"
-    - title: Disabling SAML authentication
-      url: "/health-checker/task-disabling-saml-authentication-um.html"
-    - title: Disabling SAML authentication from the maintenance console
-      url: "/health-checker/task-disabling-saml-authentication-from-the-maintenance-console-um.html"
   - title: Sending a support bundle through web UI and maintenance console
     url: "/health-checker/task-send-a-support-bundle-to-technical-support.html"
     entries:
-    - title: Sending AutoSupport messages and support bundles to technical support
-      url: "/health-checker/reference-setup-autosupport-page.html"
     - title: Accessing the maintenance console
       url: "/health-checker/task-accessing-the-maintenance-console.html"
-    - title: Generating and uploading a support bundle
-      url: "/health-checker/task-generating-and-uploading-a-support-bundle.html"
-    - title: Retrieving the support bundle using a Windows client
-      url: "/health-checker/task-retrieving-the-support-bundle-using-a-windows-client.html"
-    - title: Retrieving the support bundle using a UNIX or Linux client
-      url: "/health-checker/task-retrieving-the-support-bundle-using-a-unix-or-linux-client.html"
-    - title: Sending a support bundle to technical support
-      url: "/health-checker/task-sending-a-support-bundle-to-technical-support.html"
-  - title: Tasks and information related to several workflows
-    url: "/health-checker/concept-tasks-and-information-related-to-several-workflows.html"
-    entries:
-    - title: Adding and reviewing notes about an event
-      url: "/health-checker/task-adding-and-reviewing-notes-about-an-event.html"
-    - title: Assigning events to specific users
-      url: "/health-checker/task-assigning-events-to-specific-users.html"
-    - title: Acknowledging and resolving events
-      url: "/health-checker/task-acknowledging-and-resolving-events.html"
-    - title: Event details page
-      url: "/health-checker/reference-event-details-page.html"
-      entries:
-      - title: What the Event Information section displays
-        url: "/health-checker/reference-what-the-event-information-section-displays.html"
-      - title: What the System Diagnosis section displays
-        url: "/health-checker/reference-what-the-system-diagnosis-section-displays.html"
-      - title: What the Suggested Actions section displays
-        url: "/health-checker/reference-what-the-suggested-actions-section-displays.html"
-    - title: Description of event severity types
-      url: "/health-checker/reference-description-of-event-severity-types.html"
-    - title: Description of event impact levels
-      url: "/health-checker/reference-description-of-event-impact-levels.html"
-    - title: Description of event impact areas
-      url: "/health-checker/reference-description-of-event-impact-areas.html"
-    - title: Cluster components and why they can be in contention
-      url: "/health-checker/concept-cluster-components-and-why-they-can-be-in-contention.html"
-    - title: Adding alerts
-      url: "/health-checker/task-adding-alerts.html"
-    - title: Volume / Health details page
-      url: "/health-checker/reference-health-volume-details-page.html"
-    - title: Storage VM / Health details page
-      url: "/health-checker/reference-health-svm-details-page.html"
-    - title: Cluster / Health details page
-      url: "/health-checker/reference-health-cluster-details-page.html"
-    - title: Aggregate / Health details page
-      url: "/health-checker/reference-health-aggregate-details-page.html"
-    - title: Adding users
-      url: "/health-checker/task-adding-users.html"
-    - title: Creating a database user
-      url: "/health-checker/task-creating-a-database-user.html"
-    - title: Definitions of user roles
-      url: "/health-checker/reference-definitions-of-user-roles.html"
-    - title: Definitions of user types
-      url: "/health-checker/reference-definitions-of-user-types.html"
-    - title: Unified Manager user roles and capabilities
-      url: "/health-checker/reference-unified-manager-roles-and-capabilities.html"
-    - title: Generating an HTTPS security certificate
-      url: "/health-checker/task-generating-an-https-security-certificate-ocf.html"
-    - title: Supported Unified Manager CLI commands
-      url: "/health-checker/reference-supported-unified-manager-cli-commands.html"
