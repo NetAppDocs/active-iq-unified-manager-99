@@ -43,11 +43,13 @@ entries:
       - title: Performing suggested remedial actions for a full volume
         url: "/health-checker/task-performing-suggested-remedial-actions-for-a-full-volume.html"
     - title: Managing health thresholds
+      pdf-filename: Managing health thresholds (cluster health)
       url: "/health-checker/concept-managing-health-thresholds.html"
       entries:
       - title: What storage capacity health thresholds are
         url: "/health-checker/concept-what-storage-capacity-health-thresholds-are.html"
       - title: Configuring global health threshold settings
+        pdf-filename: Configuring global health threshold settings (cluster health)
         url: "/health-checker/task-configuring-global-health-threshold-settings.html"
         entries:
         - title: Configuring global aggregate health threshold values
@@ -65,9 +67,11 @@ entries:
       - title: Editing individual qtree health threshold settings
         url: "/health-checker/task-editing-individual-qtree-health-threshold-settings.html"
     - title: Managing cluster security objectives
+      pdf-filename: Managing cluster security objectives (cluster health)
       url: "/health-checker/concept-managing-cluster-security-objectives.html"
       entries:
       - title: What security criteria is being evaluated
+        pdf-filename: What security criteria is being evaluated (cluster health)
         url: "/health-checker/concept-what-security-criteria-is-being-evaluated.html"
         entries:
         - title: Cluster compliance categories
@@ -97,11 +101,13 @@ entries:
       - title: Security events
         url: "/health-checker/reference-security-events.html"
     - title: Managing backup and restore operations
+      pdf-filename: Managing backup and restore operations (cluster health)
       url: "/health-checker/concept-managing-backup-and-restore-operations.html"
       entries:
       - title: Backup and restore for Unified Manager on virtual appliance
         url: "/health-checker/concept-backup-and-restore-on-virtual-appliance.html"
       - title: Backup and restore using a MySQL database dump
+        pdf-filename: Backup and restore using a MySQL database dump (cluster health)
         url: "/health-checker/concept-backup-and-restore-using-a-mysql-database-dump.html"
         entries:
         - title: Configuring the destination and schedule for database dump backups
@@ -113,9 +119,11 @@ entries:
         - title: Restoring a MySQL database backup on Windows
           url: "/health-checker/task-restoring-a-mysql-database-backup-on-windows.html"
       - title: Backup and restore using NetApp Snapshots
+        pdf-filename: Backup and restore using NetApp Snapshots (cluster health)
         url: "/health-checker/concept-backup-and-restore-using-netapp-snapshots.html"
         entries:
         - title: Configuring backup on Linux
+          pdf-filename: Configuring backup on Linux (cluster health)
           url: "/health-checker/concept-configuring-backup-for-linux.html"
           entries:
           - title: Configuring Snapshot backup location
@@ -123,6 +131,7 @@ entries:
           - title: Specifying the destination location for Snapshot backups
             url: "/health-checker/task-specifying-the-destination-location-for-snapshot-backups.html"
         - title: Configuring backup on Windows
+          pdf-filename: Configuring backup on Windows (cluster health)
           url: "/health-checker/concept-configuring-backup-for-windows.html"
           entries:
           - title: Configuring backup location for Windows
@@ -146,6 +155,7 @@ entries:
       - title: Migrating a Unified Manager virtual appliance to a Linux system
         url: "/health-checker/task-migrating-a-unified-manager-virtual-appliance-to-a-rhel-or-centos-system.html"
     - title: Managing scripts
+      pdf-filename: Managing scripts (cluster health)
       url: "/health-checker/concept-managing-scripts.html"
       entries:
       - title: How scripts work with alerts
@@ -157,9 +167,11 @@ entries:
       - title: Testing script execution
         url: "/health-checker/task-testing-script-execution.html"
     - title: Managing and monitoring groups
+      pdf-filename: Managing and monitoring groups (cluster health)
       url: "/health-checker/concept-managing-and-monitoring-groups.html"
       entries:
       - title: Understanding groups
+        pdf-filename: Understanding groups (cluster health)
         url: "/health-checker/concept-understanding-groups.html"
         entries:
         - title: What a group is
@@ -225,6 +237,7 @@ entries:
       - title: Reordering annotation rules
         url: "/health-checker/task-reordering-annotation-rules.html"
     - title: Managing SAML authentication settings
+      pdf-filename: Managing SAML authentication settings (cluster health)
       url: "/health-checker/concept-managing-saml-authentication-settings-um.html"
       entries:
       - title: Identity provider requirements
@@ -265,6 +278,7 @@ entries:
       - title: Acknowledging and resolving events
         url: "/health-checker/task-acknowledging-and-resolving-events.html"
       - title: Event details page
+        pdf-filename: Event details page (cluster health)
         url: "/health-checker/reference-event-details-page.html"
         entries:
         - title: What the Event Information section displays
@@ -302,6 +316,7 @@ entries:
       - title: Supported Unified Manager CLI commands
         url: "/health-checker/reference-supported-unified-manager-cli-commands.html"
   - title: What a Unified Manager maintenance window is
+    pdf-filename: What a Unified Manager maintenance window is (cluster health)
     url: "/health-checker/concept-what-a-um-maintenance-window-is.html"
     entries:
     - title: Scheduling a maintenance window to disable cluster event notifications

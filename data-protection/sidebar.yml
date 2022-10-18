@@ -43,6 +43,7 @@ entries:
     - title: Resolving lag issues
       url: "/data-protection/task-resolving-lag-issues.html"
   - title: Managing and monitoring protection relationships
+    pdf-filename: Managing and monitoring protection relationships (data protection)
     url: "/data-protection/concept-managing-and-monitoring-protection-relationships.html"
     entries:
     - title: Viewing volume protection relationships
@@ -130,6 +131,7 @@ entries:
     - title: Deleting resource pools
       url: "/data-protection/task-deleting-resource-pools.html"
     - title: Monitoring Storage VM Disaster Recovery protection relationships
+      pdf-filename: Monitoring Storage VM Disaster Recovery protection relationships (data protection)
       url: "/data-protection/concept-monitoring-storage-vm-disaster-recovery-protection-relationships.html"
       entries:
       - title: Monitoring Storage VMs using Relationships page
@@ -159,6 +161,7 @@ entries:
     - title: Retrying a failed protection job
       url: "/data-protection/task-retrying-a-failed-protection-job.html"
     - title: Description of Protection relationships windows and dialog boxes
+      pdf-filename: Description of Protection relationships windows and dialog boxes (data protection)
       url: "/data-protection/reference-description-of-protection-relationships-window-and-dialog-boxes.html"
       entries:
       - title: Resource Pools page

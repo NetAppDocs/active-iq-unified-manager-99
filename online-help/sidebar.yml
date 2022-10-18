@@ -2,6 +2,7 @@ section: online-help
 title: Online Help
 entries:
   - title: Introduction to Active IQ Unified Manager
+    pdf-filename: Introduction to Active IQ Unified Manager (manage and monitor)
     url: "/online-help/concept-introduction-to-unified-manager.html"
     entries:
     - title: Introduction to Active IQ Unified Manager health monitoring
@@ -1480,6 +1481,7 @@ entries:
     url: "/online-help/concept-troubleshooting.html"
     entries:
     - title: Changing the Unified Manager host name
+      pdf-filename: Changing the Unified Manager host name (manage and monitor)
       url: "/online-help/concept-changing-the-unified-manager-host-name.html"
       entries:
       - title: Changing the Unified Manager virtual appliance host name
@@ -1487,6 +1489,7 @@ entries:
       - title: Changing the Unified Manager host name on Linux systems
         url: "/online-help/task-changing-the-unified-manager-host-name-on-rhel-or-centos.html"
     - title: Adding disk space to the Unified Manager database directory
+      pdf-filename: Adding disk space to the Unified Manager database directory (manage and monitor)
       url: "/online-help/concept-adding-disk-space-to-the-unified-manager-database-directory.html"
       entries:
       - title: Adding space to the data disk of the VMware virtual machine

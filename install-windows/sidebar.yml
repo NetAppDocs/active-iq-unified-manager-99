@@ -2,6 +2,7 @@ section: install-windows
 title: Install Unified Manager on Windows systems
 entries:
   - title: Introduction to Active IQ Unified Manager
+    pdf-filename: Introduction to Active IQ Unified Manager (Windows systems)
     url: "/install-windows/concept-introduction-to-unified-manager.html"
     entries:
     - title: What the Unified Manager server does
@@ -11,6 +12,7 @@ entries:
     - title: Overview of the installation sequence
       url: "/install-windows/concept-overview-of-the-installation-sequence-um.html"
   - title: Requirements for installing Unified Manager
+    pdf-filename: Requirements for installing Unified Manager (Windows systems)
     url: "/install-windows/concept-requirements-for-installing-unified-manager.html"
     entries:
     - title: Virtual infrastructure and hardware system requirements
@@ -24,6 +26,7 @@ entries:
     - title: Completing the worksheet
       url: "/install-windows/reference-completing-the-worksheet-um.html"
   - title: Installing, upgrading, and removing Unified Manager software
+    pdf-filename: Installing, upgrading, and removing Unified Manager software (Windows systems)
     url: "/install-windows/concept-installing-upgrading-and-removing-unified-manager-software.html"
     entries:
     - title: Overview of the installation process
@@ -40,6 +43,7 @@ entries:
     - title: Upgrading Unified Manager
       url: "/install-windows/task-upgrading-to-unified-manager-on-microsoft-windows.html"
     - title: Upgrading third-party products
+      pdf-filename: Upgrading third-party products (Windows systems)
       url: "/install-windows/concept-upgrading-third-party-products-on-windows-um.html"
       entries:
       - title: Upgrading OpenJDK
