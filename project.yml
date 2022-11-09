@@ -49,6 +49,8 @@ homepage:
           summary: This is the description of the link target
           url: https://docs.netapp.com/us-en/active-iq-unified-manager/index.html
         - title: Install & configure Unified Manager
+          url: https://docs.netapp.com/us-en/active-iq-unified-manager/index.html
           summary: This is the description of the link target
         - title: Performance monitoring
-           summary: This is the description of the link target 
+           summary: This is the description of the link target
+           url: https://docs.netapp.com/us-en/active-iq-unified-manager/index.html
