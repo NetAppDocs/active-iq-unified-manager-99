@@ -23,7 +23,14 @@ sidebar:
     - title: Home
       url: "/index.html"
     - title: Release notes
-      url: "/release-notes.html"  
+      url: "/release-notes.html" 
+    - title: Quick start install for VMware vSphere
+      url: "/qsg-vapp.html"
+    - title: Quick start install for Linux
+      url: "/qsg-linux.html"
+    - title: Quick start install for Windows
+      url: "/qsg-windows.html"
+     
     - section: install-vapp
     - section: install-linux
     - section: install-windows
