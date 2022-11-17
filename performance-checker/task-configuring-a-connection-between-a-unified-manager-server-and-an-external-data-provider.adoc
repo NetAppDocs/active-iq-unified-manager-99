@@ -59,34 +59,34 @@ The current server configuration information is displayed.
 
 . When prompted, type `y` to continue.
 . When prompted, enter the type of statistics to send, the time interval at which the statistics are sent, and whether you want to enable the transmission of statistics now:
-+
+
+[cols="2*",options="header"]
 |===
 | For..| Enter...
 a|
 Statistics group ID
 a|
-    `0` - PERFORMANCE_INDICATOR (default)
-+
+`0` - PERFORMANCE_INDICATOR (default)
+
 `1` - RESOURCE_UTILIZATION
-+
+
 `2` - DRILL_DOWN
 a|
 Vendor tag
 a|
-    A descriptive name for the folder where the statistics will be stored on the external server. "`netapp-performance`" is the default name, but you can enter another value.
-+
+A descriptive name for the folder where the statistics will be stored on the external server. "`netapp-performance`" is the default name, but you can enter another value.
+
 By using dotted notation you can define a hierarchical folder structure. For example, by entering `stats.performance.netapp` the statistics will be located in *stats* > *performance* > *netapp*.
 a|
 Transmit interval
 a|
-    `5` (default), `10`, or `15` minutes
+`5` (default), `10`, or `15` minutes
 a|
 Enable/disable
 a|
-    `0` - Disable
-+
+`0` - Disable
+
 `1` - Enable (default)
-+
 |===
 
 . When prompted, type `y` to verify that the information you entered is correct.

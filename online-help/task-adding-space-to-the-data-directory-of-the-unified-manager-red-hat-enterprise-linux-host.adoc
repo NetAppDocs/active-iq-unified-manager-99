@@ -37,10 +37,9 @@ We recommend that you back up the Unified Manager database before increasing the
 |===
 +
 The system returns a confirmation similar to the following:
-+
 ----
-echo $se_type
-mysqld_db_t
+  echo $se_type
+  mysqld_db_t
 ----
 
  .. Run the `chcon` command to set the SE Linux type for the backup directory: `chcon -R --type=mysqld_db_t /backup-data`

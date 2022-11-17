@@ -40,12 +40,12 @@ a|
 Generate the certificate using different values
 a|
     Click the *Update the Current Certificate Attributes* option.
-+
+
 The Common Name and Alternative Names fields will use the values from the existing certificate if you do not enter new values. The "`Common Name`" should be set to the FQDN of the host. The other fields do not require values, but you can enter values, for example, for the EMAIL, COMPANY, DEPARTMENT, City, State, and Country if you want those values to be populated in the certificate. You can also select from the available KEY SIZE (The key algorithm is "`RSA`".) and VALIDITY PERIOD.
-+
+
 [NOTE]
 ====
-+
+
 ....
 -   The permitted values for key size are `2048`, `3072` and `4096`.
 -   The validity periods are minimum 1 day to maximum 36500 days.
@@ -54,9 +54,9 @@ The Common Name and Alternative Names fields will use the values from the existi
 
 -   You can select the “Exclude local identifying information \(e.g. localhost\)” checkbox if you want to remove the local identifying information from the Alternative Names field in the certificate. When this checkbox is selected, only what you enter in the field is used in the Alternative Names field. When left blank the resulting certificate will not have an Alternative Names field at all.
 ....
-+
+
 ====
-+
+
 |===
 
 . Click *Yes* to regenerate the certificate.
