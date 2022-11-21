@@ -17,6 +17,7 @@ Before provisioning the file share volumes, ensure that the SVM has been created
 
 You can use the following method to view the file share volumes available in your Unified Manager environment. When you have added an ONTAP cluster as a datasource on Active IQ Unified Manager, the storage workloads for those clusters are automatically added to your Unified Manager instance. This API retrieves the file shares automatically and manually added to your Unified Manager instance. You can view the details of a specific file share by running this API with the file share key.
 
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -34,6 +35,7 @@ a|
 
 You can use the following method to add CIFS and NFS file shares in your SVM. You must enter the details of the file share that you want to create, as the input parameters. You cannot use this API for adding FlexGroup volumes.
 
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -55,6 +57,7 @@ Depending on whether the access control list (ACL) parameters or the export poli
 
 You can use the following method to delete a specific file share. You need to enter the file share key as an input parameter to delete a particular file share.
 
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -76,6 +79,7 @@ You need to provide the file share key to modify a particular file share. Additi
 Note that you can update only one property at a single invocation of this API. For multiple updates, you need to run this API as many times.
 ====
 
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|

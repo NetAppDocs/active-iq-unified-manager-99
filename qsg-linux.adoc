@@ -24,7 +24,7 @@ For detailed system requirements and for information about installing the produc
 === Download the installer
 1.	Download the `ActiveIQUnifiedManager-<version>.zip` installation package.
 2.	In the directory where you have downloaded the installation file, run:
-+
+
 `# unzip ActiveIQUnifiedManager-<version>.zip`
 
 === Verify repository configuration
