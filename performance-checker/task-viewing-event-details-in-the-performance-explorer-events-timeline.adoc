@@ -24,7 +24,8 @@ Each performance event dot on the Events Timeline lines up vertically with a cor
 A pop-up dialog displays information about the event types, the date and time when the events occurred, the state, and the event duration.
 
 . View full event details for one event or multiple events:
-+
+
+[cols="2*",options="header"]
 |===
 | To do this...| Click this...
 a|
@@ -39,7 +40,6 @@ a|
 ====
 Clicking a single event on the multiple events dialog displays the appropriate Event Details page.
 ====
-+
 |===
 
 *Related information*
