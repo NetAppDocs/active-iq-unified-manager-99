@@ -33,7 +33,8 @@ The current release provides thresholds that send events when a counter value ex
 The Performance Thresholds page is displayed.
 
 . Click the appropriate button depending on whether you want to build a new policy or if you want to clone a similar policy and modify the cloned version.
-+
+
+[cols="2*",options="header"]
 |===
 | To...| Click...
 a|

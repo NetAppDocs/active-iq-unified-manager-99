@@ -20,6 +20,7 @@ This performance capacity used equivalency is generally true between nodes. Howe
 
 The performance capacity used conditions can also be used as secondary performance threshold settings to create a combination threshold policy when defining thresholds for LUNs and volumes. The performance capacity used condition is applied to the aggregate or node on which the volume or LUN resides. For example, you can create a combination threshold policy using the following criteria:
 
+[cols="5*",options="header"]
 |===
 | Storage object| Performance counter| Warning threshold| Critical threshold| Duration
 a|

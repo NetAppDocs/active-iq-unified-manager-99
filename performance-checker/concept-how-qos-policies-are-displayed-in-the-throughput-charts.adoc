@@ -17,6 +17,7 @@ Shared and non-shared QoS policies for IOPS and MB/s use the terms "`minimum`" a
 
 While ONTAP enables you to create these two types of QoS policies, depending on how they are applied to workloads there are three ways that the QoS policy will be displayed in the performance charts.
 
+[cols="3*",options="header"]
 |===
 | Type of policy| Functionality| Indicator in Unified Manager interface
 a|
