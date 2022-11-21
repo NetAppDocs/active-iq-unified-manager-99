@@ -24,6 +24,7 @@ curl -X GET "https://<hostname>/api/datacenter/cluster/clusters/4c6bf721-2e3f-11
 The CURL commands, examples, requests, and responses to the APIs, are available on your Swagger API interface. You can filter and order the results by specific parameters as indicated on Swagger. These APIs enable you to filter the results for specific storage objects, such as cluster, volume, or storage VM.
 ====
 
+[cols="3*",options="header"]
 |===
 | HTTP verb| Path| Description
 a|

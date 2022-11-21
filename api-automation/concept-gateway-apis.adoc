@@ -20,6 +20,7 @@ All users can run a query by using the `GET` operation. Application Administrato
 
 The gateway acts as a proxy to tunnel the API requests by maintaining the header and body requests in the same format as in the ONTAP APIs. You can use your Unified Manager credentials and execute the specific operations to access and manage the ONTAP clusters without passing individual cluster credentials. It continues to manage the cluster authentication and cluster management, but redirects the API requests to run directly on the specific cluster. The response returned by the APIs is the same as the response returned by the respective ONTAP REST APIs executed directly from ONTAP.
 
+[cols="3*",options="header"]
 |===
 | HTTP verb| Path (URL)| Description
 a|

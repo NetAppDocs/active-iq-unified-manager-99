@@ -15,6 +15,7 @@ You need to create access endpoints or logical interfaces (LIFs), which are requ
 
 You can view a list of the access endpoints in your Unified Manager environment by using the following method. To query a list of access endpoints of a particular SVM, LUN, or file share, you need to enter the unique identifier for the SVM, LUN, or file share. You can also enter the unique access endpoint key to retrieve the details of the particular access endpoint.
 
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -37,6 +38,7 @@ You can create custom access endpoints and assign required properties to it. You
 You must configure your SVM with a minimum number of access endpoints per node for successful provisioning of LUNs and file shares. You should configure your SVM with at least two access endpoints per node, one supporting CIFS and/or NFS protocol, another supporting iSCSI or FCP protocol.
 ====
 
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -51,6 +53,7 @@ a|
 
 You can delete a specific access endpoint by using the following method. You need to provide the access endpoint key as an input parameter to delete a particular access endpoint.
 
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -65,6 +68,7 @@ a|
 
 You can modify an access endpoint and update its properties by using the following method. You need to provide the access endpoint key to modify a particular access endpoint. You also need to enter the property that you want to update, along with its value.
 
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
