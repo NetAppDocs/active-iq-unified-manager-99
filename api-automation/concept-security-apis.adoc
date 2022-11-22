@@ -18,6 +18,7 @@ You must have the Application Administrator role for running these operations. Y
 
 The APIs under the `security` category use the `users` parameter, that is the user name, and not the `key` parameter as the unique identifier for the user entity.
 
+[cols="3*",options="header"]
 |===
 | HTTP verb| Path| Description
 a|

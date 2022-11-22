@@ -22,6 +22,7 @@ The `/metrics` and `/analytics` APIs give different views of the performance met
 
 The following table draws a comparison between the `/metrics` and `/analytics` APIs with respect to the particulars of the performance data retrieved.
 
+[cols="2*",options="header"]
 |===
 | Metrics| Analytics
 a|
@@ -119,6 +120,7 @@ The following table describes the `/metrics` and `/analytics` APIs in details.
 The IOPS and performance metrics returned by these APIs are double values, for example `100.53`. Filtering these float values by the pipe (|) and wildcard (*) characters is not supported.
 ====
 
+[cols="3*",options="header"]
 |===
 | HTTP Verb| Path| Description
 a|

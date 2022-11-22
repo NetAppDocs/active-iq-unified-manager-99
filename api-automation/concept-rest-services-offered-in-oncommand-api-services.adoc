@@ -26,6 +26,7 @@ The APIs enable you to filter, sort, and order the records by supported attribut
 
 The REST operations that can be performed by using the APIs depend on the role of the Operator, Storage Administrator, or Application Administrator user.
 
+[cols="2*",options="header"]
 |===
 | User role| Supported REST method
 a|
