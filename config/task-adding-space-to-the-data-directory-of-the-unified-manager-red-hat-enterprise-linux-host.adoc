@@ -35,9 +35,9 @@ We recommend that you back up the Unified Manager database before increasing the
 | awk -F: '{print $3}'
 | head -1``
 |===
-+
+
 The system returns a confirmation similar to the following:
-+
+
 ----
 echo $se_type
 mysqld_db_t
@@ -48,16 +48,16 @@ mysqld_db_t
  .. `cd /opt/netapp/data`
  .. `rm -rf *`
 . Expand the size of the `/opt/netapp/data` directory to a minimum of 150 GB through LVM commands or by adding extra disks.
-+
+
 [NOTE]
 ====
 If you have created `/opt/netapp/data` from a disk, then you should not try to mount `/opt/netapp/data` as an NFS or CIFS share. Because, in this case, if you try to expand the disk space, some LVM commands, such as `resize` and `extend` might not work as expected.
 ====
 
 . Confirm that the `/opt/netapp/data` directory owner (mysql) and group (root) are unchanged: `ls -ltr /opt/netapp/ | grep data`
-+
+
 The system returns a confirmation similar to the following:
-+
+
 ----
 drwxr-xr-x.  17 mysql root  4096 Aug 28 13:08 data
 ----
@@ -66,9 +66,9 @@ drwxr-xr-x.  17 mysql root  4096 Aug 28 13:08 data
  .. `touch /opt/netapp/data/abc`
  .. `ls -Z /opt/netapp/data/abc`
 
-+
+
 The system returns a confirmation similar to the following:
-+
+
 ----
 -rw-r--r--. root root unconfined_u:object_r:mysqld_db_t:s0 /opt/netapp/data/abc
 ----
