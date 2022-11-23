@@ -15,7 +15,8 @@ You can add scripts in Unified Manager, and associate the scripts with alerts. T
 
 * You must have created and saved the scripts that you want to add to the Unified Manager server.
 * The supported file formats for scripts are Perl, Shell, PowerShell, Python, and `.bat` files.
-+
+
+[cols="2*",options="header"]
 |===
 | Platform on which Unified Manager is installed| Supported languages
 a|

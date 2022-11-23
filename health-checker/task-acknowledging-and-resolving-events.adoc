@@ -28,7 +28,8 @@ You cannot acknowledge Information events.
 
 . In the left navigation pane, click *Event Management*.
 . From the events list, perform the following actions to acknowledge the events:
-+
+
+[cols="2*",options="header"]
 |===
 | If you want to...| Do this...
 a|
@@ -51,7 +52,6 @@ a|
  .. Take appropriate corrective actions.
  .. Click *Mark As Resolved*.
 
-+
 |===
 After the event is marked resolved, the event is moved to the resolved events list.
 

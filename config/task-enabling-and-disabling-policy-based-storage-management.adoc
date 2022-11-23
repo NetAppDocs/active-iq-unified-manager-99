@@ -21,6 +21,7 @@ This option is enabled by default, but you can disable it if you do not want to 
 
 When enabled, this option provides many new items in the user interface:
 
+[cols="2*",options="header"]
 |===
 | New Content| Location
 a|
