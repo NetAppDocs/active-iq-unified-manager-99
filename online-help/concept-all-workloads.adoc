@@ -37,7 +37,7 @@ For each workload, information, such as the host cluster and storage VM is displ
 
 The page also enables you to view the performance details of a workload. You can view detailed information about the IOPS, capacity, and latency of the workload by clicking the *Choose / Order Columns* button and selecting specific columns to view. The Performance View column displays the average and peak IOPS for a workload, and you can click the workload analyser icon to view the detailed IOPS analysis. The *Analyze Workload* button on the IOPS Analysis pop-up takes you to the Workload Analysis page, where you can select a time range and view the latency, throughput, and capacity trends for the selected workload. For more information about workload analyzer, see _Troubleshooting workloads using the workload analyzer_
 
-link:concept-troubleshooting-workloads-using-the-workload-analyzer.md#[Troubleshooting workloads using the workload analyzer]
+link:concept-troubleshooting-workloads-using-the-workload-analyzer.adoc[Troubleshooting workloads using the workload analyzer]
 
 == Analyzing performance and capacity criteria for a workload
 

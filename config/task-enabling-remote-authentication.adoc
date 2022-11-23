@@ -36,7 +36,8 @@ The certificate that is used to authenticate users must conform to the X.509 for
 . In the left navigation pane, click *General* > *Remote Authentication*.
 . Check the box for *Enable remote authentication...*.
 . In the *Authentication Service* field, select the type of service and configure the authentication service.
-+
+
+[cols="2*",options="header"]
 |===
 | For Authentication type...| Enter the following information...
 a|
@@ -58,7 +59,7 @@ a|
  ** Bind password
  ** Base distinguished name
 
-+
+
 |===
 If the authentication of an Active Directory user takes a long time or times out, the authentication server is probably taking a long time to respond. Disabling support for nested groups in Unified Manager might reduce the authentication time.
 +

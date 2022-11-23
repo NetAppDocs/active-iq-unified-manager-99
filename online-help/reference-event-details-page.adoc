@@ -27,7 +27,7 @@ In some cases a reason for the event being triggered is provided in the event de
 +
 For dynamic performance events, this section displays icons that represent the logical and physical components of the cluster. If a component is in contention, its icon is circled and highlighted red.
 +
-See link:concept-cluster-components-and-why-they-can-be-in-contention.md#[Cluster components and why they can be in contention] for a description of the components that are displayed here.
+See link:concept-cluster-components-and-why-they-can-be-in-contention.adoc[Cluster components and why they can be in contention] for a description of the components that are displayed here.
 
 The Event Information, System Diagnosis, and Suggested Actions sections are described in other topics.
 

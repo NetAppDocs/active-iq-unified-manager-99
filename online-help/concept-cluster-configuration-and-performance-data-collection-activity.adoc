@@ -19,6 +19,7 @@ The collection polls are offset by a few minutes so that data from every cluster
 
 The following table describes the collection activities that Unified Manager performs:
 
+[cols="3*",options="header"]
 |===
 | Activity| Time interval| Description
 a|

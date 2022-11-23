@@ -20,7 +20,8 @@ You can uninstall Unified Manager by using the Programs and Features wizard, or 
 == Steps
 
 . Uninstall Unified Manager by choosing one of the following options:
-+
+
+[cols="2*",options="header"]
 |===
 | To uninstall Unified Manager from the...| Then...
 a|
@@ -37,10 +38,9 @@ a|
  .. Log in to the Windows command line using administrator privileges.
  .. Navigate to the Active IQ Unified Manager directory, and run the following command: `+msiexec /x {A78760DB-7EC0-4305-97DB-E4A89CDFF4E1} /qn /l*v %systemdrive%\UmUnInstall.log+`
 
-+
 |===
 If User Account Control (UAC) is enabled on the server, and you are logged in as a domain user, you must use the command-line uninstallation method.
-+
+
 Unified Manager is uninstalled from your system.
 
 . Uninstall the following third-party packages and data that are not removed during the Unified Manager uninstallation:

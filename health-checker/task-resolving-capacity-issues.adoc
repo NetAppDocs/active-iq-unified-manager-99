@@ -26,7 +26,7 @@ On the Dashboard page, you look for a "`Volume Space Full`" error event in the C
 The Event details page for the error is displayed.
 
 . From the *Event* details page, you can perform one or more of the following tasks:
- ** Review the error message in the Cause field and click the suggestions under Suggested Remedial Actions to review descriptions of possible remediations. link:task-performing-suggested-remedial-actions-for-a-full-volume.md#[Performing suggested remedial actions for a full volume]
+ ** Review the error message in the Cause field and click the suggestions under Suggested Remedial Actions to review descriptions of possible remediations. link:task-performing-suggested-remedial-actions-for-a-full-volume.adoc[Performing suggested remedial actions for a full volume]
  ** Click the object name, in this case a volume, in the Source field to get details about the object. xref:reference-health-volume-details-page.adoc[Volume details page]
  ** Look for notes that might have been added about this event. xref:task-adding-and-reviewing-notes-about-an-event.adoc[Adding and reviewing notes associated with an event]
  ** Add a note to the event. xref:task-adding-and-reviewing-notes-about-an-event.adoc[Adding and reviewing notes associated with an event]

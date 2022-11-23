@@ -59,7 +59,7 @@ storage-provider
 a|
 GET
 a|
-    `+/storage-provider/file-shares/{key}+`
+`+/storage-provider/file-shares/{key}+`
 |===
 View the details of the file share in the output.
 
@@ -249,11 +249,11 @@ In the input, you must specify only the parameter that you want to update, along
 curl -X PATCH "https://<hostname>/api/storage-provider/luns/7d5a59b3-953a-11e8-8857-00a098dcc959" -H "accept: application/json" -H "Content-Type: application/json" H "Authorization: Basic <Base64EncodedCredentials>" -d
 "{ \"performance_service_level\": { \"key\": \"1251e51b-069f-11ea-980d-fa163e82bbf2\" }"
 ----
-+
+
 The JSON output displays a Job object key that you can use to verify the LUN that you updated.
 
 . View the details of the LUN by running the following API with the LUN key that you obtained.
-+
+
 |===
 | Category| HTTP verb| Path
 a|
