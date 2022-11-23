@@ -18,11 +18,11 @@ This workflow takes up a sample use case in which an event is raised when an ONT
 Before running the workflow steps, ensure the following:
 
 * You are aware of the gateway APIs and how they are used. For information, see the "`Gateway APIs`" section.
-+
+
 xref:concept-gateway-apis.adoc[Accessing ONTAP APIs through proxy access]
 
 * You are aware of the usage of ONTAP REST APIs. For information about using ONTAP REST APIs, see the _ONTAP REST API Developers guide_.
-+
+
 http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-rest-api/home.html[ONTAP REST API Developers guide]
 
 * You are an Application Administrator.
@@ -53,7 +53,7 @@ a|
 . Retrieve the cluster UUID and volume UUID from the output.
 . On the Unified Manager web UI, navigate to *General* > *Feature Settings* > *API Gateway* to verify whether the API Gateway feature is enabled. Unless it is enabled, the APIs under the `gateway` category are not available for you to invoke. Enable the feature if it is disabled.
 . Use the cluster UUID to run the ONTAP API `+/storage/volumes/{uuid}+` through API gateway. The query returns the volume details when the volume UUID is passed as the API parameter.
-+
+
 For running the ONTAP APIs through API gateway, the Unified Manager credentials are passed internally for authentication, and you do not need to run an additional authentication step for individual cluster access.
 
 [cols="3*",options="header"]

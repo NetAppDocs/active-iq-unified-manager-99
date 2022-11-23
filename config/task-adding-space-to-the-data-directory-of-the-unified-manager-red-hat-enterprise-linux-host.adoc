@@ -27,7 +27,7 @@ We recommend that you back up the Unified Manager database before increasing the
 . Copy the content and privilege configuration of the existing `/opt/netapp/data` directory to the backup data directory: `cp -arp /opt/netapp/data/* /backup-data`
 . If SE Linux is enabled:
  .. {blank}
-+
+
 [cols=4*]
 |===
 | Get the SE Linux type for folders on existing `/opt/netapp/data` folder: ``se_type=``ls -Z /opt/netapp/data

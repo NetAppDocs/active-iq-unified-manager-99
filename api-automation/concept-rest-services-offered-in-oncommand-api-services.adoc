@@ -14,7 +14,7 @@ You should be aware of the REST services and operations offered, before you star
 The provisioning and administrative APIs that are used for configuring the API server support the read (GET) or write (POST, PATCH, DELETE) operations. The following are some examples of the GET, PATCH, POST, and DELETE operations that are supported by the APIs:
 
 * Example for GET: `GET /datacenter/cluster/clusters` retrieves cluster details in your data center. The maximum number of records that is returned by the `GET` operation is 1000.
-+
+
 [NOTE]
 ====
 The APIs enable you to filter, sort, and order the records by supported attributes.

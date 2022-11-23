@@ -105,9 +105,9 @@ The time range and sample data is based on the following schedule:The time range
 * 2m: Metrics over the most recent 2 months sampled over 1 hour.
 * 3m: Metrics over the most recent 3 months sampled over 1 hour.
 * 6m: Metrics over the most recent 6 months sampled over 1 hour.
-+
+
 Available values : 1h, 12h, 1d, 2d, 3d, 15d, 1w, 1m, 2m, 3m, 6m
-+
+
 Default value : 1h
 
 a|

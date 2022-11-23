@@ -37,7 +37,7 @@ During a single API run, you can update only one parameter.
 This procedure describes adding a Performance Service Level to a file share. You can use the same procedure for updating any other file share property.
 
 . Obtain the CIFS share or NFS file share key of the file share that you want to update. This API queries all the file shares on your data center. Skip this step if you already know the file share key.
-+
+
 [cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
