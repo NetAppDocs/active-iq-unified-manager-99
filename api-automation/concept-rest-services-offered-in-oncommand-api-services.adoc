@@ -46,7 +46,3 @@ a|
 Read and write access to all data. Users with this role can run GET, PATCH, POST, and DELETE requests for all functions.
 |===
 For more information about all the REST operations, see the _Online API documentation_.
-
-*Related information*
-
-xref:concept-api-url-and-categories.adoc[Active IQ Unified Manager API access and categories]

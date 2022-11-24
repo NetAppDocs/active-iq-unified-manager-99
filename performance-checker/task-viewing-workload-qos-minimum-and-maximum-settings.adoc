@@ -22,7 +22,8 @@ Unified Manager generates warning events for QoS policy breaches when workload t
 == Steps
 
 . In the *Performance Explorer* page for your selected volume or LUN, perform the following actions to view the QoS ceiling and floor settings:
-+
+
+[cols="2*",options="header"]
 |===
 | If you want to...| Do this...
 a|

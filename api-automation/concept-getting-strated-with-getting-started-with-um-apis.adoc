@@ -15,8 +15,3 @@ The _Unified Manager API Developer's Guide_ provides you with information about 
 
 Unified Manager provides API offerings for storage management in your NetApp environment. All the four REST operations Create, Read, Update, and Delete (also known as CRUD) are supported.
 
-*Related information*
-
-xref:concept-api-url-and-categories.adoc[Active IQ Unified Manager API access and categories]
-
-xref:concept-rest-api-access-and-authentication-in-oncommand-api-services.adoc[REST API access and authentication in Active IQ Unified Manager]

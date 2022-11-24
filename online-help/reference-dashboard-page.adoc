@@ -24,7 +24,7 @@ Some of the panels listed below will not appear on the page based on your config
 +
 There are certain issues that Unified Manager can diagnose thoroughly and provide a single resolution. When available, those resolutions are displayed in this panel with a *Fix It* or *Fix All* button. You can fix these issues immediately from Unified Manager instead of having to use ONTAP System Manager or the ONTAP CLI. For viewing all the issues, click on
 +
-See link:concept-fixing-ontap-issues-directly-from-unified-manager.adoc[Fixing ONTAP issues directly from Unified Manager] for more information.
+See link:concept-fixing-ontap-issues-directly-from-unified-manager.html[Fixing ONTAP issues directly from Unified Manager] for more information.
 
 * *Capacity panel*
 +

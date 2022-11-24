@@ -15,7 +15,8 @@ The Choose charts drop-down list enables you to select the types of performance 
 
 . In the *Counter Charts* pane, click the *Choose charts* drop-down list.
 . Add or remove charts:
-+
+
+[cols="2*",options="header"]
 |===
 | To...| Do this...
 a|

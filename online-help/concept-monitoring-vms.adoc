@@ -43,7 +43,7 @@ vCenter Servers allow special characters (such as %, &, *, $, #, @, !, \, /, :, 
 . Click the down arrow beside the VM to see the summary view of the topology of the components across the compute, network, and storage layers. The node that has latency issues is highlighted. The summary view displays the worst latency of the components. For example, if a VM has more than one virtual disk, this view displays the virtual disk that has the worst latency among all the virtual disks.
 . To analyze the latency and throughput of the datastore over a period of time, click the *Workload Analyzer* button on top of the datastore object icon. You go to the Workload Analysis page, where you can select a time range and view the performance charts of the datastore. For more information about workload analyzer, see _Troubleshooting workloads using the workload analyzer_.
 +
-link:concept-troubleshooting-workloads-using-the-workload-analyzer.adoc[Troubleshooting workloads using the workload analyzer]
+link:concept-troubleshooting-workloads-using-the-workload-analyzer.html[Troubleshooting workloads using the workload analyzer]
 
 == Viewing expanded topology
 

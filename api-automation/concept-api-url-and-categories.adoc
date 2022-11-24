@@ -60,11 +60,3 @@ Unified Manager enables you to invoke ONTAP REST APIs through the APIs under the
 * *security*
 
 This category contains APIs for managing Unified Manager users.
-
-*Related information*
-
-xref:concept-rest-api-access-and-authentication-in-oncommand-api-services.adoc[REST API access and authentication in Active IQ Unified Manager]
-
-xref:concept-rest-services-offered-in-oncommand-api-services.adoc[REST services offered in Active IQ Unified Manager]
-
-xref:concept-um-apis-list-intro.adoc[Unified Manager REST APIs]

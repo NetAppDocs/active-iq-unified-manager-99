@@ -90,8 +90,3 @@ PATCH
 a|
 `+/storage-provider/luns/{key}+`
 |===
-*Related information*
-
-xref:concept-provisioning-luns.adoc[Provisioning LUNs]
-
-xref:concept-modifying-workloads-workflow.adoc[Modifying storage workloads]

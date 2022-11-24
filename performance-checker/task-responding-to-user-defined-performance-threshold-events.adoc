@@ -29,7 +29,8 @@ This includes the policy name, the performance counter being evaluated, the coun
 
 . Make a note of the *Event Trigger Time* so you can investigate whether other events might have occurred at the same time that could have contributed to this event.
 . Follow one of the options below to further investigate the event, to determine whether you need to perform any actions to resolve the performance problem:
-+
+
+[cols="2*",options="header"]
 |===
 | Option| Possible investigation actions
 a|

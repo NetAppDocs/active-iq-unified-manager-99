@@ -24,7 +24,8 @@ You can remove a threshold policy from multiple storage objects by selecting mor
 == Steps
 
 . From the *inventory* page of any storage object, select one or more objects that have at least one performance threshold policy applied.
-+
+
+[cols="2*",options="header"]
 |===
 | To clear thresholds from...| Do this...
 a|

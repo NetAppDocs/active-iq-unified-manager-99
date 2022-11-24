@@ -20,7 +20,8 @@ Unlike all other Unified Manager event messages, these particular management sta
 == Steps
 
 . To view management station event information, perform these actions:
-+
+
+[cols="2*",options="header"]
 |===
 | If you want to...| Do this...
 a|

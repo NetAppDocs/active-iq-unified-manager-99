@@ -398,19 +398,3 @@ You can see that the POST method of `/storage-provider/file-shares` internally i
     }
 }
 ----
-
-*Related information*
-
-xref:concept-verifying-svm-workflow.adoc[Verifying SVMs on clusters]
-
-xref:concept-job-api.adoc[Viewing Jobs]
-
-xref:concept-managing-fileshares-api.adoc[Managing file shares]
-
-xref:concept-managing-access-endpoint.adoc[Managing access endpoints]
-
-xref:concept-managing-active-directory.adoc[Managing Active Directory mapping]
-
-xref:concept-managing-psl.adoc[Managing Performance Service Levels]
-
-xref:concept-managing-sep.adoc[Managing Storage Efficiency Policies]

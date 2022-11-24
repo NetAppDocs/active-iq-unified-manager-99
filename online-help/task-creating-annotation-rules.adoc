@@ -27,7 +27,8 @@ Storage objects that are currently monitored are annotated as soon as the annota
 . In the *Target Object Type* field, select the type of storage object that you want to annotate.
 . In the *Apply Annotation* fields, select the annotation and annotation value that you want to use.
 . In the *Conditions* section, perform the appropriate action to create a condition, a condition group, or both:
-+
+
+[cols="2*",options="header"]
 |===
 | To create...| Do this...
 a|
@@ -48,7 +49,7 @@ a|
  .. Enter a value, or select a value from the available list.
  .. Click *Add condition* to create more conditions if required, and repeat steps a through d for each condition.
 
-+
+
 |===
 
 . Click *Add*.
