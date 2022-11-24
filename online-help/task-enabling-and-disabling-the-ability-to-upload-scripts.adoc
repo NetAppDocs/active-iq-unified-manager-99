@@ -19,7 +19,8 @@ You must have the Application Administrator role.
 
 . In the left navigation pane, click *General* > *Feature Settings*.
 . In the *Feature Settings* page, disable or enable scripting by choosing one of the following options:
-+
+
+[cols="2*",options="header"]
 |===
 | If you want to...| Then do this...
 a|

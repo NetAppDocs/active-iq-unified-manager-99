@@ -31,7 +31,8 @@ You cannot modify a Storage Efficiency Policy if it is currently assigned to a w
 
 . In the left navigation pane under *Settings*, select *Policies* > *Storage Efficiency*.
 . In the *Storage Efficiency Policies* page, click the appropriate button depending on whether you want to create a new Storage Efficiency Policy or if you want to edit an existing Storage Efficiency Policy.
-+
+
+[cols="2*",options="header"]
 |===
 | To...| Follow these steps...
 a|

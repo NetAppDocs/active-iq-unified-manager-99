@@ -27,7 +27,8 @@ You can view details such as the node state, cluster that contains the node, agg
 The detailed information for the selected node is displayed in the Cluster / Health details page. The left pane displays the list of HA pairs. By default, the HA Details is open, which displays HA state details and events related to the selected HA pair.
 
 . To view other details about the node, perform the appropriate action:
-+
+
+[cols="2*",options="header"]
 |===
 | To view...| Click...
 a|

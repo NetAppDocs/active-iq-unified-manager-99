@@ -21,6 +21,7 @@ You cannot modify a PSL that is system-defined or that is currently assigned to 
 
 The Performance Service Levels page lists the available PSL policies and enables you to add, edit, and delete them. This page displays the following information:
 
+[cols="2*",options="header"]
 |===
 | Field| Description
 a|
@@ -85,6 +86,7 @@ Note that if workloads exceed the expected latency value for 30% of the time dur
 
 The following table provides information about the system-defined PSLs:
 
+[cols="6*",options="header"]
 |===
 | Performance Service Level| Description and use case| Expected latency (ms/op)| Peak IOPS| Expected IOPS| Absolute minimum IOPS
 a|

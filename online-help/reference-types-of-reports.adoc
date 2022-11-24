@@ -13,6 +13,7 @@ This table provides a comprehensive list of the views and inventory pages that a
 
 == Active IQ Unified Manager reports
 
+[cols="2*",options="header"]
 |===
 | Type| Storage or network object
 a|

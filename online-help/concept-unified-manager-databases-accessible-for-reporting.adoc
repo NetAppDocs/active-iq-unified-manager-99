@@ -13,6 +13,7 @@ Unified Manager uses a MySQL database to store data from the clusters that it is
 
 All table data from the following databases are available:
 
+[cols="2*",options="header"]
 |===
 | Database| Description
 a|

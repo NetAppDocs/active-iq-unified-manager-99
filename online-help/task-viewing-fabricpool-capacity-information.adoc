@@ -20,7 +20,8 @@ When a cloud tier is mirrored to another cloud provider (the "`mirror tier`") th
 == Steps
 
 . Perform one of the following:
-+
+
+[cols="2*",options="header"]
 |===
 | To view capacity information for...| Do this...
 a|

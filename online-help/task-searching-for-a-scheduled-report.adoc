@@ -15,7 +15,8 @@ You can search for scheduled reports by name, view name, object type, or recipie
 
 . In the left navigation pane, click *Storage Management* > *Report Schedules*.
 . Use the *Search Scheduled Reports* text field.
-+
+
+[cols="2*",options="header"]
 |===
 | To find reports by ...| Try ...
 a|
