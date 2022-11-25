@@ -38,7 +38,3 @@ Starting with Unified Manager 9.8, VMware Tools has been replaced with Open VM T
 == After you finish
 
 After finishing the deployment and initial setup, you can either add clusters, or configure additional network settings in the maintenance console, and then access the web UI.
-
-*Related information*
-
-xref:concept-requirements-for-installing-unified-manager.adoc[Requirements for installing Unified Manager]

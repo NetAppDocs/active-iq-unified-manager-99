@@ -116,7 +116,3 @@ Log in to Unified Manager in a web browser by using following details:
 == After you finish
 
 Access the web UI to change the default password of the umadmin user, and perform the initial setup of Unified Manager, as described in the http://docs.netapp.com/ocum-99/topic/com.netapp.doc.onc-um-sysconfig/home.html[Active IQ Unified Manager System Configuration Guide].
-
-*Related information*
-
-xref:task-creating-a-custom-user-home-directory-and-umadmin-user-prior-to-installation.adoc[Creating a custom user home directory and umadmin password prior to installation]

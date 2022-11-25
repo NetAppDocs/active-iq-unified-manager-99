@@ -74,10 +74,3 @@ Every day after 3:30 a.m.
 a|
 Deletes from the database any one-hour performance data older than 180 days.
 |===
-*Related information*
-
-xref:task-viewing-and-adding-vcenter-servers.adoc[Viewing and adding vCenter Server]
-
-xref:task-changing-the-length-of-time-um-retains-event-and-performance-data.adoc[Changing the length of time Unified Manager retains event and performance data]
-
-xref:task-changing-the-performance-statistics-collection-interval.adoc[Changing the performance statistics collection interval]

@@ -28,9 +28,3 @@ Annotations are dissociated from storage objects when you edit the associated an
 You cannot change the target object type for an annotation rule.
 
 . Click *Save*.
-
-*Related information*
-
-xref:task-creating-annotation-rules.adoc[Creating annotation rules]
-
-xref:task-deleting-annotation-rules.adoc[Deleting annotation rules]

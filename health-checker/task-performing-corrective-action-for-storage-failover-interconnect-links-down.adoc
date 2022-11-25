@@ -55,11 +55,3 @@ In this example, the relevant information is in the Events table. The table show
 == After you finish
 
 Using the node location information in the HA Details, request or personally complete a physical inspection and repair of the storage failover issue on the affected HA pair nodes.
-
-*Related information*
-
-xref:reference-event-details-page.adoc[Event details page]
-
-xref:reference-health-cluster-details-page.adoc[Cluster / Health details page]
-
-xref:reference-unified-manager-roles-and-capabilities.adoc[Unified Manager user roles and capabilities]

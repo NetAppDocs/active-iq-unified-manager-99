@@ -15,9 +15,3 @@ Events generated from dynamic thresholds indicate that the actual response time 
 ====
 Dynamic performance thresholds are not enabled on Cloud Volumes ONTAP, ONTAP Edge, or ONTAP Select systems.
 ====
-
-*Related information*
-
-xref:reference-event-details-page.adoc[Event details page]
-
-xref:reference-list-of-events-and-severity-types.adoc[List of events and severity types]

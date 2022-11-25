@@ -65,7 +65,3 @@ The Common Name and Alternative Names fields will use the values from the existi
 == After you finish
 
 Verify the new certificate information by viewing the HTTPS certificate.
-
-*Related information*
-
-xref:concept-what-a-database-restore-is.adoc[What a database restore is]

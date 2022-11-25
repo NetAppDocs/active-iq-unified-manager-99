@@ -14,7 +14,3 @@ You should send a support bundle when the issue that you have requires more deta
 == About this task
 
 Unified Manager stores a maximum of two full support bundles and three lightweight support bundles at one time.
-
-*Related information*
-
-xref:reference-unified-manager-roles-and-capabilities.adoc[Unified Manager user roles and capabilities]

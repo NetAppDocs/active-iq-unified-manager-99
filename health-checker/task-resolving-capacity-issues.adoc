@@ -33,7 +33,3 @@ The Event details page for the error is displayed.
  ** Assign the event to another user. xref:task-assigning-events-to-specific-users.adoc[Assigning events]
  ** Acknowledge the event. xref:task-acknowledging-and-resolving-events.adoc[Acknowledging and resolving events]
  ** Mark the event as resolved. xref:task-acknowledging-and-resolving-events.adoc[Acknowledging and resolving events]
-
-*Related information*
-
-xref:reference-event-details-page.adoc[Event details page]

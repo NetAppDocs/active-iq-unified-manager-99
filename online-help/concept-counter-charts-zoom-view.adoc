@@ -17,7 +17,3 @@ When displayed in Zoom View, some of the breakdown charts provide additional inf
 ====
 For system-defined performance threshold policies, only the "`Node resources over-utilized`" and "`QoS throughput limit breached`" policies are available from the *Policies* list. The other system-defined threshold policies are not available at this time.
 ====
-
-*Related information*
-
-xref:concept-understanding-counter-charts.adoc[Understanding counter charts]

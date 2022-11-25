@@ -47,19 +47,3 @@ For nodes: Displays the estimate of the performance impact on a node if the HA p
 * Details
 +
 For volumes: Displays detailed performance statistics for all I/O activity and operations for the selected volume workload. This tab is available for FlexVol volumes, FlexGroup volumes, and constituents of FlexGroups.
-
-*Related information*
-
-xref:task-viewing-event-details-in-the-performance-explorer-events-timeline.adoc[Viewing event details in the Events Timeline]
-
-xref:concept-sources-of-performance-events.adoc[Sources of performance events]
-
-xref:reference-summary-page-opm.adoc[Summary page]
-
-xref:reference-cluster-summary-page-opm.adoc[Performance Cluster Summary page]
-
-xref:concept-components-of-the-performance-explorer-page.adoc[Components of the Performance Explorer page]
-
-xref:reference-top-performers-page.adoc[Top Performers page]
-
-xref:reference-understanding-and-using-the-node-failover-planning-page.adoc[Understanding and using the Node Failover Planning page]

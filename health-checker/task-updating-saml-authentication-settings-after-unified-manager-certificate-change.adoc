@@ -54,11 +54,3 @@ a|
 |===
 
 . Log in to Unified Manager and verify that SAML authentication works as expected through your IdP.
-
-*Related information*
-
-xref:task-enabling-saml-authentication-um.adoc[Enabling SAML authentication]
-
-xref:task-disabling-saml-authentication-from-the-maintenance-console-um.adoc[Disabling SAML authentication from the maintenance console]
-
-xref:task-accessing-the-maintenance-console.adoc[Accessing the maintenance console]

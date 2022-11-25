@@ -34,13 +34,3 @@ See xref:task-determining-if-a-volume-is-offline-and-its-svm-is-stopped-because-
 * Click *Volume / Health* details page links to determine if the volume is offline because of broken disks in its host aggregate.
 +
 See xref:task-determining-if-a-volume-is-offline-because-of-broken-disks-in-an-aggregate.adoc[Determining if a volume is offline because of broken disks in an aggregate].
-
-*Related information*
-
-xref:reference-unified-manager-roles-and-capabilities.adoc[Unified Manager user roles and capabilities]
-
-xref:reference-health-volume-details-page.adoc[Volume / Health details page]
-
-xref:reference-health-svm-details-page.adoc[Storage VM / Health details page]
-
-xref:reference-health-cluster-details-page.adoc[Cluster / Health details page]
