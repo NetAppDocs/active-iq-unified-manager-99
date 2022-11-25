@@ -440,11 +440,3 @@ Displays the number of disks in the selected aggregate.
 == Related Alerts pane
 
 The Related Alerts pane enables you to view the list of alerts that are created for the selected aggregate. You can also add an alert by clicking the Add Alert link or edit an existing alert by clicking the alert name.
-
-*Related information*
-
-xref:reference-storage-pool-dialog-box.adoc[Storage Pool dialog box]
-
-xref:task-adding-alerts.adoc[Adding alerts]
-
-xref:task-editing-individual-aggregate-health-threshold-settings.adoc[Editing individual aggregate health threshold settings]

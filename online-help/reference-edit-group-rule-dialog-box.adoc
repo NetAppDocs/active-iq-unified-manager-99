@@ -38,7 +38,3 @@ Saves the changes you made and closes the dialog box.
 * *Cancel*
 +
 Closes the Edit Group Rule dialog box without saving your changes.
-
-*Related information*
-
-xref:concept-how-group-rules-work-for-groups.adoc[How group rules work for groups]

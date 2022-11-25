@@ -20,17 +20,3 @@ You can assign performance threshold policies to, or clear threshold policies fr
 If you want to analyze the latency and throughput of a specific object, click the more icon image:../media/more-icon.gif[], then *Analyze Workload* and you can view performance and capacity charts on the Workload Analysis page.
 
 See xref:reference-lun-performance-fields.adoc[LUN performance fields] for descriptions of all the fields on this page.
-
-*Related information*
-
-xref:concept-refining-object-inventory-performance-page-content.adoc[Refining Performance inventory page contents]
-
-xref:task-assigning-performance-threshold-policies-to-storage-objects.adoc[Assigning performance threshold policies to storage objects]
-
-xref:task-removing-performance-threshold-policies-from-storage-objects.adoc[Removing performance threshold policies from storage objects]
-
-xref:task-filtering-on-the-object-inventory-performance-pages.adoc[Filtering data in the Object Inventory Performance pages]
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting storage data as reports]
-
-xref:task-scheduling-a-report.adoc[Scheduling a report]

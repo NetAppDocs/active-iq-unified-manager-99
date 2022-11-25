@@ -18,9 +18,3 @@ The controls along the top of the page enable you to select a particular view (f
 If you want to analyze the latency and throughput of a specific object, click the more icon image:../media/more-icon.gif[], then *Analyze Workload* and you can view performance and capacity charts on the Workload Analysis page.
 
 See xref:reference-smb-cifs-shares-health-fields.adoc[SMB/CIFS Shares health fields] for descriptions of all the fields on this page.
-
-*Related information*
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting storage data as reports]
-
-xref:task-scheduling-a-report.adoc[Scheduling a report]

@@ -38,9 +38,3 @@ Saves the changes you made and closes the Edit Annotation Rule dialog box.
 * *Cancel*
 +
 Closes the Edit Annotation Rule dialog box without saving your changes.
-
-*Related information*
-
-xref:reference-add-annotation-rule-dialog-box.adoc[Add Annotation Rule dialog box]
-
-xref:concept-how-annotation-rules-work-in-unified-manager.adoc[How annotation rules work in Unified Manager]

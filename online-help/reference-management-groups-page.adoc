@@ -152,7 +152,3 @@ You cannot create multiple group actions of the same action type for a group. Fo
 * *Description*
 +
 Displays the description of the group action.
-
-*Related information*
-
-xref:concept-how-group-rules-work-for-groups.adoc[How group rules work for groups]

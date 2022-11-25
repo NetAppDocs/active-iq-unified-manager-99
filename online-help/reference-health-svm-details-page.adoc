@@ -640,9 +640,3 @@ The Related Groups pane enables you to view the list of groups associated with t
 == Related Alerts pane
 
 The Related Alerts pane enables you to view the list of alerts that are created for the selected storage VM. You can also add an alert by clicking the *Add Alert* link or edit an existing alert by clicking the alert name.
-
-*Related information*
-
-xref:reference-export-policy-rules-dialog-box.adoc[Export Policy Rules dialog box]
-
-xref:task-adding-alerts.adoc[Adding alerts]

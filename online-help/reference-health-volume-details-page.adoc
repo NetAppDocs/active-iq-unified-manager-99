@@ -660,9 +660,3 @@ The Related Groups pane enables you to view the list of groups associated with t
 == Related Alerts pane
 
 The Related Alerts pane enables you to view the list of alerts that are created for the selected volume. You can also add an alert by clicking the Add Alert link or edit an existing alert by clicking the alert name.
-
-*Related information*
-
-xref:task-adding-alerts.adoc[Adding alerts]
-
-xref:task-editing-individual-volume-health-threshold-settings.adoc[Editing individual volume health threshold settings]

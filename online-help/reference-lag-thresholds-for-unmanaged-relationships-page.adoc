@@ -38,9 +38,3 @@ Specifies the percentage at which the lag duration equals or exceeds the lag err
  ** Event severity: Error
 
 Additionally, you can disable a warning or error event from being triggered from any lag threshold amount by unchecking the box next to Enabled.
-
-*Related information*
-
-xref:task-configuring-lag-threshold-settings-for-unmanaged-protection-relationships.adoc[Configuring lag threshold settings for unmanaged protection relationships]
-
-xref:task-editing-individual-aggregate-health-threshold-settings.adoc[Editing individual aggregate health threshold settings]

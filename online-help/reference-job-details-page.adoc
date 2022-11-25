@@ -105,7 +105,3 @@ Displays additional information about each job task, including the task name, ta
 * *Task Messages pane*
 +
 Displays messages specific to the selected task. Messages might include a reason for the error and suggestions for resolving it. Not all tasks display task messages.
-
-*Related information*
-
-xref:task-viewing-job-details.adoc[Viewing job details]

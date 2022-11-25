@@ -56,13 +56,3 @@ Displays the email address of the user.
 * *Role*
 +
 Displays the type of role that is assigned to the user: Operator, Storage Administrator, Application Administrator, Integration Schema, or Report Schema.
-
-*Related information*
-
-xref:task-viewing-users.adoc[Viewing users]
-
-xref:task-adding-users.adoc[Adding users]
-
-xref:task-editing-user-settings.adoc[Editing the user settings]
-
-xref:task-deleting-users-or-groups.adoc[Deleting users or groups]

@@ -34,7 +34,3 @@ Saves the changes to the resource pool name and description.
 * *Cancel*
 +
 Discards the changes and closes the Edit Resource Pool dialog box.
-
-*Related information*
-
-xref:task-editing-resource-pools.adoc[Editing resource pools]

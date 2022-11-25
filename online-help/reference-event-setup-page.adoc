@@ -50,13 +50,3 @@ Displays the severity of the event. The severity can be Critical, Error, Warning
 * *Source Type*
 +
 Displays the source type for which the event is generated.
-
-*Related information*
-
-xref:task-disabling-unwanted-events.adoc[Disabling unwanted events]
-
-xref:task-uploading-a-new-active-iq-rules-file.adoc[Uploading a new Active IQ rules file]
-
-xref:task-configuring-event-retention-settings.adoc[Configuring event retention settings]
-
-xref:task-subscribing-to-ontap-ems-events.adoc[Subscribing to ONTAP EMS events]

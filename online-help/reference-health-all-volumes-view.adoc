@@ -44,11 +44,3 @@ Displays the Restore dialog box, which enables you to restore directories or fil
 * *Annotate*
 +
 Enables you to annotate the selected volume.
-
-*Related information*
-
-xref:task-editing-individual-volume-health-threshold-settings.adoc[Editing individual volume health threshold settings]
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting storage data as reports]
-
-xref:task-scheduling-a-report.adoc[Scheduling a report]

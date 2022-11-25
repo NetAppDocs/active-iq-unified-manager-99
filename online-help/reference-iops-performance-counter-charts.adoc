@@ -67,19 +67,3 @@ The solid red line indicates the utilization critical threshold value set in Uni
 * Counters
 +
 The counters in the left pane show which counter values are being displayed. Deselecting or selecting the image:../media/eye-icon.gif[] that is associated with a counter hides and shows that counter information from the chart and can help when comparing object IOPS.
-
-*Related information*
-
-xref:reference-what-data-does-the-workload-analyzer-display.adoc[What data does the workload analyzer display]
-
-xref:task-specifying-the-time-range-in-zoom-view.adoc[Specifying the time range in Zoom View]
-
-xref:task-selecting-performance-thresholds-in-zoom-view.adoc[Selecting performance thresholds in Counter Charts Zoom View]
-
-xref:task-viewing-workload-qos-minimum-and-maximum-settings.adoc[Viewing workload QoS minimum and maximum settings in the Performance Explorer]
-
-xref:task-viewing-svm-iops-traffic-by-protocol.adoc[Viewing SVM IOPS traffic by protocol]
-
-xref:task-viewing-node-iops-based-on-workloads-that-reside-only-on-the-local-node.adoc[Viewing node IOPS based on workloads that reside only on the local node]
-
-xref:concept-understanding-counter-charts.adoc[Understanding counter charts]

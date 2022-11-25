@@ -71,9 +71,3 @@ Enables you to restore the notification format to the factory default values.
 * *Save*
 +
 Saves the changes made to the notification format.
-
-*Related information*
-
-xref:task-creating-rules-to-generate-email-addresses.adoc[Creating rules to generate email addresses]
-
-xref:reference-rules-to-generate-user-and-group-quota-email-address-dialog-box.adoc[Rules to Generate User and Group Quota Email Address page]
