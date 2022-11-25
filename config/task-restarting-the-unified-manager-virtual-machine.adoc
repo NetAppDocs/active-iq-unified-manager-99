@@ -25,7 +25,3 @@ You can also restart the virtual machine from vSphere by using the **Restart Gue
 
 . Access the maintenance console.
 . Select *System Configuration* > *Reboot Virtual Machine*.
-
-*Related information*
-
-xref:task-changing-the-unified-manager-host-name-on-vmware.adoc[Changing the Unified Manager virtual appliance host name]

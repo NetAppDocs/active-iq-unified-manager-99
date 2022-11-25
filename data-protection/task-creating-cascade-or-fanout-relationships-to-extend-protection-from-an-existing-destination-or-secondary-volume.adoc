@@ -27,7 +27,3 @@ You can extend protection from an existing relationship by creating either a fan
 The Configure Protection dialog box is displayed.
 
 . Complete the information as indicated in the *Configure Protection* dialog box.
-
-*Related information*
-
-xref:reference-configure-protection-dialog-box.adoc[Configure Protection dialog box]

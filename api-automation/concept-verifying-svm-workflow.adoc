@@ -120,13 +120,3 @@ GET
 a|
 `+/management-server/jobs/{key}+`
 |===
-
-*Related information*
-
-xref:concept-data-center-apis.adoc[Managing storage objects in a data center]
-
-xref:concept-job-api.adoc[Viewing Jobs]
-
-xref:concept-provisioning-file-share.adoc[Provisioning CIFS and NFS file shares]
-
-xref:concept-provisioning-luns.adoc[Provisioning LUNs]

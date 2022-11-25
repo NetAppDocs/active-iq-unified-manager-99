@@ -89,8 +89,3 @@ PATCH
 a|
 `+/storage-provider/file-shares/{key}+`
 |===
-*Related information*
-
-xref:concept-modifying-workloads-workflow.adoc[Modifying storage workloads]
-
-xref:concept-provisioning-file-share.adoc[Provisioning CIFS and NFS file shares]

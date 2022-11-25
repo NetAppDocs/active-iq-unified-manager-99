@@ -82,11 +82,3 @@ Discards your selections and closes the Restore dialog box.
 * *Restore*
 +
 Applies your selections and begins the restore process.
-
-*Related information*
-
-xref:task-restoring-data-using-the-health-volumes-page.adoc[Restoring data using the Health: All Volumes view]
-
-xref:task-restoring-data-using-the-health-volume-details-page.adoc[Restoring data using the Volume / Health details page]
-
-xref:reference-browse-directories-dialog-box.adoc[Browse Directories dialog box]

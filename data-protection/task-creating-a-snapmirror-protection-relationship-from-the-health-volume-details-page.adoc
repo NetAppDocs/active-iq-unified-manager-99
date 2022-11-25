@@ -55,11 +55,3 @@ Depending on the destination SVM you specified during configuration or on the op
 * If you specified a destination SVM that runs under the same or a newer version of ONTAP compared to that of the source volume, a block-replication-based SnapMirror relationship is the default result.
 * If you specified a destination SVM that runs under the same or a newer version of ONTAP compared to that of the source volume, but you enabled version-flexible replication in the Advanced settings, a SnapMirror relationship with version-flexible replication is the result.
 * If you specified a destination SVM that runs under an earlier version of ONTAP, or a version that is higher than that of the source volume and the earlier version supports version-flexible replication, a SnapMirror relationship with version-flexible replication is the automatic result.
-
-*Related information*
-
-xref:reference-configure-protection-dialog-box.adoc[Configure Protection dialog box]
-
-xref:reference-advanced-destination-settings-dialog-box.adoc[Advanced Destination Settings dialog box]
-
-xref:task-configuring-a-connection-between-workflow-automation-and-unified-manager.adoc[Configuring a connection between Workflow Automation and Unified Manager]

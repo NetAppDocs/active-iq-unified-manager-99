@@ -56,7 +56,3 @@ a|
 
 |===
 The Unified Manager maintenance console menu is displayed.
-
-*Related information*
-
-xref:task-using-the-maintenance-console.adoc[Using the maintenance console]

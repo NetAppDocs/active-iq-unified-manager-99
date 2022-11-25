@@ -430,19 +430,3 @@ In the output you can see the LUN has been successfully mapped with the igroup (
   }
 }
 ----
-
-*Related information*
-
-xref:concept-verifying-svm-workflow.adoc[Verifying SVMs on clusters]
-
-xref:concept-job-api.adoc[Viewing Jobs]
-
-xref:concept-managing-lun.adoc[Managing LUNs]
-
-xref:concept-managing-psl.adoc[Managing Performance Service Levels]
-
-xref:concept-managing-sep.adoc[Managing Storage Efficiency Policies]
-
-xref:concept-managing-access-endpoint.adoc[Managing access endpoints]
-
-xref:concept-data-center-apis.adoc[Managing storage objects in a data center]

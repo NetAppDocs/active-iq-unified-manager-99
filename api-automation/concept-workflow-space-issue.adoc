@@ -64,7 +64,3 @@ a|
 
 . Analyze which volumes are being over-utilized.
 . Perform any necessary corrective action, such as moving the volume across aggregates, to address the space issues in your volume. You can perform these actions from ONTAP or Unified Manager web UI.
-
-*Related information*
-
-xref:concept-data-center-apis.adoc[Managing storage objects in a data center]

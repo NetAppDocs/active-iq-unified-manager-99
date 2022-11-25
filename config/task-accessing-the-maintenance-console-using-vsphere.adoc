@@ -24,7 +24,3 @@ If the Unified Manager user interface is not in operation, or if you need to per
 . Log in to the maintenance console using your user name and password.
 
 After 15 minutes of inactivity, the maintenance console logs you out.
-
-*Related information*
-
-xref:task-using-the-maintenance-console.adoc[Using the maintenance console]

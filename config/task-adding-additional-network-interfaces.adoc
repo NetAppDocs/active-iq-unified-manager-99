@@ -46,7 +46,3 @@ After entering the network settings, you automatically return to the *Network Co
 . Select *Commit Changes*.
 
 You must commit the changes to add the network interface.
-
-*Related information*
-
-xref:task-accessing-the-maintenance-console-using-vsphere.adoc[Accessing the maintenance console using the vSphere VM console]

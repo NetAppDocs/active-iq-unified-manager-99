@@ -25,7 +25,3 @@ The Break Relationship dialog box is displayed.
 
 . Click *Continue* to break the relationship.
 . In the topology, verify that the relationship is broken.
-
-*Related information*
-
-xref:task-configuring-a-connection-between-workflow-automation-and-unified-manager.adoc[Configuring a connection between Workflow Automation and Unified Manager]

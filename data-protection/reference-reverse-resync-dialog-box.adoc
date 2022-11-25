@@ -48,9 +48,3 @@ Begins the reverse resynchronization process.
 * *Cancel*
 +
 Closes the Reverse Resync dialog box without initiating a reverse resync operation.
-
-*Related information*
-
-xref:task-reversing-protection-relationships-from-the-health-volume-details-page.adoc[Reversing protection relationships from the Volume / Health details page]
-
-xref:task-reversing-protection-relationships.adoc[Reversing protection relationships from the Volume Relationships page]

@@ -47,7 +47,3 @@ Provides an option to change the default ports that Unified Manager uses for HTT
 * *Exit*
 
 Exits the maintenance console menu.
-
-*Related information*
-
-xref:task-changing-the-ports-um-uses-for-http-and-https-protocols.adoc[Changing the ports Unified Manager uses for HTTP and HTTPS protocols]
