@@ -221,8 +221,3 @@ a|
 a|
 •
 |===
-*Related information*
-
-xref:reference-definitions-of-user-types.adoc[Definitions of user types]
-
-xref:reference-definitions-of-user-roles.adoc[Definitions of user roles]

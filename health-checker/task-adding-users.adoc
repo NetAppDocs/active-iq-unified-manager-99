@@ -32,13 +32,3 @@ If you add a group from Windows Active Directory, then all direct members and ne
 When entering the required user information, you must specify an email address that is unique to that user. You must avoid specifying email addresses that are shared by multiple users.
 
 . Click *Add*.
-
-*Related information*
-
-xref:task-enabling-saml-authentication-um.adoc[Enabling SAML authentication]
-
-xref:reference-definitions-of-user-types.adoc[Definitions of user types]
-
-xref:reference-definitions-of-user-roles.adoc[Definitions of user roles]
-
-xref:reference-unified-manager-roles-and-capabilities.adoc[Unified Manager user roles and capabilities]

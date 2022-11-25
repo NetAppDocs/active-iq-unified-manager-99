@@ -36,11 +36,3 @@ The Relationship: All Relationships view is displayed.
 ====
 The volume transfer views display information for volumes in asynchronous relationships only - volumes in synchronous relationships are not shown.
 ====
-
-*Related information*
-
-xref:reference-relationship-all-relationships-view.adoc[Relationship: All Relationships view]
-
-xref:reference-relationship-last-1-month-transfer-status-view.adoc[Relationship: Last 1 month Transfer Status view]
-
-xref:reference-relationship-last-1-month-transfer-rate-view.adoc[Relationship: Last 1 month Transfer Rate view]

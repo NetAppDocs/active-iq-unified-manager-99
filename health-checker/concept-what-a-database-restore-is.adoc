@@ -21,13 +21,3 @@ If you are restoring the backup image to a new server, after the restore operati
 ====
 Old backup files cannot be used to restore an image after Unified Manager has been upgraded to a newer version of software. To save space, all old backup files, except the newest file, are removed automatically when you upgrade Unified Manager.
 ====
-
-*Related information*
-
-xref:task-restoring-a-mysql-database-backup-on-red-hat-enterprise-linux-or-centos.adoc[Restoring a MySQL database backup on a Linux system]
-
-xref:task-restoring-a-mysql-database-backup-on-windows.adoc[Restoring a MySQL database backup on Windows]
-
-xref:task-generating-an-https-security-certificate-ocf.adoc[Generating an HTTPS security certificate]
-
-xref:task-enabling-saml-authentication-um.adoc[Enabling SAML authentication]

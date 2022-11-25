@@ -42,9 +42,3 @@ The next time remote users attempt to access the Unified Manager graphical inter
 == After you finish
 
 If required, access your IdP and delete the Unified Manager server URL and metadata.
-
-*Related information*
-
-xref:task-enabling-saml-authentication-um.adoc[Enabling SAML authentication]
-
-xref:task-accessing-the-maintenance-console.adoc[Accessing the maintenance console]

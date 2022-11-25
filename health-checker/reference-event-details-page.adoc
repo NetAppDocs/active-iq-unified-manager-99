@@ -68,9 +68,3 @@ When you resolve an event, your user name and the time that you resolved the eve
 * *Add Alert*
 +
 Displays the Add Alert dialog box, which enables you to add an alert for the selected event.
-
-*Related information*
-
-xref:task-performing-diagnotstic-actions-for-volume-offline-conditions.adoc[Performing diagnostic actions for volume offline conditions]
-
-xref:task-performing-suggested-remedial-actions-for-a-full-volume.adoc[Performing suggested remedial actions for a full volume]

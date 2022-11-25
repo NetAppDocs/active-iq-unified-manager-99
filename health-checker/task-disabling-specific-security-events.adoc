@@ -45,7 +45,3 @@ a|
 
 +
 |===
-
-*Related information*
-
-xref:task-viewing-all-security-events.adoc[Viewing all active security events]
