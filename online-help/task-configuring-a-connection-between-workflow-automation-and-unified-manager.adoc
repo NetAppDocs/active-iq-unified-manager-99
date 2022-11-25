@@ -43,9 +43,3 @@ You must use the Unified Manager server port (port 443).
 The Workflow Automation page displays.
 
 . Click *Yes* to reload the web UI, and add the Workflow Automation features.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]
-
-xref:reference-setup-workflow-automation-page.adoc[Workflow Automation page]

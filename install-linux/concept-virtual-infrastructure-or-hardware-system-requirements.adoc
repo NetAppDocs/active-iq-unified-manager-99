@@ -13,6 +13,7 @@ Installing Unified Manager on virtual infrastructure or a physical system should
 
 The following table displays the values that are recommended for memory, CPU, and disk space resources. These values have been qualified so that Unified Manager meets acceptable performance levels.
 
+[cols="2*",options="header"]
 |===
 | Hardware configuration| Recommended settings
 a|
@@ -39,8 +40,8 @@ a|
 ====
 For separately mounted `/opt` and `/var/log` directories, ensure that `/opt` has 15 GB and `/var/log` has 16 GB of free space. The `/tmp` directory should have at least 10 GB of free space.
 ====
-
 |===
+
 Unified Manager can be installed on systems with a small amount of memory, but the recommended 12 GB of RAM ensures that enough memory is available for optimal performance, and so that the system can accommodate additional clusters and storage objects as your configuration grows. You should not set any memory limits on the VM where Unified Manager is deployed, and should not enable any features (for example, ballooning) that hinder the software from utilizing the allocated memory on the system.
 
 Additionally, there is a limit to the number of nodes that a single instance of Unified Manager can monitor before you install a second instance of Unified Manager. For more information, see the _Best Practices Guide_.

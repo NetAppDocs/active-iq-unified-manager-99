@@ -34,7 +34,3 @@ The Aggregates dialog box is displayed.
 . Click *Add*.
 +
 The dialog box is closed and the aggregates are displayed in the member list for the selected resource pool.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]

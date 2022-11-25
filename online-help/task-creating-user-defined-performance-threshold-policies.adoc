@@ -68,11 +68,3 @@ You are returned to the Performance Thresholds page. A success message at the to
 == After you finish
 
 If you want to apply the new threshold policy to storage objects at this time, you can click the *Go to object_type now* link to go to the Inventory page.
-
-*Related information*
-
-xref:reference-what-performance-metrics-can-be-monitored-using-thresholds.adoc[What performance counters can be tracked using thresholds]
-
-xref:reference-what-objects-and-metrics-can-be-used-in-combination-threshold-policies.adoc[What objects and counters can be used in combination threshold policies]
-
-xref:task-assigning-performance-threshold-policies-to-storage-objects.adoc[Assigning performance threshold policies to storage objects]

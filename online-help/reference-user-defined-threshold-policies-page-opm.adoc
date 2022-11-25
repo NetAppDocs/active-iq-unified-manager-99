@@ -65,11 +65,3 @@ When a second condition is defined, an event is generated only when both conditi
 Displays the type of storage object to which the threshold policy can be applied, and the number of objects that are using the policy. This field is blank until you assign the policy to at least one object.
 +
 You can click the column heading to sort the policies by object type: volume, LUN, aggregate, and so on. You can click the policy name to display the inventory page populated with the objects that are currently using the threshold policy.
-
-*Related information*
-
-xref:task-creating-user-defined-performance-threshold-policies.adoc[Creating user-defined performance threshold policies]
-
-xref:task-assigning-performance-threshold-policies-to-storage-objects.adoc[Assigning performance threshold policies to storage objects]
-
-xref:task-filtering-inventory-page-content.adoc[Filtering inventory page content]

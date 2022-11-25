@@ -37,11 +37,3 @@ An error message is displayed if the syntax of the rule is incorrect. You must c
 
 . Click *Save*.
 . Verify that the email address you created is displayed in the *User and Group Quotas* tab of the *Storage VM / Health* details page.
-
-*Related information*
-
-xref:task-editing-user-and-group-quota-email-addresses.adoc[Editing user and group quota email addresses]
-
-xref:reference-rules-to-generate-user-and-group-quota-email-address-dialog-box.adoc[Rules to Generate User and Group Quota Email Address page]
-
-xref:task-creating-an-email-notification-format-for-user-and-user-group-quotas.adoc[Creating an email notification format for user and user group quotas]

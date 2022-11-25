@@ -33,7 +33,3 @@ A warning dialog box is displayed.
 . Click *Yes* to continue.
 +
 The selected storage VM peer is removed from the list.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]

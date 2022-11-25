@@ -24,11 +24,3 @@ You must have the Application Administrator role.
 == After you finish
 
 You can provide the file to a Certificate Authority to sign, and then install the signed certificate.
-
-*Related information*
-
-xref:task-viewing-the-https-security-certificate-ocf.adoc[Viewing the HTTPS security certificate]
-
-xref:task-generating-an-https-security-certificate-ocf.adoc[Generating an HTTPS security certificate]
-
-xref:task-installing-a-ca-signed-and-returned-https-certificate.adoc[Installing a CA signed and returned HTTPS certificate]

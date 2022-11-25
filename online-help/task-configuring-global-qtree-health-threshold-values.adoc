@@ -26,7 +26,3 @@ Events are generated for a qtree only when a Qtree quota or a Default quota has 
 . In the left navigation pane, click *Event Thresholds* > *Qtree*.
 . Configure the appropriate capacity threshold values.
 . Click *Save*.
-
-*Related information*
-
-xref:task-editing-individual-qtree-health-threshold-settings.adoc[Editing individual qtree health threshold settings]

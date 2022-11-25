@@ -15,6 +15,7 @@ Before you install and configure Unified Manager, you should have specific infor
 
 The details required to install Unified Manager.
 
+[cols="2*",options="header"]
 |===
 | System on which software is deployed| Your value
 a|
@@ -63,6 +64,7 @@ a|
 
 The details to configure Unified Manager after installation. Some values are optional depending on your configuration.
 
+[cols="2*",options="header"]
 |===
 | Setting| Your value
 a|
@@ -133,6 +135,7 @@ a|
 
 The details for the storage systems that you manage using Unified Manager.
 
+[cols="2*",options="header"]
 |===
 | Cluster 1 of N| Your value
 a|

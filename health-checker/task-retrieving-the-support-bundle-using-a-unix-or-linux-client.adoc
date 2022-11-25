@@ -22,7 +22,8 @@ You must have generated a support bundle using the maintenance console and have 
 . Access the CLI through Telnet or the console, using your Linux client server.
 . Access the `/support` directory.
 . Retrieve the support bundle and copy it to the local directory using the following command:
-+
+
+[cols="2*",options="header"]
 |===
 | If you are using...| Then use the following command...
 a|
@@ -34,6 +35,7 @@ SFTP
 a|
 `sftp <maintenance-user>@<vApp-name-or-ip>:/support/support_bundle_file_name.7z <destination-directory>`
 |===
+
 The name of the support bundle is provided to you when you generate it using the maintenance console.
 
 . Enter the maintenance user password.

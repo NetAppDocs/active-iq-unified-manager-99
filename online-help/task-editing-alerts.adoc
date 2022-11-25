@@ -24,13 +24,3 @@ You must have the Application Administrator role.
 You can change or remove the script that is associated with the alert.
 
 . Click *Save*.
-
-*Related information*
-
-xref:task-testing-script-execution.adoc[Testing script execution]
-
-xref:concept-what-alerts-are.adoc[What alerts are]
-
-xref:task-testing-alerts.adoc[Testing alerts]
-
-xref:task-adding-users.adoc[Adding users]

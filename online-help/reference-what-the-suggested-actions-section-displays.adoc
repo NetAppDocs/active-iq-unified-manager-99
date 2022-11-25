@@ -22,15 +22,3 @@ If you want to analyze the object and event in more detail, click the *Analyze W
 There are certain events that Unified Manager can diagnose thoroughly and provide a single resolution. When available, those resolutions are displayed with a *Fix It* button. Click this button to have Unified Manager fix the issue causing the event.
 
 For Active IQ platform events, this section may contain a link to a NetApp Knowledgebase article, when available, that describes the issue and possible resolutions. In sites with no external network access, a PDF of the Knowledgebase article is opened locally; the PDF is part of the rules file that you manually download to the Unified Manager instance.
-
-*Related information*
-
-xref:task-responding-to-a-system-defined-qos-policy-group-performance-event.adoc[Responding to QoS policy group performance events]
-
-xref:task-responding-to-a-system-defined-node-resources-overutilized-performance-event.adoc[Responding to node resources overutilized performance events]
-
-xref:concept-understanding-events-from-adaptive-qos-policies-that-have-a-defined-block-size.adoc[Understanding events from adaptive QoS policies that have a defined block size]
-
-xref:concept-fixing-ontap-issues-directly-from-unified-manager.adoc[Fixing ONTAP issues directly from Unified Manager]
-
-xref:concept-what-active-iq-platform-events-are.adoc[What Active IQ platform events are]

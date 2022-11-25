@@ -28,9 +28,3 @@ Starting with Unified Manager 9.7, clusters can be added using HTTPS only.
 . On the *Cluster Setup* page, select the cluster you want to edit, and then click *Edit*.
 . In the *Edit Cluster* dialog box, modify the values as required.
 . Click *Submit*.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]
-
-xref:reference-cluster-setup-page.adoc[Cluster Setup page]

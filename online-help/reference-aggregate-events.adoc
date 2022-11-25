@@ -15,6 +15,7 @@ Aggregate events provide you with information about the status of aggregates so 
 
 An asterisk (*) identifies EMS events that have been converted to Unified Manager events.
 
+[cols="4*",options="header"]
 |===
 | Event name(Trap name)
 
@@ -122,6 +123,7 @@ Error
 
 == Impact area: capacity
 
+[cols="4*",options="header"]
 |===
 | Event name(Trap name)
 
@@ -193,6 +195,7 @@ Warning
 
 == Impact area: configuration
 
+[cols="4*",options="header"]
 |===
 | Event name(Trap name)
 
@@ -228,6 +231,7 @@ Information
 
 == Impact area: performance
 
+[cols="4*",options="header"]
 |===
 | Event name(Trap name)
 

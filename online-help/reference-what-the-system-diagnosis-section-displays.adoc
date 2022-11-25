@@ -24,19 +24,3 @@ For dynamic performance events, the following charts are displayed:
 Other charts are displayed when some cluster components are in contention.
 
 Other events provide a brief description of the type of analysis the system is performing on the storage object. In some cases there will be one or more lines; one for each component that has been analyzed, for system-defined performance policies that analyze multiple performance counters. In this scenario, a green or red icon displays next to the diagnosis to indicate whether an issue was found, or not, in that particular diagnosis.
-
-*Related information*
-
-xref:concept-analyzing-events-from-user-defined-performance-thresholds.adoc[Analyzing events from user-defined performance thresholds]
-
-xref:concept-analyzing-events-from-system-defined-performance-thresholds.adoc[Analyzing events from system-defined performance thresholds]
-
-xref:concept-analyzing-events-from-dynamic-performance-thresholds.adoc[Analyzing events from dynamic performance thresholds]
-
-xref:reference-dynamic-performance-event-chart-details.adoc[Dynamic performance event chart details]
-
-xref:reference-iops-performance-counter-charts.adoc[IOPS performance counter charts]
-
-xref:reference-mbps-performance-counter-charts.adoc[MB/s performance counter charts]
-
-xref:reference-utilization-performance-counter-chart.adoc[Utilization performance counter chart]

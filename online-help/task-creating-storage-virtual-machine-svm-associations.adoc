@@ -47,7 +47,3 @@ Choose this option when you want to create an association between a source stora
 . Click *Next*.
 . Select one or more storage VM protection destination.
 . Click *Finish*.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]

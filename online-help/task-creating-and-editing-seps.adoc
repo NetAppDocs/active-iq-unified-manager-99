@@ -51,13 +51,3 @@ The page to add or edit a Storage Efficiency Policy is displayed.
 == After you finish
 
 You can apply the new or changed Storage Efficiency Policy to workloads (LUNs, NFS File Shares, CIFS Shares) from the Workloads page or when provisioning a new workload.
-
-*Related information*
-
-xref:concept-managing-storage-efficiency-policies.adoc[Managing Storage Efficiency Policies]
-
-xref:concept-all-workloads.adoc[Viewing workloads]
-
-xref:task-provisioning-luns.adoc[Provisioning LUNs]
-
-xref:task-provisioning-fileshares.adoc[Provisioning file share volumes]

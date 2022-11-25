@@ -69,9 +69,3 @@ If you receive an error message that you cannot add the cluster, check to see if
 * If the cluster has reached the maximum number of EMS notification destinations the Unified Manager address cannot be added. By default only 20 EMS notification destinations can be defined on the cluster.
 
 ====
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]
-
-xref:reference-cluster-setup-page.adoc[Cluster Setup page]

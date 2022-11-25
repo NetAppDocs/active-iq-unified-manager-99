@@ -45,7 +45,3 @@ If you do not enter a user name or select a user from the drop-down list, and cl
 
 +
 |===
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]

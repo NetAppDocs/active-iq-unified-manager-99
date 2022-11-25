@@ -254,6 +254,7 @@ The JSON output displays a Job object key that you can use to verify the LUN tha
 
 . View the details of the LUN by running the following API with the LUN key that you obtained.
 
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|

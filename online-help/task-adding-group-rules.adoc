@@ -71,11 +71,3 @@ Perform the following steps in the Add Group Rule dialog box to create a group r
 . Click *Add condition*.
 . Repeat steps 8 through 10 by selecting *data-priority* as the operand in step 8, *Is* as the operator in step 9, and *critical* as the value in step 10.
 . Click *Add* to create the condition for the group rule.
-
-*Related information*
-
-xref:concept-how-group-rules-work-for-groups.adoc[How group rules work for groups]
-
-xref:task-editing-group-rules.adoc[Editing group rules]
-
-xref:task-deleting-group-rules.adoc[Deleting group rules]

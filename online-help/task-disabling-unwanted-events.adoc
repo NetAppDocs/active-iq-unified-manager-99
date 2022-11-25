@@ -47,11 +47,3 @@ a|
 
 +
 |===
-
-*Related information*
-
-xref:task-enabling-and-disabling-active-iq-event-reporting.adoc[Enabling and disabling Active IQ event reporting]
-
-xref:reference-types-of-system-defined-performance-threshold-policies.adoc[Types of system-defined performance threshold policies]
-
-xref:reference-list-of-events-and-severity-types.adoc[List of events and severity types]

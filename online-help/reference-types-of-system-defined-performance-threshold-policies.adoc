@@ -121,9 +121,3 @@ When the "`block size`" element has been defined in the adaptive QoS policy, the
 ====
 This policy is applied to volumes only when the cluster is installed with ONTAP 9.5 and later software.
 ====
-
-*Related information*
-
-xref:task-disabling-unwanted-events.adoc[Disabling unwanted events]
-
-xref:concept-understanding-events-from-adaptive-qos-policies-that-have-a-defined-block-size.adoc[Understanding events from adaptive QoS policies that have a defined block size]

@@ -33,11 +33,3 @@ Health threshold values are not applicable to the root aggregate of the node.
 . In the left navigation pane, click *Event Thresholds* > *Aggregate*.
 . Configure the appropriate threshold values for capacity, growth, and Snapshot copies.
 . Click *Save*.
-
-*Related information*
-
-xref:task-editing-individual-aggregate-health-threshold-settings.adoc[Editing individual aggregate health threshold settings]
-
-xref:concept-understanding-capacity-events-and-thresholds-for-node-root-aggregates.adoc[Understanding events and thresholds for node root aggregates]
-
-xref:task-adding-users.adoc[Adding users]

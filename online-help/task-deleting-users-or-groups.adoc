@@ -24,9 +24,3 @@ If you are deleting local users or remote users, the events that are assigned to
 . In the left navigation pane, click *General* > *Users*.
 . In the *Users* page, select the users or groups that you want to delete, and then click *Delete*.
 . Click *Yes* to confirm the deletion.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]
-
-xref:task-assigning-events-to-specific-users.adoc[Assigning events to specific users]

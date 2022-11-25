@@ -159,9 +159,3 @@ Specifies the percentage at which a volume is considered to have consumed all of
  ** Default value: 90 percent
  ** Event generated: Inodes Full
  ** Event severity: Error
-
-*Related information*
-
-xref:task-configuring-global-volume-health-threshold-values.adoc[Configuring global volume health threshold values]
-
-xref:task-editing-individual-volume-health-threshold-settings.adoc[Editing individual volume health threshold settings]

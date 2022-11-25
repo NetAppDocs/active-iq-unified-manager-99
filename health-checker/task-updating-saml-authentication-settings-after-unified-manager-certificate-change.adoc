@@ -31,7 +31,8 @@ A message box displays to confirm that you want to complete the configuration an
 
 . Click *Confirm and Logout* and Unified Manager is restarted.
 . Access your IdP server and enter the Unified Manager server URI and metadata to complete the configuration.
-+
+
+[cols="2*",options="header"]
 |===
 | Identity provider| Configuration steps
 a|
@@ -50,7 +51,6 @@ a|
  .. Update the new FQDN of Unified Manager server into the `attribute-filter.xml` and `relying-party.xml` files.
  .. Restart the Apache Tomcat web server and wait for port 8005 to come online.
 
-+
 |===
 
 . Log in to Unified Manager and verify that SAML authentication works as expected through your IdP.

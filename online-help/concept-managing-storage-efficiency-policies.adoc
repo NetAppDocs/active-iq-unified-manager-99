@@ -19,6 +19,7 @@ You cannot modify an SEP that is system-defined or that is currently assigned to
 
 The Storage Efficiency Policies page lists the available SEPs and enables you to add, edit, and delete customized SEPs. This page displays the following information:
 
+[cols="2*",options="header"]
 |===
 | Field| Description
 a|

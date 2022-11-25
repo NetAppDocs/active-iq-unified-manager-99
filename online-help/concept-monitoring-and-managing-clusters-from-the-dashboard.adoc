@@ -20,6 +20,7 @@ At the top of the dashboard you can select whether the panels show information f
 Some of the panels listed below may not appear on the page based on your configuration.
 ====
 
+[cols="2*",options="header"]
 |===
 | Panels| Description
 a|
