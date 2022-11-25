@@ -1,5 +1,5 @@
 ---
-permalink: api-automation/concept-getting-strated-with-getting-started-with-um-apis.html
+permalink: api-automation/concept-getting-started-with-getting-started-with-um-apis.html
 sidebar: sidebar
 keywords: 
 summary: 'Active IQ Unified Manager provides a set of APIs to manage your storage resources on the supported storage systems through a RESTful web service interface for any third-party integration.'

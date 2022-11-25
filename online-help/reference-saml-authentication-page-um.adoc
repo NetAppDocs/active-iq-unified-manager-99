@@ -46,9 +46,3 @@ The URI to access the Unified Manager host system from the IdP.
 * *Host Metadata*
 +
 The host system metadata in XML format.
-
-*Related information*
-
-xref:task-enabling-saml-authentication-um.adoc[Enabling SAML authentication]
-
-xref:task-enabling-remote-authentication.adoc[Enabling remote authentication]

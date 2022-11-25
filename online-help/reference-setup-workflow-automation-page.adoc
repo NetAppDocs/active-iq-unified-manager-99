@@ -56,9 +56,3 @@ Removes the Workflow Automation setup from Unified Manager.
 * *Save*
 +
 Saves the configuration settings for the selected option.
-
-*Related information*
-
-xref:task-configuring-a-connection-between-workflow-automation-and-unified-manager.adoc[Configuring a connection between Workflow Automation and Unified Manager]
-
-xref:task-removing-workflow-automation.adoc[Removing OnCommand Workflow Automation setup from Unified Manager]

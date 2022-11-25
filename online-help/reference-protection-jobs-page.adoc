@@ -136,11 +136,3 @@ Displays the amount of time the job took to complete. This column is displayed b
 * *Completed Time*
 +
 Displays the time the job finished. By default, this column is hidden.
-
-*Related information*
-
-xref:task-monitoring-jobs.adoc[Monitoring jobs]
-
-xref:task-viewing-job-details.adoc[Viewing job details]
-
-xref:task-aborting-jobs.adoc[Aborting jobs]

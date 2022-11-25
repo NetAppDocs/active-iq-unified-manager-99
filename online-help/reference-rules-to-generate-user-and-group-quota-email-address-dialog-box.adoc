@@ -61,9 +61,3 @@ Enables you to restore the address rules to the factory default values.
 * *Save*
 +
 Validates the syntax of the rule and saves the rule if there are no errors. If there are errors during validation, the rule that generates the error is displayed along with an error message.
-
-*Related information*
-
-xref:task-creating-rules-to-generate-email-addresses.adoc[Creating rules to generate email addresses]
-
-xref:reference-email-notification-format-page.adoc[Email Notification Format page]

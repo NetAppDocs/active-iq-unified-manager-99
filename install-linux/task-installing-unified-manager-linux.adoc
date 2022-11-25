@@ -115,4 +115,4 @@ Log in to Unified Manager in a web browser by using following details:
 
 == After you finish
 
-Access the web UI to change the default password of the umadmin user, and perform the initial setup of Unified Manager, as described in the http://docs.netapp.com/ocum-99/topic/com.netapp.doc.onc-um-sysconfig/home.html[Active IQ Unified Manager System Configuration Guide].
+Access the web UI to change the default password of the umadmin user, and perform the initial setup of Unified Manager, as described in the link:../config/task-using-the-maintenance-console.html[Using the maintenance console].

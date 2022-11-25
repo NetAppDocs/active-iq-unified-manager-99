@@ -201,8 +201,3 @@ Restores a MySQL database backup using .7z files.
 a|
 Displays the corresponding message.
 |===
-*Related information*
-
-xref:task-adding-scripts.adoc[Adding scripts]
-
-xref:concept-how-scripts-work-with-alerts.adoc[How scripts work with alerts]

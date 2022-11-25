@@ -132,13 +132,3 @@ Submits your selections and closes the Select Source Snapshot Copy dialog box.
 * *Cancel*
 +
 Discards your selections and closes the Select Source Snapshot Copy dialog box.
-
-*Related information*
-
-xref:reference-resynchronize-dialog-box.adoc[Resynchronize dialog box]
-
-xref:reference-initialize-update-relationship-dialog-box.adoc[Initialize/Update dialog box]
-
-xref:task-resynchronizing-protection-relationships-from-the-health-volume-details-page.adoc[Resynchronizing protection relationships from the Volume / Health details page]
-
-xref:task-resynchronizing-protection-relationships.adoc[Resynchronizing protection relationships from the Volume Relationships page]

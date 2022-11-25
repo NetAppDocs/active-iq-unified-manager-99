@@ -56,9 +56,3 @@ Closes the Snapshot Copies on a Volume dialog box.
 Enables you to calculate the space that can be reclaimed by deleting the selected Snapshot copies for FlexVol volumes. This button is not available for FlexGroup volumes.
 +
 The *Recalculate* button is enabled when you make any changes in the selection of the Snapshot copies.
-
-*Related information*
-
-xref:task-deleting-snapshot-copies.adoc[Deleting Snapshot copies]
-
-xref:task-calculating-reclaimable-space-for-snapshot-copies.adoc[Calculating reclaimable space for Snapshot copies]

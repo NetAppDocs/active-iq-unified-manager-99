@@ -28,7 +28,3 @@ Specifies the type of action that you can perform on the storage objects in a gr
 * *Associated Group*
 +
 Specifies the name of the group for which the group actions are defined.
-
-*Related information*
-
-xref:task-reordering-group-actions.adoc[Reordering group actions]

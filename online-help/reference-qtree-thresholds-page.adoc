@@ -37,9 +37,3 @@ Specifies the percentage at which a qtree is considered full:
  ** Default value: 90 percent
  ** Event generated: Qtree Full
  ** Event severity: Error
-
-*Related information*
-
-xref:task-configuring-global-qtree-health-threshold-values.adoc[Configuring global qtree health threshold values]
-
-xref:task-editing-individual-qtree-health-threshold-settings.adoc[Editing individual qtree health threshold settings]

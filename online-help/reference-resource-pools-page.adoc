@@ -192,17 +192,3 @@ Displays the RAID configuration type, which can be one of the following:
  ** RAID-TEC: All the RAID groups are of type RAID-TEC.
  ** Mixed RAID: The aggregate contains RAID groups of different RAID types (RAID0, RAID4, RAID-DP, and RAID-TEC).
 By default, this column is hidden.
-
-*Related information*
-
-xref:task-viewing-resource-pool-inventory.adoc[Viewing resource pools inventory]
-
-xref:task-deleting-resource-pools.adoc[Deleting resource pools]
-
-xref:task-creating-resource-pools.adoc[Creating resource pools]
-
-xref:task-editing-resource-pools.adoc[Editing resource pools]
-
-xref:task-adding-resource-pool-members.adoc[Adding resource pool members]
-
-xref:task-removing-aggregates-from-resource-pools.adoc[Removing aggregates from resource pools]

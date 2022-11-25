@@ -6,7 +6,7 @@ lead: Active IQ Unified Manager (Unified Manager, and formerly OnCommand Unified
 summary: Documentation for Active IQ Unified Manager, AIQUM docs, UM docs
 ---
 
-= Active IQ Unified Manager 9.9 Documentation
+= Active IQ Unified Manager Documentation
 :hardbreaks:
 :nofooter:
 :icons: font

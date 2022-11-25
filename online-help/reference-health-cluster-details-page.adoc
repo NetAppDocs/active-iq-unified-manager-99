@@ -623,13 +623,3 @@ Enables you to view the list of groups that includes the selected cluster.
 == Related Alerts pane
 
 The Related Alerts pane enables you to view the list of alerts for the selected cluster. You can also add an alert by clicking the Add Alert link or edit an existing alert by clicking the alert name.
-
-*Related information*
-
-xref:task-viewing-the-cluster-list-and-details.adoc[Viewing the cluster list and details]
-
-xref:reference-storage-pool-dialog-box.adoc[Storage Pool dialog box]
-
-xref:task-adding-alerts.adoc[Adding alerts]
-
-xref:task-editing-clusters.adoc[Editing clusters]
