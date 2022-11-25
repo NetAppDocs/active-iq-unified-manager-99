@@ -113,21 +113,3 @@ Displays the name of the script associated with the selected alert. This script 
 * *Email Recipients*
 +
 Displays the email addresses of users who receive the alert notification.
-
-*Related information*
-
-xref:task-adding-alerts.adoc[Adding alerts]
-
-xref:task-testing-alerts.adoc[Testing alerts]
-
-xref:task-disabling-alerts-for-resolved-and-obsolete-events.adoc[Enabling and Disabling alerts for Resolved and Obsolete events]
-
-xref:task-editing-alerts.adoc[Editing alerts]
-
-xref:task-deleting-alerts.adoc[Deleting alerts]
-
-xref:concept-sources-of-performance-events.adoc[Sources of performance events]
-
-xref:reference-list-of-events-and-severity-types.adoc[List of events and severity types]
-
-xref:concept-what-happens-when-an-event-is-received.adoc[What happens when an event is received]

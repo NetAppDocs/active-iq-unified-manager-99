@@ -44,7 +44,3 @@ Applies your selections and closes the Browse Directories dialog box. If no dire
 * *Cancel*
 +
 Discards your selections and closes the Browse Directories dialog box.
-
-*Related information*
-
-xref:reference-restore-dialog-box.adoc[Restore dialog box]

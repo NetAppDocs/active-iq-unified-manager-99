@@ -28,9 +28,3 @@ Enables you to specify a password for the specified user name.
 * *Port*
 +
 Enables you to specify the port number used to connect to the cluster. The default port is 443 for HTTPS.
-
-*Related information*
-
-xref:task-adding-clusters.adoc[Adding clusters]
-
-xref:reference-cluster-setup-page.adoc[Cluster Setup page]

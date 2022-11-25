@@ -54,23 +54,3 @@ For the MetroCluster Resources component only, shows the total write throughput,
  ** *Event History*
 +
 Displays red-shaded lines to indicate the historic events for the component in contention. For obsolete events, the chart displays events that occurred before the selected event was detected and after it was resolved.
-
-*Related information*
-
-xref:reference-performance-event-analysis-and-notification.adoc[Performance event analysis and notification]
-
-xref:concept-how-unified-manager-determines-the-performance-impact-for-an-incident.adoc[How Unified Manager determines the performance impact for an event]
-
-xref:concept-cluster-components-and-why-they-can-be-in-contention.adoc[Cluster components and why they can be in contention]
-
-xref:concept-types-of-workloads-monitored-by-unified-manager.adoc[Types of workloads monitored by Unified Manager]
-
-xref:concept-analyzing-performance-events.adoc[Analyzing performance events]
-
-xref:concept-roles-of-workloads-involved-in-a-performance-incident.adoc[Roles of workloads involved in a performance event]
-
-xref:task-displaying-information-about-a-performance-event.adoc[Displaying information about performance events]
-
-xref:task-identifying-victim-workloads-involved-in-a-performance-event.adoc[Identifying victim workloads involved in a dynamic performance event]
-
-xref:task-identifying-bully-workloads-involved-in-a-performance-event.adoc[Identifying bully workloads involved in a dynamic performance event]

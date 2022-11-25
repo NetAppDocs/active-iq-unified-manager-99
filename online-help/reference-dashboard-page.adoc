@@ -57,27 +57,3 @@ When viewing a single cluster, this panel displays whether the cluster is compli
 When viewing all clusters, you can choose to view clusters sorted by highest IOPS, highest throughput (MB/s), or highest used physical capacity.
 +
 When viewing a single cluster, you can choose to view workloads sorted by highest IOPS, highest throughput (MB/s), or highest used logical capacity.
-
-*Related information*
-
-xref:task-fixing-issues-using-um-automatic-remediations.adoc[Fixing issues using Unified Manager automatic remediations]
-
-xref:task-displaying-information-about-a-performance-event.adoc[Displaying information about performance events]
-
-xref:concept-managing-performance-using-perf-capacity-and-available-iops-information.adoc[Managing performance using performance capacity and available IOPS information]
-
-xref:concept-what-health-events-are.adoc[What health events are]
-
-xref:reference-performance-event-analysis-and-notification.adoc[Performance event analysis and notification]
-
-xref:reference-description-of-event-severity-types.adoc[Description of event severity types]
-
-xref:concept-sources-of-performance-events.adoc[Sources of performance events]
-
-xref:concept-managing-cluster-security-objectives.adoc[Managing cluster security objectives]
-
-xref:concept-monitoring-cluster-performance-from-the-cluster-landing-page.adoc[Monitoring cluster performance from the Performance Cluster Landing page]
-
-xref:concept-monitoring-performance-using-the-object-performance-inventory-pages.adoc[Monitoring performance using the Performance Inventory pages]
-
-xref:concept-provisioning-and-managing-workloads.adoc[Provisioning and managing workloads]

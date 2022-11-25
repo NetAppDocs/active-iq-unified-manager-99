@@ -40,9 +40,3 @@ Adds the new action and closes the dialog box.
 * *Cancel*
 +
 Closes the Add Group Action dialog box dialog box without saving your changes.
-
-*Related information*
-
-xref:task-configuring-volume-health-thresholds-for-groups.adoc[Configuring volume health thresholds for groups]
-
-xref:reference-group-action-volume-thresholds-section.adoc[Group action-volume thresholds section]

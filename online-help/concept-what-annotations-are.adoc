@@ -14,13 +14,3 @@ An annotation is a text string (the name) that is assigned to another text strin
 Each annotation name can have multiple values; each name-value pair can be associated with a storage object through rules.
 
 For example, you can create an annotation named "`data-center`" with the values "`Boston`" and "`Canada`". You can then apply the annotation "`data-center`" with the value "`Boston`" to volume v1. When an alert is generated for any event on a volume v1 that is annotated with "`data-center`", the generated email indicates the location of the volume, "`Boston`", and this enables you to prioritize and resolve the issue.
-
-*Related information*
-
-xref:reference-add-annotation-dialog-box.adoc[Add Annotation dialog box]
-
-xref:reference-add-annotation-rule-dialog-box.adoc[Add Annotation Rule dialog box]
-
-xref:task-viewing-the-annotation-list-and-details.adoc[Viewing the annotation list and details]
-
-xref:task-deleting-annotations.adoc[Deleting annotations]

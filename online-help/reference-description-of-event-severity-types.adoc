@@ -32,7 +32,3 @@ Performance warning events are sent from user-defined, system-defined, or dynami
 The event occurs when a new object is discovered, or when a user action is performed. For example, when any storage object is deleted or when there are any configuration changes, the event with severity type Information is generated.
 +
 Information events are sent directly from ONTAP when it detects a configuration change.
-
-*Related information*
-
-xref:reference-list-of-events-and-severity-types.adoc[List of events and severity types]

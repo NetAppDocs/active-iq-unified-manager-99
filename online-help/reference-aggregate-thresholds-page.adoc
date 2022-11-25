@@ -106,11 +106,3 @@ Specifies the percentage at which an aggregate has consumed all the space reserv
  ** Default value: 90 percent
  ** Event generated: Aggregate Snapshot Reserve Full
  ** Event severity: Warning
-
-*Related information*
-
-xref:task-configuring-global-aggregate-health-threshold-values.adoc[Configuring global aggregate health threshold values]
-
-xref:task-editing-individual-aggregate-health-threshold-settings.adoc[Editing individual aggregate health threshold settings]
-
-xref:concept-understanding-capacity-events-and-thresholds-for-node-root-aggregates.adoc[Understanding events and thresholds for node root aggregates]

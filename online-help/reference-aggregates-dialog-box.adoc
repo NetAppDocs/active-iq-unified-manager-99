@@ -144,7 +144,3 @@ Displays the percentage of space that is used by data in the aggregate.
 * *RAID Type*
 +
 Displays the RAID type of the selected volume. The RAID type can be RAID0, RAID4, RAID-DP, RAID-TEC, or Mixed RAID.
-
-*Related information*
-
-xref:task-adding-resource-pool-members.adoc[Adding resource pool members]

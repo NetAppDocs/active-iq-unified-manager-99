@@ -50,9 +50,3 @@ Adds a condition to define the annotation rule.
 * *Add Condition Group*
 +
 Adds a condition group to define conditions for the annotation rule.
-
-*Related information*
-
-xref:reference-edit-annotation-rule-dialog-box.adoc[Edit Annotation Rule dialog box]
-
-xref:concept-how-annotation-rules-work-in-unified-manager.adoc[How annotation rules work in Unified Manager]

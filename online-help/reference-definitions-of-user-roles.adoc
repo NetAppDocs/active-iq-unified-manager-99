@@ -45,7 +45,3 @@ This role enables read-only access to reporting and other database views directl
  ** ocum_report_birt
  ** opm
  ** scalemonitor
-
-*Related information*
-
-xref:concept-what-the-maintenance-user-does.adoc[What the maintenance user does]

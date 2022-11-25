@@ -32,11 +32,3 @@ The occurrence of critical, warning, and informational events are indicated on t
 * Counters
 +
 The counters in the left pane show which counter values are being displayed. Deselecting or selecting the image:../media/eye-icon.gif[] that is associated with a counter hides and shows that counter information from the chart and can help when comparing objects.
-
-*Related information*
-
-xref:task-specifying-the-time-range-in-zoom-view.adoc[Specifying the time range in Zoom View]
-
-xref:task-selecting-performance-thresholds-in-zoom-view.adoc[Selecting performance thresholds in Counter Charts Zoom View]
-
-xref:concept-understanding-counter-charts.adoc[Understanding counter charts]

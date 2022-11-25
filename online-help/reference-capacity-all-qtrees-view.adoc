@@ -18,11 +18,3 @@ The controls along the top of the page enable you to select a particular view (f
 You can customize capacity threshold settings for one or more qtrees by using the *Edit Threshold* button.
 
 See xref:reference-qtree-capacity-fields.adoc[Qtree capacity fields] for descriptions of all the fields on this page.
-
-*Related information*
-
-xref:task-editing-individual-qtree-health-threshold-settings.adoc[Editing individual qtree health threshold settings]
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting storage data as reports]
-
-xref:task-scheduling-a-report.adoc[Scheduling a report]

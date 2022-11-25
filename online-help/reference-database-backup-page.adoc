@@ -34,9 +34,3 @@ Creation date and time of the backup.
 * *Backup Settings*
 +
 Displays the Backup Settings dialog box, which enables you to specify a backup path, retention count, and backup schedule.
-
-*Related information*
-
-xref:concept-configuring-the-destination-and-schedule-for-database-dump-backups.adoc[Configuring the destination and schedule for database dump backups]
-
-xref:concept-backup-and-restore-using-a-mysql-database-dump.adoc[Backup and restore using a MySQL database dump]
