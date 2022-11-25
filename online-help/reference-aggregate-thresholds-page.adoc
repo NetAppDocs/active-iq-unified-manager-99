@@ -19,10 +19,6 @@ The threshold values are not applicable to the root aggregate of the node.
 
 You can set aggregate health thresholds for the following: capacity, aggregate growth, and aggregate Snapshot copies.
 
-* <<GUID-96C236D7-F409-4C16-B190-C253C59D9F92,Capacity>>
-* <<GUID-65203341-441D-49C2-B955-A9FA2657F4DC,Growth>>
-* <<GUID-86487AB9-CDD9-4ADA-AEB9-6FB867082A8A,Snapshot Copies>>
-
 == Capacity area
 
 The Capacity area enables you to set the following aggregate capacity threshold conditions. Note that when Autogrow is enabled on volumes that reside on the aggregate, the aggregate capacity thresholds are considered breached based on the maximum volume size set by autogrow, not based on the original volume size.
