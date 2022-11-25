@@ -21,11 +21,3 @@ You can compare your MetroCluster configuration to the requirements in the _Metr
 * If your workloads have high write throughput to solid state drive (SSD) storage, do you need to upgrade your FC-to-SAS bridges to accommodate the throughput?
 
 For information about replacing or upgrading MetroCluster components, see the _MetroCluster Service Guide_.
-
-*Related information*
-
-xref:concept-performance-monitoring-of-metrocluster-configurations.adoc[Performance monitoring of MetroCluster configurations]
-
-xref:concept-performance-incident-analysis-for-a-metrocluster-configuration.adoc[Performance event analysis for a MetroCluster configuration]
-
-xref:task-analyzing-a-performance-incident-on-a-cluster-in-a-metrocluster-configuration.adoc[Analyzing a dynamic performance event on a cluster in a MetroCluster configuration]

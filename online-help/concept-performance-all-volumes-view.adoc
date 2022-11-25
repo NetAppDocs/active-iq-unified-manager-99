@@ -30,21 +30,3 @@ Root volumes are not displayed on this page.
 ====
 
 See xref:reference-volume-performance-fields.adoc[Volume performance fields] for descriptions of all the fields on this page.
-
-*Related information*
-
-xref:concept-refining-object-inventory-performance-page-content.adoc[Refining Performance inventory page contents]
-
-xref:concept-understanding-the-um-recommendations-to-tier-data-to-the-cloud.adoc[Understanding the Unified Manager recommendations to tier data to the cloud]
-
-xref:task-assigning-performance-threshold-policies-to-storage-objects.adoc[Assigning performance threshold policies to storage objects]
-
-xref:task-removing-performance-threshold-policies-from-storage-objects.adoc[Removing performance threshold policies from storage objects]
-
-xref:task-filtering-on-the-object-inventory-performance-pages.adoc[Filtering data in the Object Inventory Performance pages]
-
-xref:concept-types-of-workloads-monitored-by-unified-manager.adoc[Types of workloads monitored by Unified Manager]
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting storage data as reports]
-
-xref:task-scheduling-a-report.adoc[Scheduling a report]

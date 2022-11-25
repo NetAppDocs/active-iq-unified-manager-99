@@ -55,6 +55,3 @@ Usage Overview
 a|
 Displays clusters sorted by highest IOPS, highest throughput (MBps), or highest used physical capacity.
 |===
-*Related information*
-
-xref:reference-dashboard-page.adoc[Dashboard page]

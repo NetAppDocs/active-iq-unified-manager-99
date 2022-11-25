@@ -22,7 +22,3 @@ These workloads consist of FlexVol volumes and FlexGroup volumes that you have c
 * System-defined workloads
 +
 These workloads consist of internal system activity.
-
-*Related information*
-
-xref:concept-introduction-to-unified-manager-health-monitoring.adoc[Introduction to Active IQ Unified Manager health monitoring]

@@ -16,13 +16,3 @@ Storage efficiency operations can use a high amount of cluster CPU resources and
 On the Event details page, the System Diagnosis section displays workloads in the QoS policy group by peak deviation in activity to identify the bully workloads. If you see "`storage efficiency`" displayed near the top of the table, these operations are bullying the victim workloads. By modifying the efficiency policy or schedule to run when these workloads are less busy, you can prevent the storage efficiency operations from causing contention on a cluster.
 
 You can use ONTAP System Manager to manage efficiency policies. You can use the ONTAP commands to manage efficiency policies and schedules.
-
-*Related information*
-
-xref:task-identifying-victim-workloads-involved-in-a-performance-event.adoc[Identifying victim workloads involved in a dynamic performance event]
-
-xref:task-identifying-bully-workloads-involved-in-a-performance-event.adoc[Identifying bully workloads involved in a dynamic performance event]
-
-xref:task-identifying-shark-workloads-involved-in-a-performance-event.adoc[Identifying shark workloads involved in a dynamic performance event]
-
-xref:concept-roles-of-workloads-involved-in-a-performance-incident.adoc[Roles of workloads involved in a performance event]

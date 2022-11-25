@@ -30,17 +30,3 @@ You can use System Manager, the ONTAP commands, or Unified ManagerPerformance Se
 * Moving a workload between policy groups
 * Changing the throughput limit of a policy group
 * Moving a workload to a different aggregate and/or node
-
-*Related information*
-
-xref:concept-troubleshooting-workloads-using-the-workload-analyzer.adoc[Troubleshooting workloads using the workload analyzer]
-
-xref:concept-roles-of-workloads-involved-in-a-performance-incident.adoc[Roles of workloads involved in a performance event]
-
-xref:concept-how-unified-manager-determines-the-performance-impact-for-an-incident.adoc[How Unified Manager determines the performance impact for an event]
-
-xref:concept-understanding-events-from-adaptive-qos-policies-that-have-a-defined-block-size.adoc[Understanding events from adaptive QoS policies that have a defined block size]
-
-xref:concept-verify-whether-other-volumes-in-the-qos-policy-group-have-unusually-high-activity.adoc[Verify whether other volumes in the QoS policy group have unusually high activity]
-
-xref:concept-performance-monitoring-of-metrocluster-configurations.adoc[Performance monitoring of MetroCluster configurations]

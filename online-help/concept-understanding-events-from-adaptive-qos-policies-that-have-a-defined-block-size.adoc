@@ -56,9 +56,3 @@ For this reason, when an event is triggered based on a MB/s breach for an adapti
 For more information on adjusting QoS settings, see the _ONTAP 9 Performance Monitoring Power Guide_.
 
 http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-perf-mon/home.html[ONTAP 9 Performance Monitoring Power Guide]
-
-*Related information*
-
-xref:task-responding-to-a-system-defined-qos-policy-group-performance-event.adoc[Responding to QoS policy group performance events]
-
-xref:concept-how-qos-policies-are-displayed-in-the-throughput-charts.adoc[How different types of QoS policies are displayed in the throughput charts]

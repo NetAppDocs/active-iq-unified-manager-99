@@ -27,7 +27,3 @@ On enabling this feature, you can customize the settings for compliance monitori
 . To enable or disable the custom settings for your storage VMs, expand the *General Settings* selection for Storage VMs. For information on the options for customizing storage VM compliance, see link:reference-svm-compliance-categories.adoc[Storage VM compliance categories].
 . You can also specify whether HTTPS transport is to be used for sending AutoSupport messages from ONTAP.
 . If you enable the authentication settings, alerts are raised from Unified Manager for the default ONTAP administrator user.
-
-*Related information*
-
-xref:concept-managing-cluster-security-objectives.adoc[Managing cluster security objectives]

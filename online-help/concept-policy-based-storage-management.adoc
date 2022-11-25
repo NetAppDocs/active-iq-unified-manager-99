@@ -28,7 +28,3 @@ After activating this feature, you can run the Unified Manager REST APIs to perf
 For more information about the APIs, see the _Active IQ Unified Manager API Developer's Guide_.
 
 http://docs.netapp.com/ocum-99/topic/com.netapp.doc.onc-um-api-dev/home.html[Active IQ Unified Manager API Developer's Guide]
-
-*Related information*
-
-xref:concept-provisioning-and-managing-workloads.adoc[Provisioning and managing workloads]

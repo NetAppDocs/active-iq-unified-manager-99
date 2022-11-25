@@ -20,7 +20,3 @@ image::../media/object-list.png[]
 == Object details window layout
 
 image::../media/object-details.gif[]
-
-*Related information*
-
-xref:reference-window-layout-customization.adoc[Window layout customization]

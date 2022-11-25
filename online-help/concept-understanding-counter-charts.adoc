@@ -37,15 +37,3 @@ If you want to investigate a specific period of time within a chart, you can use
 ====
 Occasionally, gaps in the trend lines display. Gaps mean that either Unified Manager failed to collect performance data from the storage system or that Unified Manager might have been down.
 ====
-
-*Related information*
-
-xref:reference-types-of-performance-counter-charts.adoc[Types of performance counter charts]
-
-xref:task-selecting-performance-charts-to-display.adoc[Selecting performance charts to display]
-
-xref:task-expanding-the-counter-charts-pane.adoc[Expanding the Counter Charts pane]
-
-xref:task-changing-the-counter-charts-focus-to-a-smaller-period-of-time.adoc[Changing the Counter Charts focus to a shorter period of time]
-
-xref:task-displaying-the-counter-charts-zoom-view.adoc[Displaying the Counter Charts Zoom View]

@@ -28,17 +28,3 @@ The NVMe Namespace/Performance Explorer page enables you to:
 * Launch System Manager to make a configuration change to the Namespace
 +
 The *Configure NVMe Namespace* button is available if you are logged in to Unified Manager with the Application Administrator or Storage Administrator role, and when using ONTAP 9.5 or greater.
-
-*Related information*
-
-xref:concept-components-of-the-performance-explorer-page.adoc[Components of the Performance Explorer page]
-
-xref:reference-summary-page-opm.adoc[Summary page]
-
-xref:task-defining-the-list-of-correlated-objects-for-comparison-graphing.adoc[Defining the list of correlated objects for comparison graphing]
-
-xref:reference-types-of-performance-counter-charts.adoc[Types of performance counter charts]
-
-xref:task-selecting-performance-charts-to-display.adoc[Selecting performance charts to display]
-
-xref:concept-counter-charts-zoom-view.adoc[Counter Charts Zoom View]
