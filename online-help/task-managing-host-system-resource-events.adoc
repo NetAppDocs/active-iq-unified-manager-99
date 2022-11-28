@@ -37,9 +37,3 @@ a|
 
 +
 |===
-
-*Related information*
-
-xref:concept-adding-disk-space-to-the-unified-manager-database-directory.adoc[Adding disk space to the Unified Manager database directory]
-
-xref:reference-management-station-events.adoc[Management station events]

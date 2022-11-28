@@ -54,9 +54,3 @@ If you want to create a new igroup, select the *Create a new initiator group* bu
 . Click *Save*.
 +
 The LUN is added to the list of storage workloads.
-
-*Related information*
-
-xref:task-creating-and-editing-psls.adoc[Creating and editing Performance Service Levels]
-
-xref:task-creating-and-editing-seps.adoc[Creating and editing Storage Efficiency Policies]

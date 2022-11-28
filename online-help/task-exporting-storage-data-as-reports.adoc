@@ -51,9 +51,3 @@ From the Top Performers tab you can choose to download a report of the statistic
 The file is downloaded.
 
 . Open the file in the appropriate application.
-
-*Related information*
-
-xref:reference-health-all-clusters-view.adoc[Health: All Clusters view]
-
-xref:task-scheduling-a-report.adoc[Scheduling a report]

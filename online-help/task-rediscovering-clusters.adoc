@@ -23,7 +23,3 @@ When Unified Manager is paired with OnCommand Workflow Automation (WFA), the pai
 . On the *Cluster Setup* page, click *Rediscover*.
 +
 Unified Manager rediscovers the selected cluster and displays the latest health and performance status.
-
-*Related information*
-
-xref:reference-cluster-setup-page.adoc[Cluster Setup page]

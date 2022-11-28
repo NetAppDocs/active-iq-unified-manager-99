@@ -29,7 +29,3 @@ Based on changes to the threshold values, events are generated or obsoleted in t
 ====
 You can also set individual qtree thresholds from the Qtrees tab on the Storage VM / Health details page.
 ====
-
-*Related information*
-
-xref:task-configuring-global-qtree-health-threshold-values.adoc[Configuring global qtree health threshold values]

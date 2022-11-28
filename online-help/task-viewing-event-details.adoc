@@ -29,11 +29,3 @@ By default, the All active events view displays the New and Acknowledged (active
 . Click the event name for which you want to view the details.
 +
 The event details are displayed in the Event details page.
-
-*Related information*
-
-xref:task-assigning-events-to-specific-users.adoc[Assigning events to specific users]
-
-xref:task-adding-alerts.adoc[Adding alerts]
-
-xref:task-acknowledging-and-resolving-events.adoc[Acknowledging and resolving events]

@@ -25,19 +25,3 @@ The Event details page displays a list of the user-defined and system-defined wo
 . Display the *Event details* page to view information about the event.
 . In the Workload Latency and Workload Activity charts, select *Victim Workloads*.
 . Hover your cursor over the charts to view the top user-defined workloads that are affecting the component, and the name of the victim workload.
-
-*Related information*
-
-xref:reference-event-details-page.adoc[Event details page]
-
-xref:concept-how-unified-manager-determines-the-performance-impact-for-an-incident.adoc[How Unified Manager determines the performance impact for an event]
-
-xref:concept-cluster-components-and-why-they-can-be-in-contention.adoc[Cluster components and why they can be in contention]
-
-xref:reference-performance-event-analysis-and-notification.adoc[Performance event analysis and notification]
-
-xref:task-displaying-information-about-a-performance-event.adoc[Displaying information about performance events]
-
-xref:task-identifying-bully-workloads-involved-in-a-performance-event.adoc[Identifying bully workloads involved in a dynamic performance event]
-
-xref:task-identifying-shark-workloads-involved-in-a-performance-event.adoc[Identifying shark workloads involved in a dynamic performance event]

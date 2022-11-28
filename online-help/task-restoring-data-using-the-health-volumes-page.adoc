@@ -40,9 +40,3 @@ You can restore the entire volume, or you can specify folders and files you want
 . Click *Restore*.
 +
 The restore process begins.
-
-*Related information*
-
-xref:reference-restore-dialog-box.adoc[Restore dialog box]
-
-xref:concept-executing-protection-workflows-using-wfa.adoc[Executing protection workflows using OnCommand Workflow Automation]

@@ -46,11 +46,3 @@ A filtered list of jobs is displayed.
 . Click the Back arrow on your browser to return to the *Volume / Health* details page.
 +
 The reverse resynchronization operation is finished when all job tasks are completed successfully.
-
-*Related information*
-
-xref:reference-reverse-resync-dialog-box.adoc[Reverse Resync dialog box]
-
-xref:concept-executing-protection-workflows-using-wfa.adoc[Executing protection workflows using OnCommand Workflow Automation]
-
-xref:task-configuring-a-connection-between-workflow-automation-and-unified-manager.adoc[Configuring a connection between Workflow Automation and Unified Manager]

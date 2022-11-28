@@ -54,9 +54,3 @@ On adding the host IP address, an internal check runs for matching the host deta
 . Click *Save*.
 +
 The workload is added to the list of storage workloads.
-
-*Related information*
-
-xref:task-creating-and-editing-psls.adoc[Creating and editing Performance Service Levels]
-
-xref:task-creating-and-editing-seps.adoc[Creating and editing Storage Efficiency Policies]

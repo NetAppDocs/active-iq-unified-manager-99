@@ -32,9 +32,3 @@ Enable scripts
 a|
 In the *Script Upload* panel, move the slider button to the right.
 |===
-
-*Related information*
-
-xref:task-adding-scripts.adoc[Adding scripts]
-
-xref:concept-managing-scripts.adoc[Managing scripts]

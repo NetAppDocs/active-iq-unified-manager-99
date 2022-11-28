@@ -42,11 +42,3 @@ The topology of the MetroCluster configuration is displayed in the corresponding
 == After you finish
 
 If you discover connectivity issues in your MetroCluster configuration, you must log in to System Manager or access the ONTAP CLI to resolve the issues.
-
-*Related information*
-
-xref:reference-health-all-clusters-view.adoc[Health: All Clusters view]
-
-xref:reference-health-cluster-details-page.adoc[Cluster / Health details page]
-
-xref:reference-cluster-connectivity-status-definitions.adoc[Cluster connectivity status definitions]

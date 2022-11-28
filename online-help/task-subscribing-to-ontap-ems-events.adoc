@@ -52,9 +52,3 @@ If the status is not "`Yes`", check the spelling of the ONTAP EMS event name. If
 == After you finish
 
 When the ONTAP EMS event occurs, the event is displayed on the Events page. You can select the event to view details about the EMS event in the Event details page. You can also manage the disposition of the event or create alerts for the event.
-
-*Related information*
-
-xref:task-assigning-events-to-specific-users.adoc[Assigning events to specific users]
-
-xref:reference-ems-events-that-are-added-automatically-to-unified-manager.adoc[EMS events that are added automatically to Unified Manager]

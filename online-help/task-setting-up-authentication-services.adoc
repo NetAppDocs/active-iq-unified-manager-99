@@ -63,9 +63,3 @@ If you want to modify the authentication service, you must delete any existing a
 ====
 
 . Click *Save*.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]
-
-xref:task-enabling-remote-authentication.adoc[Enabling remote authentication]

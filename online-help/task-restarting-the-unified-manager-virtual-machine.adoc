@@ -25,11 +25,3 @@ You can also restart the virtual machine from vSphere by using the **Restart Gue
 
 . Access the maintenance console.
 . Select *System Configuration* > *Reboot Virtual Machine*.
-
-*Related information*
-
-xref:task-viewing-the-https-security-certificate-ocf.adoc[Viewing the HTTPS security certificate]
-
-xref:task-generating-an-https-security-certificate-ocf.adoc[Generating an HTTPS security certificate]
-
-xref:task-downloading-an-https-certificate-signing-request-ocf.adoc[Downloading an HTTPS certificate signing request]

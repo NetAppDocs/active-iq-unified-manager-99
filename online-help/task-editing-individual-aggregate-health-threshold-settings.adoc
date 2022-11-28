@@ -27,11 +27,3 @@ When Autogrow is enabled on volumes that reside on the aggregate, the aggregate 
 . In the *Health: All Aggregates* view, select one or more aggregates and then click *Edit Thresholds*.
 . In the *Edit Aggregate Thresholds* dialog box, edit the threshold settings of one of the following: capacity, growth, or Snapshot copies by selecting the appropriate check box and then modifying the settings.
 . Click *Save*.
-
-*Related information*
-
-xref:task-configuring-global-aggregate-health-threshold-values.adoc[Configuring global aggregate health threshold values]
-
-xref:concept-understanding-capacity-events-and-thresholds-for-node-root-aggregates.adoc[Understanding events and thresholds for node root aggregates]
-
-xref:task-adding-users.adoc[Adding users]

@@ -33,11 +33,3 @@ a|
 Click *Unselect All*
 |===
 Your chart selections are displayed in the Counter Charts pane. Note that as you add charts, the new charts are inserted into the Counter Charts pane to match the order of the charts listed in the Choose charts drop-down list. Selecting additional charts might require additional scrolling.
-
-*Related information*
-
-xref:reference-types-of-performance-counter-charts.adoc[Types of performance counter charts]
-
-xref:concept-sources-of-performance-events.adoc[Sources of performance events]
-
-xref:reference-types-of-system-defined-performance-threshold-policies.adoc[Types of system-defined performance threshold policies]

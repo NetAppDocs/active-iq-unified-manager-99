@@ -25,7 +25,3 @@ The Jobs page is displayed.
 . Click on a job name to view details about that particular job.
 +
 The Job details page is displayed.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]

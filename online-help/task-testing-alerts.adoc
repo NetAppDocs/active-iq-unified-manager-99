@@ -26,13 +26,3 @@ The Unified Manager server can use these settings to send notifications to users
 . In the *Alert Setup* page, select the alert that you want to test, and then click *Test*.
 +
 A test alert email is sent to the email addresses that you specified while creating the alert.
-
-*Related information*
-
-xref:task-adding-alerts.adoc[Adding alerts]
-
-xref:task-deleting-alerts.adoc[Deleting alerts]
-
-xref:task-configuring-event-notification-settings.adoc[Configuring event notification settings]
-
-xref:task-adding-users.adoc[Adding users]
