@@ -38,7 +38,3 @@ The Latency - Cluster Components chart is displayed.
 The cluster component comparative chart is displayed. You can restrict the comparison by deselecting or selecting the image:../media/eye-icon.gif[] that is associated with each cluster component.
 
 . To view the specific values, move your cursor into the chart area to see the popup window.
-
-*Related information*
-
-xref:concept-cluster-components-and-why-they-can-be-in-contention.adoc[Cluster components and why they can be in contention]

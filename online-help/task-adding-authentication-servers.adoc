@@ -27,7 +27,8 @@ If the authentication server that you are adding is part of a high-availability 
 
 . In the left navigation pane, click *General* > *Remote Authentication*.
 . Enable or disable the *Use secure connection* option:
-+
+
+[cols="2*",options="header"]
 |===
 | If you want to...| Then do this...
 a|

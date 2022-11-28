@@ -29,7 +29,8 @@ If you do not have access to the Unified Manager web UI, you can regenerate the 
 The Regenerate HTTPS Certificate dialog box is displayed.
 
 . Select one of the following options depending on how you want to generate the certificate:
-+
+
+[cols="2*",options="header"]
 |===
 | If you want to...| Do this...
 a|
@@ -39,7 +40,7 @@ Click the *Regenerate Using Current Certificate Attributes* option.
 a|
 Generate the certificate using different values
 a|
-    Click the *Update the Current Certificate Attributes* option.
+Click the *Update the Current Certificate Attributes* option.
 
 The Common Name and Alternative Names fields will use the values from the existing certificate if you do not enter new values. The "`Common Name`" should be set to the FQDN of the host. The other fields do not require values, but you can enter values, for example, for the EMAIL, COMPANY, DEPARTMENT, City, State, and Country if you want those values to be populated in the certificate. You can also select from the available KEY SIZE (The key algorithm is "`RSA`".) and VALIDITY PERIOD.
 

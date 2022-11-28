@@ -77,7 +77,7 @@ Specifies the number of Snapshot copies on a volume that are considered to be to
  ** Event severity: Error
 The number of Snapshot copies that are considered the maximum per volume before Unified Manager triggers an event is lower than the ONTAP maximum:
 
-+
+[cols="3*",options="header"]
 |===
 |  | ONTAP Maximum| Unified Manager Maximum
 a|

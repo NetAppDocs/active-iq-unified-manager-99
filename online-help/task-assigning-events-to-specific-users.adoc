@@ -21,7 +21,8 @@ You can assign unassigned events to yourself or to other users, including remote
 . In the left navigation pane, click *Event Management*.
 . In the *Event Management* inventory page, select one or more events that you want to assign.
 . Assign the event by choosing one of the following options:
-+
+
+[cols="2*",options="header"]
 |===
 | If you want to assign the event to...| Then do this...
 a|

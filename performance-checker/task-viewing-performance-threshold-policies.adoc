@@ -22,7 +22,3 @@ You can hover your cursor over the Policy Name and the Condition name to see the
 . In the left navigation pane, select *Event Thresholds* > *Performance*.
 +
 The Performance Thresholds page is displayed.
-
-*Related information*
-
-xref:task-filtering-inventory-page-content.adoc[Filtering inventory page content]

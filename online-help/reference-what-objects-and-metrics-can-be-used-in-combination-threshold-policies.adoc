@@ -10,7 +10,7 @@ summary: 'Only some performance counters can be used together in combination pol
 
 [.lead]
 Only some performance counters can be used together in combination policies. When primary and secondary performance counters are specified, both performance counters must exceed their maximum limits before an event is generated.
-
+[cols="2*",options="header"]
 |===
 | Primary storage object and counter| Secondary storage object and counter
 a|
