@@ -17,7 +17,7 @@ option of the OS installer
 partition. For separately mounted /opt and /var/log directories, ensure that /opt has 15 GB,
 /var/log has 16 GB, and /tmp has 10 GB of free space
 
-For detailed system requirements and for information about installing the product in a secured site, see the link:..install-linux/concept-requirements-for-installing-unified-manager.html[Requirements for installing Unified Manager] and the link:http://mysupport.netapp.com/matrix[Interoperability Matrix].
+For detailed system requirements and for information about installing the product in a secured site, see the link:./install-linux/concept-requirements-for-installing-unified-manager.html[Requirements for installing Unified Manager] and the link:http://mysupport.netapp.com/matrix[Interoperability Matrix].
 
 == Installing Active IQ Unified Manager
 
@@ -33,7 +33,7 @@ The procedures for configuring Red Hat Enterprise Linux or CentOS repositories a
 `# sudo ./pre_install_check.sh`
 
 === Install Unified Manager
-Unified Manager uses the `yum` utility to install the software and any dependent software. Because there are varying images of Red Hat Enterprise Linux or CentOS, the packages installed depend on the software present in the images. The `yum` utility determines the dependent software packages for installation. If you need more information on the dependent software packages, see the link:../install-linux/reference-red-hat-and-centos-software-and-installation-requirements.html[Linux software and installation requirements].
+Unified Manager uses the `yum` utility to install the software and any dependent software. Because there are varying images of Red Hat Enterprise Linux or CentOS, the packages installed depend on the software present in the images. The `yum` utility determines the dependent software packages for installation. If you need more information on the dependent software packages, see the link:./install-linux/reference-red-hat-and-centos-software-and-installation-requirements.html[Linux software and installation requirements].
 
 To install Unified Manager, run the following command, either as the root user or using `sudo`, from the directory where the installation file was unzipped:
 

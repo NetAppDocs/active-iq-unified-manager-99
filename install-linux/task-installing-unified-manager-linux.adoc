@@ -42,11 +42,11 @@ a|
 a|
 MySQL 8.0.25 Community Edition
 a|
-`rpm -qa | grep -i mysql`
+`rpm -qa \| grep -i mysql`
 a|
 p7zip 16.02
 a|
-`rpm -qa | grep p7zip`
+`rpm -qa \| grep p7zip`
 |===
 
 . If the installed version of MySQL is earlier than MySQL 8.0.25 Community Edition, enter the following command to uninstall it:``rpm -e <mysql_package_name>``

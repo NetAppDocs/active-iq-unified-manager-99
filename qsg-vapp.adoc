@@ -14,7 +14,7 @@ summary: "Quick start guide for Unified Manager on VMWare vSphere platform."
 *	CPU: 9572 MHz total
 *	Free disk space: 5 GB (thin provisioning), 152 GB (thick provisioning)
 
-For detailed system requirements, see the link:../install-vapp/concept-requirements-for-installing-unified-manager.html[Requirements for installing Unified Manager] and link:http://mysupport.netapp.com/matrix[Interoperability Matrix].
+For detailed system requirements, see the link:./install-vapp/concept-requirements-for-installing-unified-manager.html[Requirements for installing Unified Manager] and link:http://mysupport.netapp.com/matrix[Interoperability Matrix].
 
 == Installing Active IQ Unified Manager
 
