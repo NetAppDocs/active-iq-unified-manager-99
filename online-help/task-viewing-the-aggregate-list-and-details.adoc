@@ -29,19 +29,3 @@ You can view details such as aggregate capacity and configuration, and disk info
 +
 You can also view the complete details by clicking *View Details* in the minimal details dialog box.
 . View the objects related to the aggregate by clicking *View Related* from the minimal details dialog box.
-
-*Related information*
-
-xref:reference-capacity-all-aggregates-view.adoc[Capacity: All Aggregates view]
-
-xref:task-adding-users.adoc[Adding users]
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting storage data as reports]
-
-xref:task-adding-alerts.adoc[Adding alerts]
-
-xref:reference-health-all-aggregates-view.adoc[Health: All Aggregates view]
-
-xref:reference-health-aggregate-details-page.adoc[Aggregate / Health details page]
-
-xref:task-editing-individual-aggregate-health-threshold-settings.adoc[Editing individual aggregate health threshold settings]

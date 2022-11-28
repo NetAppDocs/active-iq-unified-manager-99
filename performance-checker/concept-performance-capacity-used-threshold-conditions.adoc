@@ -43,13 +43,3 @@ a|
 95%
 |===
 Combination threshold policies cause an event to be generated only when both conditions are breached for the entire duration.
-
-*Related information*
-
-xref:task-creating-user-defined-performance-threshold-policies.adoc[Creating user-defined performance threshold policies]
-
-xref:task-assigning-performance-threshold-policies-to-storage-objects.adoc[Assigning performance threshold policies to storage objects]
-
-xref:reference-what-performance-metrics-can-be-monitored-using-thresholds.adoc[What performance counters can be tracked using thresholds]
-
-xref:reference-what-objects-and-metrics-can-be-used-in-combination-threshold-policies.adoc[What objects and counters can be used in combination threshold policies]

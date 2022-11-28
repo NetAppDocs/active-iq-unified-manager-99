@@ -41,7 +41,3 @@ The Unified Managermaintenance console prompts are displayed.
 == After you finish
 
 If you changed the Unified Manager collection interval to 10 or 15 minutes, and you have a current connection to an external data provider (such as Graphite), you must change the data provider transmit interval so that it is equal to, or greater, than the Unified Manager collection interval.
-
-*Related information*
-
-xref:task-configuring-a-connection-between-a-unified-manager-server-and-an-external-data-provider.adoc[Configuring a connection from a Unified Manager server to an external data provider]

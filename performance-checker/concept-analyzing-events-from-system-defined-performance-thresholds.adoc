@@ -17,9 +17,3 @@ You use the Event details page to analyze the performance event and take correct
 ====
 System-defined threshold policies are not enabled on Cloud Volumes ONTAP, ONTAP Edge, or ONTAP Select systems.
 ====
-
-*Related information*
-
-xref:reference-performance-event-severity-types.adoc[Performance event severity types]
-
-xref:reference-types-of-system-defined-performance-threshold-policies.adoc[Types of system-defined performance threshold policies]

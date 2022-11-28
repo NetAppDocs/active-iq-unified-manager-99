@@ -221,6 +221,3 @@ a|
 a|
 •
 |===
-*Related information*
-
-xref:concept-what-the-maintenance-user-does.adoc[What the maintenance user does]

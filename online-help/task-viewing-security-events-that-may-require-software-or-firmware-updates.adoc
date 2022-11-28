@@ -28,7 +28,3 @@ By default, all Active (New and Acknowledged) events are displayed on the Event 
 . From the View menu, select *Upgrade events*.
 +
 The page displays all active upgrade security events.
-
-*Related information*
-
-xref:reference-event-management-inventory-page.adoc[Event Management inventory page]

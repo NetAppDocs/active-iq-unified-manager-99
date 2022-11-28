@@ -42,11 +42,3 @@ The details page for the event displays.
 ====
 You can also display the details page for an event by clicking the event name link from the Performance Explorer page and from an alert email.
 ====
-
-*Related information*
-
-xref:concept-analyzing-performance-events.adoc[Analyzing performance events]
-
-xref:reference-performance-event-analysis-and-notification.adoc[Performance event analysis and notification]
-
-xref:concept-cluster-components-and-why-they-can-be-in-contention.adoc[Cluster components and why they can be in contention]

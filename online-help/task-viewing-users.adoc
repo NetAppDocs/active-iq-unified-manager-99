@@ -18,7 +18,3 @@ You must have the Application Administrator role.
 == Steps
 
 . In the left navigation pane, click *General* > *Users*.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]

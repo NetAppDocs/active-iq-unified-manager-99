@@ -41,7 +41,3 @@ a|
 Clicking a single event on the multiple events dialog displays the appropriate Event Details page.
 ====
 |===
-
-*Related information*
-
-xref:concept-sources-of-performance-events.adoc[Sources of performance events]

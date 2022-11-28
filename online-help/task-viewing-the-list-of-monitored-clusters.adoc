@@ -22,7 +22,3 @@ The list of clusters is sorted by the collection state severity level column. Yo
 == Steps
 
 . In the left navigation pane, click *Storage Management* > *Cluster Setup*.
-
-*Related information*
-
-xref:reference-cluster-setup-page.adoc[Cluster Setup page]

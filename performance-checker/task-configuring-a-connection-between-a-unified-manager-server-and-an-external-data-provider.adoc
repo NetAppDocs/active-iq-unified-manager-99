@@ -96,7 +96,3 @@ a|
 == Results
 
 After you have configured the connection, the selected performance data is sent to the destination server at the time interval you specified. It takes a few minutes before the metrics start to appear in the external tool. You might need to refresh your browser to see the new metrics in the metric hierarchy.
-
-*Related information*
-
-xref:task-changing-the-performance-statistics-collection-interval.adoc[Changing the performance statistics collection interval]

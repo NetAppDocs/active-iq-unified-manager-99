@@ -48,9 +48,3 @@ Note that for adaptive QoS policy events that the IOPS and MBps charts show IOPS
 . Under the *Suggested Actions* section, review the suggestions and determine which actions you should perform to avoid an increase in latency for the workload.
 +
 If required, click the *Help* button to view more details about the suggested actions you can perform to try and resolve the performance event.
-
-*Related information*
-
-xref:concept-how-qos-policies-are-displayed-in-the-throughput-charts.adoc[How different types of QoS policies are displayed in the throughput charts]
-
-xref:reference-types-of-system-defined-performance-threshold-policies.adoc[Types of system-defined performance threshold policies]

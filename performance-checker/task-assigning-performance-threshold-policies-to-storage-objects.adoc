@@ -65,15 +65,3 @@ A success message at the top of the page confirms that the threshold policy was 
 == After you finish
 
 If you want to have alerts sent over email, or as an SNMP trap, to notify you that a particular performance event has been generated, you must configure the alert settings in the Alert Setup page.
-
-*Related information*
-
-xref:task-adding-alerts-for-performance-events.adoc[Adding alerts for performance events]
-
-xref:task-viewing-performance-threshold-policies.adoc[Viewing performance threshold policies]
-
-xref:task-creating-user-defined-performance-threshold-policies.adoc[Creating user-defined performance threshold policies]
-
-xref:task-filtering-on-the-object-inventory-performance-pages.adoc[Filtering data in the Object Inventory Performance pages]
-
-xref:task-sorting-on-the-object-inventory-performance-pages.adoc[Sorting on the Object Inventory Performance pages]

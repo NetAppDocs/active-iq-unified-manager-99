@@ -20,7 +20,3 @@ You must have the Application Administrator or Storage Administrator role.
 . In the left navigation pane, click *Protection* > *Storage VM Peers*.
 +
 The list of storage VM Peers and their properties is displayed.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]

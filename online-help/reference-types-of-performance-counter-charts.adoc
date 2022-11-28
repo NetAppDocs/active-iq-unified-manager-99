@@ -13,6 +13,7 @@ There are standard performance charts that display the counter values for the se
 
 The following table shows the available performance counter charts.
 
+[cols="2*",options="header"]
 |===
 | Available charts| Chart description
 a|
@@ -100,6 +101,3 @@ a|
 Percentage of read requests from client applications that are returned from the disk instead of being returned from the cache. This chart option applies only when the selected object is a volume.
 
 |===
-*Related information*
-
-xref:task-selecting-performance-charts-to-display.adoc[Selecting performance charts to display]
