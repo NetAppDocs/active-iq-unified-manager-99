@@ -63,7 +63,6 @@ drwxr-xr-x.  17 mysql root  4096 Aug 28 13:08 data
 
 +
 The system returns a confirmation similar to the following:
-+
 ----
 -rw-r--r--. root root unconfined_u:object_r:mysqld_db_t:s0 /opt/netapp/data/abc
 ----

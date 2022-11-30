@@ -62,7 +62,7 @@ a|
 
 |===
 If the authentication of an Active Directory user takes a long time or times out, the authentication server is probably taking a long time to respond. Disabling support for nested groups in Unified Manager might reduce the authentication time.
-+
+
 If you select the Use Secure Connection option for the authentication server, then Unified Manager communicates with the authentication server using the Secure Sockets Layer (SSL) protocol.
 
 . Add authentication servers, and test the authentication.
