@@ -11,8 +11,6 @@ summary: 'The Users page displays a list of your users and groups, and provides 
 [.lead]
 The Users page displays a list of your users and groups, and provides information such as the name, type of user, and email address. You can also use this page to perform tasks such as adding, editing, deleting, and testing users.
 
-* <<SECTION_54BD4675CEC143A0BC102572F7562CE2,List view>>
-
 == Command buttons
 
 The command buttons enable you to perform the following tasks for selected users:

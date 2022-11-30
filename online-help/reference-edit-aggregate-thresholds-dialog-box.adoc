@@ -20,10 +20,6 @@ The Edit Aggregate Thresholds dialog box enables you to configure aggregate-leve
 The threshold values are not applicable to the root aggregate of the node.
 ====
 
-* <<SECTION_F5308C7BC7E24040912437940D0A45BC,Growth>>
-* <<SECTION_BD78A2E98BCA4FF7938CF4EFD76A28E8,Snapshot Copies>>
-* <<SECTION_C58D4BF1C31743D99E27EDE5D9C73F43,Command buttons>>
-
 == Capacity area
 
 The Capacity area enables you to set the following aggregate capacity threshold conditions:

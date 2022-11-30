@@ -11,9 +11,6 @@ summary: 'You can use the Aggregate / Health details page to view detailed infor
 [.lead]
 You can use the Aggregate / Health details page to view detailed information about the selected aggregate, such as the capacity, disk information, configuration details, and events generated. You can also view information about the related objects and related alerts for that aggregate.
 
-* <<SECTION_72FBC5D3FCE84BB1B19CCF124464E6A3,Command buttons>>
-* <<SECTION_A6C6B0CA1EB04BBC940C7FE90FA13E88,Related Alerts pane>>
-
 == Command buttons
 
 [NOTE]

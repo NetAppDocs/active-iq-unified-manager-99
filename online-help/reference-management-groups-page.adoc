@@ -13,8 +13,6 @@ The Groups page enables you to create groups in Unified Manager to easily manage
 
 The Groups page includes tabs that enable you to add, delete, or edit a group, group rules, and group actions. When you log in as an operator, you will have only read access to the page. You can access the add, edit, or delete buttons in each tab when you log in as a Storage Administrator or Application Administrator.
 
-* <<SECTION_396032CA982142ACBDCAC2BF57E8FE3C,Group Rules tab>>
-
 == Groups tab
 
 The Groups tab displays the name and description of the groups you created. You can perform tasks such as adding, editing, or deleting a group. The tab also displays the number of group rules and group actions associated with a group, the number of clusters, SVMs, and volumes in the group.
