@@ -1,7 +1,8 @@
 settings:
-  name: "Product Name"
+  name: "Active IQ Unified Manager 9.9"
   internal:
     pdf_enabled: true
   prod:
     pdf_enabled: true
-sidebar: 
+    harmony_enabled: true
+sidebar:
