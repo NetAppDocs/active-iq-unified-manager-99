@@ -1,0 +1,18 @@
+---
+permalink: online-help/reference-performance-qos-policy-groups-view.html
+sidebar: sidebar
+keywords: 
+summary: 'The QoS Policy Groups view displays the QoS policy groups available on the clusters that Unified Manager is monitoring. This includes traditional QoS policies, adaptive QoS policies, and QoS policies assigned by using Performance Service Levels.'
+---
+= Performance: QoS Policy Groups view
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The QoS Policy Groups view displays the QoS policy groups available on the clusters that Unified Manager is monitoring. This includes traditional QoS policies, adaptive QoS policies, and QoS policies assigned by using Performance Service Levels.
+
+The controls along the top of the page enable you to select a particular view based on the type of QoS policy you are interested in, perform searches to locate specific objects, create and apply filters to narrow the list of displayed data, add/remove/reorder columns on the page, and export the data on the page to a `.csv` or `.pdf` file.
+
+After you have customized the page, you can save the results as a custom view and then schedule a report of this data to be generated and emailed on a regular basis.
+
+See xref:reference-qos-policy-group-fields.adoc[QoS Policy Group fields] for descriptions of all the fields on this page.

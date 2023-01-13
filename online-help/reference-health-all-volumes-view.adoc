@@ -1,0 +1,46 @@
+---
+permalink: online-help/reference-health-all-volumes-view.html
+sidebar: sidebar
+keywords: 
+summary: 'The Health: All Volumes view displays information about the volumes in the storage systems that are monitored and enables you to modify the volume threshold settings.'
+---
+= Health: All Volumes view
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Health: All Volumes view displays information about the volumes in the storage systems that are monitored and enables you to modify the volume threshold settings.
+
+By default, objects in the view pages are sorted based on event criticality. Objects with critical events are listed first, and objects with warning events are listed second. This provides an immediate visual indication of issues that must be addressed. Each volume in the Volumes grid has links to ONTAP System Manager. The *View in System Manager* menu option is available as one of the links for each volume. This link redirects you to view the same protection relationship in ONTAP System Manager.
+
+The controls along the top of the page enable you to select a particular view (for health, performance, capacity, and so on), perform searches to locate specific objects, create and apply filters to narrow the list of displayed data, add/remove/reorder columns on the page, and export the data on the page to a `.csv`, `.pdf`, or `.xlsx` file. After you have customized the page, you can save the results as a custom view and then schedule a report of this data to be generated and emailed on a regular basis.
+
+If you want to analyze the latency and throughput of a specific object, click the more icon image:../media/more-icon.gif[], then *Analyze Workload* and you can view performance and capacity charts on the Workload Analysis page.
+
+See xref:reference-volume-health-fields.adoc[Volume health fields] for descriptions of all the fields on this page.
+
+== Command buttons
+
+* *Edit Threshold*
++
+Displays the Edit Thresholds dialog box, which enables you to edit the health threshold settings for one or more volumes.
+
+* *Protect*
++
+Displays the following submenus:
+
+ ** SnapMirror
++
+Enables you to create a SnapMirror relationship for the selected volumes.
+
+ ** SnapVault
++
+Enables you to create a SnapVault relationship for the selected volumes.
+
+* *Restore*
++
+Displays the Restore dialog box, which enables you to restore directories or files from one volume at a time.
+
+* *Annotate*
++
+Enables you to annotate the selected volume.

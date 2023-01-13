@@ -1,0 +1,27 @@
+---
+permalink: online-help/concept-node-performance-explorer-page.html
+sidebar: sidebar
+keywords: 
+summary: 'The Node/Performance Explorer page provides a detailed performance overview of all nodes within a cluster.'
+---
+= Node/Performance Explorer page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Node/Performance Explorer page provides a detailed performance overview of all nodes within a cluster.
+
+The Node/Performance Explorer page enables you to track and compare node performance during a specific time period, which helps you to troubleshoot and fine-tune the performance of your nodes.
+
+Using the View and Compare functionality you can compare the performance of this node with:
+
+* other nodes on the same cluster
+* the aggregates on the node
+* the ports on the node
+
+The Node/Performance Explorer page enables you to:
+
+* View threshold-related issues and their details
+* Track and compare node performance data
+* Investigate and troubleshoot threshold-related issues
+* Investigate and troubleshoot performance issues

@@ -1,0 +1,20 @@
+---
+permalink: online-help/reference-health-all-nodes-view.html
+sidebar: sidebar
+keywords: 
+summary: 'The Health: All Nodes view enables you to view detailed information about the nodes in all clusters being managed by Unified Manager.'
+---
+= Health: All Nodes view
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Health: All Nodes view enables you to view detailed information about the nodes in all clusters being managed by Unified Manager.
+
+By default, objects in the view pages are sorted based on event criticality. Objects with critical events are listed first, and objects with warning events are listed second. This provides an immediate visual indication of issues that must be addressed. Each node in the Nodes grid has links to ONTAP System Manager. This link redirects you to view the same protection relationship in ONTAP System Manager.
+
+The controls along the top of the page enable you to select a particular view (for health, performance, capacity, and so on), perform searches to locate specific objects, create and apply filters to narrow the list of displayed data, add/remove/reorder columns on the page, and export the data on the page to a `.csv`, `.pdf`, or `.xlsx` file. After you have customized the page, you can save the results as a custom view and then schedule a report of this data to be generated and emailed on a regular basis.
+
+In the *Reports* menu, the *Hardware Inventory Report* option is provided when Unified Manager, and the clusters it is managing, are installed in a site with no external network connectivity. This button generates a `.csv` file that contains a complete list of cluster and node information; such as hardware model numbers and serial numbers, disk types and counts, installed licenses, and more. This reporting functionality is helpful for contract renewal within secure sites that are not connected to the NetAppActive IQ platform.
+
+See xref:reference-node-health-fields.adoc[Node health fields] for descriptions of all the fields on this page.

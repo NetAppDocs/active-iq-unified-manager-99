@@ -1,0 +1,20 @@
+---
+permalink: online-help/concept-what-health-events-are.html
+sidebar: sidebar
+keywords: 
+summary: 'Health events are notifications that are generated automatically when a predefined condition occurs or when an object crosses a health threshold. These events enable you to take action to prevent issues that can lead to poor performance and system unavailability. Events include an impact area, severity, and impact level.'
+---
+= What health events are
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Health events are notifications that are generated automatically when a predefined condition occurs or when an object crosses a health threshold. These events enable you to take action to prevent issues that can lead to poor performance and system unavailability. Events include an impact area, severity, and impact level.
+
+Health events are categorized by the type of impact area such as availability, capacity, configuration, or protection. Events are also assigned a severity type and impact level that assist you in determining if immediate action is required.
+
+You can configure alerts to send notification automatically when specific events or events of a specific severity occur.
+
+Obsolete, resolved, and informational events are automatically logged and retained for a default of 180 days.
+
+It is important that you take immediate corrective action for events with severity level Error or Critical.

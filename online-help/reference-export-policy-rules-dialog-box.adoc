@@ -1,0 +1,32 @@
+---
+permalink: online-help/reference-export-policy-rules-dialog-box.html
+sidebar: sidebar
+keywords: 
+summary: 'The Export Policy Rules dialog box displays details about the export policies, authentication protocols, and access enabled on the volumes that belong to the storage virtual machine \(SVM\). You can use the filters to customize the display of information in the export policy rules list. By default, the information is sorted based on the index column.'
+---
+= Export Policy Rules dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Export Policy Rules dialog box displays details about the export policies, authentication protocols, and access enabled on the volumes that belong to the storage virtual machine (SVM). You can use the filters to customize the display of information in the export policy rules list. By default, the information is sorted based on the index column.
+
+* *Index*
++
+Displays the index assigned to the export policy rules. It is a unique number.
+
+* *Access Protocols*
++
+Displays the protocols that are enabled for the export policy rules.
+
+* *Client Match*
++
+Displays the clients that have permission to access data on the volumes that belong to the SVM.
+
+* *Read Only Access*
++
+Displays the authentication protocol used to read data on the volumes that belong to the SVM.
+
+* *Read Write Access*
++
+Displays the authentication protocol used to read or write data on the volumes that belong to the SVM.

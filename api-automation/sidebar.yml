@@ -1,0 +1,86 @@
+section: api-automation
+title: Manage storage using REST APIs
+entries:
+  - title: Getting started with Active IQ Unified Manager
+    url: "/api-automation/concept-getting-started-with-getting-started-with-um-apis.html"
+    entries:
+    - title: Audience for this content
+      url: "/api-automation/reference-intended-audience-for-this-guide.html"
+    - title: Active IQ Unified Manager API access and categories
+      url: "/api-automation/concept-api-url-and-categories.html"
+    - title: REST services offered in Active IQ Unified Manager
+      url: "/api-automation/concept-rest-services-offered-in-oncommand-api-services.html"
+    - title: API version in Active IQ Unified Manager
+      url: "/api-automation/concept-rest-api-versioning-in-oncommand-api-services.html"
+    - title: Storage resources in ONTAP
+      url: "/api-automation/concept-the-storage-resource-model.html"
+  - title: REST API access and authentication in Active IQ Unified Manager
+    url: "/api-automation/concept-rest-api-access-and-authentication-in-oncommand-api-services.html"
+    entries:
+    - title: HTTP status codes used in Active IQ Unified Manager
+      url: "/api-automation/reference-authentication-errors.html"
+    - title: Recommendations for using the APIs for Active IQ Unified Manager
+      url: "/api-automation/reference-recommendations-to-use-the-apis.html"
+    - title: Logs for troubleshooting
+      url: "/api-automation/concept-api-logs.html"
+    - title: Job objects asynchronous processes
+      url: "/api-automation/concept-async-run.html"
+    - title: Hello API server
+      url: "/api-automation/concept-hello-api-server.html"
+  - title: Unified Manager REST APIs
+    url: "/api-automation/concept-um-apis-list-intro.html"
+    entries:
+    - title: Managing storage objects in a data center
+      url: "/api-automation/concept-data-center-apis.html"
+    - title: Accessing ONTAP APIs through proxy access
+      url: "/api-automation/concept-gateway-apis.html"
+    - title: Performing administrative tasks
+      url: "/api-automation/concept-administration-apis.html"
+    - title: Managing users
+      url: "/api-automation/concept-security-apis.html"
+    - title: Viewing performance metrics
+      url: "/api-automation/concept-metrics-apis.html"
+    - title: Viewing Jobs
+      url: "/api-automation/concept-job-api.html"
+    - title: Viewing events and system details
+      url: "/api-automation/concept-events-api.html"
+    - title: Managing workloads
+      url: "/api-automation/concept-managing-storage-workloads.html"
+      entries:
+      - title: Viewing storage workloads
+        url: "/api-automation/concept-viewing-workloads.html"
+      - title: Managing access endpoints
+        url: "/api-automation/concept-managing-access-endpoint.html"
+      - title: Managing Active Directory mapping
+        url: "/api-automation/concept-managing-active-directory.html"
+      - title: Managing file shares
+        url: "/api-automation/concept-managing-fileshares-api.html"
+      - title: Managing LUNs
+        url: "/api-automation/concept-managing-lun.html"
+      - title: Managing Performance Service Levels
+        url: "/api-automation/concept-managing-psl.html"
+      - title: Managing Storage Efficiency Policies
+        url: "/api-automation/concept-managing-sep.html"
+  - title: Common workflows for storage management
+    url: "/api-automation/concept-workflow-intro.html"
+    entries:
+    - title: Determining space issues in aggregates
+      url: "/api-automation/concept-workflow-space-issue.html"
+    - title: Determining issues in storage objects using events
+      url: "/api-automation/concept-events-workflows.html"
+    - title: Troubleshooting ONTAP volumes by using gateway APIs
+      url: "/api-automation/concept-ontap-troubleshooting-workflow.html"
+    - title: Workflows for workload management
+      url: "/api-automation/concept-provisioning-workflow.html"
+      entries:
+      - title: Verifying SVMs on clusters
+        url: "/api-automation/concept-verifying-svm-workflow.html"
+      - title: Provisioning CIFS and NFS file shares
+        url: "/api-automation/concept-provisioning-file-share.html"
+      - title: Provisioning LUNs
+        url: "/api-automation/concept-provisioning-luns.html"
+      - title: Modifying storage workloads
+        url: "/api-automation/concept-modifying-workloads-workflow.html"
+        entries:
+        - title: Modifying an NFS file share to support CIFS
+          url: "/api-automation/task-modifying-fileshare-to-include-cifs-and-nfs.html"

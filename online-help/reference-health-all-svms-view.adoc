@@ -1,0 +1,20 @@
+---
+permalink: online-help/reference-health-all-svms-view.html
+sidebar: sidebar
+keywords: 
+summary: 'The Health: All Storage VMs view enables you to view detailed information about the storage virtual machines \(SVMs\) that you are monitoring.'
+---
+= Health: All Storage VMs view
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Health: All Storage VMs view enables you to view detailed information about the storage virtual machines (SVMs) that you are monitoring.
+
+By default, objects in the view pages are sorted based on event criticality. Objects with critical events are listed first, and objects with warning events are listed second. This provides an immediate visual indication of issues that must be addressed. Each storage VM in the Storage VMs grid has links to ONTAP System Manager. This link redirects you to view the same protection relationship in ONTAP System Manager.
+
+The controls along the top of the page enable you to select a particular view (for health, performance, capacity, and so on), perform searches to locate specific objects, create and apply filters to narrow the list of displayed data, add/remove/reorder columns on the page, and export the data on the page to a `.csv`, `.pdf`, or `.xlsx` file. After you have customized the page, you can save the results as a custom view and then schedule a report of this data to be generated and emailed on a regular basis.
+
+You can associate an SVM to a predefined annotation by using the *Annotate* button.
+
+See xref:reference-svm-health-fields.adoc[SVM health fields] for descriptions of all the fields on this page.

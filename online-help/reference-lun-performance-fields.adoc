@@ -1,0 +1,72 @@
+---
+permalink: online-help/reference-lun-performance-fields.html
+sidebar: sidebar
+keywords: 
+summary: 'The following fields are available in the Performance: All LUNs view and can be used in custom views and in reports.'
+---
+= LUN performance fields
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The following fields are available in the Performance: All LUNs view and can be used in custom views and in reports.
+
+* *Status*
++
+A healthy object with no active events displays a green check mark icon (image:../media/sev-normal-um60.png[Icon for event severity – normal]). If the object has an active event, the event indicator icon identifies the event severity: critical events are red (image:../media/sev-critical-um60.png[Icon for event severity – critical]), error events are orange (image:../media/sev-error-um60.png[Icon for event severity – error]), and warning events are yellow (image:../media/sev-warning-um60.png[Icon for event severity – warning]).
+
+* *LUN*
++
+You can click the LUN name to navigate to that LUN's performance details page.
+
+* *Latency*
++
+The average response time for all I/O requests, expressed in milliseconds per operation.
+
+* *IOPS*
++
+The input/output operations per second for the LUN.
+
+* *MB/s*
++
+The throughput on the LUN, measured in megabytes per second.
+
+* *Free Capacity*
++
+The unused storage capacity of the LUN, in gigabytes.
+
+* *Total Capacity*
++
+The total storage capacity of the LUN, in gigabytes.
+
+* *Cluster*
++
+The cluster to which the LUN belongs. You can click the cluster name to navigate to that cluster's details page.
+
+* *Cluster FQDN*
++
+The fully qualified domain name (FQDN) of the cluster.
+
+* *Node*
++
+The node to which the LUN belongs. You can click the node name to navigate to that node's details page.
+
+* *Storage VM*
++
+The storage virtual machine (SVM) to which the LUN belongs. You can click the SVM name to navigate to that SVM's details page.
+
+* *Aggregate*
++
+The aggregate to which the LUN belongs. You can click the aggregate name to navigate to that aggregate's details page.
+
+* *Volume*
++
+The volume to which the LUN belongs. You can click the volume name to navigate to that volume's details page.
+
+* *Threshold Policy*
++
+The user-defined performance threshold policy, or policies, that are active on this storage object. You can position your cursor over policy names containing an ellipsis (...) to view the full policy name or the list of assigned policy names. The *Assign Performance Threshold Policy* and *Clear Performance Threshold Policy* buttons remain disabled until you select one or more objects by clicking the check boxes located at the far left.
+
+* *QoS Policy Group*
++
+The name of the QoS Policy Group that is assigned to the LUN. You can click the policy group name to navigate to the QoS details page to learn more about the policy group settings.

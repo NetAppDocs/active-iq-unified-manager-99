@@ -1,0 +1,77 @@
+section: install-linux
+title: Install Unified Manager on Linux systems
+entries:
+  - title: Introduction to Active IQ Unified Manager
+    pdf-filename: Introduction to Active IQ Unified Manager (Linux systems)  
+    url: "/install-linux/concept-introduction-to-unified-manager.html"
+    entries:
+    - title: What the Unified Manager server does
+      url: "/install-linux/concept-what-the-unified-manager-server-does.html"
+    - title: Active IQ Unified Manager product documentation
+      url: "/install-linux/reference-oncommand-unified-manager-product-documentation.html"
+    - title: Overview of the installation sequence
+      url: "/install-linux/concept-overview-of-the-installation-sequence-um.html"
+  - title: Requirements for installing Unified Manager
+    pdf-filename: Requirements for installing Unified Manager (Linux systems)
+    url: "/install-linux/concept-requirements-for-installing-unified-manager.html"
+    entries:
+    - title: Virtual infrastructure and hardware system requirements
+      url: "/install-linux/concept-virtual-infrastructure-or-hardware-system-requirements.html"
+    - title: Linux software and installation requirements
+      url: "/install-linux/reference-red-hat-and-centos-software-and-installation-requirements.html"
+    - title: Supported browsers
+      url: "/install-linux/concept-browser-and-platform-requirements.html"
+    - title: Protocol and port requirements
+      url: "/install-linux/reference-protocol-and-port-requirements.html"
+    - title: Completing the worksheet
+      url: "/install-linux/reference-completing-the-worksheet-um.html"
+  - title: Installing, upgrading, and removing Unified Manager software
+    pdf-filename: Installing, upgrading, and removing Unified Manager software (Linux systems)
+    url: "/install-linux/concept-installing-upgrading-and-removing-unified-manager-software.html"
+    entries:
+    - title: Overview of the installation process
+      url: "/install-linux/concept-overview-of-the-installation-process-on-red-hat.html"
+    - title: Setting up required software repositories
+      url: "/install-linux/concept-setting-up-required-software-repositories-um.html"
+      entries:
+      - title: Manually configuring the EPEL repository
+        url: "/install-linux/task-manually-configuring-the-epel-repository.html"
+      - title: Manually configuring the MySQL repository
+        url: "/install-linux/task-manually-configuring-the-mysql-repository.html"
+    - title: SELinux requirements for mounting <code>/opt/netapp</code> or <code>/opt/netapp/data</code>
+        on an NFS or CIFS share
+      url: "/install-linux/task-selinux-requirements-for-mounting-opt-netapp-or-opt-netapp-data-on-an-nfs-or-cifs-share.html"
+    - title: Installing Unified Manager on Linux systems
+      url: "/install-linux/concept-installing-unified-manager-on-rhel-or-centos.html"
+      entries:
+      - title: Creating a custom user home directory and umadmin password prior
+          to installation
+        url: "/install-linux/task-creating-a-custom-user-home-directory-and-umadmin-user-prior-to-installation.html"
+      - title: Downloading Unified Manager
+        url: "/install-linux/task-downloading-unified-manager.html"
+      - title: Installing Unified Manager
+        url: "/install-linux/task-installing-unified-manager-linux.html"
+      - title: Users created during Unified Manager installation
+        url: "/install-linux/reference-users-created-in-unified-manager.html"
+      - title: Changing the JBoss password
+        url: "/install-linux/task-changing-the-jboss-password.html"
+    - title: Upgrading Unified Manager on Red Hat Enterprise Linux or CentOS
+      url: "/install-linux/concept-upgrading-unified-manager-on-rhel-or-centos.html"
+      entries:
+      - title: Upgrading Unified Manager
+        url: "/install-linux/task-upgrading-unified-manager.html"
+      - title: Upgrading the host OS from Red Hat Enterprise Linux 7.x to 8.x
+        url: "/install-linux/task-upgrading-the-host-os-from-rhel-6-x-to-7-x.html"
+    - title: Upgrading third-party products
+      url: "/install-linux/concept-upgrading-third-party-products-on-linux-um.html"
+      entries:
+      - title: Upgrading OpenJDK on Linux
+        url: "/install-linux/task-upgrading-openjdk-on-linux-ocum.html"
+      - title: Upgrading MySQL on Linux
+        url: "/install-linux/task-upgrading-mysql-on-linux.html"
+    - title: Restarting Unified Manager
+      url: "/install-linux/task-restarting-unified-manager.html"
+    - title: Removing Unified Manager
+      url: "/install-linux/task-removing-unified-manager.html"
+    - title: Removing the custom umadmin user and maintenance group
+      url: "/install-linux/task-removing-custom-umadmin-user-and-maintenance-group.html"

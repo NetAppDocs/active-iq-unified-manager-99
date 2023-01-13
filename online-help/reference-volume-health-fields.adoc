@@ -1,0 +1,282 @@
+---
+permalink: online-help/reference-volume-health-fields.html
+sidebar: sidebar
+keywords: 
+summary: 'The following fields are available in the Health: All Volumes view and can be used in custom views and in reports.'
+---
+= Volume health fields
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The following fields are available in the Health: All Volumes view and can be used in custom views and in reports.
+
+* *Status*
++
+The current status of a volume. The status can be Critical (image:../media/sev-critical-um60.png[Icon for event severity – critical]), Error (image:../media/sev-error-um60.png[Icon for event severity – error]), Warning (image:../media/sev-warning-um60.png[Icon for event severity – warning]), or Normal (image:../media/sev-normal-um60.png[Icon for event severity – normal]).
+
+* *Volume*
++
+The name of the volume.
+
+* *Storage VM*
++
+The SVM that contains the volume.
+
+* *State*
++
+The current state of the volume:
+
+ ** Offline
++
+Read or write access to the volume is not allowed.
+
+ ** Online
++
+Read and write access to the volume is allowed.
+
+ ** Restricted
++
+Limited operations, such as parity reconstruction, are allowed, but data access is not allowed.
+
+ ** Mixed
++
+The constituents of a FlexGroup volume are not all in the same state.
+
+* *Protection Role*
++
+The protection role of a volume:
+
+ ** Unprotected
++
+A read/write volume with no outgoing or incoming SnapMirror or SnapVault relationships
+
+ ** Protected
++
+A read/write volume with an outgoing SnapMirror or SnapVault relationship
+
+ ** Destination
++
+A data protection (DP) volume or read/write volume with an incoming SnapMirror or SnapVault relationship
+
+ ** Not Applicable
++
+A volume for which protection roles do not apply, such as a load sharing volume, data constituent, or temporary volume
+
++
+Clicking the role displays the Protection tab of the Volume / Health details page.
+
+* *Protected By*
++
+The type of protection used for the volume; Storage VM DR, SnapMirror, or SnapMirror, Storage VM DR. This field is hidden by default.
+
+* *Style*
++
+The style of volume; FlexVol or FlexGroup.
+
+* *Mount Path*
++
+The path to which the volume is mounted.
+
+* *Available Data %*
++
+The percentage of physical space currently available for data in the volume.
+
+* *Available Data Capacity*
++
+The amount of physical space currently available for data in the volume.
+
+* *Used Data %*
++
+The percentage of physical space used by data in the volume based on the total available data capacity.
+
+* *Used Data Capacity*
++
+The amount of physical space used by data in the volume.
+
+* *Total Data Capacity*
++
+The total physical space available for data in the volume.
+
+* *Logical Space Reporting*
++
+Whether the volume has logical space reporting configured. The value can be Enabled, Disabled, or Not applicable.
++
+Logical space indicates the real size of the data that is being stored on the volume without applying the savings from using ONTAP storage efficiency technologies.
+
+* *Logical Space Used %*
++
+The percentage of logical space used by data in the volume based on the total available data capacity.
+
+* *Logical Space Used*
++
+The logical space used by data in the volume.
+
+* *Move Status*
++
+The current status of the volume move operation. The status can be In Progress, Paused, Failed, or Completed.
+
+* *Type*
++
+The volume type. The volume type can be Read-write or Data-protection, Load-sharing, or Data-cache.
+
+* *Thin Provisioned*
++
+Whether space guarantee is set for the selected volume. Valid values are Yes and No.
+
+* *Deduplication*
++
+Whether deduplication is enabled on the volume. The column displays either Enabled or Disabled.
+
+* *Compression*
++
+Whether compression is enabled on the volume. The column displays either Enabled or Disabled.
+
+* *In Transition*
++
+Whether the volume has completed transition or not.
+
+* *SnapLock Type*
++
+The SnapLock Type of the aggregate that contains the volume. The available options are Compliance, Enterprise, Non-SnapLock.
+
+* *Local Snapshot Policy*
++
+The local Snapshot copy policies for the volumes listed. The default policy name is Default.
+
+* *Tiering Policy*
++
+The tiering policy set on the volume. The policy takes affect only when the volume is deployed on a FabricPool aggregate:
+
+ ** None - The data for this volume always remains on the performance tier.
+ ** Snapshot-Only - Only Snapshot data is moved automatically to the cloud tier. All other data remains on the performance tier.
+ ** Backup - On data protection volumes, all transferred user data starts in the cloud tier, but later client reads can cause hot data to move to the performance tier.
+ ** Auto - Data on this volume is moved between the performance tier and the cloud tier automatically when ONTAP determines that the data is "`hot`" or "`cold`".
+ ** All - The data for this volume always remains on the cloud tier.
+
+* *Caching Policy*
++
+The caching policy that is associated with the selected volume. The policy provides information about how the Flash Pool caching occurs for the volume.
+
+[cols="2*",options="header"]
+|===
+| Cache policy| Description
+a|
+Auto
+a|
+Read caches all the metadata blocks and randomly read user data blocks, and write caches all the randomly overwritten user data blocks.
+a|
+None
+a|
+Does not cache any user data or metadata blocks.
+a|
+All
+a|
+Read caches all the user data blocks that are read and written. The policy does not perform any write caching.
+a|
+All-Random Write
+a|
+This policy is a combination of the All and No Read-Random Write policies and performs the following actions:
+
+ ** Read caches all the user data blocks that are read and written.
+ ** Write caches all the randomly overwritten user data blocks.
+
+a|
+All Read
+a|
+Read caches all the metadata, randomly read, and sequentially read user data blocks.
+a|
+All Read-Random Write
+a|
+This policy is a combination of the All Read and No Read-Random Write policies and performs the following actions:
+
+ ** Read caches all the metadata, randomly read, and sequentially read user data blocks.
+ ** Write caches all the randomly overwritten user data blocks.
+
+a|
+All Read Random Write
+a|
+Read caches all the metadata, randomly read, sequentially read, and randomly written user data blocks.
+a|
+All Read Random Write-Random Write
+a|
+This policy is a combination of the All Read Random Write and No Read-Random Write policies and does the following:
+
+ ** Read caches all the metadata, randomly read, and sequentially read, and randomly written user data blocks.
+ ** Write caches all the randomly overwritten user data blocks.
+
+a|
+Meta
+a|
+Read caches only metadata blocks.
+a|
+Meta-Random Write
+a|
+This policy is a combination of the Meta and No Read-Random Write and does the following:     Read caches only
+a|
+No Read-Random Write
+a|
+Write caches all the randomly overwritten user data blocks. The policy does not perform any read caching.
+a|
+Random Read
+a|
+Read caches all the metadata blocks and randomly read user data blocks.
+a|
+Random Read-Write
+a|
+Read caches all the metadata, randomly read, and randomly written user data blocks.
+a|
+Random Read-Write-Random Write
+a|
+This policy is a combination of the Random Read Write and No Read-Random Write policies and does the following:
+
+ ** Read caches all the metadata, randomly read, and randomly overwritten user data blocks.
+ ** Write caches all the randomly overwritten user data blocks.
+
++
+|===
+
+* *Cache Retention Priority*
++
+The cache retention priority for the volume. A cache retention priority defines how long the blocks of a volume will be in cache state in a Flash Pool once they become cold.
+
+ ** Low
++
+Cache the cold volume blocks for the lowest time
+
+ ** Normal
++
+Cache the cold volume blocks for the default time
+
+ ** High
++
+Cache the cold volume blocks for the highest time
+
+* *Encryption Type*
++
+The type of encryption that is applied to a volume.
+
+ ** Software - Volumes that are protected using NetApp Volume Encryption (NVE) or NetApp Aggregate Encryption (NAE) software encryption solutions.
+ ** Hardware - Volumes that are protected using NetApp Storage Encryption (NSE) hardware encryption.
+ ** Software and Hardware - Volumes that are protected by both software and hardware encryption.
+ ** None - Volumes that are not encrypted.
+
+* *Aggregate*
++
+The name of the aggregate on which the volume resides, or the number of aggregates on which the FlexGroup volume resides.
++
+You can click the name to display details in the Aggregate details page. For FlexGroup volumes, you can click the number to display the aggregates that are used in the FlexGroup in the Aggregates page.
+
+* *Node*
++
+The name of the node to which the volume belongs, or the number of nodes on which the FlexGroup volume resides. You can view more details about the cluster node by clicking the node name.
++
+You can click the node name to display details in the Node details page. For FlexGroup volumes, you can click the number to display the nodes that are used in the FlexGroup in the Nodes page.
+
+* *Cluster*
++
+The cluster that contains the destination volume. You can view more details about the cluster by clicking the cluster name.
+
+* *Cluster FQDN*
++
+The fully qualified domain name (FQDN) of the cluster.

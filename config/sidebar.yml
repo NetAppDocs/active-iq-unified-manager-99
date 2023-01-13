@@ -1,0 +1,104 @@
+section: config
+title: Perform configuration and administrative tasks
+entries:
+  - title: Configuring Active IQ Unified Manager
+    url: "/config/concept-configuring-unified-manager.html"
+    entries:
+    - title: Overview of the configuration sequence
+      url: "/config/concept-overview-of-the-configuration-sequence.html"
+    - title: Accessing the Unified Manager web UI
+      url: "/config/task-accessing-oncommand-unified-manager-web-ui.html"
+    - title: Performing the initial setup of the Unified Manager web UI
+      url: "/config/task-performing-the-initial-setup-of-the-unified-manager-web-ui.html"
+    - title: Adding clusters
+      url: "/config/task-adding-clusters.html"
+    - title: Configuring Unified Manager to send alert notifications
+      url: "/config/task-configuring-unified-manager-to-send-alert-notifications.html"
+      entries:
+      - title: Configuring event notification settings
+        url: "/config/task-configuring-event-notification-settings.html"
+      - title: Enabling remote authentication
+        url: "/config/task-enabling-remote-authentication.html"
+      - title: Disabling nested groups from remote authentication
+        url: "/config/task-disabling-nested-groups-from-remote-authentication.html"
+      - title: Adding authentication servers
+        url: "/config/task-adding-authentication-servers.html"
+      - title: Testing the configuration of authentication servers
+        url: "/config/task-testing-the-configuration-of-authentication-servers-um-6-0.html"
+      - title: Adding users
+        url: "/config/task-adding-users.html"
+      - title: Adding alerts
+        url: "/config/task-adding-alerts.html"
+    - title: EMS events that are added automatically to Unified Manager
+      url: "/config/reference-ems-events-that-are-added-automatically-to-unified-manager.html"
+    - title: Subscribing to ONTAP EMS events
+      url: "/config/task-subscribing-to-ontap-ems-events.html"
+    - title: Managing SAML authentication settings
+      url: "/config/concept-managing-saml-authentication-settings-um.html"
+      entries:
+      - title: Identity provider requirements
+        url: "/config/reference-identity-provider-requirements-um.html"
+      - title: Enabling SAML authentication
+        url: "/config/task-enabling-saml-authentication-um.html"
+    - title: Changing the local user password
+      url: "/config/task-changing-the-local-user-password.html"
+    - title: Setting the session inactivity timeout
+      url: "/config/task-setting-the-session-inactivity-timeout.html"
+    - title: Changing the Unified Manager host name
+      url: "/config/concept-changing-the-unified-manager-host-name.html"
+      entries:
+      - title: Changing the Unified Manager virtual appliance host name
+        url: "/config/task-changing-the-unified-manager-host-name-on-vmware.html"
+        entries:
+        - title: Generating an HTTPS security certificate
+          url: "/config/task-generating-an-https-security-certificate-ocf.html"
+        - title: Restarting the Unified Manager virtual machine
+          url: "/config/task-restarting-the-unified-manager-virtual-machine.html"
+      - title: Changing the Unified Manager host name on Linux systems
+        url: "/config/task-changing-the-unified-manager-host-name-on-rhel-or-centos.html"
+    - title: Enabling and disabling policy-based storage management
+      url: "/config/task-enabling-and-disabling-policy-based-storage-management.html"
+  - title: Configuring Unified Manager backup
+    url: "/config/concept-configuring-um-backup.html"
+  - title: Using the maintenance console
+    url: "/config/task-using-the-maintenance-console.html"
+    entries:
+    - title: What functionality the maintenance console provides
+      url: "/config/concept-what-functionality-the-maintenance-console-provides.html"
+    - title: What the maintenance user does
+      url: "/config/concept-what-the-maintenance-user-does.html"
+    - title: Diagnostic user capabilities
+      url: "/config/concept-what-the-diagnostic-user-does.html"
+    - title: Accessing the maintenance console
+      url: "/config/task-accessing-the-maintenance-console.html"
+    - title: Accessing the maintenance console using the vSphere VM console
+      url: "/config/task-accessing-the-maintenance-console-using-vsphere.html"
+    - title: Maintenance console menus
+      url: "/config/concept-maintenance-console-menu.html"
+      entries:
+      - title: Network Configuration menu
+        url: "/config/reference-network-configuration-menu.html"
+      - title: System Configuration menu
+        url: "/config/reference-system-configuration-menu.html"
+      - title: Support and Diagnostics menu
+        url: "/config/reference-support-and-diagnostics-menu.html"
+      - title: Additional menu options
+        url: "/config/reference-additional-menu-options.html"
+    - title: Changing the maintenance user password on Windows
+      url: "/config/task-changing-the-maintenance-user-password-on-windows.html"
+    - title: Changing the umadmin password on Linux systems
+      url: "/config/task-changing-the-umadmin-password-on-rhel.html"
+    - title: Changing the ports Unified Manager uses for HTTP and HTTPS protocols
+      url: "/config/task-changing-the-ports-um-uses-for-http-and-https-protocols.html"
+    - title: Adding network interfaces
+      url: "/config/task-adding-additional-network-interfaces.html"
+    - title: Adding disk space to the Unified Manager database directory
+      url: "/config/concept-adding-disk-space-to-the-unified-manager-database-directory.html"
+      entries:
+      - title: Adding space to the data directory of the Linux host
+        url: "/config/task-adding-space-to-the-data-directory-of-the-unified-manager-red-hat-enterprise-linux-host.html"
+      - title: Adding space to the data disk of the VMware virtual machine
+        url: "/config/task-adding-space-to-the-data-disk-of-the-vmware-virtual-machine.html"
+      - title: Adding space to the logical drive of the Microsoft Windows server
+        url: "/config/task-adding-space-to-the-data-disk-of-the-microsoft-windows-server.html"
+

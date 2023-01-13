@@ -1,0 +1,69 @@
+---
+permalink: online-help/reference-iops-performance-counter-charts.html
+sidebar: sidebar
+keywords: 
+summary: 'The IOPS counter charts display the number of input/output operations processed per second by the selected storage object.'
+---
+= IOPS performance counter charts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The IOPS counter charts display the number of input/output operations processed per second by the selected storage object.
+
+The popup window that displays when you move the cursor across the chart area shows the counter values at specific times.
+
+When displayed in Zoom view, the volume and LUN IOPS charts also display Quality of Service (QoS) maximum and minimum throughput threshold settings, if configured. The IOPS/TB charts display QoS peak and expected throughput threshold settings, if adaptive QoS policies are configured.
+
+[NOTE]
+====
+In some cases when using adaptive QoS policies, the Max and Min values are set to the same value in the charts. This happens either on large volumes where very little space is being used, or on very small volumes.
+====
+
+When viewing a volume or LUN that is sharing the IOPS of a shared QoS policy, a line for "`Total Workload IOPS`" is displayed to show the IOPS that are being used by all other workloads sharing this policy.
+
+The bottom of the chart page displays information for the minimum, maximum, average, and 95th percentile IOPS for this object over the selected time range.
+
+There are four types of IOPS charts available:
+
+== IOPS - Total counter chart
+
+Displays the number of input/output operations processed per second.
+
+When displayed for a node, selecting "`Total`" displays the IOPS for data moving through this node that may reside on either the local or the remote node, and selecting "`Total (Local)`" displays the IOPS for data that resides only on the current node.
+
+== IOPS - Breakdown counter chart
+
+Displays the same IOPS data separated into read, write, and other IOPS.
+
+This chart option applies when the selected object is an SVM, node, aggregate, volume, or LUN.
+
+When displayed for a node, selecting "`Breakdown`" displays the IOPS breakdown for data moving through this node that may reside on either the local or the remote node, and selecting "`Breakdown (Local)`" displays the IOPS breakdown for data that resides only on the current node.
+
+== IOPS - Protocols counter chart
+
+Displays the same IOPS data, but for SVMs the performance data is separated into individual components for CIFS, NFS, FCP, NVMe, and iSCSI protocol traffic.
+
+== IOPS/TB - Total counter chart
+
+Displays the number of input/output operations processed per second based on the total logical space that is being consumed by the volume, in terabytes. Also called I/O density, this counter measures how much performance can be delivered by a given amount of storage capacity.
+
+This chart option is available only when the selected object is a volume. It displays performance data only when the logical capacity used by the volume is greater than or equal to 128 GB. Gaps will be displayed in the chart when the used capacity falls below 128 GB during the selected timeframe.
+
+== *Zoom View* button
+
+Displays a magnified view of the counter chart data.
+
+* Events
++
+The occurrence of critical, error, warning, and informational events are indicated on the time lines above the charts.
+
+* Thresholds
++
+The dashed, horizontal line indicates the utilization warning threshold value set in Unified Manager.
++
+The solid red line indicates the utilization critical threshold value set in Unified Manager.
+
+* Counters
++
+The counters in the left pane show which counter values are being displayed. Deselecting or selecting the image:../media/eye-icon.gif[] that is associated with a counter hides and shows that counter information from the chart and can help when comparing object IOPS.

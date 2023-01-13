@@ -1,0 +1,14 @@
+---
+permalink: online-help/concept-managing-authentication.html
+sidebar: sidebar
+keywords: 
+summary: 'You can enable authentication using either LDAP or Active Directory on the Unified Manager server and configure it to work with your servers to authenticate remote users.'
+---
+= Managing authentication
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can enable authentication using either LDAP or Active Directory on the Unified Manager server and configure it to work with your servers to authenticate remote users.
+
+Additionally, you can enable SAML authentication so that remote users are authenticated through a secure identity provider (IdP) before they can log into the Unified Manager web UI.
