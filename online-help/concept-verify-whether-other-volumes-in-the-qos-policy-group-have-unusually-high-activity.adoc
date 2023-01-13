@@ -21,13 +21,3 @@ You can use ONTAP System Manager or the ONTAP CLI commands to manage policy grou
 * Add or remove workloads in a policy group.
 * Move a workload between policy groups.
 * Change the throughput limit of a policy group.
-
-*Related information*
-
-xref:task-identifying-victim-workloads-involved-in-a-performance-event.adoc[Identifying victim workloads involved in a dynamic performance event]
-
-xref:task-identifying-bully-workloads-involved-in-a-performance-event.adoc[Identifying bully workloads involved in a dynamic performance event]
-
-xref:task-identifying-shark-workloads-involved-in-a-performance-event.adoc[Identifying shark workloads involved in a dynamic performance event]
-
-xref:concept-how-unified-manager-determines-the-performance-impact-for-an-incident.adoc[How Unified Manager determines the performance impact for an event]

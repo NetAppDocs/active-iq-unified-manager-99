@@ -27,7 +27,8 @@ When installed on VMware, if you have already logged in as the maintenance user 
 == Steps
 
 . Follow these steps to access the maintenance console:
-+
+
+[cols="2*",options="header"]
 |===
 | On this operating system...| Follow these steps...
 a|
@@ -53,10 +54,5 @@ a|
  .. Launch PowerShell as a Windows administrator.
  .. Enter the command `maintenance_console` and press Enter.
 
-+
 |===
 The Unified Manager maintenance console menu is displayed.
-
-*Related information*
-
-xref:task-using-the-maintenance-console.adoc[Using the maintenance console]

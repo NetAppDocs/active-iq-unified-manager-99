@@ -56,9 +56,3 @@ Discards the selections and closes the Configure Protection dialog box.
 * *Submit*
 +
 Applies your selections and closes the Edit Relationship dialog box.
-
-*Related information*
-
-xref:task-editing-protection-relationships-from-the-protection-volume-relationships-page.adoc[Editing protection relationships from the Volume Relationships page]
-
-xref:task-editing-protection-relationships-from-the-health-volume-details-page.adoc[Editing protection relationships from the Volume / Health details page]

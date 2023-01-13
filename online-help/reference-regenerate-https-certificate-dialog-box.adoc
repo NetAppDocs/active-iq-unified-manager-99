@@ -58,7 +58,3 @@ The key algorithm is set to RSA. You can select from one of the key sizes: 2048,
 * *VALIDITY PERIOD*
 +
 The default validity period is 397 days. If you have upgraded from a previous version, you might see the previous certificate validity unchanged.
-
-*Related information*
-
-xref:task-generating-an-https-security-certificate-ocf.adoc[Generating an HTTPS security certificate]

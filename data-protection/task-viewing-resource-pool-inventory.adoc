@@ -20,7 +20,3 @@ You must have the Application Administrator or Storage Administrator role.
 . In the left navigation pane, click *Protection* > *Resource Pools*.
 +
 The resource pool inventory is displayed.
-
-*Related information*
-
-xref:reference-resource-pools-page.adoc[Resource Pools page]

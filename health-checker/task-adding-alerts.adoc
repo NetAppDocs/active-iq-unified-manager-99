@@ -76,9 +76,3 @@ You can configure an alert to repeatedly send notifications to the recipients fo
 
 . In the Select Script to Execute menu, select *Test* script.
 . Click *Save*.
-
-*Related information*
-
-xref:reference-description-of-event-severity-types.adoc[Description of event severity types]
-
-xref:reference-description-of-event-impact-levels.adoc[Description of event impact levels]

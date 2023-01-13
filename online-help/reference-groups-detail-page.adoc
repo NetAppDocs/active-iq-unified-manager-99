@@ -11,9 +11,6 @@ summary: 'From the Groups details page, you can view the details of a selected g
 [.lead]
 From the Groups details page, you can view the details of a selected group. You can also view additional information such as the group rules and group actions associated with the selected group.
 
-* <<GUID-EED26018-0283-4536-BBE3-ABD716E5A103,Command buttons>>
-* <<SECTION_704A5722CEFF4DC18EA01DDDDBA06FB6,Summary area>>
-
 == Command buttons
 
 * *View Groups*

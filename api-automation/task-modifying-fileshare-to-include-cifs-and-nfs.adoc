@@ -23,7 +23,8 @@ This is applicable for an NFS file share that you created by adding only export 
 == Steps
 
 . On the NFS file share, perform a `PATCH` operation with the ACL details for allowing CIFS access.
-+
+
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -34,9 +35,9 @@ a|
 `/storage-provider/file-shares`
 |===
 *Sample cURL*
-+
+
 Based on the access privileges you assign to the user group, as displayed in the following sample, an ACL is created and assigned to the file share.
-+
+
 ----
 {
   "access_control": {
@@ -50,13 +51,14 @@ Based on the access privileges you assign to the user group, as displayed in the
       "key": "3b648c1b-d965-03b7-20da-61b791a6263c"
     }
 ----
-+
+
 *Sample JSON output*
-+
+
 The operation returns the Job ID of the Job that runs the update.
 
 . Verify whether the parameters have been added correctly by querying the file share details for the same file share.
-+
+
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -67,7 +69,7 @@ a|
 `+/storage-provider/file-shares/{key}+`
 |===
 *Sample JSON output*
-+
+
 ----
 "access_control": {
         "acl": [
@@ -138,5 +140,5 @@ a|
         }
     }
 ----
-+
+
 You can see the ACL assigned along with the export policy to the same file share.

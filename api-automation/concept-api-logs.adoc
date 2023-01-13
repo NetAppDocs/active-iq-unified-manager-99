@@ -13,6 +13,7 @@ System logs enable you to analyze the causes of failure and troubleshooting issu
 
 Retrieve the logs from the following location for troubleshooting issues related to the API calls.
 
+[cols="2*",options="header"]
 |===
 | Log location| Use
 a|

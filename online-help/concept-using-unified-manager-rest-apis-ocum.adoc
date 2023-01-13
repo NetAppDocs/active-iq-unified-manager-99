@@ -13,4 +13,4 @@ Active IQ Unified Manager provides you with REST APIs to view the information ab
 
 You can also execute ONTAP APIs on all ONTAP-managed clusters by using the API gateway supported by Unified Manager.
 
-For information about Unified Manager REST APIs, see the http://docs.netapp.com/ocum-99/topic/com.netapp.doc.onc-um-api-dev/home.html[Active IQ Unified Manager API Developer's Guide].
+For information about Unified Manager REST APIs, see link:../api-automation/concept-getting-started-with-getting-started-with-um-apis.html[Getting started with Active IQ Unified Manager].

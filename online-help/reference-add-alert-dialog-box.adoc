@@ -99,7 +99,3 @@ Creates an alert and closes the dialog box.
 * *Cancel*
 +
 Discards the changes and closes the dialog box.
-
-*Related information*
-
-xref:task-adding-alerts.adoc[Adding alerts]

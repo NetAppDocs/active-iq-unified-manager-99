@@ -16,14 +16,14 @@ There are several steps that you must perform to use Unified Manager and OnComma
 * You must have the Application Administrator or Storage Administrator role.
 * You must have established peer relationships between two clusters or two storage virtual machines (SVMs).
 * OnCommand Workflow Automation must be integrated with Unified Manager:
- ** link:task-configuring-a-connection-between-workflow-automation-and-unified-manager.md#[Set up OnCommand Workflow Automation]
+ ** xref:task-configuring-a-connection-between-workflow-automation-and-unified-manager.adoc[Set up OnCommand Workflow Automation]
  ** xref:task-verifying-unified-manager-data-source-caching-in-workflow-automation.adoc[Verifying Unified Manager data source caching in Workflow Automation]
 
 == Steps
 
 . Depending on the type of protection relationship you want to create, do one of the following:
  ** xref:task-creating-a-snapmirror-protection-relationship-from-the-health-volume-details-page.adoc[Create a SnapMirror protection relationship].
- ** link:task-creating-a-snapvault-protection-relationship-from-the-health-volume-details-page.md#[Create a SnapVault protection relationship].
+ ** xref:task-creating-a-snapvault-protection-relationship-from-the-health-volume-details-page.adoc[Create a SnapVault protection relationship].
 . If you want to create a policy for the relationship, depending on the relationship type you are creating, do one of the following:
  ** xref:task-creating-a-snapvault-policy-to-maximize-transfer-efficiency.adoc[Create a SnapVault policy].
  ** xref:task-creating-a-snapmirror-policy-to-maximize-transfer-efficiency.adoc[Create a SnapMirror policy].

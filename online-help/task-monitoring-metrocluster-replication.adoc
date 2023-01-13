@@ -36,11 +36,3 @@ The topology of the MetroCluster configuration to be replicated is displayed at 
 == After you finish
 
 If you discover mirroring issues in your MetroCluster configuration, you must log in to System Manager or access the ONTAP CLI to resolve the issues.
-
-*Related information*
-
-xref:reference-data-mirroring-status-definitions.adoc[Data mirroring status definitions]
-
-xref:reference-health-all-clusters-view.adoc[Health: All Clusters view]
-
-xref:reference-health-cluster-details-page.adoc[Cluster / Health details page]

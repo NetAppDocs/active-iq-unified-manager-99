@@ -38,11 +38,3 @@ You decide to resize the volume.
 
 . In the *Related Devices* pane, you click the name of the hosting aggregate to see if the aggregate can accommodate a larger volume.
 . On the *Aggregate / Health* details page, you see that the aggregate hosting the full volume does have enough uncommitted capacity, so you use ONTAP System Manager to resize the volume, giving it more capacity.
-
-*Related information*
-
-xref:reference-event-details-page.adoc[Event details page]
-
-xref:reference-health-volume-details-page.adoc[Volume / Health details page]
-
-xref:reference-health-aggregate-details-page.adoc[Aggregate / Health details page]

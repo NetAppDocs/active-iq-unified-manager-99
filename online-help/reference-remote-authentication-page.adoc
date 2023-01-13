@@ -147,17 +147,3 @@ This button validates the configuration of your authentication server by authent
 While testing, if you specify only the user name, the management server searches for the remote user in the authentication server, but does not authenticate the user. If you specify both the user name and password, the management server searches and authenticates the remote user.
 +
 You cannot test the authentication if remote authentication is disabled.
-
-*Related information*
-
-xref:task-enabling-remote-authentication.adoc[Enabling remote authentication]
-
-xref:task-setting-up-authentication-services.adoc[Setting up authentication services]
-
-xref:task-adding-authentication-servers.adoc[Adding authentication servers]
-
-xref:task-editing-authentication-servers.adoc[Editing authentication servers]
-
-xref:task-testing-the-configuration-of-authentication-servers-um-6-0.adoc[Testing the configuration of authentication servers]
-
-xref:task-deleting-authentication-servers.adoc[Deleting authentication servers]

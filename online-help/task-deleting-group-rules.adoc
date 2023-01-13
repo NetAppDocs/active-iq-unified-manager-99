@@ -24,11 +24,3 @@ When a group rule is deleted, the associated storage objects will be removed fro
 . In the left navigation pane, click *Storage Management* > *Groups*.
 . In the *Group Rules* tab, select the group rule that you want to delete, and then click *Delete*.
 . In the *Warning* dialog box, confirm the deletion by clicking *Yes*.
-
-*Related information*
-
-xref:concept-how-group-rules-work-for-groups.adoc[How group rules work for groups]
-
-xref:task-adding-group-rules.adoc[Adding group rules]
-
-xref:task-editing-group-rules.adoc[Editing group rules]

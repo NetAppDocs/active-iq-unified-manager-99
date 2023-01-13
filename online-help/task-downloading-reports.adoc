@@ -14,7 +14,8 @@ You can download reports and save the data to a local or network drive as a comm
 == Steps
 
 . Click the *Reports* button to download the report as one of the following:
-+
+
+[cols="2*",options="header"]
 |===
 | Choose| To...
 a|

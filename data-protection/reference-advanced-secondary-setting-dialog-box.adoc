@@ -70,7 +70,3 @@ Saves the selected efficiency settings and applies them when you click *Apply* i
 * *Cancel*
 +
 Discards your selections and closes the Advanced Destination Settings dialog box.
-
-*Related information*
-
-xref:reference-configure-protection-dialog-box.adoc[Configure Protection dialog box]

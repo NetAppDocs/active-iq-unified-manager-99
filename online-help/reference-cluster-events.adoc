@@ -493,6 +493,3 @@ Cluster
 a|
 Warning
 |===
-*Related information*
-
-xref:reference-security-events.adoc[Security events]

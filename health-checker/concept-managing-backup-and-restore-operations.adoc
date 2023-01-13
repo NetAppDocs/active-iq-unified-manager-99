@@ -13,6 +13,7 @@ You can create backups of Active IQ Unified Manager and use the restore feature 
 
 There are three backup and restore methods depending on the operating system on which you have installed Unified Manager, and based on the number of clusters and nodes being managed:
 
+[cols="3*",options="header"]
 |===
 | Operating System| Size of Deployment| Recommended Backup Method
 a|

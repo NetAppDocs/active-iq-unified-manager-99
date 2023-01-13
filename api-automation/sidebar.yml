@@ -2,9 +2,9 @@ section: api-automation
 title: Manage storage using REST APIs
 entries:
   - title: Getting started with Active IQ Unified Manager
-    url: "/api-automation/concept-getting-strated-with-getting-started-with-um-apis.html"
+    url: "/api-automation/concept-getting-started-with-getting-started-with-um-apis.html"
     entries:
-    - title: Audience for this guide
+    - title: Audience for this content
       url: "/api-automation/reference-intended-audience-for-this-guide.html"
     - title: Active IQ Unified Manager API access and categories
       url: "/api-automation/concept-api-url-and-categories.html"

@@ -56,7 +56,3 @@ Do not move the file to a new location, or if you do your work in another locati
 The most recently downloaded file is uploaded from the same file location.
 
 . Send yourself a test report using the *Scheduled Reports* feature.
-
-*Related information*
-
-xref:concept-sample-microsoft-excel-reports.adoc[Sample Microsoft Excel reports]

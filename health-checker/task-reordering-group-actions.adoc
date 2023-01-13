@@ -25,9 +25,3 @@ You can select either a single row or multiple rows, and then perform multiple d
 . In the *Group Actions* tab, click *Reorder*.
 . In the *Reorder Group Actions* dialog box, drag and drop the rows to rearrange the sequence of group actions as required.
 . Click *Save*.
-
-*Related information*
-
-xref:concept-managing-and-monitoring-groups.adoc[Managing and monitoring groups]
-
-xref:task-adding-group-actions.adoc[Adding group actions]

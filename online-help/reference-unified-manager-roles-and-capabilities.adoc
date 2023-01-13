@@ -13,6 +13,7 @@ Based on your assigned user role, you can determine which operations you can per
 
 The following table displays the functions that each user role can perform:
 
+[cols="6*",options="header"]
 |===
 | Function| Operator| Storage Administrator| Application Administrator| Integration Schema| Report Schema
 a|
@@ -220,6 +221,3 @@ a|
 a|
 •
 |===
-*Related information*
-
-xref:concept-what-the-maintenance-user-does.adoc[What the maintenance user does]

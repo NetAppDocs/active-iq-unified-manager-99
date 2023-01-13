@@ -18,7 +18,8 @@ You must have the Application Administrator or Storage Administrator role.
 == Steps
 
 . Navigate to the storage objects you want to annotate:
-+
+
+[cols="2*",options="header"]
 |===
 | To add annotation to...| Do this...
 a|
@@ -42,7 +43,7 @@ a|
  .. Click *Storage* > *SVMs*.
  .. Select one or more SVMs.
 
-+
+
 |===
 
 . Click *Annotate* and select a name-value pair.

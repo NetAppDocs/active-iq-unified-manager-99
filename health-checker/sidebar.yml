@@ -43,11 +43,13 @@ entries:
       - title: Performing suggested remedial actions for a full volume
         url: "/health-checker/task-performing-suggested-remedial-actions-for-a-full-volume.html"
     - title: Managing health thresholds
+      pdf-filename: Managing health thresholds (cluster health)
       url: "/health-checker/concept-managing-health-thresholds.html"
       entries:
       - title: What storage capacity health thresholds are
         url: "/health-checker/concept-what-storage-capacity-health-thresholds-are.html"
       - title: Configuring global health threshold settings
+        pdf-filename: Configuring global health threshold settings (cluster health)
         url: "/health-checker/task-configuring-global-health-threshold-settings.html"
         entries:
         - title: Configuring global aggregate health threshold values
@@ -65,9 +67,11 @@ entries:
       - title: Editing individual qtree health threshold settings
         url: "/health-checker/task-editing-individual-qtree-health-threshold-settings.html"
     - title: Managing cluster security objectives
+      pdf-filename: Managing cluster security objectives (cluster health)
       url: "/health-checker/concept-managing-cluster-security-objectives.html"
       entries:
       - title: What security criteria is being evaluated
+        pdf-filename: What security criteria is being evaluated (cluster health)
         url: "/health-checker/concept-what-security-criteria-is-being-evaluated.html"
         entries:
         - title: Cluster compliance categories
@@ -97,11 +101,13 @@ entries:
       - title: Security events
         url: "/health-checker/reference-security-events.html"
     - title: Managing backup and restore operations
+      pdf-filename: Managing backup and restore operations (cluster health)
       url: "/health-checker/concept-managing-backup-and-restore-operations.html"
       entries:
       - title: Backup and restore for Unified Manager on virtual appliance
         url: "/health-checker/concept-backup-and-restore-on-virtual-appliance.html"
       - title: Backup and restore using a MySQL database dump
+        pdf-filename: Backup and restore using a MySQL database dump (cluster health)
         url: "/health-checker/concept-backup-and-restore-using-a-mysql-database-dump.html"
         entries:
         - title: Configuring the destination and schedule for database dump backups
@@ -113,9 +119,11 @@ entries:
         - title: Restoring a MySQL database backup on Windows
           url: "/health-checker/task-restoring-a-mysql-database-backup-on-windows.html"
       - title: Backup and restore using NetApp Snapshots
+        pdf-filename: Backup and restore using NetApp Snapshots (cluster health)
         url: "/health-checker/concept-backup-and-restore-using-netapp-snapshots.html"
         entries:
         - title: Configuring backup on Linux
+          pdf-filename: Configuring backup on Linux (cluster health)
           url: "/health-checker/concept-configuring-backup-for-linux.html"
           entries:
           - title: Configuring Snapshot backup location
@@ -123,6 +131,7 @@ entries:
           - title: Specifying the destination location for Snapshot backups
             url: "/health-checker/task-specifying-the-destination-location-for-snapshot-backups.html"
         - title: Configuring backup on Windows
+          pdf-filename: Configuring backup on Windows (cluster health)
           url: "/health-checker/concept-configuring-backup-for-windows.html"
           entries:
           - title: Configuring backup location for Windows
@@ -146,6 +155,7 @@ entries:
       - title: Migrating a Unified Manager virtual appliance to a Linux system
         url: "/health-checker/task-migrating-a-unified-manager-virtual-appliance-to-a-rhel-or-centos-system.html"
     - title: Managing scripts
+      pdf-filename: Managing scripts (cluster health)
       url: "/health-checker/concept-managing-scripts.html"
       entries:
       - title: How scripts work with alerts
@@ -157,9 +167,11 @@ entries:
       - title: Testing script execution
         url: "/health-checker/task-testing-script-execution.html"
     - title: Managing and monitoring groups
+      pdf-filename: Managing and monitoring groups (cluster health)
       url: "/health-checker/concept-managing-and-monitoring-groups.html"
       entries:
       - title: Understanding groups
+        pdf-filename: Understanding groups (cluster health)
         url: "/health-checker/concept-understanding-groups.html"
         entries:
         - title: What a group is
@@ -224,16 +236,8 @@ entries:
         url: "/health-checker/task-deleting-annotation-rules.html"
       - title: Reordering annotation rules
         url: "/health-checker/task-reordering-annotation-rules.html"
-    - title: What a Unified Manager maintenance window is
-      url: "/health-checker/concept-what-a-um-maintenance-window-is.html"
-      entries:
-      - title: Scheduling a maintenance window to disable cluster event notifications
-        url: "/health-checker/task-scheduling-a-maintenance-window-to-disable-cluster-event-notifications.html"
-      - title: Changing or canceling a scheduled maintenance window
-        url: "/health-checker/task-changing-or-canceling-a-scheduled-maintenance-window.html"
-      - title: Viewing events that occurred during a maintenance window
-        url: "/health-checker/task-viewing-events-that-occurred-during-a-maintenance-window.html"
     - title: Managing SAML authentication settings
+      pdf-filename: Managing SAML authentication settings (cluster health)
       url: "/health-checker/concept-managing-saml-authentication-settings-um.html"
       entries:
       - title: Identity provider requirements
@@ -274,6 +278,7 @@ entries:
       - title: Acknowledging and resolving events
         url: "/health-checker/task-acknowledging-and-resolving-events.html"
       - title: Event details page
+        pdf-filename: Event details page (cluster health)
         url: "/health-checker/reference-event-details-page.html"
         entries:
         - title: What the Event Information section displays
@@ -290,8 +295,6 @@ entries:
         url: "/health-checker/reference-description-of-event-impact-areas.html"
       - title: Cluster components and why they can be in contention
         url: "/health-checker/concept-cluster-components-and-why-they-can-be-in-contention.html"
-      - title: Adding alerts
-        url: "/health-checker/task-adding-alerts.html"
       - title: Volume / Health details page
         url: "/health-checker/reference-health-volume-details-page.html"
       - title: Storage VM / Health details page
@@ -304,8 +307,6 @@ entries:
         url: "/health-checker/task-adding-users.html"
       - title: Creating a database user
         url: "/health-checker/task-creating-a-database-user.html"
-      - title: Definitions of user roles
-        url: "/health-checker/reference-definitions-of-user-roles.html"
       - title: Definitions of user types
         url: "/health-checker/reference-definitions-of-user-types.html"
       - title: Unified Manager user roles and capabilities
@@ -314,218 +315,8 @@ entries:
         url: "/health-checker/task-generating-an-https-security-certificate-ocf.html"
       - title: Supported Unified Manager CLI commands
         url: "/health-checker/reference-supported-unified-manager-cli-commands.html"
-  - title: Monitoring and troubleshooting data availability
-    url: "/health-checker/concept-monitoring-and-troubleshooting-data-availability.html"
-    entries:
-    - title: Scanning for and resolving storage failover interconnect link down
-        conditions
-      url: "/health-checker/task-resolving-a-storage-failover-interconnect-link-down-condition.html"
-      entries:
-      - title: Performing corrective action for storage failover interconnect links
-          down
-        url: "/health-checker/task-performing-corrective-action-for-storage-failover-interconnect-links-down.html"
-    - title: Resolving volume offline issues
-      url: "/health-checker/task-resolving-volume-offline-issues.html"
-      entries:
-      - title: Performing diagnostic actions for volume offline conditions
-        url: "/health-checker/task-performing-diagnotstic-actions-for-volume-offline-conditions.html"
-        entries:
-        - title: Determining if a volume is offline because its host node is down
-          url: "/health-checker/task-determining-if-a-volume-offline-condition-is-caused-by-a-down-cluster-node.html"
-        - title: Determining if a volume is offline and its SVM is stopped because
-            a node is down
-          url: "/health-checker/task-determining-if-a-volume-is-offline-and-its-svm-is-stopped-because-a-cluster-node-is-down.html"
-        - title: Determining if a volume is offline because of broken disks in an
-            aggregate
-          url: "/health-checker/task-determining-if-a-volume-is-offline-because-of-broken-disks-in-an-aggregate.html"
-  - title: Resolving capacity issues
-    url: "/health-checker/task-resolving-capacity-issues.html"
-    entries:
-    - title: Performing suggested remedial actions for a full volume
-      url: "/health-checker/task-performing-suggested-remedial-actions-for-a-full-volume.html"
-  - title: Managing health thresholds
-    url: "/health-checker/concept-managing-health-thresholds.html"
-    entries:
-    - title: What storage capacity health thresholds are
-      url: "/health-checker/concept-what-storage-capacity-health-thresholds-are.html"
-    - title: Configuring global health threshold settings
-      url: "/health-checker/task-configuring-global-health-threshold-settings.html"
-      entries:
-      - title: Configuring global aggregate health threshold values
-        url: "/health-checker/task-configuring-global-aggregate-health-threshold-values.html"
-      - title: Configuring global volume health threshold values
-        url: "/health-checker/task-configuring-global-volume-health-threshold-values.html"
-      - title: Configuring global qtree health threshold values
-        url: "/health-checker/task-configuring-global-qtree-health-threshold-values.html"
-      - title: Configuring lag threshold settings for unmanaged protection relationships
-        url: "/health-checker/task-configuring-lag-threshold-settings-for-unmanaged-protection-relationships.html"
-    - title: Editing individual aggregate health threshold settings
-      url: "/health-checker/task-editing-individual-aggregate-health-threshold-settings.html"
-    - title: Editing individual volume health threshold settings
-      url: "/health-checker/task-editing-individual-volume-health-threshold-settings.html"
-    - title: Editing individual qtree health threshold settings
-      url: "/health-checker/task-editing-individual-qtree-health-threshold-settings.html"
-  - title: Managing cluster security objectives
-    url: "/health-checker/concept-managing-cluster-security-objectives.html"
-    entries:
-    - title: What security criteria is being evaluated
-      url: "/health-checker/concept-what-security-criteria-is-being-evaluated.html"
-      entries:
-      - title: Cluster compliance categories
-        url: "/health-checker/reference-cluster-compliance-categories.html"
-      - title: SVM compliance categories
-        url: "/health-checker/reference-svm-compliance-categories.html"
-      - title: Volume compliance categories
-        url: "/health-checker/reference-volume-compliance-categories.html"
-    - title: What does not compliant mean
-      url: "/health-checker/concept-what-does-not-compliant-mean.html"
-    - title: Viewing high-level cluster security status
-      url: "/health-checker/task-viewing-high-level-cluster-security-status.html"
-    - title: Viewing detailed security status for clusters and SVMs
-      url: "/health-checker/task-viewing-detailed-security-status-for-clusters-and-svms.html"
-    - title: Viewing security events that may require software or firmware updates
-      url: "/health-checker/task-viewing-security-events-that-may-require-software-or-firmware-updates.html"
-    - title: Viewing how user authentication is being managed on all clusters
-      url: "/health-checker/task-viewing-how-user-authentication-is-being-managed-on-all-clusters.html"
-    - title: Viewing the encryption status of all volumes
-      url: "/health-checker/task-viewing-the-encryption-status-of-all-volumes.html"
-    - title: Viewing all active security events
-      url: "/health-checker/task-viewing-all-security-events.html"
-    - title: Adding alerts for security events
-      url: "/health-checker/task-adding-alerts-for-security-events.html"
-    - title: Disabling specific security events
-      url: "/health-checker/task-disabling-specific-security-events.html"
-    - title: Security events
-      url: "/health-checker/reference-security-events.html"
-  - title: Managing backup and restore operations
-    url: "/health-checker/concept-managing-backup-and-restore-operations.html"
-    entries:
-    - title: Backup and restore for Unified Manager on virtual appliance
-      url: "/health-checker/concept-backup-and-restore-on-virtual-appliance.html"
-    - title: Backup and restore using a MySQL database dump
-      url: "/health-checker/concept-backup-and-restore-using-a-mysql-database-dump.html"
-      entries:
-      - title: Configuring the destination and schedule for database dump backups
-        url: "/health-checker/concept-configuring-the-destination-and-schedule-for-database-dump-backups.html"
-      - title: What a database restore is
-        url: "/health-checker/concept-what-a-database-restore-is.html"
-      - title: Restoring a MySQL database backup on a Linux system
-        url: "/health-checker/task-restoring-a-mysql-database-backup-on-red-hat-enterprise-linux-or-centos.html"
-      - title: Restoring a MySQL database backup on Windows
-        url: "/health-checker/task-restoring-a-mysql-database-backup-on-windows.html"
-    - title: Backup and restore using NetApp Snapshots
-      url: "/health-checker/concept-backup-and-restore-using-netapp-snapshots.html"
-      entries:
-      - title: Configuring backup on Linux
-        url: "/health-checker/concept-configuring-backup-for-linux.html"
-        entries:
-        - title: Configuring Snapshot backup location
-          url: "/health-checker/task-creating-the-volume-where-backups-are-stored.html"
-        - title: Specifying the destination location for Snapshot backups
-          url: "/health-checker/task-specifying-the-destination-location-for-snapshot-backups.html"
-      - title: Configuring backup on Windows
-        url: "/health-checker/concept-configuring-backup-for-windows.html"
-        entries:
-        - title: Configuring backup location for Windows
-          url: "/health-checker/task-configuring-the-backup-location-for-windows-snapshot-backup.html"
-        - title: Configuring ONTAP cluster
-          url: "/health-checker/reference-configuring-ontap-cluster.html"
-        - title: Configuring Windows host machine
-          url: "/health-checker/task-configuring-windows-host-machine.html"
-        - title: Specifying the destination location for Windows Snapshot backups
-          url: "/health-checker/task-specifying-the-destination-location-for-windows-snapshot-backups.html"
-      - title: Configuring NetApp Snapshot backup from maintenance console
-        url: "/health-checker/task-configuring-netapp-snapshot-backup-from-maintenance-console.html"
-      - title: Defining a backup schedule for Linux and Windows
-        url: "/health-checker/task-defining-a-schedule-for-snapshot-backups.html"
-      - title: Restoring a Snapshot backup for Linux and Windows
-        url: "/health-checker/task-restoring-a-snapshot-backup.html"
-      - title: Modifying the backup type
-        url: "/health-checker/task-unconfiguring-netapp-snapshot-backup.html"
-    - title: On-demand backup for Unified Manager
-      url: "/health-checker/concept-on-demand-backup-for-unified-manger.html"
-    - title: Migrating a Unified Manager virtual appliance to a Linux system
-      url: "/health-checker/task-migrating-a-unified-manager-virtual-appliance-to-a-rhel-or-centos-system.html"
-  - title: Managing scripts
-    url: "/health-checker/concept-managing-scripts.html"
-    entries:
-    - title: How scripts work with alerts
-      url: "/health-checker/concept-how-scripts-work-with-alerts.html"
-    - title: Adding scripts
-      url: "/health-checker/task-adding-scripts.html"
-    - title: Deleting scripts
-      url: "/health-checker/task-deleting-scripts.html"
-    - title: Testing script execution
-      url: "/health-checker/task-testing-script-execution.html"
-  - title: Managing and monitoring groups
-    url: "/health-checker/concept-managing-and-monitoring-groups.html"
-    entries:
-    - title: Understanding groups
-      url: "/health-checker/concept-understanding-groups.html"
-      entries:
-      - title: What a group is
-        url: "/health-checker/concept-what-a-group-is.html"
-      - title: How group rules work for groups
-        url: "/health-checker/concept-how-group-rules-work-for-groups.html"
-      - title: How group actions work on storage objects
-        url: "/health-checker/concept-how-group-actions-work-on-storage-objects.html"
-    - title: Adding groups
-      url: "/health-checker/task-adding-groups.html"
-    - title: Editing groups
-      url: "/health-checker/task-editing-the-group-settings.html"
-    - title: Deleting groups
-      url: "/health-checker/task-deleting-groups.html"
-    - title: Adding group rules
-      url: "/health-checker/task-adding-group-rules.html"
-    - title: Editing group rules
-      url: "/health-checker/task-editing-group-rules.html"
-    - title: Deleting group rules
-      url: "/health-checker/task-deleting-group-rules.html"
-    - title: Adding group actions
-      url: "/health-checker/task-adding-group-actions.html"
-    - title: Editing group actions
-      url: "/health-checker/task-editing-group-actions.html"
-    - title: Configuring volume health thresholds for groups
-      url: "/health-checker/task-configuring-volume-health-thresholds-for-groups.html"
-    - title: Deleting group actions
-      url: "/health-checker/task-deleting-group-actions.html"
-    - title: Reordering group actions
-      url: "/health-checker/task-reordering-group-actions.html"
-  - title: Prioritizing storage object events using annotations
-    url: "/health-checker/concept-prioritizing-storage-objects-using-annotations.html"
-    entries:
-    - title: Understanding more about annotations
-      url: "/health-checker/concept-understanding-more-about-annotations.html"
-      entries:
-      - title: What annotations are
-        url: "/health-checker/concept-what-annotations-are.html"
-      - title: How annotation rules work in Unified Manager
-        url: "/health-checker/concept-how-annotation-rules-work-in-unified-manager.html"
-      - title: Description of predefined annotation values
-        url: "/health-checker/reference-description-of-predefined-annotation-values.html"
-    - title: Adding annotations dynamically
-      url: "/health-checker/task-adding-annotations-dynamically.html"
-    - title: Adding values to annotations
-      url: "/health-checker/task-adding-values-to-annotations.html"
-    - title: Deleting annotations
-      url: "/health-checker/task-deleting-annotations.html"
-    - title: Viewing the annotation list and details
-      url: "/health-checker/task-viewing-the-annotation-list-and-details.html"
-    - title: Deleting values from annotations
-      url: "/health-checker/task-deleting-values-from-annotations.html"
-    - title: Creating annotation rules
-      url: "/health-checker/task-creating-annotation-rules.html"
-    - title: Adding annotations manually to individual storage objects
-      url: "/health-checker/task-adding-annotations-manually-to-individual-storage-objects.html"
-    - title: Editing annotation rules
-      url: "/health-checker/task-editing-annotation-rules.html"
-    - title: Configuring conditions for annotation rules
-      url: "/health-checker/task-configuring-conditions-for-annotation-rules.html"
-    - title: Deleting annotation rules
-      url: "/health-checker/task-deleting-annotation-rules.html"
-    - title: Reordering annotation rules
-      url: "/health-checker/task-reordering-annotation-rules.html"
   - title: What a Unified Manager maintenance window is
+    pdf-filename: What a Unified Manager maintenance window is (cluster health)
     url: "/health-checker/concept-what-a-um-maintenance-window-is.html"
     entries:
     - title: Scheduling a maintenance window to disable cluster event notifications
@@ -534,84 +325,3 @@ entries:
       url: "/health-checker/task-changing-or-canceling-a-scheduled-maintenance-window.html"
     - title: Viewing events that occurred during a maintenance window
       url: "/health-checker/task-viewing-events-that-occurred-during-a-maintenance-window.html"
-  - title: Managing SAML authentication settings
-    url: "/health-checker/concept-managing-saml-authentication-settings-um.html"
-    entries:
-    - title: Identity provider requirements
-      url: "/health-checker/reference-identity-provider-requirements-um.html"
-    - title: Enabling SAML authentication
-      url: "/health-checker/task-enabling-saml-authentication-um.html"
-    - title: Changing the identity provider used for SAML authentication
-      url: "/health-checker/task-changing-the-identity-provider-idp-used-for-saml-authentication-um.html"
-    - title: Updating SAML authentication settings after Unified Manager security
-        certificate change
-      url: "/health-checker/task-updating-saml-authentication-settings-after-unified-manager-certificate-change.html"
-    - title: Disabling SAML authentication
-      url: "/health-checker/task-disabling-saml-authentication-um.html"
-    - title: Disabling SAML authentication from the maintenance console
-      url: "/health-checker/task-disabling-saml-authentication-from-the-maintenance-console-um.html"
-  - title: Sending a support bundle through web UI and maintenance console
-    url: "/health-checker/task-send-a-support-bundle-to-technical-support.html"
-    entries:
-    - title: Sending AutoSupport messages and support bundles to technical support
-      url: "/health-checker/reference-setup-autosupport-page.html"
-    - title: Accessing the maintenance console
-      url: "/health-checker/task-accessing-the-maintenance-console.html"
-    - title: Generating and uploading a support bundle
-      url: "/health-checker/task-generating-and-uploading-a-support-bundle.html"
-    - title: Retrieving the support bundle using a Windows client
-      url: "/health-checker/task-retrieving-the-support-bundle-using-a-windows-client.html"
-    - title: Retrieving the support bundle using a UNIX or Linux client
-      url: "/health-checker/task-retrieving-the-support-bundle-using-a-unix-or-linux-client.html"
-    - title: Sending a support bundle to technical support
-      url: "/health-checker/task-sending-a-support-bundle-to-technical-support.html"
-  - title: Tasks and information related to several workflows
-    url: "/health-checker/concept-tasks-and-information-related-to-several-workflows.html"
-    entries:
-    - title: Adding and reviewing notes about an event
-      url: "/health-checker/task-adding-and-reviewing-notes-about-an-event.html"
-    - title: Assigning events to specific users
-      url: "/health-checker/task-assigning-events-to-specific-users.html"
-    - title: Acknowledging and resolving events
-      url: "/health-checker/task-acknowledging-and-resolving-events.html"
-    - title: Event details page
-      url: "/health-checker/reference-event-details-page.html"
-      entries:
-      - title: What the Event Information section displays
-        url: "/health-checker/reference-what-the-event-information-section-displays.html"
-      - title: What the System Diagnosis section displays
-        url: "/health-checker/reference-what-the-system-diagnosis-section-displays.html"
-      - title: What the Suggested Actions section displays
-        url: "/health-checker/reference-what-the-suggested-actions-section-displays.html"
-    - title: Description of event severity types
-      url: "/health-checker/reference-description-of-event-severity-types.html"
-    - title: Description of event impact levels
-      url: "/health-checker/reference-description-of-event-impact-levels.html"
-    - title: Description of event impact areas
-      url: "/health-checker/reference-description-of-event-impact-areas.html"
-    - title: Cluster components and why they can be in contention
-      url: "/health-checker/concept-cluster-components-and-why-they-can-be-in-contention.html"
-    - title: Adding alerts
-      url: "/health-checker/task-adding-alerts.html"
-    - title: Volume / Health details page
-      url: "/health-checker/reference-health-volume-details-page.html"
-    - title: Storage VM / Health details page
-      url: "/health-checker/reference-health-svm-details-page.html"
-    - title: Cluster / Health details page
-      url: "/health-checker/reference-health-cluster-details-page.html"
-    - title: Aggregate / Health details page
-      url: "/health-checker/reference-health-aggregate-details-page.html"
-    - title: Adding users
-      url: "/health-checker/task-adding-users.html"
-    - title: Creating a database user
-      url: "/health-checker/task-creating-a-database-user.html"
-    - title: Definitions of user roles
-      url: "/health-checker/reference-definitions-of-user-roles.html"
-    - title: Definitions of user types
-      url: "/health-checker/reference-definitions-of-user-types.html"
-    - title: Unified Manager user roles and capabilities
-      url: "/health-checker/reference-unified-manager-roles-and-capabilities.html"
-    - title: Generating an HTTPS security certificate
-      url: "/health-checker/task-generating-an-https-security-certificate-ocf.html"
-    - title: Supported Unified Manager CLI commands
-      url: "/health-checker/reference-supported-unified-manager-cli-commands.html"

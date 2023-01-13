@@ -18,7 +18,8 @@ After you have defined the comparison objects and the time range for counters, y
 == Steps
 
 . Expand or reduce the *Counter Charts* pane.
-+
+
+[cols="2*",options="header"]
 |===
 | To...| Do this...
 a|

@@ -12,7 +12,7 @@ summary: 'When using the APIs in Active IQ Unified Manager, you should follow ce
 When using the APIs in Active IQ Unified Manager, you should follow certain recommended practices.
 
 * All response content type must be in the following format for a valid execution:
-+
+
 ----
 application/json
 ----

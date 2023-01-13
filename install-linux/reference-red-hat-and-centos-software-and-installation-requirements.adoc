@@ -55,7 +55,7 @@ See the Red Hat documentation for information about the Red Hat Subscription Man
 +
 If the EPEL repository is not configured on your system, you must manually download and configure the repository.
 +
-link:task-manually-configuring-the-epel-repository.md#[Manually configuring the EPEL repository]
+xref:task-manually-configuring-the-epel-repository.adoc[Manually configuring the EPEL repository]
 
 * If the correct version of MySQL is not installed, you must enable the MySQL repository to successfully install MySQL software on your system.
 +

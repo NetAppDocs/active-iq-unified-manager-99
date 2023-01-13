@@ -26,15 +26,10 @@ We recommend that you back up the Unified Manager database before increasing the
 . Create a temporary backup folder (for example, `/backup-data`) with sufficient disk space to contain the data in the current `/opt/netapp/data` directory.
 . Copy the content and privilege configuration of the existing `/opt/netapp/data` directory to the backup data directory: `cp -arp /opt/netapp/data/* /backup-data`
 . If SE Linux is enabled:
- .. {blank}
+
+.. Get the SE Linux type for folders on existing `/opt/netapp/data` folder: 
 +
-[cols=4*]
-|===
-| Get the SE Linux type for folders on existing `/opt/netapp/data` folder: ``se_type=``ls -Z /opt/netapp/data
-| awk '{print $4}'
-| awk -F: '{print $3}'
-| head -1``
-|===
+`se_type= ls -Z /opt/netapp/data | awk '{print $4}'| awk -F: '{print $3}'| head -1`
 +
 The system returns a confirmation similar to the following:
 +
@@ -68,7 +63,6 @@ drwxr-xr-x.  17 mysql root  4096 Aug 28 13:08 data
 
 +
 The system returns a confirmation similar to the following:
-+
 ----
 -rw-r--r--. root root unconfined_u:object_r:mysqld_db_t:s0 /opt/netapp/data/abc
 ----

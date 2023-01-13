@@ -28,11 +28,3 @@ The HTTPS certificate is displayed at the top of the page
 == After you finish
 
 If you need to view more detailed information about the security certificate than what is displayed on the HTTPS Certificate page, you can view the connection certificate in your browser.
-
-*Related information*
-
-xref:task-generating-an-https-security-certificate-ocf.adoc[Generating an HTTPS security certificate]
-
-xref:task-downloading-an-https-certificate-signing-request-ocf.adoc[Downloading an HTTPS certificate signing request]
-
-xref:task-installing-a-ca-signed-and-returned-https-certificate.adoc[Installing a CA signed and returned HTTPS certificate]

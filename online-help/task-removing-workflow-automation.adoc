@@ -19,7 +19,3 @@ You must have the Application Administrator or Storage Administrator role.
 
 . In the left navigation pane, click *General* > *Workflow Automation* in the left Setup menu.
 . In the *Workflow Automation* page, click *Remove Setup*.
-
-*Related information*
-
-xref:reference-setup-workflow-automation-page.adoc[Workflow Automation page]

@@ -25,9 +25,3 @@ You can define group rules to add or remove members from the group and to modify
 . In the *Groups* tab, click *Add*.
 . In the *Add Group* dialog box, enter a name and description for the group.
 . Click *Add*.
-
-*Related information*
-
-xref:task-adding-group-rules.adoc[Adding group rules]
-
-xref:task-adding-group-actions.adoc[Adding group actions]

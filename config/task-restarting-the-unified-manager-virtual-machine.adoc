@@ -19,13 +19,9 @@ You are logged in to the maintenance console as the maintenance user.
 
 == About this task
 
-You can also restart the virtual machine from vSphere by using the **Restart Guest**option. See the VMware documentation for more information.
+You can also restart the virtual machine from vSphere by using the **Restart Guest** option. See the VMware documentation for more information.
 
 == Steps
 
 . Access the maintenance console.
 . Select *System Configuration* > *Reboot Virtual Machine*.
-
-*Related information*
-
-xref:task-changing-the-unified-manager-host-name-on-vmware.adoc[Changing the Unified Manager virtual appliance host name]

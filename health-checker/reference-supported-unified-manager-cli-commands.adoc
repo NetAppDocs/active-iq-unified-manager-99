@@ -13,6 +13,7 @@ As a storage administrator you can use the CLI commands to perform queries on th
 
 All commands must be preceded with the command `um cli login` and a valid user name and password for authentication.
 
+[cols="3*",options="header"]
 |===
 | CLI command| Description| Output
 a|

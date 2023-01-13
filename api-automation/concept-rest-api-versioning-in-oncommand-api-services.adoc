@@ -19,7 +19,3 @@ On the top right corner of your Swagger interface, you can select the version of
 ====
 
 For all requests, you must explicitly request the API version that you want to use. When the version number is specified, the service does not return response elements that your application is not designed to handle. In REST requests, you should include the version parameter. The earlier versions of the APIs are eventually deprecated after a few releases. In this release, the `v1` version of the APIs is deprecated.
-
-*Related information*
-
-xref:reference-recommendations-to-use-the-apis.adoc[Recommendations for using the APIs for Active IQ Unified Manager]

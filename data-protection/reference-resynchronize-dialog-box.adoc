@@ -52,11 +52,3 @@ Begins the resynchronization process and closes the Resynchronize dialog box.
 * *Cancel*
 +
 Cancels your selections and closes the Resynchronize dialog box.
-
-*Related information*
-
-xref:reference-select-source-snapshot-copy-dialog-box.adoc[Select Source Snapshot Copy dialog box]
-
-xref:task-resynchronizing-protection-relationships-from-the-health-volume-details-page.adoc[Resynchronizing protection relationships from the Volume / Health details page]
-
-xref:task-resynchronizing-protection-relationships.adoc[Resynchronizing protection relationships from the Volume Relationships page]

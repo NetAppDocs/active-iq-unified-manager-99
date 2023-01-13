@@ -26,7 +26,8 @@ You must enter the Unified Manager URI and metadata into the IdP server. You can
 == ADFS configuration requirements
 
 * You must define three claim rules in the following order that are required for Unified Manager to parse ADFS SAML responses for this relying party trust entry.
-+
+
+[cols="2*",options="header"]
 |===
 | Claim rule| Value
 a|

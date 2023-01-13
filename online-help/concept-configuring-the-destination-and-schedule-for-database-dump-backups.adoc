@@ -50,7 +50,3 @@ The default value for retention count is 10; you can use 0 for creating unlimite
 == Results
 
 Database dump backup files are created based on the schedule. You can see the available backup files in the Database Backup page.
-
-*Related information*
-
-xref:reference-database-backup-page.adoc[Database Backup page]

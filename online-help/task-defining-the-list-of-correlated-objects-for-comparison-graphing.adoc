@@ -27,7 +27,8 @@ Adding many objects to the Comparing pane may have a negative impact on performa
 The *Add* button turns gray, and the object is added to the additional objects list in the Comparing pane. The object's data is added to the graphs in the Counter Charts panes. The color of the object's eye icon (image:../media/eye-icon.gif[]) matches the color of the object's data trend line in the graphs.
 
 . Hide or show data for selected objects:
-+
+
+[cols="2*",options="header"]
 |===
 | To do this...| Take this action...
 a|
@@ -38,11 +39,11 @@ a|
 Show a hidden object
 a|
 Click the gray eye icon of the selected object in the Comparing pane.     The eye icon returns to its original color, and the object data is added back into the graphs in the Counter Charts pane.
-+
 |===
 
 . Remove selected objects from the *Comparing* pane:
-+
+
+[cols="2*",options="header"]
 |===
 | To do this...| Take this action...
 a|
@@ -53,5 +54,4 @@ a|
 Remove all selected objects
 a|
 Click the remove all object's button (*X*) at the top of the Comparing pane.    All selected objects and their data are removed, leaving only the root object.
-+
 |===

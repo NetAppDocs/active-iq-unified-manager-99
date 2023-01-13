@@ -29,7 +29,3 @@ The *Retry* button is enabled.
 . Click *Retry*.
 +
 The job is restarted.
-
-*Related information*
-
-xref:reference-job-details-page.adoc[Job details page]

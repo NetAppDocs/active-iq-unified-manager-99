@@ -66,11 +66,3 @@ Discards your selections and closes the Initialize/Update dialog box.
 * *Submit*
 +
 Saves your selections and starts the initialize or update job.
-
-*Related information*
-
-xref:reference-select-source-snapshot-copy-dialog-box.adoc[Select Source Snapshot Copy dialog box]
-
-xref:task-initializing-or-updating-protection-relationships-from-the-health-volume-details-page.adoc[Initializing or updating protection relationships from the Volume / Health details page]
-
-xref:task-initializing-or-updating-protection-relationships.adoc[Initializing or updating protection relationships from the Volume Relationships page]

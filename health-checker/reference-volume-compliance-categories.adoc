@@ -13,6 +13,7 @@ This table describes the volume encryption parameters that Unified Manager evalu
 
 Note that the volume encryption parameters do not affect whether the cluster or storage VM is considered compliant.
 
+[cols="2*",options="header"]
 |===
 | Parameter| Description
 a|

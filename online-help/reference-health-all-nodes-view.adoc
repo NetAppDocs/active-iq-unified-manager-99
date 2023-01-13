@@ -18,11 +18,3 @@ The controls along the top of the page enable you to select a particular view (f
 In the *Reports* menu, the *Hardware Inventory Report* option is provided when Unified Manager, and the clusters it is managing, are installed in a site with no external network connectivity. This button generates a `.csv` file that contains a complete list of cluster and node information; such as hardware model numbers and serial numbers, disk types and counts, installed licenses, and more. This reporting functionality is helpful for contract renewal within secure sites that are not connected to the NetAppActive IQ platform.
 
 See xref:reference-node-health-fields.adoc[Node health fields] for descriptions of all the fields on this page.
-
-*Related information*
-
-xref:task-generating-a-hardware-inventory-report-for-contract-renewal.adoc[Generating a hardware inventory report for contract renewal]
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting storage data as reports]
-
-xref:task-scheduling-a-report.adoc[Scheduling a report]

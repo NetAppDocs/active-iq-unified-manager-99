@@ -20,19 +20,3 @@ In the *Reports* menu, the *Hardware Inventory Report* option is provided when U
 You can assign performance threshold policies to, or clear threshold policies from, any object on the object inventory pages using the *Assign Performance Threshold Policy* and *Clear Performance Threshold Policy* buttons.
 
 See xref:reference-node-performance-fields.adoc[Node performance fields] for descriptions of all the fields on this page.
-
-*Related information*
-
-xref:concept-refining-object-inventory-performance-page-content.adoc[Refining Performance inventory page contents]
-
-xref:task-assigning-performance-threshold-policies-to-storage-objects.adoc[Assigning performance threshold policies to storage objects]
-
-xref:task-removing-performance-threshold-policies-from-storage-objects.adoc[Removing performance threshold policies from storage objects]
-
-xref:task-filtering-on-the-object-inventory-performance-pages.adoc[Filtering data in the Object Inventory Performance pages]
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting storage data as reports]
-
-xref:task-scheduling-a-report.adoc[Scheduling a report]
-
-xref:task-generating-a-hardware-inventory-report-for-contract-renewal.adoc[Generating a hardware inventory report for contract renewal]

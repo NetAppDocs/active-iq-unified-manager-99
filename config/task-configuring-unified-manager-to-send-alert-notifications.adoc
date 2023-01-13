@@ -21,11 +21,11 @@ After deploying Unified Manager and completing the initial configuration, you sh
 
 == Steps
 
-. link:task-configuring-event-notification-settings.md#[Configure event notification settings]
+. xref:task-configuring-event-notification-settings.adoc[Configure event notification settings]
 +
 If you want alert notifications sent when certain events occur in your environment, you must configure an SMTP server and supply an email address from which the alert notification will be sent. If you want to use SNMP traps, you can select that option and provide the necessary information.
 
-. link:task-enabling-remote-authentication.md#[Enable remote authentication]
+. xref:task-enabling-remote-authentication.adoc[Enable remote authentication]
 +
 If you want remote LDAP or Active Directory users to access the Unified Manager instance and receive alert notifications, then you must enable remote authentication.
 
@@ -33,10 +33,10 @@ If you want remote LDAP or Active Directory users to access the Unified Manager 
 +
 You can add authentication servers so that remote users within the authentication server can access Unified Manager.
 
-. link:task-adding-users.md#[Add users]
+. xref:task-adding-users.adoc[Add users]
 +
 You can add several different types of local or remote users and assign specific roles. When you create an alert, you assign a user to receive the alert notifications.
 
-. link:task-adding-alerts.md#[Add alerts]
+. xref:task-adding-alerts.adoc[Add alerts]
 +
 After you have added the email address for sending notifications, added users to receive the notifications, configured your network settings, and configured SMTP and SNMP options needed for your environment, then you can assign alerts.

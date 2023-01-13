@@ -20,11 +20,3 @@ The Performance Cluster Landing page includes four tabs that separate the cluste
 * Top Performers page
 * Explorer page
 * Information page
-
-*Related information*
-
-xref:reference-cluster-summary-page-opm.adoc[Performance Cluster Summary page]
-
-xref:reference-top-performers-page.adoc[Top Performers page]
-
-xref:concept-components-of-the-performance-explorer-page.adoc[Components of the Performance Explorer page]

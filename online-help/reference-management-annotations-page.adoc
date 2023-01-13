@@ -13,9 +13,6 @@ The Annotations page enables you to create annotations in Unified Manager that c
 
 When you log in as an operator, you will have only read access to the page. You can access the add, edit, or delete buttons in each tab when you log in as a Storage Administrator or Application Administrator.
 
-* <<SECTION_8F5801BC989E4CF7846DB818A8F6DED1,Annotations tab>>
-* <<SECTION_3F4AD78CB19D43189A4D936CF979F479,Annotation Rules tab>>
-
 == Annotations tab
 
 The Annotations tab enables you to view, create, edit, or delete annotations in Unified Manager.
@@ -159,15 +156,3 @@ The list view displays, in tabular format, the annotation rules you created in t
 * Applicable Objects
 
 An additional column is displayed for the Annotation Rules tab, Associated Annotation, which displays the name of the annotation applied to the storage object.
-
-*Related information*
-
-xref:task-adding-annotations-dynamically.adoc[Adding annotations dynamically]
-
-xref:task-deleting-annotations.adoc[Deleting annotations]
-
-xref:task-adding-values-to-annotations.adoc[Adding values to annotations]
-
-xref:task-deleting-values-from-annotations.adoc[Deleting values from annotations]
-
-xref:reference-description-of-predefined-annotation-values.adoc[Description of predefined annotation values]

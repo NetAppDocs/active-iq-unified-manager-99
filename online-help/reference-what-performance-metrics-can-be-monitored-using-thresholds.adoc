@@ -13,6 +13,7 @@ Some common performance counters, such as IOPS and MB/s, can have thresholds set
 
 == Available performance counters
 
+[cols="3*",options="header"]
 |===
 | Storage object| Performance counter| Description
 a|

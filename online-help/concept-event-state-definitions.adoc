@@ -43,7 +43,3 @@ When the event Cluster Not Reachable is triggered, the event state is New. When 
 If the Cluster Not Reachable event is generated due to a power outage, then when the power is restored the cluster starts functioning without any administrator intervention. Therefore, the Cluster Not Reachable event is no longer valid, and the event state changes to Obsolete in the next monitoring cycle.
 
 Unified Manager sends an alert when an event is in the Obsolete or Resolved state. The email subject line and email content of an alert provides information about the event state. An SNMP trap also includes information about the event state.
-
-*Related information*
-
-xref:concept-how-object-status-is-computed.adoc[How object status is computed]

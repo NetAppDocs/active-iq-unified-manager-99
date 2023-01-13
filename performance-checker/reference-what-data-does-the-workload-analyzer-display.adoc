@@ -40,7 +40,7 @@ Displays charts for latency, throughput (both IOPS and MB/s), and utilization (f
   *** *Total* latency
   *** *Breakdown* latency (broken out by reads, writes, and other processes)
   *** *Cluster Components* latency (broken out by cluster component)
-See link:concept-cluster-components-and-why-they-can-be-in-contention.md#[Cluster components and why they can be in contention] for a description of the cluster components that are displayed here.
+See xref:concept-cluster-components-and-why-they-can-be-in-contention.adoc[Cluster components and why they can be in contention] for a description of the cluster components that are displayed here.
  ** *Throughput* displays both IOPS and MB/s throughput for the workload over the selected timeframe. The chart has four views that enable you to see:
   *** *Total* throughput
   *** *Breakdown* throughput (broken out by reads, writes, and other processes)
@@ -59,7 +59,3 @@ For volumes, you can click the View capacity details link to display the Health 
  ** *Snapshot View* displays the total space reserved for Snapshot copies, and the amount of space currently being used. Note that LUNs do not provide a Snapshot View.
  ** *Cloud Tier View* displays how much capacity is being used in the local performance tier and how much is being used in the cloud tier.
 These charts include an estimate of the amount of time remaining before the capacity is full for this workload. This information is based on historical usage and requires a minimum of 10 days of data. When less than 30 days of capacity remain, Unified Manager identifies the storage as "`almost full`".
-
-*Related information*
-
-xref:concept-how-qos-policies-are-displayed-in-the-throughput-charts.adoc[How different types of QoS policies are displayed in the throughput charts]

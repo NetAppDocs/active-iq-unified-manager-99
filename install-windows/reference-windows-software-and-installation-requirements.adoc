@@ -41,8 +41,7 @@ The following third-party packages are bundled with Unified Manager. If these th
 +
 [NOTE]
 ====
-    The installer of Unified Manager has been restricted to support only up to MySQL Community Edition 8.0.21, due to an interoperability issue. You *must not* upgrade MySQL to a release greater than 8.0.21.
-+
+The installer of Unified Manager has been restricted to support only up to MySQL Community Edition 8.0.21, due to an interoperability issue. You *must not* upgrade MySQL to a release greater than 8.0.21.
 ====
 
 * Python 3.6.x
@@ -86,5 +85,4 @@ The Unified Manager installation program configures the following exclusions in 
 * MySQL data directory
 
 If your server has a different antivirus scanner installed, you should configure these exclusions manually.
-
 ====

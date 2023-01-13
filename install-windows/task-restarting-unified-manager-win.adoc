@@ -19,7 +19,8 @@ You must have Windows administrator privileges.
 
 . Log in to Windows using the default local administrator account.
 . Stop the Unified Manager services:
-+
+
+[cols="2*",options="header"]
 |===
 | From the...| Stop the services in following order...
 a|
@@ -36,11 +37,12 @@ a|
  .. NetApp Active IQ Acquisition Service (Ocie-au)
  .. NetApp Active IQ Management Server Service (Oncommandsvc)
 
-+
+
 |===
 
 . Start the Unified Manager services:
-+
+
+[cols="2*",options="header"]
 |===
 | From the...| Start the services in following order...
 a|
@@ -57,5 +59,5 @@ a|
  .. NetApp Active IQ Management Server Service (Oncommandsvc)
  .. NetApp Active IQ Acquisition Service (Ocie-au)
 
-+
+
 |===

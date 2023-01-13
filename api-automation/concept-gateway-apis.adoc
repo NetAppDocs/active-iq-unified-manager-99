@@ -20,6 +20,7 @@ All users can run a query by using the `GET` operation. Application Administrato
 
 The gateway acts as a proxy to tunnel the API requests by maintaining the header and body requests in the same format as in the ONTAP APIs. You can use your Unified Manager credentials and execute the specific operations to access and manage the ONTAP clusters without passing individual cluster credentials. It continues to manage the cluster authentication and cluster management, but redirects the API requests to run directly on the specific cluster. The response returned by the APIs is the same as the response returned by the respective ONTAP REST APIs executed directly from ONTAP.
 
+[cols="3*",options="header"]
 |===
 | HTTP verb| Path (URL)| Description
 a|
@@ -102,6 +103,4 @@ curl -X GET "https://<hostname>/api/gateways/e4f33f90-f75f-11e8-9ed9-00a098e3215
 -H "Authorization: Basic <Base64EncodedCredentials>"
 ----
 
-For more information about using ONTAP REST APIs, see the ONTAP REST API Developers guide.
-
-http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-rest-api/home.html[ONTAP REST API Developers guide]
+For more information about using ONTAP REST APIs, see https://docs.netapp.com/us-en/ontap-automation/index.html[ONTAP REST API Automation].

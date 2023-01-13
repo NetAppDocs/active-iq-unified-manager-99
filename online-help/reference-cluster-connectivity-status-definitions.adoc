@@ -11,6 +11,7 @@ summary: 'Connectivity between the clusters in a MetroCluster configuration can 
 [.lead]
 Connectivity between the clusters in a MetroCluster configuration can be one of the following statuses: Optimal, Impacted, or Down. Understanding the connectivity statuses enables you to manage your MetroCluster configurations effectively.
 
+[cols="3*",options="header"]
 |===
 | Connectivity status| Description| Icon displayed
 a|

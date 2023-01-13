@@ -18,19 +18,3 @@ You can configure alerts to send notification automatically when specific events
 Obsolete, resolved, and informational events are automatically logged and retained for a default of 180 days.
 
 It is important that you take immediate corrective action for events with severity level Error or Critical.
-
-*Related information*
-
-xref:concept-what-alerts-are.adoc[What alerts are]
-
-xref:concept-what-performance-events-are.adoc[What performance events are]
-
-xref:concept-what-event-management-system-events-are.adoc[What Event Management System events are]
-
-xref:concept-event-state-definitions.adoc[Event state definitions]
-
-xref:reference-description-of-event-severity-types.adoc[Description of event severity types]
-
-xref:reference-description-of-event-impact-levels.adoc[Description of event impact levels]
-
-xref:reference-description-of-event-impact-areas.adoc[Description of event impact areas]

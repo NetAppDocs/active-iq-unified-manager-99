@@ -28,15 +28,3 @@ You can view SVM details, such as the capacity, efficiency, and configuration of
 +
 You can also view the complete details by clicking *View Details* in the minimal details dialog box.
 . View the objects related to the SVM by clicking *View Related* in the minimal details dialog box.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting storage data as reports]
-
-xref:task-adding-alerts.adoc[Adding alerts]
-
-xref:reference-health-all-svms-view.adoc[Health: All Storage VMs view]
-
-xref:reference-health-svm-details-page.adoc[Storage VM / Health details page]

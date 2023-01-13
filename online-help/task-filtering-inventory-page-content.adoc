@@ -17,6 +17,7 @@ Use *Filtering* to customize the grid view based on your preferences. Available 
 
 Three types of filter parameters are supported.
 
+[cols="2*",options="header"]
 |===
 | Parameter| Validation
 a|

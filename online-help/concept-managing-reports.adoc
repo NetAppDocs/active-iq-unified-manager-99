@@ -24,11 +24,3 @@ From this release of Active IQ Unified manager, following enhancements are made 
 * The file name of the report and metadata of the report includes the hostname from where the report was generated.
 +
 Even if any one changes the filename, still you can identify the hostname from where the report was generated due to this enhancement.
-
-*Related information*
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting storage data as reports]
-
-xref:concept-unified-manager-databases-accessible-for-reporting.adoc[Unified Manager databases accessible for custom reporting]
-
-xref:concept-using-unified-manager-rest-apis-ocum.adoc[Using Unified Manager REST APIs]

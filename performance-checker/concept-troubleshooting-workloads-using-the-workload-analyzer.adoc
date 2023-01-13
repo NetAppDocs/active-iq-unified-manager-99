@@ -21,13 +21,3 @@ You can initiate this functionality from a variety of places in the user interfa
 * From the Virtual Machines page by clicking the *Analyze Workload* button from any Datastore object
 
 When you launch the tool from the left-navigation menu, you can enter the name of any workload that you want to analyze and select the time range for which you want to troubleshoot. When you launch the tool from any of the workload or virtual machine inventory pages, the name of the workload is filled in automatically, and the workload's data is presented with the default 2 hour time range. When you launch the tool from the Event details page, the name of the workload is filled in automatically, and the data of 10 days is displayed.
-
-*Related information*
-
-xref:concept-how-storage-qos-can-control-workload-throughput.adoc[How storage QoS can control workload throughput]
-
-xref:task-viewing-volumes-or-luns-that-are-in-the-same-qos-policy-group.adoc[Viewing volumes or LUNs that are in the same QoS policy group]
-
-xref:task-viewing-the-qos-policy-group-settings-for-specific-volumes-or-luns.adoc[Viewing the QoS policy group settings applied to specific volumes or LUNs]
-
-xref:task-viewing-performance-charts-to-compare-volumes-or-luns-that-are-in-the-same-qos-policy-group.adoc[Viewing performance charts to compare volumes or LUNs that are in the same QoS policy group]

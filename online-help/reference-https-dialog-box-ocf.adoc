@@ -28,11 +28,3 @@ Enables you to upload and install a security certificate after a Certificate Aut
 * *Regenerate HTTPS Certificate*
 +
 Enables you to generate an HTTPS certificate, which replaces the current security certificate. The new certificate is in effect after you restart Unified Manager.
-
-*Related information*
-
-xref:task-generating-an-https-security-certificate-ocf.adoc[Generating an HTTPS security certificate]
-
-xref:task-downloading-an-https-certificate-signing-request-ocf.adoc[Downloading an HTTPS certificate signing request]
-
-xref:task-installing-a-ca-signed-and-returned-https-certificate.adoc[Installing a CA signed and returned HTTPS certificate]

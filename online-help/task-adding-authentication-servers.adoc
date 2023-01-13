@@ -27,7 +27,8 @@ If the authentication server that you are adding is part of a high-availability 
 
 . In the left navigation pane, click *General* > *Remote Authentication*.
 . Enable or disable the *Use secure connection* option:
-+
+
+[cols="2*",options="header"]
 |===
 | If you want to...| Then do this...
 a|
@@ -60,15 +61,3 @@ a|
 The authentication server that you added is displayed in the Servers area.
 
 . Perform a test authentication to confirm that you can authenticate users in the authentication server that you added.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]
-
-xref:concept-authentication-with-active-directory-or-openldap.adoc[Authentication with Active Directory or OpenLDAP]
-
-xref:task-enabling-remote-authentication.adoc[Enabling remote authentication]
-
-xref:task-setting-up-authentication-services.adoc[Setting up authentication services]
-
-xref:task-testing-the-configuration-of-authentication-servers-um-6-0.adoc[Testing the configuration of authentication servers]

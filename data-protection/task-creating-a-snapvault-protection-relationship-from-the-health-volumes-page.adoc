@@ -51,9 +51,3 @@ If you are creating only one protection relationship, the Job details page is di
   ... Click a job in the jobs list.
   ... Click *Refresh* to update the tasks list and task details associated with the protection configuration job and to determine when the job is complete.
   ... Use the *Back* button to return to the filtered list and view another job.
-
-*Related information*
-
-xref:reference-configure-protection-dialog-box.adoc[Configure Protection dialog box]
-
-xref:reference-advanced-secondary-setting-dialog-box.adoc[Advanced Secondary Settings dialog box]

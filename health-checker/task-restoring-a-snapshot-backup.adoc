@@ -23,9 +23,10 @@ The restore feature is platform-specific and version-specific. You can restore a
 == Steps
 
 . Connect to the IP address or fully qualified domain name of the Unified Manager system.
-+
+
+[cols="2*",options="header"]
 |===
-    a|
+a|
 *Linux*
 a|
 Secure Shell

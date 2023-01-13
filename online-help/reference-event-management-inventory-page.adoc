@@ -11,10 +11,6 @@ summary: 'The Event Management inventory page enables you to view a list of curr
 [.lead]
 The Event Management inventory page enables you to view a list of current events and their properties. You can perform tasks such as acknowledging, resolving, and assigning events. You can also add an alert for specific events.
 
-* <<SECTION_AB0C3CC1646849C094190C8C632E9634,Filter components>>
-* <<SECTION_68BD42F2CFDD46689596A44124DF96A1,Command buttons>>
-* <<SECTION_85DA48158BDD404B8B928EB953CD0ACC,Events list>>
-
 The information on this page is refreshed automatically every 5 minutes to ensure that the most current new events are displayed.
 
 == Filter components
@@ -156,27 +152,3 @@ The time that has elapsed since the event was resolved. If the time elapsed exce
 * *Obsoleted Time*
 +
 The time when the state of the event became Obsolete.
-
-*Related information*
-
-xref:task-viewing-event-details.adoc[Viewing events and event details]
-
-xref:task-assigning-events-to-specific-users.adoc[Assigning events to specific users]
-
-xref:task-viewing-unassigned-events.adoc[Viewing unassigned events]
-
-xref:task-acknowledging-and-resolving-events.adoc[Acknowledging and resolving events]
-
-xref:task-adding-alerts.adoc[Adding alerts]
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting storage data as reports]
-
-xref:task-displaying-information-about-a-performance-event.adoc[Displaying information about performance events]
-
-xref:task-viewing-security-events-that-may-require-software-or-firmware-updates.adoc[Viewing security events that may require software or firmware updates]
-
-xref:concept-sources-of-performance-events.adoc[Sources of performance events]
-
-xref:concept-what-happens-when-an-event-is-received.adoc[What happens when an event is received]
-
-xref:reference-list-of-events-and-severity-types.adoc[List of events and severity types]

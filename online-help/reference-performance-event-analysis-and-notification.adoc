@@ -66,23 +66,3 @@ If there are multiple events for the same time period, the message shows the num
 * Clicking a single event displays a dialog box that shows more detailed information about the event, including the cluster components that are involved.
 +
 The component in contention is circled and highlighted red. You can click *View full analysis* to view the full analysis on the Event details page. If there are multiple events for the same time period, the dialog box shows details about the three most recent events. You can click an event to view the event analysis on the Event details page.
-
-*Related information*
-
-xref:concept-collecting-data-and-monitoring-workload-performance.adoc[Collecting data and monitoring workload performance]
-
-xref:concept-how-unified-manager-determines-the-performance-impact-for-an-incident.adoc[How Unified Manager determines the performance impact for an event]
-
-xref:concept-roles-of-workloads-involved-in-a-performance-incident.adoc[Roles of workloads involved in a performance event]
-
-xref:concept-cluster-components-and-why-they-can-be-in-contention.adoc[Cluster components and why they can be in contention]
-
-xref:concept-types-of-workloads-monitored-by-unified-manager.adoc[Types of workloads monitored by Unified Manager]
-
-xref:reference-event-details-page.adoc[Event details page]
-
-xref:task-displaying-information-about-a-performance-event.adoc[Displaying information about performance events]
-
-xref:task-identifying-victim-workloads-involved-in-a-performance-event.adoc[Identifying victim workloads involved in a dynamic performance event]
-
-xref:task-identifying-bully-workloads-involved-in-a-performance-event.adoc[Identifying bully workloads involved in a dynamic performance event]

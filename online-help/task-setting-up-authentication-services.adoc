@@ -20,7 +20,8 @@ Authentication services enable the authentication of remote users or remote grou
 
 . In the left navigation pane, click *General* > *Remote Authentication*.
 . Select one of the following authentication services:
-+
+
+[cols="2*",options="header"]
 |===
 | If you select...| Then do this...
 a|
@@ -53,18 +54,12 @@ For example, if the domain name of the authentication server is ou@domain.com, t
  .. Specify the LDAP protocol version that is supported by the authentication server.
  .. Enter the user name, group membership, user group, and member attributes.
 
-+
+
 |===
-+
+
 [NOTE]
 ====
 If you want to modify the authentication service, you must delete any existing authentication servers, and then add new authentication servers.
 ====
 
 . Click *Save*.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]
-
-xref:task-enabling-remote-authentication.adoc[Enabling remote authentication]

@@ -30,7 +30,7 @@ For example, download `openjdk-11_windows-x64_bin.zip` from `+http://jdk.java.ne
  ** NetApp Active IQ Acquisition Service (Ocie-au)
  ** NetApp Active IQ Management Server Service (Oncommandsvc)
 . Expand the `zip` file.
-. Copy the directories and files from the resulting `jdk` directory (for example, `jdk-11.0.9` to the location where Java is installed. Example: `C:\Program Files\NetApp\JDK\`
+. Copy the directories and files from the resulting `jdk` directory, for example, `jdk-11.0.9` to the location where Java is installed. Example: `C:\Program Files\NetApp\JDK\`
 . Start the Unified Manager services by using the Windows Services console:
  ** NetApp Active IQ Management Server Service (Oncommandsvc)
  ** NetApp Active IQ Acquisition Service (Ocie-au)

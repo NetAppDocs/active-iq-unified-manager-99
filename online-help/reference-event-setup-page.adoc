@@ -13,9 +13,6 @@ The Event Setup page displays the list of events that are disabled, and provides
 
 You can access this page only if you have the Application Administrator or Storage Administrator role.
 
-* <<GUID-49615DD0-0E3D-4657-B35B-172D41553139,Command buttons>>
-* <<SECTION_54BD4675CEC143A0BC102572F7562CE2,List view>>
-
 == Command buttons
 
 The command buttons enable you to perform the following tasks for selected events:
@@ -51,13 +48,3 @@ Displays the severity of the event. The severity can be Critical, Error, Warning
 * *Source Type*
 +
 Displays the source type for which the event is generated.
-
-*Related information*
-
-xref:task-disabling-unwanted-events.adoc[Disabling unwanted events]
-
-xref:task-uploading-a-new-active-iq-rules-file.adoc[Uploading a new Active IQ rules file]
-
-xref:task-configuring-event-retention-settings.adoc[Configuring event retention settings]
-
-xref:task-subscribing-to-ontap-ems-events.adoc[Subscribing to ONTAP EMS events]

@@ -22,7 +22,8 @@ Unified Manager generates warning events for QoS policy breaches when workload t
 == Steps
 
 . In the *Performance Explorer* page for your selected volume or LUN, perform the following actions to view the QoS ceiling and floor settings:
-+
+
+[cols="2*",options="header"]
 |===
 | If you want to...| Do this...
 a|
@@ -57,13 +58,3 @@ If you notice that certain volumes or LUNs have very high IOPS or MB/s and are s
 For more information on adjusting QoS settings, see the _ONTAP 9 Performance Monitoring Power Guide_.
 
 http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-perf-mon/home.html[ONTAP 9 Performance Monitoring Power Guide]
-
-*Related information*
-
-xref:concept-how-storage-qos-can-control-workload-throughput.adoc[How storage QoS can control workload throughput]
-
-xref:concept-how-qos-policies-are-displayed-in-the-throughput-charts.adoc[How different types of QoS policies are displayed in the throughput charts]
-
-xref:concept-understanding-events-from-adaptive-qos-policies-that-have-a-defined-block-size.adoc[Understanding events from adaptive QoS policies that have a defined block size]
-
-xref:task-responding-to-a-system-defined-qos-policy-group-performance-event.adoc[Responding to QoS policy group performance events]

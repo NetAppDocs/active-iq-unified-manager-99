@@ -30,7 +30,3 @@ Do not rename or remove any of the backup files in these two directories or any 
 If you write your backup files to the local system, you should initiate a process to copy the backup files to a remote location so they will be available in case you have a system issue that requires a complete restore.
 
 Before beginning a backup operation, Active IQ Unified Manager performs an integrity check to verify that all the required backup files and backup directories exist and are writable. It also checks that there is enough space on the system to create the backup file.
-
-*Related information*
-
-xref:reference-database-backup-page.adoc[Database Backup page]

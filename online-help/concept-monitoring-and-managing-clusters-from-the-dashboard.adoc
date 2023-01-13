@@ -20,6 +20,7 @@ At the top of the dashboard you can select whether the panels show information f
 Some of the panels listed below may not appear on the page based on your configuration.
 ====
 
+[cols="2*",options="header"]
 |===
 | Panels| Description
 a|
@@ -55,6 +56,3 @@ Usage Overview
 a|
 Displays clusters sorted by highest IOPS, highest throughput (MBps), or highest used physical capacity.
 |===
-*Related information*
-
-xref:reference-dashboard-page.adoc[Dashboard page]

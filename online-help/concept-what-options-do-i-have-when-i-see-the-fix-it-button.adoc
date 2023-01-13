@@ -13,6 +13,7 @@ The Management Actions page provides you with the *Fix It* or *Fix All* button t
 
 We recommend that you click the buttons to fix an issue, as required. However, if you are not sure that you want to resolve the issue as recommended by Unified Manager, you can perform the following actions:
 
+[cols="2*",options="header"]
 |===
 | What do you want to do?| Action
 a|
@@ -29,6 +30,8 @@ a|
 Click the name of the management action to expand the list and show all individual *Fix It* actions.Then follow the steps for fixing or dismissing individual management actions.
 
 |===
+
+[cols="2*",options="header"]
 |===
 | What do you want to do?| Action
 a|
@@ -53,6 +56,7 @@ Display the details for this storage object so you can better understand the iss
 a|
 Click the name of the storage object to display details in either the Performance Explorer or Health Details page.
 |===
+
 In some cases the fix is reflected in the next 15 minute configuration poll. In other cases it can take up to many hours for the configuration change to be verified and for the event to be obsoleted.
 
 To see the list of completed or in progress management actions, click the filter icon and select *Completed* or *In Progress*.

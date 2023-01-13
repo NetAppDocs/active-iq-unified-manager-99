@@ -45,7 +45,3 @@ A filtered list of jobs related to this operation is displayed.
 . Click the *Back* arrow on your browser to return to the *Volume Relationships* page.
 +
 The reverse resynchronization operation is finished when all job tasks successfully complete.
-
-*Related information*
-
-xref:reference-reverse-resync-dialog-box.adoc[Reverse Resync dialog box]

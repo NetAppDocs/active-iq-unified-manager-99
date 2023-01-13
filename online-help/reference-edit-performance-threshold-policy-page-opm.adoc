@@ -44,11 +44,3 @@ Enter the limit value for the counter that is considered critical.
 * *Duration*
 +
 Change the number of minutes that the counter value must be greater than the warning or critical limit value.
-
-*Related information*
-
-xref:task-editing-user-defined-performance-threshold-policies.adoc[Editing user-defined performance threshold policies]
-
-xref:reference-what-performance-metrics-can-be-monitored-using-thresholds.adoc[What performance counters can be tracked using thresholds]
-
-xref:reference-what-objects-and-metrics-can-be-used-in-combination-threshold-policies.adoc[What objects and counters can be used in combination threshold policies]

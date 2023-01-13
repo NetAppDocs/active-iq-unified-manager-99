@@ -36,9 +36,3 @@ Because no resources are selected, the alert is applied to all clusters, aggrega
 . Click *Actions* and then select the name of the user who will receive the alert email in the *Alert these users* field.
 . Configure any other options on this page for issuing SNMP taps and executing a script.
 . Click *Save*.
-
-*Related information*
-
-xref:task-creating-user-defined-performance-threshold-policies.adoc[Creating user-defined performance threshold policies]
-
-xref:task-assigning-performance-threshold-policies-to-storage-objects.adoc[Assigning performance threshold policies to storage objects]

@@ -13,6 +13,7 @@ Unified Manager uses a MySQL database to store data from the clusters that it is
 
 All table data from the following databases are available:
 
+[cols="2*",options="header"]
 |===
 | Database| Description
 a|
@@ -61,7 +62,3 @@ a|
 VMware performance counter data for datastores hosted on NetApp storage.
 |===
 A reporting user -- a Database user with the Report Schema role -- is able to access the data in these tables. This user has read-only access to reporting and other database views directly from the Unified Manager database. Note that this user does not have permission to access any tables that contain user data or cluster credential information.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]

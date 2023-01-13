@@ -17,6 +17,7 @@ Before provisioning the LUNs, ensure that the SVM has been created and provision
 
 You can use the following method to view the LUNs in your Unified Manager environment. When you have added an ONTAP cluster as a datasource on Active IQ Unified Manager, the storage workloads for those clusters are automatically added to your Unified Manager instance. This API retrieves all the LUNs automatically and manually added to your Unified Manager instance. You can view the details of a specific LUN by running this API with the LUN key.
 
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -34,6 +35,7 @@ a|
 
 You can use the following method to add LUNs to your SVMs.
 
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -58,6 +60,7 @@ You can use the following method to delete a specific LUN. You need to provide t
 If you have created a volume in ONTAP and then provisioned LUNs through Unified Manager on that volume, when you delete all of the LUNs by using this API, the volume also gets deleted from the ONTAP cluster.
 ====
 
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -77,6 +80,7 @@ You can use the following method to modify a LUN and update its properties. You 
 You can update only one property at a single invocation of this API. For multiple updates, you need to run this API as many times.
 ====
 
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -86,8 +90,3 @@ PATCH
 a|
 `+/storage-provider/luns/{key}+`
 |===
-*Related information*
-
-xref:concept-provisioning-luns.adoc[Provisioning LUNs]
-
-xref:concept-modifying-workloads-workflow.adoc[Modifying storage workloads]

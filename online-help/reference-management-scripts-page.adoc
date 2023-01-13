@@ -34,11 +34,3 @@ Displays the name of the script.
 * *Description*
 +
 Displays the description of the script.
-
-*Related information*
-
-xref:concept-how-scripts-work-with-alerts.adoc[How scripts work with alerts]
-
-xref:task-adding-scripts.adoc[Adding scripts]
-
-xref:task-deleting-scripts.adoc[Deleting scripts]

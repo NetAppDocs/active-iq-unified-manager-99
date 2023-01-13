@@ -20,13 +20,3 @@ You must have the Operator, Application Administrator, or Storage Administrator 
 . In the left navigation pane, click *Storage Management* > *Alert Setup*.
 +
 The list of alerts is displayed in the Alert Setup page.
-
-*Related information*
-
-xref:task-adding-alerts.adoc[Adding alerts]
-
-xref:task-deleting-alerts.adoc[Deleting alerts]
-
-xref:task-adding-users.adoc[Adding users]
-
-xref:task-disabling-alerts-for-resolved-and-obsolete-events.adoc[Enabling and Disabling alerts for Resolved and Obsolete events]

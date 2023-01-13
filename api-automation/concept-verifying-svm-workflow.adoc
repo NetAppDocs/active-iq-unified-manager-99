@@ -17,7 +17,8 @@ The workflow assumes that ONTAP clusters to have been added to Unified Manager, 
 ====
 
 . Verify whether the cluster has an SVM created.
-+
+
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -25,19 +26,21 @@ datacenter
 a|
 GET
 a|
-    `/datacenter/svm/svms`
-+
+`/datacenter/svm/svms`
+
 `+/datacenter/svm/svms/{key}+`
-+
+
+[cols="3*",options="header"]
 |===
 *Sample cURL*
-+
+
 ----
 curl -X GET "https://<hostname>/api/datacenter/svm/svms" -H "accept: application/json" -H "Authorization: Basic <Base64EncodedCredentials>"
 ----
 
 . If the SVM key is not returned, then create the SVM. For creating the SVMs, you require the cluster key on which you provision the SVM. You also need to specify the SVM name. Follow these steps.
-+
+
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -45,26 +48,27 @@ datacenter
 a|
 GET
 a|
-    `/datacenter/cluster/clusters`
-+
+`/datacenter/cluster/clusters`
+
 `+/datacenter/cluster/clusters/{key}+`
-+
+
 |===
 Get the cluster key.
-+
+
 *Sample cURL*
-+
+
 ----
 curl -X GET "https://<hostname>/api/datacenter/cluster/clusters" -H "accept: application/json" -H "Authorization: Basic <Base64EncodedCredentials>"
 ----
 
 . From the output, get the cluster key, and then use it as an input for creating the SVM.
-+
+
 [NOTE]
 ====
 While creating the SVM, ensure that it supports all the protocols required for provisioning LUNs and file shares on them, for example, CIFS, NFS, FCP, and iSCSI. The provisioning workflows might fail if the SVM does not support the required services. It is recommended that the services for the respective types of workloads are also enabled on the SVM.
 ====
-+
+
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -75,9 +79,9 @@ a|
 `/datacenter/svm/svms`
 |===
 *Sample cURL*
-+
+
 Enter the SVM object details as input parameters.
-+
+
 ----
 curl -X POST "https://<hostname>/api/datacenter/svm/svms" -H "accept: application/json" -H "Content-Type: application/json" -H "Authorization: Basic <Base64EncodedCredentials>" "{ \"aggregates\": [ { \"_links\": {}, \"key\": \"1cd8a442-86d1,type=objecttype,uuid=1cd8a442-86d1-11e0-ae1c-9876567890123\",
 \"name\": \"cluster2\", \"uuid\": \"02c9e252-41be-11e9-81d5-00a0986138f7\" } ],
@@ -101,11 +105,12 @@ curl -X POST "https://<hostname>/api/datacenter/svm/svms" -H "accept: applicatio
 \"snapshot_policy\": { \"name\": \"default\" },
 \"state\": \"running\", \"subtype\": \"default\"}"
 ----
-+
+
 The JSON output displays a Job object key that you can use to verify the SVM that you created.
 
 . Verify the SVM creation by using the job object key for query. If the SVM is created successfully, the SVM key is returned in the response.
-+
+
+[cols="3*",options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -113,16 +118,5 @@ management-server
 a|
 GET
 a|
-    `+/management-server/jobs/{key}+`
-+
+`+/management-server/jobs/{key}+`
 |===
-
-*Related information*
-
-xref:concept-data-center-apis.adoc[Managing storage objects in a data center]
-
-xref:concept-job-api.adoc[Viewing Jobs]
-
-xref:concept-provisioning-file-share.adoc[Provisioning CIFS and NFS file shares]
-
-xref:concept-provisioning-luns.adoc[Provisioning LUNs]

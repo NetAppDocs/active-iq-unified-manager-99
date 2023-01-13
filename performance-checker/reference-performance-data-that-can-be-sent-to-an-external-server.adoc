@@ -13,6 +13,7 @@ Unified Manager collects a variety of performance data from all the clusters tha
 
 Depending on the performance data that you want to chart, you can choose to send one of the following groups of statistics:
 
+[cols="3*",options="header"]
 |===
 | Statistics group| Data included| Details
 a|

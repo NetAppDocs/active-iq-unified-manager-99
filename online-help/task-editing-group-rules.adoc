@@ -27,11 +27,3 @@ You cannot change the target object type for a group rule.
 ====
 
 . Click *Save*.
-
-*Related information*
-
-xref:concept-how-group-rules-work-for-groups.adoc[How group rules work for groups]
-
-xref:task-adding-group-rules.adoc[Adding group rules]
-
-xref:task-deleting-group-rules.adoc[Deleting group rules]

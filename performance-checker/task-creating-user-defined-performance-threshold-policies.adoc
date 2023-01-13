@@ -33,7 +33,8 @@ The current release provides thresholds that send events when a counter value ex
 The Performance Thresholds page is displayed.
 
 . Click the appropriate button depending on whether you want to build a new policy or if you want to clone a similar policy and modify the cloned version.
-+
+
+[cols="2*",options="header"]
 |===
 | To...| Click...
 a|
@@ -68,11 +69,3 @@ You are returned to the Performance Thresholds page. A success message at the to
 == After you finish
 
 If you want to apply the new threshold policy to storage objects at this time, you can click the *Go to object_type now* link to go to the Inventory page.
-
-*Related information*
-
-xref:reference-what-performance-metrics-can-be-monitored-using-thresholds.adoc[What performance counters can be tracked using thresholds]
-
-xref:reference-what-objects-and-metrics-can-be-used-in-combination-threshold-policies.adoc[What objects and counters can be used in combination threshold policies]
-
-xref:task-assigning-performance-threshold-policies-to-storage-objects.adoc[Assigning performance threshold policies to storage objects]

@@ -23,7 +23,7 @@ Use the following steps to test and schedule a report to be generated for a view
 
 == Steps
 
-. Open your view. This example uses the default network view that shows LIF performance. In the left navigation pane, click**Network** > *Network Interfaces*.
+. Open your view. This example uses the default network view that shows LIF performance. In the left navigation pane, click **Network** > *Network Interfaces*.
 . Customize the view as needed using the built-in Unified Manager features.
 . After you customized the view, you can provide a unique name in the *View* field and click the check mark to save it.
 +
@@ -31,9 +31,10 @@ image::../media/view-save.gif[]
 
 . You can use the advanced features of Microsoft® Excel to customize your report. For details, see xref:task-using-excel-to-customize-your-report.adoc[Using Excel to customize your report].
 . To see the output before you schedule or share it:
-+
+
+[cols="2*",options="header"]
 |===
-    a|
+a|
 *If you used Excel to customize the report*
 a|
 View the existing downloaded Excel file.

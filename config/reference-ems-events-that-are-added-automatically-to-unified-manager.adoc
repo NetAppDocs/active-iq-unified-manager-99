@@ -13,6 +13,7 @@ The following ONTAP EMS events are added automatically to Unified Manager. These
 
 The following EMS events are available when monitoring clusters running ONTAP 9.5 or greater software:
 
+[cols="4*",options="header"]
 |===
 | Unified Manager Event name| EMS Event name| Affected resource| Unified Manager severity
 a|

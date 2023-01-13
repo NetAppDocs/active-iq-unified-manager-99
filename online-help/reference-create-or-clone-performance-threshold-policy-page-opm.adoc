@@ -47,13 +47,3 @@ Valid threshold values are 0.001 through 10,000,000 for numbers, 0.001-100 for p
 * *Duration*
 +
 Select the number of minutes that the counter value must be greater than the warning or critical limit value. Because Unified Manager collects new performance counter values every five minutes, the menu provides values in multiples of five based on the refresh interval.
-
-*Related information*
-
-xref:task-creating-user-defined-performance-threshold-policies.adoc[Creating user-defined performance threshold policies]
-
-xref:task-assigning-performance-threshold-policies-to-storage-objects.adoc[Assigning performance threshold policies to storage objects]
-
-xref:reference-what-performance-metrics-can-be-monitored-using-thresholds.adoc[What performance counters can be tracked using thresholds]
-
-xref:reference-what-objects-and-metrics-can-be-used-in-combination-threshold-policies.adoc[What objects and counters can be used in combination threshold policies]

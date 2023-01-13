@@ -25,15 +25,3 @@ Unified Manager must collect a minimum of 3 days of workload activity before it 
 ====
 Daylight savings time (DST) changes the system time, which alters the latency forecast of performance statistics for monitored workloads. Unified Manager immediately begins to correct the latency forecast, which takes approximately 15 days to complete. During this time you can continue to use Unified Manager, but, since Unified Manager uses the latency forecast to detect dynamic events, some events might not be accurate. Events detected prior to the time change are not affected.
 ====
-
-*Related information*
-
-xref:task-using-the-workload-analyzer.adoc[Using the workload analyzer]
-
-xref:concept-collecting-data-and-monitoring-workload-performance.adoc[Collecting data and monitoring workload performance]
-
-xref:reference-how-the-expected-range-is-used-in-performance-analysis.adoc[How the latency forecast is used in performance analysis]
-
-xref:reference-performance-event-analysis-and-notification.adoc[Performance event analysis and notification]
-
-xref:reference-workload-performance-measurement-values.adoc[Workload performance measurement values]

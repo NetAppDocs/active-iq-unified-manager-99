@@ -59,19 +59,3 @@ Typically, only three or four charts are displayed by default. The Choose charts
 * *Events Timeline*
 +
 Displays performance and health events occurring across the timeline that you selected in the Time Range component.
-
-*Related information*
-
-xref:task-selecting-a-predefined-time-range.adoc[Selecting a predefined time range]
-
-xref:task-specifying-a-custom-time-range.adoc[Specifying a custom time range]
-
-xref:task-filtering-inventory-page-content.adoc[Filtering inventory page content]
-
-xref:task-viewing-event-details-in-the-performance-explorer-events-timeline.adoc[Viewing event details in the Events Timeline]
-
-xref:task-defining-the-list-of-correlated-objects-for-comparison-graphing.adoc[Defining the list of correlated objects for comparison graphing]
-
-xref:concept-understanding-counter-charts.adoc[Understanding counter charts]
-
-xref:task-selecting-performance-charts-to-display.adoc[Selecting performance charts to display]

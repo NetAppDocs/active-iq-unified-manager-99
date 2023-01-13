@@ -17,6 +17,7 @@ By using the `/management-server/events` API, you can query the events in you da
 
 You can also use the event key to query the details of a specific event and run the next set of operations on the resources.
 
+[cols="4*",options="header"]
 |===
 | Category| HTTP verb| Path| Description
 a|
@@ -43,6 +44,7 @@ Run this API if you want to query a particular event. Enter the event key of the
 
 By using the `/management-server/system` API, you can query the instance-specific details of your Unified Manager environment. The API returns information about the product and services, such as the version of Unified Manager installed on your system, UUID, vendor name, host OS, and the name, description, and status of the services running on the Unified Manager instance.
 
+[cols="4*",options="header"]
 |===
 | Category| HTTP verb| Path| Description
 a|

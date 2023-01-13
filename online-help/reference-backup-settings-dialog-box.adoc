@@ -35,6 +35,8 @@ When you are using the MySQL database dump backup method, this field specifies t
 +
 The following table specifies the backup path format, and default locations, for different operating systems:
 +
+
+[cols="2*",options="header"]
 |===
 | Host operating system| Backup path format
 a|

@@ -14,7 +14,8 @@ You can search strings on Object Inventory Performance pages. Use the *Search* f
 == Steps
 
 . Perform one of the following options, based on your search requirements:
-+
+
+[cols="2*",options="header"]
 |===
 | To locate this...| Type this...
 a|
@@ -25,5 +26,4 @@ a|
 A user-defined performance threshold policy
 a|
 All or part of the policy name into the *Search* field, and click *Search*.    The objects assigned to the policy for which you searched are displayed.
-+
 |===

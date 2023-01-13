@@ -24,7 +24,8 @@ You cannot schedule new reports from the Report Schedules page. You can only add
 
 . In the left navigation pane, click *Storage Management* > *Report Schedules*.
 . On the *Report Schedules* page:
-+
+
+[cols="2*",options="header"]
 |===
 | If you want to...| Then...
 a|
@@ -48,5 +49,4 @@ a|
  .. Click *Delete*.
  .. Confirm your decision.
 
-+
 |===

@@ -36,9 +36,3 @@ You can perform the following functions by using these options:
 * Create and manage Performance Service Levels from Policies
 * Create and manage Storage Efficiency Policies from Policies
 * Assign policies to storage workloads from the Workloads page
-
-*Related information*
-
-xref:reference-dashboard-page.adoc[Dashboard page]
-
-xref:concept-policy-based-storage-management.adoc[Policy-based storage management]

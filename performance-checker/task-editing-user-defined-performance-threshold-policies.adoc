@@ -40,7 +40,3 @@ After they are saved, changes are updated immediately on all storage objects tha
 == After you finish
 
 Depending on the type of changes that you made to the policy, you may want to review the alert settings configured for the objects that use the policy in the Alert Setup page.
-
-*Related information*
-
-xref:concept-what-happens-when-a-performance-threshold-policy-is-changed-opm.adoc[What happens when a performance threshold policy is changed]

@@ -61,7 +61,3 @@ A comma-separated numerical list representing the number of hours in a day. Vali
  ** Minutes
 +
 A comma-separated numerical list representing the minutes in an hour. Valid values are 0 through 59. This element is required.
-
-*Related information*
-
-xref:task-creating-snapmirror-and-snapvault-schedules.adoc[Creating SnapMirror and SnapVault schedules]

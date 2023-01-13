@@ -101,7 +101,3 @@ Specifies the privacy protocol used to encrypt SNMP messages. Protocol options i
 * *Privacy Password*
 +
 Specifies the password when using privacy protocol. Privacy password is available with SNMP Version 3 with Authentication and Encryption.
-
-*Related information*
-
-xref:task-configuring-event-notification-settings.adoc[Configuring event notification settings]

@@ -27,7 +27,3 @@ The dialog box expands, enabling you to configure the selected action type with 
 
 . Enter appropriate values for the required parameters to configure a group action.
 . Click *Add*.
-
-*Related information*
-
-xref:task-editing-group-actions.adoc[Editing group actions]

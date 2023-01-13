@@ -54,6 +54,7 @@ entries:
     - title: Types of system-defined performance threshold policies
       url: "/performance-checker/reference-types-of-system-defined-performance-threshold-policies.html"
   - title: Managing performance thresholds
+    pdf-filename: Managing performance thresholds (cluster performance)
     url: "/performance-checker/concept-managing-performance-thresholds.html"
     entries:
     - title: How user-defined performance threshold policies work
@@ -88,6 +89,7 @@ entries:
     - title: Changing the performance statistics collection interval
       url: "/performance-checker/task-changing-the-performance-statistics-collection-interval.html"
   - title: Troubleshooting workloads using the workload analyzer
+    pdf-filename: Troubleshooting workloads using the workload analyzer (cluster performance)
     url: "/performance-checker/concept-troubleshooting-workloads-using-the-workload-analyzer.html"
     entries:
     - title: What data does the workload analyzer display
@@ -97,14 +99,17 @@ entries:
     - title: Using the workload analyzer
       url: "/performance-checker/task-using-the-workload-analyzer.html"
   - title: Monitoring cluster performance from the Performance Cluster Landing page
+    pdf-filename: Monitoring cluster performance from the Performance Cluster Landing page (cluster performance)
     url: "/performance-checker/concept-monitoring-cluster-performance-from-the-cluster-landing-page.html"
     entries:
     - title: Understanding the Performance Cluster Landing page
       url: "/performance-checker/concept-understanding-the-performance-cluster-landing-page.html"
     - title: Performance Cluster Landing page
+      pdf-filename: Performance Cluster Landing page (cluster performance)
       url: "/performance-checker/reference-performance-cluster-landing-page.html"
       entries:
       - title: Performance Cluster Summary page
+        pdf-filename: Performance Cluster Summary page (cluster performance)
         url: "/performance-checker/reference-cluster-summary-page-opm.html"
         entries:
         - title: Cluster performance events pane
@@ -114,11 +119,13 @@ entries:
       - title: Top Performers page
         url: "/performance-checker/reference-top-performers-page.html"
   - title: Monitoring performance using the Performance Inventory pages
+    pdf-filename: Monitoring performance using the Performance Inventory pages (cluster performance)
     url: "/performance-checker/concept-monitoring-performance-using-the-object-performance-inventory-pages.html"
     entries:
     - title: Object monitoring using the Performance object inventory pages
       url: "/performance-checker/concept-object-monitoring-using-the-object-inventory-performance-pages.html"
     - title: Refining Performance inventory page contents
+      pdf-filename: Refining Performance inventory page contents (cluster performance)
       url: "/performance-checker/concept-refining-object-inventory-performance-page-content.html"
       entries:
       - title: Searching on Object Inventory Performance pages
@@ -131,6 +138,7 @@ entries:
         cloud
       url: "/performance-checker/concept-understanding-the-um-recommendations-to-tier-data-to-the-cloud.html"
   - title: Monitoring performance using the Performance Explorer pages
+    pdf-filename: Monitoring performance using the Performance Explorer pages (cluster performance)
     url: "/performance-checker/concept-monitoring-performance-using-the-performance-explorer-pages.html"
     entries:
     - title: Understanding the root object
@@ -138,6 +146,7 @@ entries:
     - title: Apply filtering to reduce the list of correlated objects in the grid
       url: "/performance-checker/concept-applying-filtering-to-correlated-objects.html"
     - title: Specifying a time range for correlated objects
+      pdf-filename: Specifying a time range for correlated objects (cluster performance)
       url: "/performance-checker/task-specifying-a-correlated-objects-time-range.html"
       entries:
       - title: Selecting a predefined time range
@@ -159,6 +168,7 @@ entries:
     - title: Viewing event details in the Events Timeline
       url: "/performance-checker/task-viewing-event-details-in-the-performance-explorer-events-timeline.html"
     - title: Counter Charts Zoom View
+      pdf-filename: Counter Charts Zoom View (cluster performance)
       url: "/performance-checker/concept-counter-charts-zoom-view.html"
       entries:
       - title: Displaying the Counter Charts Zoom View
@@ -179,6 +189,7 @@ entries:
         node
       url: "/performance-checker/task-viewing-node-iops-based-on-workloads-that-reside-only-on-the-local-node.html"
     - title: Components of the Object Landing pages
+      pdf-filename: Components of the Object Landing pages (cluster performance)
       url: "/performance-checker/concept-components-of-the-object-landing-pages-opm.html"
       entries:
       - title: Summary page
@@ -186,6 +197,7 @@ entries:
       - title: Components of the Performance Explorer page
         url: "/performance-checker/concept-components-of-the-performance-explorer-page.html"
   - title: Managing performance using QoS policy group information
+    pdf-filename: Managing performance using QoS policy group information (cluster performance)
     url: "/performance-checker/concept-managing-performance-using-qos-policy-group-information.html"
     entries:
     - title: How storage QoS can control workload throughput
@@ -207,6 +219,7 @@ entries:
         Explorer
       url: "/performance-checker/task-viewing-workload-qos-minimum-and-maximum-settings.html"
   - title: Managing performance using performance capacity and available IOPS information
+    pdf-filename: Managing performance using performance capacity and available IOPS information (cluster performance)
     url: "/performance-checker/concept-managing-performance-using-perf-capacity-and-available-iops-information.html"
     entries:
     - title: What performance capacity used is
@@ -226,6 +239,7 @@ entries:
     - title: Using the performance capacity used counter to manage performance
       url: "/performance-checker/concept-using-the-performance-capacity-used-counter-to-manage-performance.html"
   - title: Understanding and using the Node Failover Planning page
+    pdf-filename: Understanding and using the Node Failover Planning page (cluster performance)
     url: "/performance-checker/reference-understanding-and-using-the-node-failover-planning-page.html"
     entries:
     - title: Using the Node Failover Planning page to determine corrective actions
@@ -237,6 +251,7 @@ entries:
     - title: Using the Performance Capacity Used Breakdown chart for failover planning
       url: "/performance-checker/task-using-the-perf-capacity-used-breakdown-chart-for-failover-planning.html"
   - title: Collecting data and monitoring workload performance
+    pdf-filename: Collecting data and monitoring workload performance (cluster performance)
     url: "/performance-checker/concept-collecting-data-and-monitoring-workload-performance.html"
     entries:
     - title: Types of workloads monitored by Unified Manager
@@ -252,11 +267,13 @@ entries:
     - title: How cluster operations can affect workload latency
       url: "/performance-checker/concept-how-cluster-operations-can-affect-workload-latency.html"
     - title: Performance monitoring of MetroCluster configurations
+      pdf-filename: Performance monitoring of MetroCluster configurations (cluster performance)
       url: "/performance-checker/concept-performance-monitoring-of-metrocluster-configurations.html"
       entries:
       - title: Volume behavior during switchover and switchback
         url: "/performance-checker/concept-volume-behavior-during-switchover-and-switchback.html"
     - title: What performance events are
+      pdf-filename: What performance events are (cluster performance)
       url: "/performance-checker/concept-what-performance-events-are.html"
       entries:
       - title: Performance event analysis and notification
@@ -268,16 +285,19 @@ entries:
       - title: Roles of workloads involved in a performance event
         url: "/performance-checker/concept-roles-of-workloads-involved-in-a-performance-incident.html"
   - title: Analyzing performance events
+    pdf-filename: Analyzing performance events (cluster performance)
     url: "/performance-checker/concept-analyzing-performance-events.html"
     entries:
     - title: Displaying information about performance events
       url: "/performance-checker/task-displaying-information-about-a-performance-event.html"
     - title: Analyzing events from user-defined performance thresholds
+      pdf-filename: Analyzing events from user-defined performance thresholds (cluster performance)
       url: "/performance-checker/concept-analyzing-events-from-user-defined-performance-thresholds.html"
       entries:
       - title: Responding to user-defined performance threshold events
         url: "/performance-checker/task-responding-to-user-defined-performance-threshold-events.html"
     - title: Analyzing events from system-defined performance thresholds
+      pdf-filename: Analyzing events from system-defined performance thresholds (cluster performance) 
       url: "/performance-checker/concept-analyzing-events-from-system-defined-performance-thresholds.html"
       entries:
       - title: Responding to system-defined performance threshold events
@@ -292,6 +312,7 @@ entries:
       - title: Responding to cluster imbalance performance events
         url: "/performance-checker/task-responding-to-cluster-imbalance-performance-events.html"
     - title: Analyzing events from dynamic performance thresholds
+      pdf-filename: Analyzing events from dynamic performance thresholds (cluster performance)
       url: "/performance-checker/concept-analyzing-events-from-dynamic-performance-thresholds.html"
       entries:
       - title: Identifying victim workloads involved in a dynamic performance event
@@ -301,6 +322,7 @@ entries:
       - title: Identifying shark workloads involved in a dynamic performance event
         url: "/performance-checker/task-identifying-shark-workloads-involved-in-a-performance-event.html"
       - title: Performance event analysis for a MetroCluster configuration
+        pdf-filename: Performance event analysis for a MetroCluster configuration (cluster performance)
         url: "/performance-checker/concept-performance-incident-analysis-for-a-metrocluster-configuration.html"
         entries:
         - title: Analyzing a dynamic performance event on a cluster in a MetroCluster

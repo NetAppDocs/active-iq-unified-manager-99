@@ -30,7 +30,7 @@ The specifications for the SEP are assigned to the LUN and the definitions for t
 
 . Select the *Enforce performance limits* check box if you want to enforce the PSL that you have assigned to the workload.
 +
-Assigning a PSL to a workload ensures that the aggregate on which the workload is created can support the performance and capacity objectives defined in the respective policy. For example, if a workload is assigned "`Extreme Performance`"PSL, the aggregate on which the workload is to be provisioned should have the capability of supporting the performance and capacity objectives of the "`Extreme Performance`" policy, such as SSD storage.
+Assigning a PSL to a workload ensures that the aggregate on which the workload is created can support the performance and capacity objectives defined in the respective policy. For example, if a workload is assigned "`Extreme Performance`" PSL, the aggregate on which the workload is to be provisioned should have the capability of supporting the performance and capacity objectives of the "`Extreme Performance`" policy, such as SSD storage.
 +
 [NOTE]
 ====
@@ -54,9 +54,3 @@ On adding the host IP address, an internal check runs for matching the host deta
 . Click *Save*.
 +
 The workload is added to the list of storage workloads.
-
-*Related information*
-
-xref:task-creating-and-editing-psls.adoc[Creating and editing Performance Service Levels]
-
-xref:task-creating-and-editing-seps.adoc[Creating and editing Storage Efficiency Policies]

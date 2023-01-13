@@ -2,6 +2,7 @@ section: install-linux
 title: Install Unified Manager on Linux systems
 entries:
   - title: Introduction to Active IQ Unified Manager
+    pdf-filename: Introduction to Active IQ Unified Manager (Linux systems)  
     url: "/install-linux/concept-introduction-to-unified-manager.html"
     entries:
     - title: What the Unified Manager server does
@@ -11,6 +12,7 @@ entries:
     - title: Overview of the installation sequence
       url: "/install-linux/concept-overview-of-the-installation-sequence-um.html"
   - title: Requirements for installing Unified Manager
+    pdf-filename: Requirements for installing Unified Manager (Linux systems)
     url: "/install-linux/concept-requirements-for-installing-unified-manager.html"
     entries:
     - title: Virtual infrastructure and hardware system requirements
@@ -24,6 +26,7 @@ entries:
     - title: Completing the worksheet
       url: "/install-linux/reference-completing-the-worksheet-um.html"
   - title: Installing, upgrading, and removing Unified Manager software
+    pdf-filename: Installing, upgrading, and removing Unified Manager software (Linux systems)
     url: "/install-linux/concept-installing-upgrading-and-removing-unified-manager-software.html"
     entries:
     - title: Overview of the installation process

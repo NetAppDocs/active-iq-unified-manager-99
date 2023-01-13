@@ -157,7 +157,8 @@ The tiering policy set on the volume. The policy takes affect only when the volu
 * *Caching Policy*
 +
 The caching policy that is associated with the selected volume. The policy provides information about how the Flash Pool caching occurs for the volume.
-+
+
+[cols="2*",options="header"]
 |===
 | Cache policy| Description
 a|

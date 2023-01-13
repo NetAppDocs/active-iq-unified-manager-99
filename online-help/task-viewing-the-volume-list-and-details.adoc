@@ -29,19 +29,3 @@ You can also use the Volume / Health details page to view detailed information a
 +
 You can also view the complete details by clicking *View Details* in the minimal details dialog box.
 . View the objects related to the volume by clicking *View Related* from the minimal details dialog box.
-
-*Related information*
-
-xref:reference-capacity-all-volumes-view.adoc[Capacity: All Volumes view]
-
-xref:task-adding-users.adoc[Adding users]
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting storage data as reports]
-
-xref:task-adding-alerts.adoc[Adding alerts]
-
-xref:reference-health-all-volumes-view.adoc[Health: All Volumes view]
-
-xref:reference-health-volume-details-page.adoc[Volume / Health details page]
-
-xref:task-editing-individual-volume-health-threshold-settings.adoc[Editing individual volume health threshold settings]

@@ -25,6 +25,7 @@ Conditions within a condition group are executed using logical AND. All the cond
 
 You can create conditions with storage objects by using the following operands and operator and specifying the required value.
 
+[cols="2*",options="header"]
 |===
 | Storage object type| Applicable operands
 a|
@@ -55,22 +56,22 @@ a|
 When you select annotation as an operand for any storage object, the "`Is`" operator is available. For all other operands, you can select either "`Is`" or "`Contains`" as operator.
 
 * Operand
-+
+
 The list of operands in Unified Manager changes based on the selected object type. The list includes the object name, owning cluster name, owning SVM name, and annotations that you define in Unified Manager.
 
 * Operator
-+
+
 The list of operators changes based on the selected operand for a condition. The operators supported in Unified Manager are "`Is`" and "`Contains`".
-+
+
 When you select the "`Is`" operator, the condition is evaluated for exact match of operand value to the value provided for the selected operand.
-+
+
 When you select the "`Contains`" operator, the condition is evaluated to meet one of the following criteria:
 
  ** The operand value is an exact match to the value provided for the selected operand
  ** The operand value contains the value provided for the selected operand
 
 * Value
-+
+
 The value field changes based on the operand selected.
 
 == Example of a group rule with conditions
@@ -103,7 +104,3 @@ When a group rule containing these two condition groups is applied on storage ob
 
 * All volumes that include "`vol`" in their names and that are hosted on the SVM with the name "`data_svm`".
 * All volumes that include "`vol`" in their names and that are annotated with the data-priority annotation value "`critical`".
-
-*Related information*
-
-xref:concept-managing-and-monitoring-groups.adoc[Managing and monitoring groups]

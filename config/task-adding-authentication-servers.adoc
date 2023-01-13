@@ -27,7 +27,8 @@ If the authentication server that you are adding is part of a high-availability 
 
 . In the left navigation pane, click *General* > *Remote Authentication*.
 . Enable or disable the *Use secure connection* option:
-+
+
+[cols="2*",options="header"]
 |===
 | If you want to...| Then do this...
 a|
@@ -41,7 +42,7 @@ a|
  .. In the View Certificate dialog box, verify the certificate information, and then click *Close*.
  .. In the Authorize Host dialog box, click *Yes*.
 
-+
+
 [NOTE]
 ====
 When you enable the *Use Secure Connection authentication* option, Unified Manager communicates with the authentication server and displays the certificate. Unified Manager uses 636 as default port for secure communication and port number 389 for non-secure communication.
@@ -55,7 +56,7 @@ a|
  .. In the Add Authentication Server dialog box, specify either the host name or IP address (IPv4 or IPv6) of the server, and the port details.
  .. Click *Add*.
 
-+
+
 |===
 The authentication server that you added is displayed in the Servers area.
 

@@ -31,7 +31,8 @@ You cannot modify a Performance Service Level if it is currently assigned to a w
 
 . In the left navigation pane under *Settings*, select *Policies* > *Performance Service Levels*.
 . In the *Performance Service Levels* page, click the appropriate button depending on whether you want to create a new Performance Service Level or if you want to edit an existing Performance Service Level.
-+
+
+[cols="2*",options="header"]
 |===
 | To...| Follow these steps...
 a|
@@ -50,13 +51,3 @@ The page to add or edit a Performance Service Level is displayed.
 == After you finish
 
 You can apply the new or changed Performance Service Level to workloads (LUNs, NFS File Shares, CIFS Shares) from the Workloads page or when provisioning a new workload.
-
-*Related information*
-
-xref:concept-managing-performance-service-levels.adoc[Managing Performance Service Levels]
-
-xref:concept-all-workloads.adoc[Viewing workloads]
-
-xref:task-provisioning-luns.adoc[Provisioning LUNs]
-
-xref:task-provisioning-fileshares.adoc[Provisioning file share volumes]

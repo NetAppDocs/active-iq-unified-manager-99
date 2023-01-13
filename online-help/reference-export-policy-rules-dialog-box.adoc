@@ -30,7 +30,3 @@ Displays the authentication protocol used to read data on the volumes that belon
 * *Read Write Access*
 +
 Displays the authentication protocol used to read or write data on the volumes that belong to the SVM.
-
-*Related information*
-
-xref:reference-health-svm-details-page.adoc[Storage VM / Health details page]

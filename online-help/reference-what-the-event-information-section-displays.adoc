@@ -147,17 +147,3 @@ The mechanism that was used to send the alert notification: email or SNMP trap.
 * *Previous Script Run*
 +
 The name of the script that was executed when the alert was generated.
-
-*Related information*
-
-xref:task-assigning-events-to-specific-users.adoc[Assigning events to specific users]
-
-xref:task-acknowledging-and-resolving-events.adoc[Acknowledging and resolving events]
-
-xref:task-adding-alerts.adoc[Adding alerts]
-
-xref:reference-description-of-event-severity-types.adoc[Description of event severity types]
-
-xref:reference-description-of-event-impact-levels.adoc[Description of event impact levels]
-
-xref:concept-event-state-definitions.adoc[Event state definitions]

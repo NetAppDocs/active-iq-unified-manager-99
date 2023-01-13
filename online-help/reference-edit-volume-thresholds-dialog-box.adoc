@@ -17,13 +17,6 @@ The Edit Volume Thresholds dialog box enables you to configure volume-level thre
 
 You can configure threshold settings for capacity, Snapshot copies, qtree quota, growth, and inodes at the volume level. When a group action of volume threshold type is configured, the group action threshold values are used for settings that are not configured at the volume level. When no group action of volume threshold type is configured, areas in Edit Volume Thresholds dialog box that are not configured, use global threshold values.
 
-* <<SECTION_93DA245450D14990B8BBC67B6D77F866,Capacity>>
-* <<SECTION_6C3036EFC7A549D8926147875C72E930,Snapshot Copies>>
-* <<SECTION_32952F8F76764672980DE8C20B2FED02,Qtree Quota>>
-* <<SECTION_865F4E2C436E430DA66C3218730A798F,Growth>>
-* <<SECTION_46FBB22F256D42DABD2415519A30CC53,Inodes>>
-* <<SECTION_C58D4BF1C31743D99E27EDE5D9C73F43,Command buttons>>
-
 == Capacity area
 
 The Capacity area enables you to set the following volume capacity threshold conditions:
@@ -129,9 +122,3 @@ Saves all the threshold settings and then closes the dialog box.
 * *Cancel*
 +
 Ignores the changes (if any) to the threshold settings and closes the dialog box.
-
-*Related information*
-
-xref:task-editing-individual-volume-health-threshold-settings.adoc[Editing individual volume health threshold settings]
-
-xref:task-configuring-global-volume-health-threshold-values.adoc[Configuring global volume health threshold values]

@@ -10,7 +10,3 @@ summary: 'Filtering enables you to display a smaller, more well-defined subset o
 
 [.lead]
 Filtering enables you to display a smaller, more well-defined subset of objects in the grid. For example, if you have 25 volumes in the grid, filtering enables you to view only those volumes that have throughput less than 90 MBps, or latency greater than 1 ms/op.
-
-*Related information*
-
-xref:task-filtering-inventory-page-content.adoc[Filtering inventory page content]

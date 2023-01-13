@@ -13,6 +13,7 @@ You can detect whether the audit logs have been compromised with using Audit Log
 
 You can use the Audit Log: File View to view and access all the audit log files available in your Active IQ Unified Manager. The files in the Audit Log: File View are listed based on their creation date. This view displays information of all the audit log that are captured from the installation or upgrade to the present in the system. Whenever you perform an action in Unified Manager, the information is updated and is available in the logs. The status of each log file is captured using the "`File Integrity Status`" attribute which gets actively monitored to detect tampering or deletion of the log file. The audit logs can have one of the following states when the audit logs are available in the system:
 
+[cols="2*",options="header"]
 |===
 | State| Description
 a|

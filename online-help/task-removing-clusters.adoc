@@ -26,11 +26,3 @@ Removing a cluster also deletes all its storage objects, historical data, storag
 . In the left navigation pane, click *Storage Management* > *Cluster Setup*.
 . On the *Cluster Setup* page, select the cluster that you want to remove and click *Remove*.
 . In the *Remove Data Source* message dialog, click *Remove* to confirm the remove request.
-
-*Related information*
-
-xref:task-adding-clusters.adoc[Adding clusters]
-
-xref:task-adding-users.adoc[Adding users]
-
-xref:reference-cluster-setup-page.adoc[Cluster Setup page]

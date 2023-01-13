@@ -17,12 +17,6 @@ Events are generated when a threshold is breached. You can take corrective actio
 
 You can set thresholds for the following: capacity, volume Snapshot copies, qtree quotas, volume growth, and inodes.
 
-* <<GUID-0E5C9592-5DFA-4EF1-99A8-CC7BCE6EAA06,Capacity area>>
-* <<GUID-62D5C056-D3AE-412D-9831-C837B423D732,Snapshot Copies area>>
-* <<GUID-19C57DD5-DDFE-4782-B7C5-9CD318A4A3D4,Qtree Quota area>>
-* <<GUID-CAA5B28E-920D-43D0-B536-69DD9D298972,Growth area>>
-* <<GUID-595F59FA-8E6E-4C69-8DF4-09C073FCEAEF,Inodes area>>
-
 == Capacity area
 
 The Capacity area enables you to set the following volume capacity threshold conditions. Note that when Autogrow is enabled on a volume that capacity thresholds are considered breached based on the maximum volume size set by autogrow, not based on the original volume size.
@@ -83,7 +77,7 @@ Specifies the number of Snapshot copies on a volume that are considered to be to
  ** Event severity: Error
 The number of Snapshot copies that are considered the maximum per volume before Unified Manager triggers an event is lower than the ONTAP maximum:
 
-+
+[cols="3*",options="header"]
 |===
 |  | ONTAP Maximum| Unified Manager Maximum
 a|
@@ -165,9 +159,3 @@ Specifies the percentage at which a volume is considered to have consumed all of
  ** Default value: 90 percent
  ** Event generated: Inodes Full
  ** Event severity: Error
-
-*Related information*
-
-xref:task-configuring-global-volume-health-threshold-values.adoc[Configuring global volume health threshold values]
-
-xref:task-editing-individual-volume-health-threshold-settings.adoc[Editing individual volume health threshold settings]

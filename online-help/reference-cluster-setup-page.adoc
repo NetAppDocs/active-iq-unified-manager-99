@@ -105,15 +105,3 @@ The date and time the operation ended.
 * *Description*
 +
 Any message related to the operation.
-
-*Related information*
-
-xref:task-rediscovering-clusters.adoc[Rediscovering clusters]
-
-xref:task-removing-clusters.adoc[Removing clusters]
-
-xref:task-scheduling-a-maintenance-window-to-disable-cluster-event-notifications.adoc[Scheduling a maintenance window to disable cluster event notifications]
-
-xref:task-adding-clusters.adoc[Adding clusters]
-
-xref:task-editing-clusters.adoc[Editing clusters]

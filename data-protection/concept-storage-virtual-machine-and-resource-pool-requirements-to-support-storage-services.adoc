@@ -24,9 +24,3 @@ In this example, any SnapMirror association or SnapVault backup association betw
 * The resource pools must include cluster aggregate resources available to the associated SVMs.
 +
 You configure resource pools through the Unified Manager web UI and then assign through the partner application the storage service secondary target and tertiary target nodes.
-
-*Related information*
-
-xref:task-creating-resource-pools.adoc[Creating resource pools]
-
-xref:task-creating-storage-virtual-machine-svm-associations.adoc[Creating Storage VM Peers]

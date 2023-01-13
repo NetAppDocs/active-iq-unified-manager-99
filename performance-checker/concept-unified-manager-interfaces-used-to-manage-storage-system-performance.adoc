@@ -15,10 +15,10 @@ There are two user interfaces that Active IQ Unified Manager provides for monito
 
 The Unified Manager web UI enables an administrator to monitor and troubleshoot storage system issues relating to performance.
 
-This guide describes some common workflows that an administrator can follow to troubleshoot storage performance issues displayed in the Unified Manager web UI.
+This section describes some common workflows that an administrator can follow to troubleshoot storage performance issues displayed in the Unified Manager web UI.
 
 == Maintenance console
 
 The maintenance console enables an administrator to monitor, diagnose, and address operating system issues, version upgrade issues, user access issues, and network issues related to the Unified Manager server itself. If the Unified Manager web UI is unavailable, the maintenance console is the only form of access to Unified Manager.
 
-This guide provides directions for accessing the maintenance console and using it to resolve issues related to the functioning of the Unified Manager server.
+This section provides directions for accessing the maintenance console and using it to resolve issues related to the functioning of the Unified Manager server.

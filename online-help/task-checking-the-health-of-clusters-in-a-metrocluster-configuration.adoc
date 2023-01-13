@@ -43,15 +43,3 @@ Unified Manager monitors the NVRAM component of the link between the clusters. I
 image::../media/opm-um-mcc-replication-tab-png.gif[Unified Manager MetroCluster Replication tab]
 +
 In this example, if the NVRAM icon on the local or partner cluster is yellow or red, a health issue with the NVRAM might have caused the performance event. If there are no red or yellow icons on the page, a performance issue on the partner cluster might have caused the performance event.
-
-*Related information*
-
-xref:task-analyzing-a-performance-incident-on-a-cluster-in-a-metrocluster-configuration.adoc[Analyzing a dynamic performance event on a cluster in a MetroCluster configuration]
-
-xref:task-analyzing-a-performance-incident-on-a-remote-cluster-in-a-metrocluster-configuration.adoc[Analyzing a dynamic performance event for a remote cluster on a MetroCluster configuration]
-
-xref:concept-performance-monitoring-of-metrocluster-configurations.adoc[Performance monitoring of MetroCluster configurations]
-
-xref:reference-performance-event-analysis-and-notification.adoc[Performance event analysis and notification]
-
-xref:concept-roles-of-workloads-involved-in-a-performance-incident.adoc[Roles of workloads involved in a performance event]

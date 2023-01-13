@@ -20,11 +20,6 @@ The Edit Aggregate Thresholds dialog box enables you to configure aggregate-leve
 The threshold values are not applicable to the root aggregate of the node.
 ====
 
-* <<GUID-626784C7-8387-4DF2-8645-711C37D5693E,Capacity>>
-* <<SECTION_F5308C7BC7E24040912437940D0A45BC,Growth>>
-* <<SECTION_BD78A2E98BCA4FF7938CF4EFD76A28E8,Snapshot Copies>>
-* <<SECTION_C58D4BF1C31743D99E27EDE5D9C73F43,Command buttons>>
-
 == Capacity area
 
 The Capacity area enables you to set the following aggregate capacity threshold conditions:
@@ -101,11 +96,3 @@ Saves all the threshold settings and then closes the dialog box.
 * *Cancel*
 +
 Ignores the changes (if any) to the threshold settings and closes the dialog box.
-
-*Related information*
-
-xref:task-editing-individual-aggregate-health-threshold-settings.adoc[Editing individual aggregate health threshold settings]
-
-xref:task-configuring-global-aggregate-health-threshold-values.adoc[Configuring global aggregate health threshold values]
-
-xref:concept-understanding-capacity-events-and-thresholds-for-node-root-aggregates.adoc[Understanding events and thresholds for node root aggregates]

@@ -27,7 +27,8 @@ Storage objects that are currently monitored are added as soon as the group rule
 . In the *Target Object Type* field, select the type of storage object that you want to group.
 . In the *Group* field, select the required group for which you want to create group rules.
 . In the *Conditions* section, perform the following steps to create a condition, a condition group, or both:
-+
+
+[cols="2*",options="header"]
 |===
 | To create....| Do this...
 a|
@@ -70,11 +71,3 @@ Perform the following steps in the Add Group Rule dialog box to create a group r
 . Click *Add condition*.
 . Repeat steps 8 through 10 by selecting *data-priority* as the operand in step 8, *Is* as the operator in step 9, and *critical* as the value in step 10.
 . Click *Add* to create the condition for the group rule.
-
-*Related information*
-
-xref:concept-how-group-rules-work-for-groups.adoc[How group rules work for groups]
-
-xref:task-editing-group-rules.adoc[Editing group rules]
-
-xref:task-deleting-group-rules.adoc[Deleting group rules]

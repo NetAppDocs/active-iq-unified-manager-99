@@ -11,6 +11,7 @@ summary: 'This table describes the ONTAP issues that Unified Manager can resolve
 [.lead]
 This table describes the ONTAP issues that Unified Manager can resolve directly from the Unified Manager user interface by clicking the *Fix It* or *Fix All* button.
 
+[cols="3*",options="header"]
 |===
 | Event Name and Description| Management Action| "`Fix It`" Operation
 a|

@@ -54,7 +54,3 @@ Adds a condition to define the group rule.
 * *Add Condition Group*
 +
 Adds a condition group to define conditions for the group rule.
-
-*Related information*
-
-xref:concept-how-group-rules-work-for-groups.adoc[How group rules work for groups]

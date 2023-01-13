@@ -31,19 +31,3 @@ The Constituent Volume/Performance Explorer page enables you to:
 ====
 For data protection (DP) volumes, only counter values for user-generated traffic are displayed.
 ====
-
-*Related information*
-
-xref:concept-components-of-the-performance-explorer-page.adoc[Components of the Performance Explorer page]
-
-xref:reference-summary-page-opm.adoc[Summary page]
-
-xref:task-defining-the-list-of-correlated-objects-for-comparison-graphing.adoc[Defining the list of correlated objects for comparison graphing]
-
-xref:reference-types-of-performance-counter-charts.adoc[Types of performance counter charts]
-
-xref:task-selecting-performance-charts-to-display.adoc[Selecting performance charts to display]
-
-xref:concept-counter-charts-zoom-view.adoc[Counter Charts Zoom View]
-
-xref:concept-types-of-workloads-monitored-by-unified-manager.adoc[Types of workloads monitored by Unified Manager]

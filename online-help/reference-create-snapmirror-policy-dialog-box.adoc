@@ -54,7 +54,3 @@ Discards the selections and closes the Configure Protection dialog box.
 * *Apply*
 +
 Applies your selections and begins the protection process.
-
-*Related information*
-
-xref:task-creating-a-snapmirror-policy-to-maximize-transfer-efficiency.adoc[Creating a SnapMirror policy to maximize transfer efficiency]

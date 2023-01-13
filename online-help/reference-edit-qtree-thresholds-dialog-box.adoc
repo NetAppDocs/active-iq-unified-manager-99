@@ -55,9 +55,3 @@ Saves all the threshold settings and then closes the dialog box.
 * *Cancel*
 +
 Ignores the changes (if any) to the threshold settings and closes the dialog box.
-
-*Related information*
-
-xref:task-editing-individual-qtree-health-threshold-settings.adoc[Editing individual qtree health threshold settings]
-
-xref:task-configuring-global-qtree-health-threshold-values.adoc[Configuring global qtree health threshold values]

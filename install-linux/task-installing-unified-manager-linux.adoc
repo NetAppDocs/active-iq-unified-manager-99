@@ -31,7 +31,8 @@ The Red Hat Enterprise Linux or CentOS system might have all the required versio
 
 . Log in to the server on which you are installing Unified Manager.
 . Enter the appropriate commands to assess what software might require installation or upgrade on the target system to support installation:
-+
+
+[cols="2*",options="header"]
 |===
 | Required software and minimum version| Command to verify software and version
 a|
@@ -41,11 +42,11 @@ a|
 a|
 MySQL 8.0.25 Community Edition
 a|
-`rpm -qa | grep -i mysql`
+`rpm -qa \| grep -i mysql`
 a|
 p7zip 16.02
 a|
-`rpm -qa | grep p7zip`
+`rpm -qa \| grep p7zip`
 |===
 
 . If the installed version of MySQL is earlier than MySQL 8.0.25 Community Edition, enter the following command to uninstall it:``rpm -e <mysql_package_name>``
@@ -115,8 +116,4 @@ Log in to Unified Manager in a web browser by using following details:
 
 == After you finish
 
-Access the web UI to change the default password of the umadmin user, and perform the initial setup of Unified Manager, as described in the http://docs.netapp.com/ocum-99/topic/com.netapp.doc.onc-um-sysconfig/home.html[Active IQ Unified Manager System Configuration Guide].
-
-*Related information*
-
-xref:task-creating-a-custom-user-home-directory-and-umadmin-user-prior-to-installation.adoc[Creating a custom user home directory and umadmin password prior to installation]
+Access the web UI to change the default password of the umadmin user, and perform the initial setup of Unified Manager, as described in the link:../config/task-using-the-maintenance-console.html[Using the maintenance console].

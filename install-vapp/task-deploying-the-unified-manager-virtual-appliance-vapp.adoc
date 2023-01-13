@@ -72,13 +72,14 @@ All the date information that is displayed uses the time zone that is configured
 
 . If no DHCP services are available, or if there is an error in the details for the static network configuration, select one of the following options:
 +
+[cols="2*",options="header"]
 |===
 | If you use...| Then do this...
 a|
 DHCP
 a|
 Select *Retry DHCP*.    If you plan to use DHCP, you should ensure that it is configured correctly.
-+
+
 If you use a DHCP-enabled network, the FQDN and DNS server entries are given to the virtual appliance automatically. If DHCP is not properly configured with DNS, the host name "`UnifiedManager`" is automatically assigned and associated with the security certificate. If you have not set up a DHCP-enabled network, you should manually enter the networking configuration information.
 a|
 A static network configuration
@@ -103,6 +104,4 @@ The VM console displays the URL for the Unified Manager web UI.
 
 == After you finish
 
-You can access the web UI to perform the initial setup of Unified Manager, as described in the _Active IQ Unified Manager System Configuration Guide_.
-
-http://docs.netapp.com/ocum-99/topic/com.netapp.doc.onc-um-sysconfig/home.html[Active IQ Unified Manager System Configuration Guide]
+You can access the web UI to perform the initial setup of Unified Manager, as described in link:../config/task-using-the-maintenance-console.html[Using the maintenance console].

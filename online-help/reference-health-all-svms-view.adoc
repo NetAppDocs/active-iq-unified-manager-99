@@ -18,9 +18,3 @@ The controls along the top of the page enable you to select a particular view (f
 You can associate an SVM to a predefined annotation by using the *Annotate* button.
 
 See xref:reference-svm-health-fields.adoc[SVM health fields] for descriptions of all the fields on this page.
-
-*Related information*
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting storage data as reports]
-
-xref:task-scheduling-a-report.adoc[Scheduling a report]

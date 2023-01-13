@@ -22,9 +22,3 @@ You must have the Operator, Application Administrator, or Storage Administrator 
 By default, New and Acknowledged events are displayed on the Event Management inventory page.
 
 . From the *Filters* pane, select the *Unassigned* filter option in the *Assigned To* area.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]
-
-xref:task-assigning-events-to-specific-users.adoc[Assigning events to specific users]

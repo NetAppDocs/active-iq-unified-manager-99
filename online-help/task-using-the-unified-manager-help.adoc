@@ -26,7 +26,3 @@ You can find more detailed information by expanding any portion of the Table of 
 
 * To search the Help contents, click the *Search* tab in the navigation pane, type the word or series of words you want to find, and click *Go!*
 * To print Help topics, click the printer icon.
-
-*Related information*
-
-xref:task-bookmarking-your-favorite-help-topics-onc.adoc[Bookmarking your favorite Help topics]
