@@ -5,6 +5,7 @@ settings:
     pdf_enabled: true
   prod:
     pdf_enabled: true
+    harmony_enabled: true
   versions:
     - name: Unified Manager
       url: /active-iq-unified-manager-99
