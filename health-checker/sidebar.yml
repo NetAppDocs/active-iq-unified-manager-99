@@ -8,8 +8,6 @@ entries:
       url: "/health-checker/concept-unified-manager-health-monitoring-features.html"
     - title: Unified Manager interfaces used to manage storage system health
       url: "/health-checker/concept-unified-manager-interfaces-used-to-manage-storage-system-health.html"
-    - title: Active IQ Unified Manager product documentation
-      url: "/health-checker/reference-oncommand-unified-manager-product-documentation.html"
   - title: Common Unified Manager health workflows and tasks
     url: "/health-checker/concept-common-unified-manager-administrative-workflows-and-tasks.html"
     entries:

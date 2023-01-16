@@ -1511,12 +1511,3 @@ entries:
       url: "/online-help/reference-user-not-found.html"
     - title: Issue with adding LDAP using Other authentication services
       url: "/online-help/reference-issue-with-adding-ldap-using-other-authentication-services.html"
-  - title: Copyright, trademark, and machine translation
-    url: "/online-help/reference-copyright-and-trademark.html"
-    entries:
-    - title: Copyright
-      url: "/online-help/reference-copyright.html"
-    - title: Trademark
-      url: "/online-help/reference-trademark.html"
-    - title: Machine translation
-      url: "/online-help/generic-machine-translation-disclaimer.html"
