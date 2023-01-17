@@ -6,8 +6,6 @@ entries:
     entries:
     - title: What the Unified Manager server does
       url: "/install-vapp/concept-what-the-unified-manager-server-does.html"
-    - title: Active IQ Unified Manager product documentation
-      url: "/install-vapp/reference-oncommand-unified-manager-product-documentation.html"
     - title: Overview of the installation sequence
       url: "/install-vapp/concept-overview-of-the-installation-sequence-um.html"
   - title: Requirements for installing Unified Manager

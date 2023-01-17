@@ -7,8 +7,6 @@ entries:
     entries:
     - title: What the Unified Manager server does
       url: "/install-linux/concept-what-the-unified-manager-server-does.html"
-    - title: Active IQ Unified Manager product documentation
-      url: "/install-linux/reference-oncommand-unified-manager-product-documentation.html"
     - title: Overview of the installation sequence
       url: "/install-linux/concept-overview-of-the-installation-sequence-um.html"
   - title: Requirements for installing Unified Manager

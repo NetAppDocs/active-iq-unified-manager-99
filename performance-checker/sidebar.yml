@@ -8,8 +8,6 @@ entries:
       url: "/performance-checker/concept-unified-manager-performance-monitoring-features.html"
     - title: Unified Manager interfaces used to manage storage system performance
       url: "/performance-checker/concept-unified-manager-interfaces-used-to-manage-storage-system-performance.html"
-    - title: Active IQ Unified Manager product documentation
-      url: "/performance-checker/reference-oncommand-unified-manager-product-documentation.html"
     - title: Cluster configuration and performance data collection activity
       url: "/performance-checker/concept-cluster-configuration-and-performance-data-collection-activity.html"
     - title: What a data continuity collection cycle is
