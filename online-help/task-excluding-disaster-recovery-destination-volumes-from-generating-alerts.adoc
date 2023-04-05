@@ -28,7 +28,7 @@ Perform the following steps in the Add Alert dialog box:
 . Click *Name* and enter a name and description for the alert.
 . Click *Resources*, and then select the *Include* tab.
  .. Select *Volume* from the drop-down list, and then enter `vol1` in the *Name contains* field to display the volumes whose name contains "`vol1`".
- .. Select *<<All Volumes whose name contains 'vol1'>>* from the *Available Resources* area, and move it to the *Selected Resources* area.
+ .. Select *\<<All Volumes whose name contains 'vol1'>>* from the *Available Resources* area, and move it to the *Selected Resources* area.
 . Select the *Exclude* tab, select *Volume*, enter `vs1-dr` in the *Name contains* field, and then click *Add*.
 +
 This excludes the alert from being generated for volume "`vol1`" on SVM"`vs1-dr`".
