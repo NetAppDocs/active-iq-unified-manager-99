@@ -23,7 +23,7 @@ The security criteria for your ONTAP clusters, storage VMs, and volumes are eval
 On enabling this feature, you can customize the settings for compliance monitoring as applicable to your ONTAP environment. These settings trigger the relevant security events and management actions. Follow these steps:
 
 . Click *Customize*. The Customize Security Dashboard Settings pop-up appears.
-. To enable or disable the custom settings for your ONTAP clusters, expand the *General Settings* selection for Clusters. For information on the options for customizing cluster compliance, see xref:reference-cluster-compliance-categories.adoc[*Cluster compliance categories*].
+. To enable or disable the custom settings for your ONTAP clusters, expand the *General Settings* selection for Clusters. For information on the options for customizing cluster compliance, see xref:reference-cluster-compliance-categories.adoc[Cluster compliance categories].
 . To enable or disable the custom settings for your storage VMs, expand the *General Settings* selection for Storage VMs. For information on the options for customizing storage VM compliance, see xref:reference-svm-compliance-categories.adoc[Storage VM compliance categories].
 . You can also specify whether HTTPS transport is to be used for sending AutoSupport messages from ONTAP.
 . If you enable the authentication settings, alerts are raised from Unified Manager for the default ONTAP administrator user.
