@@ -7,6 +7,10 @@ summary: "Quick start guide for Unified Manager on VMWare vSphere platform."
 
 = Quick start instructions for VMWare installations
 
+[.lead]
+You can download the `.tar` file that contains a root certificate, a `README` file, and an `OVA` file, and deploy the Unified Manager as a virtual appliance.
+
+
 == System requirements
 
 *	Operating system: VMware ESXi 6.5, 6.7, and 7.0
