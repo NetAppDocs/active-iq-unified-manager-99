@@ -7,6 +7,9 @@ summary: "Quick start guide for Unified Manager on Linux platform."
 
 = Quick start instructions for Windows installations
 
+[.lead]
+You can download the installation package and install Unified Manager to monitor and troubleshoot data storage capacity, availability, performance, and protection issues.
+
 == System requirements
 
 * Operating Systems: Microsoft Windows Server 2016 and 2019 64-bit Standard and Datacenter

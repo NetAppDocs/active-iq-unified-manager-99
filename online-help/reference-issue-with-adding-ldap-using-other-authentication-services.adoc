@@ -8,8 +8,7 @@ summary: ''
 :icons: font
 :imagesdir: ../media/
 
-* *Issue*
-+
+[.lead]
 When you select Others as the Authentication service, the user and groupObjectClass retain the values from the previously selected template. If the LDAP server does not use the same values, the operation might fail.
 
 * *Cause*
