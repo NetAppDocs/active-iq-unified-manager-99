@@ -13,8 +13,6 @@ You can use the Volume / Health details page to view detailed information about 
 
 You must have the Application Administrator or Storage Administrator role.
 
-* <<reference-health-volume-details-page,Related Groups pane>>
-
 == Command buttons
 
 The command buttons enable you to perform the following tasks for the selected volume:

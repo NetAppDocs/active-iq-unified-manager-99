@@ -8,8 +8,7 @@ summary: ''
 :icons: font
 :imagesdir: ../media/
 
-* *Issue*
-+
+[.lead]
 When you are performing an authentication-related operation such as adding, editing, deleting, or testing remote users or groups, the following error message might be displayed: `Unknown authentication error`.
 
 * *Cause*

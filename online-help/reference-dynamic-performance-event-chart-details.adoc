@@ -20,7 +20,7 @@ The latency and activity charts display the names of the top workloads when you 
 When you sort by peak deviation in latency, system-defined workloads are not displayed in the table, because latency applies only to user-defined workloads. Workloads with very low latency values are not displayed in the table.
 ====
 
-For more information about the dynamic performance thresholds, see link:reference-performance-event-analysis-and-notification.adoc[What events are]. For information about how Unified Manager ranks the workloads and determines the sort order, see xref:concept-how-unified-manager-determines-the-performance-impact-for-an-incident.adoc[How Unified Manager determines the performance impact for an event].
+For more information about the dynamic performance thresholds, see xref:reference-performance-event-analysis-and-notification.adoc[What events are]. For information about how Unified Manager ranks the workloads and determines the sort order, see xref:concept-how-unified-manager-determines-the-performance-impact-for-an-incident.adoc[How Unified Manager determines the performance impact for an event].
 
 The data in the graphs shows 24 hours of performance statistics prior to the last time the event was analyzed. The actual values and expected values for each workload are based on the time the workload was involved in the event. For example, a workload might become involved in an event after the event was detected, so its performance statistics might not match the values at the time of event detection. By default, the workloads are sorted by peak (highest) deviation in latency.
 
@@ -36,7 +36,7 @@ Displays the impact of the event to the latency of the workload during the last 
 
  ** *Component Usage column*
 +
-Displays details about the workload usage of the cluster component in contention. In the graphs, the actual usage is a blue line. A red bar highlights the event duration, from the detection time to the last analyzed time. For more information, see link:reference-workload-performance-measurement-values.adoc[Workload performance measurements].
+Displays details about the workload usage of the cluster component in contention. In the graphs, the actual usage is a blue line. A red bar highlights the event duration, from the detection time to the last analyzed time. For more information, see xref:reference-workload-performance-measurement-values.adoc[Workload performance measurements].
 +
 [NOTE]
 ====
