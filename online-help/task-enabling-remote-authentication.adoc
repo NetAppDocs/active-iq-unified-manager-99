@@ -45,7 +45,7 @@ Active Directory
 a|
 
  ** Authentication server administrator name in one of following formats:
-  *** `domainname`\`username`
+  *** `domainname` \ `username`
   *** `username`@`domainname`
   *** `Bind Distinguished Name` (using the appropriate LDAP notation)
  ** Administrator password
