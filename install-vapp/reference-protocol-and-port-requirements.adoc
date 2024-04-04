@@ -110,7 +110,7 @@ a|
 443
 a|
 Used to send AutoSupport information. Requires Internet access to perform this function.
-a|
+.2+a|
 Authentication server
 a|
 LDAP
