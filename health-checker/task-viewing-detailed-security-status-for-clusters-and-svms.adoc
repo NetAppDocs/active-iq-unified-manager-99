@@ -24,4 +24,4 @@ The Security page displays the following information:
  ** the volume encryption status (number of volumes that are encrypted or not encrypted)
  ** the cluster authentication methods being used on each cluster
 
-. Refer to the http://www.netapp.com/us/media/tr-4569.pdf[NetApp Security Hardening Guide for ONTAP 9] for instructions on how to make all of your clusters, SVMs, and volumes compliant with NetApp security recommendations.
+. Refer to the https://www.netapp.com/pdf.html?item=/media/10674-tr4569pdf.pdf[NetApp Security Hardening Guide for ONTAP 9^] for instructions on how to make all of your clusters, SVMs, and volumes compliant with NetApp security recommendations.
